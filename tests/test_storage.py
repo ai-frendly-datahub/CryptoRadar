@@ -2,8 +2,6 @@ from __future__ import annotations
 
 from datetime import UTC, datetime, timedelta
 
-import pytest
-
 from cryptoradar.models import Article
 from cryptoradar.storage import RadarStorage
 
