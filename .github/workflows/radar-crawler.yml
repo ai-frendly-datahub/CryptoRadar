@@ -47,9 +47,9 @@ jobs:
           pip install "radar-core @ git+https://github.com/ai-frendly-datahub/radar-core.git@main"
           pip install -r requirements.txt
 
-       - name: Run Radar
-         run: |
-           python main.py --category "${{ env.RADAR_CATEGORY }}" --recent-days 7 --keep-days 90 --snapshot-db
+      - name: Run Radar
+        run: |
+          python main.py --category "${{ env.RADAR_CATEGORY }}" --recent-days 7 --keep-days 90 --snapshot-db
 
       - name: Generate index.html
         run: |
