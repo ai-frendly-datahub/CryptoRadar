@@ -4,10 +4,11 @@ import argparse
 from pathlib import Path
 from typing import cast
 
+from radar_core.date_storage import apply_date_storage_policy
+
 from cryptoradar.analyzer import apply_entity_rules
 from cryptoradar.collector import collect_sources
 from cryptoradar.config_loader import load_category_config, load_settings
-from radar_core.date_storage import apply_date_storage_policy
 from cryptoradar.logger import configure_logging, get_logger
 from cryptoradar.reporter import generate_index_html, generate_report
 from cryptoradar.storage import RadarStorage
