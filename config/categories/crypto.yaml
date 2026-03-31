@@ -2,50 +2,104 @@ category_name: "crypto"
 display_name: "암호화폐 레이더"
 
 sources:
-  # 블록미디어 - 국내 대표 블록체인/암호화폐 뉴스
+  # === 국내 블록체인/암호화폐 뉴스 ===
   - name: "블록미디어"
     type: "rss"
     url: "https://www.blockmedia.co.kr/feed"
 
-  # 코인텔레그래프 - 글로벌 암호화폐 뉴스
+  - name: "코인니스"
+    type: "rss"
+    url: "https://coinness.com/rss"
+
+  - name: "토큰포스트"
+    type: "rss"
+    url: "https://www.tokenpost.kr/rss"
+
+  - name: "블록체인투데이"
+    type: "rss"
+    url: "https://www.blockchaintoday.co.kr/rss/allArticle.xml"
+
+  - name: "팍스넷뉴스 코인"
+    type: "rss"
+    url: "https://paxnetnews.com/rss/coin.xml"
+
+  # === 거래소 공지 (Playwright) ===
+  - name: "업비트 공지"
+    type: "javascript"
+    url: "https://upbit.com/service_center/notice"
+    config:
+      wait_for: ".notice_list"
+
+  - name: "빗썸 공지"
+    type: "javascript"
+    url: "https://www.bithumb.com/customer_support/notice"
+    config:
+      wait_for: ".board_list"
+
+  - name: "코인원 공지"
+    type: "javascript"
+    url: "https://coinone.co.kr/info/notice"
+    config:
+      wait_for: ".list_wrap"
+
+  # === 글로벌 크립토 뉴스 ===
   - name: "코인텔레그래프"
     type: "rss"
     url: "https://cointelegraph.com/rss"
 
-  # CoinDesk - 글로벌 1위 크립토 뉴스
   - name: "CoinDesk"
     type: "rss"
     url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
 
-  # Decrypt - Web3/크립토 뉴스
   - name: "Decrypt"
     type: "rss"
     url: "https://decrypt.co/feed"
 
-  # The Block - 크립토 리서치/뉴스
   - name: "The Block"
     type: "rss"
     url: "https://www.theblock.co/rss.xml"
 
-  # Bitcoin Magazine - 비트코인 전문
   - name: "Bitcoin Magazine"
     type: "rss"
     url: "https://bitcoinmagazine.com/feed"
 
-  # 금융위원회 보도자료 (규제/정책)
+  - name: "DeFi Pulse"
+    type: "rss"
+    url: "https://defipulse.com/blog/feed"
+
+  - name: "Bankless"
+    type: "rss"
+    url: "https://newsletter.banklesshq.com/feed"
+
+  # === 리서치/분석 ===
+  - name: "Messari"
+    type: "rss"
+    url: "https://messari.io/rss"
+
+  - name: "Glassnode Insights"
+    type: "rss"
+    url: "https://insights.glassnode.com/rss/"
+
+  - name: "Delphi Digital"
+    type: "rss"
+    url: "https://members.delphidigital.io/feed"
+
+  # === 규제/정책 ===
   - name: "금융위원회 보도자료"
     type: "rss"
     url: "https://www.fsc.go.kr/about/fsc_bbs_rss/?fid=0111"
 
-  # Messari - 크립토 리서치
-  - name: "Messari"
-    type: "rss"
-    url: "https://messari.io/rss"
+  - name: "금융감독원 보도자료"
+    type: "javascript"
+    url: "https://www.fss.or.kr/fss/bbs/B0000188/list.do"
+    config:
+      wait_for: ".board_list"
 
 entities:
   - name: "Cryptocurrency"
     display_name: "암호화폐"
     keywords:
+      # 주요 코인 (한글)
       - "비트코인"
       - "이더리움"
       - "리플"
@@ -56,6 +110,15 @@ entities:
       - "아발란체"
       - "체인링크"
       - "폴리곤"
+      - "라이트코인"
+      - "이더리움클래식"
+      - "스텔라루멘"
+      - "코스모스"
+      - "앱토스"
+      - "수이"
+      - "아비트럼"
+      - "옵티미즘"
+      # 영문 심볼
       - "bitcoin"
       - "btc"
       - "ethereum"
@@ -64,77 +127,242 @@ entities:
       - "solana"
       - "sol"
       - "cardano"
+      - "ada"
       - "dogecoin"
       - "doge"
+      - "matic"
+      - "avax"
+      - "link"
+      - "dot"
+      # 스테이블코인
       - "스테이블코인"
       - "usdt"
       - "usdc"
+      - "테더"
+      - "usdd"
+      - "dai"
+      # 밈/트렌드
       - "밈코인"
+      - "시바이누"
+      - "shib"
+      - "pepe"
+      - "bonk"
+
   - name: "Exchange"
     display_name: "거래소"
     keywords:
+      # 국내 거래소
       - "업비트"
       - "빗썸"
       - "코인원"
-      - "바이낸스"
       - "코빗"
       - "고팍스"
+      - "두나무"
+      # 해외 거래소
+      - "바이낸스"
       - "크라켄"
       - "코인베이스"
       - "okx"
       - "bybit"
+      - "kucoin"
+      - "huobi"
+      - "htx"
+      - "gateio"
+      - "gemini"
+      - "bitstamp"
+      # DEX
+      - "유니스왑"
+      - "uniswap"
+      - "스시스왑"
+      - "pancakeswap"
+      - "curve"
+      - "dydx"
+      # 일반 용어
+      - "거래소"
+      - "중앙화거래소"
+      - "CEX"
+      - "탈중앙화거래소"
+      - "DEX"
+      - "상장"
+      - "상장폐지"
+      - "거래쌍"
+
   - name: "Regulation"
     display_name: "규제/정책"
     keywords:
+      # 한국 규제
       - "규제"
       - "금융위"
-      - "과세"
-      - "법안"
+      - "금융위원회"
       - "금융감독원"
       - "금감원"
       - "특금법"
       - "가상자산법"
+      - "가상자산이용자보호법"
       - "디지털자산"
-      - "sec"
-      - "금융위원회"
       - "자금세탁"
-      - "aml"
-      - "kyc"
+      - "AML"
+      - "KYC"
+      - "신고"
+      - "미신고"
+      - "제재"
+      - "과징금"
+      # 과세
+      - "과세"
+      - "세금"
+      - "가상자산세"
+      - "양도소득세"
+      - "유예"
+      # 미국 규제
+      - "SEC"
+      - "CFTC"
+      - "증권"
+      - "상품"
+      - "소송"
+      - "합의"
+      # 글로벌
+      - "FATF"
+      - "트래블룰"
+      - "라이선스"
+      - "승인"
+      - "허가"
+
   - name: "Technology"
     display_name: "기술"
     keywords:
+      # 블록체인 기본
       - "블록체인"
+      - "분산원장"
+      - "합의알고리즘"
+      - "PoW"
+      - "PoS"
+      - "검증인"
+      - "밸리데이터"
+      - "노드"
+      # DeFi
       - "디파이"
       - "defi"
+      - "유동성"
+      - "유동성풀"
+      - "LP"
+      - "스왑"
+      - "렌딩"
+      - "대출"
+      - "예치"
+      - "이자농사"
+      - "yield"
+      - "TVL"
+      # NFT/메타버스
       - "nft"
+      - "대체불가토큰"
+      - "민팅"
+      - "드랍"
+      - "메타버스"
+      - "PFP"
+      # 레이어/확장성
       - "레이어2"
+      - "L2"
+      - "롤업"
+      - "옵티미스틱"
+      - "ZK"
+      - "영지식증명"
+      - "사이드체인"
+      - "브릿지"
+      # 스마트컨트랙트
       - "스마트컨트랙트"
+      - "스마트계약"
+      - "dApp"
+      - "탈중앙화앱"
+      # Web3
       - "web3"
       - "웹3"
+      - "DAO"
+      - "다오"
+      - "거버넌스"
+      - "투표"
+      # 네트워크
       - "메인넷"
+      - "테스트넷"
       - "하드포크"
-      - "etf"
-      - "온체인"
-      - "탈중앙화"
+      - "소프트포크"
+      - "업그레이드"
+      # 지갑/보안
       - "지갑"
+      - "콜드월렛"
+      - "핫월렛"
+      - "시드구문"
+      - "개인키"
+      - "해킹"
+      - "익스플로잇"
+      # 채굴/스테이킹
       - "채굴"
+      - "마이닝"
+      - "해시레이트"
       - "스테이킹"
+      - "리스테이킹"
+      - "언스테이킹"
+      # ETF
+      - "etf"
+      - "현물ETF"
+      - "선물ETF"
+      - "비트코인ETF"
+      - "이더리움ETF"
+
   - name: "Market"
     display_name: "시장"
     keywords:
+      # 가격 동향
       - "시세"
+      - "가격"
       - "급등"
       - "급락"
+      - "폭등"
+      - "폭락"
       - "상승"
       - "하락"
-      - "시가총액"
-      - "거래량"
-      - "고래"
-      - "매수"
-      - "매도"
-      - "강세"
-      - "약세"
       - "반등"
       - "조정"
+      - "횡보"
+      # 기술적 분석
       - "저점"
       - "고점"
+      - "신고가"
+      - "ATH"
+      - "ATL"
+      - "지지"
+      - "저항"
+      - "돌파"
+      - "이탈"
+      # 시장 지표
+      - "시가총액"
+      - "마켓캡"
+      - "거래량"
+      - "거래대금"
+      - "점유율"
+      - "도미넌스"
+      # 투자 심리
+      - "고래"
+      - "개미"
+      - "기관"
+      - "매수"
+      - "매도"
+      - "롱"
+      - "숏"
+      - "청산"
+      - "강세"
+      - "약세"
+      - "불장"
+      - "베어마켓"
+      - "불마켓"
+      - "펌프"
+      - "덤프"
+      - "FOMO"
+      - "FUD"
+      # 온체인
+      - "온체인"
+      - "유입"
+      - "유출"
+      - "이동"
+      - "전송"
+      - "거래소입금"
+      - "거래소출금"
