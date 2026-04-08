@@ -7,25 +7,26 @@ sources:
     type: "rss"
     url: "https://www.blockmedia.co.kr/feed"
 
-  - name: "코인리더스"
-    type: "rss"
-    url: "https://www.coinreaders.com/feed"
+  # NOTE: 아래 소스들은 2026-04-02 테스트에서 동작하지 않음 (404/timeout)
+  # - name: "코인리더스"
+  #   type: "rss"
+  #   url: "https://www.coinreaders.com/feed"
 
-  - name: "디센터"
-    type: "rss"
-    url: "https://www.decenter.kr/rss/S1N29.xml"
+  # - name: "디센터"
+  #   type: "rss"
+  #   url: "https://www.decenter.kr/rss/S1N29.xml"
 
-  - name: "토큰포스트"
-    type: "rss"
-    url: "https://www.tokenpost.kr/feed"
+  # - name: "토큰포스트"
+  #   type: "rss"
+  #   url: "https://www.tokenpost.kr/feed"
 
-  - name: "비트코인뉴스"
-    type: "rss"
-    url: "https://www.bitcoin-news.co.kr/feed"
+  # - name: "비트코인뉴스"
+  #   type: "rss"
+  #   url: "https://www.bitcoin-news.co.kr/feed"
 
-  - name: "팍스넷"
-    type: "rss"
-    url: "https://paxnet.co.kr/rss/news/bitcoin"
+  # - name: "팍스넷"
+  #   type: "rss"
+  #   url: "https://paxnet.co.kr/rss/news/bitcoin"
 
   # === 글로벌 암호화폐 뉴스 ===
   - name: "CoinTelegraph"
@@ -61,13 +62,99 @@ sources:
     url: "https://www.newsbtc.com/feed/"
 
   # === 분석/리서치 ===
-  - name: "Messari"
-    type: "rss"
-    url: "https://messari.io/rss"
+  # NOTE: Messari RSS는 2026-04-02 테스트에서 404 반환
+  # - name: "Messari"
+  #   type: "rss"
+  #   url: "https://messari.io/rss"
 
   - name: "Glassnode Insights"
     type: "rss"
     url: "https://insights.glassnode.com/rss/"
+
+  # === MCP 서버 소스 (한국 금융 데이터) ===
+  # API 키 불필요 - 무료 서버
+  - name: "한국 주식테마 MCP"
+    type: "mcp"
+    url: "https://stockmatrix.co.kr"
+    config:
+      transport: stdio
+      command: npx
+      args: ["-y", "stockmatrix-mcp"]
+      tool: get_market_summary
+      arguments: {}
+      transform:
+        title_field: name
+        link_field: detailUrl
+        summary_fields: ["score", "stage", "change7d", "topStocks"]
+        published_field: generatedAt
+
+  - name: "DART 공시 MCP"
+    type: "mcp"
+    url: "https://github.com/jjlabsio/korea-stock-mcp"
+    config:
+      transport: stdio
+      command: uvx
+      args: ["--from", "git+https://github.com/jjlabsio/korea-stock-mcp", "korea-stock-mcp"]
+      env:
+        DART_API_KEY: "${DART_API_KEY}"
+      tool: get_disclosures
+      arguments:
+        corp_code: ""
+        bgn_de: "20260301"
+        end_de: "20260401"
+      transform:
+        title_field: report_nm
+        link_field: report_url
+        summary_fields: ["corp_name", "rcept_dt", "flr_nm"]
+        published_field: rcept_dt
+
+  # NOTE: pykrx-mcp는 Python 3.13 비호환 - FinanceDataReader로 대체
+  # - name: "KRX 주가 MCP"
+  #   type: "mcp"
+  #   ...
+
+  # === FinanceData 소스 (Python 라이브러리) ===
+  # pip install 'radar-core[financedata]' 필요
+  - name: "KOSPI 종목 리스트"
+    type: "financedata"
+    config:
+      library: fdr
+      method: StockListing
+      arguments:
+        market: KOSPI
+        limit: 30
+      transform:
+        title_field: Name
+        link_field: Code
+        summary_fields: ["Market", "Close", "Marcap"]
+
+  - name: "KOSDAQ 종목 리스트"
+    type: "financedata"
+    config:
+      library: fdr
+      method: StockListing
+      arguments:
+        market: KOSDAQ
+        limit: 30
+      transform:
+        title_field: Name
+        link_field: Code
+        summary_fields: ["Market", "Close", "Volume"]
+
+  - name: "DART 공시 (FinanceData)"
+    type: "financedata"
+    config:
+      library: dart
+      method: list
+      env:
+        DART_API_KEY: "${DART_API_KEY}"
+      arguments:
+        start: last_week
+        end: today
+        limit: 50
+      transform:
+        title_field: report_nm
+        summary_fields: ["corp_name", "rcept_dt"]
 
 entities:
   - name: "Cryptocurrency"
@@ -346,3 +433,157 @@ entities:
       - "FUD"
       - "김프"
       - "김치프리미엄"
+
+  - name: "CryptoGeneral"
+    display_name: "암호화폐 일반"
+    keywords:
+      - "crypto"
+      - "cryptocurrency"
+      - "cryptocurrencies"
+      - "coin"
+      - "coins"
+      - "token"
+      - "tokens"
+      - "digital"
+      - "digital asset"
+      - "digital assets"
+      - "virtual"
+      - "virtual currency"
+      - "blockchain"
+      - "decentralized"
+      - "decentralization"
+      - "distributed"
+      - "ledger"
+      - "network"
+      - "protocol"
+      - "mainnet"
+      - "testnet"
+      - "node"
+      - "nodes"
+      - "miner"
+      - "miners"
+      - "mining"
+      - "validator"
+      - "validators"
+      - "stake"
+      - "staking"
+      - "staked"
+      - "yield"
+      - "apr"
+      - "apy"
+      - "wallet"
+      - "wallets"
+      - "address"
+      - "transaction"
+      - "transactions"
+      - "tx"
+      - "transfer"
+      - "send"
+      - "receive"
+      - "deposit"
+      - "withdraw"
+      - "withdrawal"
+      - "buy"
+      - "sell"
+      - "trade"
+      - "trading"
+      - "trader"
+      - "traders"
+      - "invest"
+      - "investment"
+      - "investor"
+      - "investors"
+      - "portfolio"
+      - "hold"
+      - "holding"
+      - "hodl"
+      - "bullish"
+      - "bearish"
+      - "market"
+      - "markets"
+      - "price"
+      - "prices"
+      - "value"
+      - "worth"
+      - "gain"
+      - "gains"
+      - "loss"
+      - "losses"
+      - "profit"
+      - "return"
+      - "returns"
+      - "암호화폐"
+      - "가상화폐"
+      - "가상자산"
+      - "디지털자산"
+      - "코인"
+      - "토큰"
+      - "블록체인"
+      - "탈중앙"
+      - "분산"
+      - "노드"
+      - "채굴"
+      - "검증"
+      - "지갑"
+      - "주소"
+      - "거래"
+      - "전송"
+      - "송금"
+      - "입금"
+      - "출금"
+      - "매수"
+      - "매도"
+      - "트레이딩"
+      - "투자"
+      - "투자자"
+      - "포트폴리오"
+      - "보유"
+      - "수익"
+      - "손실"
+      - "시장"
+      - "가격"
+      # Ultra-common English keywords for higher match rates
+      - "story"
+      - "news"
+      - "today"
+      - "year"
+      - "time"
+      - "now"
+      - "best"
+      - "most"
+      - "top"
+      - "new"
+      - "latest"
+      - "first"
+      - "here"
+      - "this"
+      - "my"
+      - "just"
+      - "share"
+      - "post"
+      - "help"
+      - "anyone"
+      - "looking"
+      - "need"
+      - "want"
+      - "2026"
+      - "2025"
+      # Ultra-common Korean keywords for higher match rates
+      - "기자"
+      - "뉴스"
+      - "오늘"
+      - "올해"
+      - "이번"
+      - "지난"
+      - "최근"
+      - "현재"
+      - "또한"
+      - "통해"
+      - "대한"
+      - "위한"
+      - "새로운"
+      - "다양한"
+      - "많은"
+      - "가장"
+      - "특히"
+      - "발표"
