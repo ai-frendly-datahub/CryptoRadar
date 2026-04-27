@@ -65,6 +65,45 @@ class TestRadarStorage:
         assert len(results) == 1
         assert results[0].title == "최근"
 
+    def test_recent_articles_by_collected_at_includes_old_published_article(self, tmp_db):
+        """Quality windows use collection time even when published dates are old."""
+        article = Article(
+            title="오래된 발행일 새 수집",
+            link="https://example.com/collected",
+            summary="collected_at 기준으로 포함되어야 함",
+            published=datetime.now(UTC) - timedelta(days=45),
+            source="S",
+            category="test",
+        )
+
+        with RadarStorage(tmp_db) as storage:
+            storage.upsert_articles([article])
+            published_window = storage.recent_articles("test", days=7)
+            collected_window = storage.recent_articles_by_collected_at("test", days=7)
+
+        assert published_window == []
+        assert len(collected_window) == 1
+        assert collected_window[0].link == article.link
+
+    def test_recent_articles_by_collected_at_round_trips_ontology(self, tmp_db):
+        """Collected-at queries preserve ontology metadata."""
+        article = Article(
+            title="온톨로지 기사",
+            link="https://example.com/ontology",
+            summary="",
+            published=datetime.now(UTC) - timedelta(days=45),
+            source="S",
+            category="test",
+            ontology={"ontology_version": "0.1.0", "event_model_id": "crypto_signal_event"},
+        )
+
+        with RadarStorage(tmp_db) as storage:
+            storage.upsert_articles([article])
+            results = storage.recent_articles_by_collected_at("test", days=7)
+
+        assert len(results) == 1
+        assert results[0].ontology == article.ontology
+
     def test_delete_older_than(self, tmp_db):
         """Old articles are deleted, recent ones remain."""
         now = datetime.now(UTC)

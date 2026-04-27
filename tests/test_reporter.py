@@ -103,6 +103,49 @@ class TestGenerateReport:
         html = output.read_text(encoding="utf-8")
         assert "API rate limited" in html
 
+    def test_generate_report_injects_crypto_quality_panel(
+        self, tmp_path, report_category, report_articles, report_stats, patch_datetime
+    ):
+        """Crypto quality telemetry appears when provided."""
+        output = tmp_path / "reports" / "crypto_report.html"
+        generate_report(
+            category=report_category,
+            articles=report_articles,
+            output_path=output,
+            stats=report_stats,
+            quality_report={
+                "summary": {
+                    "crypto_signal_event_count": 1,
+                    "exchange_listing_notice_events": 1,
+                    "event_required_field_gap_count": 2,
+                },
+                "events": [
+                    {
+                        "event_model": "exchange_listing_notice",
+                        "source": "CoinDesk",
+                        "canonical_key": "exchange_listing:coinbase:btc",
+                        "canonical_key_status": "complete",
+                        "required_field_gaps": [],
+                    }
+                ],
+                "daily_review_items": [],
+            },
+        )
+        html = output.read_text(encoding="utf-8")
+        assert 'id="crypto-quality"' in html
+        assert "Crypto Quality" in html
+        assert "exchange_listing:coinbase:btc" in html
+        summaries = sorted(
+            (tmp_path / "reports").glob(
+                "crypto_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_summary.json"
+            )
+        )
+        assert len(summaries) == 1
+        summary = summaries[0].read_text(encoding="utf-8")
+        assert '"repo": "CryptoRadar"' in summary
+        assert '"ontology_version": "0.1.0"' in summary
+        assert '"crypto.exchange_listing_notice"' in summary
+
 
 class TestGenerateIndexHtml:
     """Unit tests for generate_index_html."""

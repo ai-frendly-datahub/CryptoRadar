@@ -1,0 +1,2800 @@
+{
+  "category": "crypto",
+  "generated_at": "2026-04-13T08:05:45.463420+00:00",
+  "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
+  "summary": {
+    "total_sources": 19,
+    "enabled_sources": 19,
+    "tracked_sources": 1,
+    "fresh_sources": 0,
+    "stale_sources": 1,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 18,
+    "skipped_disabled_sources": 0,
+    "collection_error_count": 7,
+    "unconfigured_tracked_event_models": [
+      "exchange_listing_notice",
+      "regulatory_action",
+      "liquidity_snapshot"
+    ],
+    "exchange_listing_notice_configured_sources": 0,
+    "exchange_listing_notice_events": 17,
+    "regulatory_action_configured_sources": 0,
+    "regulatory_action_events": 48,
+    "onchain_metric_configured_sources": 1,
+    "onchain_metric_events": 15,
+    "liquidity_snapshot_configured_sources": 0,
+    "liquidity_snapshot_events": 0
+  },
+  "sources": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 32,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "코인데스크 코리아",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 32,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "블로터",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": [
+        "블로터: Source disabled (crawl health threshold reached)"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 92,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "한경 블록체인",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": [
+        "한경 블록체인: Source disabled (crawl health threshold reached)"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 68,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 56,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 44,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 55,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 21,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 18,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 33,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 33,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "onchain_metric",
+      "freshness_sla_days": 0.5,
+      "status": "stale",
+      "article_count": 15,
+      "event_count": 15,
+      "latest_event_at": "2026-04-08T08:23:30+00:00",
+      "age_days": 4.99,
+      "latest_title": "Bouncing in a Bear",
+      "latest_url": "https://insights.glassnode.com/the-week-onchain-week-14-2026/",
+      "latest_cryptocurrency": [
+        "bitcoin"
+      ],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "errors": []
+    },
+    {
+      "source": "한국 주식테마 MCP",
+      "source_type": "mcp",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "DART 공시 MCP",
+      "source_type": "mcp",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "KOSPI 종목 리스트",
+      "source_type": "financedata",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "KOSDAQ 종목 리스트",
+      "source_type": "financedata",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "DART 공시 (FinanceData)",
+      "source_type": "financedata",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "트럼프, WLFI 70% 폭락에도 마러라고서 샴페인 만찬 강행",
+      "url": "https://www.blockmedia.co.kr/archives/1077524?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-12T23:00:39+00:00",
+      "cryptocurrency": [
+        "밈코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "투자",
+        "투자자",
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Strategy Watch #2",
+      "url": "https://insights.glassnode.com/strategy-watch-02-2026/",
+      "event_at": "2026-03-24T09:19:03+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "markets",
+        "returns"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "비트코인 7만달러 사수 안간힘, 원유선물 7% 급등…트럼프 ‘해협 봉쇄’ 극약처방",
+      "url": "https://www.blockmedia.co.kr/archives/1077301?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-12T06:38:03+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "선물"
+      ],
+      "crypto_general": [
+        "코인",
+        "거래",
+        "기자",
+        "현재"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CryptoSlate",
+      "event_model": "regulatory_action",
+      "title": "SEC admits crypto crackdown went too far ‘headlines’ as it dismisses 7 cases",
+      "url": "https://cryptoslate.com/sec-admits-crypto-crackdown-went-too-far-headlines-as-it-dismisses-7-cases/",
+      "event_at": "2026-04-12T06:30:11+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "new",
+        "first",
+        "this",
+        "post",
+        "2025"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "The Block",
+      "event_model": "regulatory_action",
+      "title": "ECB backs EU plan to centralize crypto supervision under Paris-based ESMA watchdog: Reuters",
+      "url": "https://www.theblock.co/post/397121/ecb-backs-eu-plan-to-centralize-crypto-supervision-under-paris-based-esma-watchdog-reuters?utm_source=rss&utm_medium=rss",
+      "event_at": "2026-04-11T12:34:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "receive"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "방미통위 첫 전체회의…150개 방송국 재허가·TBS 청문행",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655736",
+      "event_at": "2026-04-10T04:12:22+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "허가"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "기자",
+        "오늘",
+        "지난"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "심경보 상무이사, 한솔홈데코 주식병합으로 주식 수 감소",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655741",
+      "event_at": "2026-04-10T04:04:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "보유",
+        "시장",
+        "이번",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "이승훈 등기임원, 한솔홈데코 주식병합으로 주식 수 감소",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655733",
+      "event_at": "2026-04-10T03:52:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "제재"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "보유",
+        "이번"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "이승훈 등기임원, 한솔홈데코 주식병합으로 주식 수 감소",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655733",
+      "event_at": "2026-04-10T03:52:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "제재"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "보유",
+        "이번"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "이더리움 2168달러 버티나…재단 매각·ETF 유출·고래 이탈 '삼중 악재'",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655706",
+      "event_at": "2026-04-10T03:27:52+00:00",
+      "cryptocurrency": [
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인",
+        "지갑",
+        "etf"
+      ],
+      "market": [
+        "반등",
+        "고래",
+        "매도"
+      ],
+      "crypto_general": [
+        "블록체인",
+        "지갑",
+        "거래",
+        "매도",
+        "시장",
+        "기자",
+        "최근",
+        "현재"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "북미 Z세대 26% \"AI와 로맨틱한 대화 경험…사람보다 편하다\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655728",
+      "event_at": "2026-04-10T03:27:45+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "이동은 상무이사, 한솔홈데코 주식 보유 현황 변경",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655722",
+      "event_at": "2026-04-10T03:04:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "보유",
+        "시장",
+        "이번"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "김경록 대표이사, 한솔홈데코 주식병합으로 보유 주식 감소",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655719",
+      "event_at": "2026-04-10T03:04:03+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "보유",
+        "이번",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "김택수 부사장, 현대해상 주식 1507주 증가",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655717",
+      "event_at": "2026-04-10T03:04:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소",
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "거래",
+        "보유",
+        "시장",
+        "이번",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "exchange_listing_notice",
+      "title": "Bitmine uplists to the NYSE, share buyback increased to $4B",
+      "url": "https://cointelegraph.com/news/bitmine-nyse-listing-4b-share-buyback-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-09T16:38:25+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "share"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "Ex-SEC, Coinbase staffer becomes Securitize president",
+      "url": "https://cointelegraph.com/news/sec-official-securitize-president-board?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-09T12:32:21+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "BeInCrypto",
+      "event_model": "regulatory_action",
+      "title": "Ex-SEC Official Lands Securitize Presidency Just Before Its IPO",
+      "url": "https://beincrypto.com/ex-sec-official-lands-securitize-presidency-just-before-its-ipo/",
+      "event_at": "2026-04-09T11:13:39+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "blockchain",
+        "first",
+        "just",
+        "post"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "BeInCrypto",
+      "event_model": "regulatory_action",
+      "title": "Trump’s Inner Circle Rallies Behind CLARITY Act Days Before Senate Returns",
+      "url": "https://beincrypto.com/trum-inner-circle-clarity-act-ultimatum/",
+      "event_at": "2026-04-09T08:30:25+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital asset",
+        "market",
+        "returns",
+        "first",
+        "post"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinDesk",
+      "event_model": "exchange_listing_notice",
+      "title": "Securitize names ex-SEC official Brett Redfearn as president ahead of public listing",
+      "url": "https://www.coindesk.com/business/2026/04/09/securitize-names-ex-sec-official-president-ahead-of-public-listing",
+      "event_at": "2026-04-09T08:06:14+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": false,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinDesk",
+      "event_model": "regulatory_action",
+      "title": "Securitize names ex-SEC official Brett Redfearn as president ahead of public listing",
+      "url": "https://www.coindesk.com/business/2026/04/09/securitize-names-ex-sec-official-president-ahead-of-public-listing",
+      "event_at": "2026-04-09T08:06:14+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      }
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "event_model": "regulatory_action",
+      "title": "SEC Chair Paul Atkins, Treasury Secretary Scott Bessent, David Sacks Push Congress to Pass Crypto Market Structure Bill ‘Now’",
+      "url": "https://bitcoinmagazine.com/news/congress-crypto-market-structure-bill",
+      "event_at": "2026-04-09T07:12:17+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [
+        "long"
+      ],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "blockchain",
+        "market",
+        "markets",
+        "news",
+        "now",
+        "first",
+        "this",
+        "post",
+        "2026"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "BeInCrypto",
+      "event_model": "regulatory_action",
+      "title": "Trump’s CFTC Shields His Family’s Prediction Market Partners From Prosecution",
+      "url": "https://beincrypto.com/cftc-sues-arizona-over-trump-linked-prediction-markets/",
+      "event_at": "2026-04-09T06:57:33+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [
+        "futures"
+      ],
+      "crypto_general": [
+        "trading",
+        "market",
+        "markets",
+        "year",
+        "time",
+        "first",
+        "post"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "The Block",
+      "event_model": "regulatory_action",
+      "title": "Former SEC, JPMorgan exec Brett Redfearn joins Securitize as president",
+      "url": "https://www.theblock.co/post/396875/former-sec-jpmorgan-exec-brett-redfearn-joins-securitize?utm_source=rss&utm_medium=rss",
+      "event_at": "2026-04-09T05:44:53+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "market"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CryptoSlate",
+      "event_model": "regulatory_action",
+      "title": "Strategy’s near $2 billion profit on Bitcoin is eclipsed by their losses SEC filing shows",
+      "url": "https://cryptoslate.com/strategy-says-it-made-1-7-billion-on-bitcoin-this-year/",
+      "event_at": "2026-04-09T05:03:29+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "price",
+        "gain",
+        "losses",
+        "profit",
+        "story",
+        "year",
+        "top",
+        "first",
+        "this",
+        "post"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "DOJ and CFTC seek halt to Arizona action against Kalshi",
+      "url": "https://cointelegraph.com/news/doj-cftc-arizona-court-kalshi-action?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-09T04:24:30+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      }
+    },
+    {
+      "source": "The Block",
+      "event_model": "regulatory_action",
+      "title": "DOJ, CFTC argue Kalshi’s sports and event contracts are financial swaps as Arizona enforcement escalates",
+      "url": "https://www.theblock.co/post/396833/doj-cftc-argue-sports-event-contracts-are-financial-swaps?utm_source=rss&utm_medium=rss",
+      "event_at": "2026-04-09T01:08:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Bouncing in a Bear",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-14-2026/",
+      "event_at": "2026-04-08T08:23:30+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "bear",
+        "futures"
+      ],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Altcoin Vector #49",
+      "url": "https://insights.glassnode.com/the-altcoin-vector-49/",
+      "event_at": "2026-04-08T03:00:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets",
+        "most",
+        "this"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Bitcoin Vector #50",
+      "url": "https://insights.glassnode.com/the-bitcoin-vector-50/",
+      "event_at": "2026-04-08T02:30:00+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "BTC Market Pulse: Week 15",
+      "url": "https://insights.glassnode.com/btc-market-pulse-week-15/",
+      "event_at": "2026-04-06T05:03:06+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "market"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "No Catalyst, No Range Break",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-13-2026/",
+      "event_at": "2026-04-01T06:27:08+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "volatility"
+      ],
+      "crypto_general": [
+        "market"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Agentic Workflows for Crypto Research",
+      "url": "https://insights.glassnode.com/ai-for-crypto-research/",
+      "event_at": "2026-04-01T03:30:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Altcoin Vector #48",
+      "url": "https://insights.glassnode.com/the-altcoin-vector-48/",
+      "event_at": "2026-04-01T02:30:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets",
+        "most",
+        "this"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Bitcoin Vector #49",
+      "url": "https://insights.glassnode.com/the-bitcoin-vector-49/",
+      "event_at": "2026-04-01T02:00:00+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "BTC Market Pulse: Week 14",
+      "url": "https://insights.glassnode.com/btc-market-pulse-week-14/",
+      "event_at": "2026-03-30T08:11:11+00:00",
+      "cryptocurrency": [
+        "btc",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "short"
+      ],
+      "crypto_general": [
+        "market",
+        "price"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Awaiting Liquidity",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-12-2026/",
+      "event_at": "2026-03-25T05:13:46+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "liquidity",
+        "etf"
+      ],
+      "market": [
+        "volume"
+      ],
+      "crypto_general": [
+        "sell",
+        "this"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Altcoin Vector #47",
+      "url": "https://insights.glassnode.com/the-altcoin-vector-47/",
+      "event_at": "2026-03-25T01:07:55+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets",
+        "most",
+        "this"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "The Bitcoin Vector #48",
+      "url": "https://insights.glassnode.com/the-bitcoin-vector-48/",
+      "event_at": "2026-03-25T00:20:49+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Mapping Volatility Through Time: Implied Volatility Heatmaps",
+      "url": "https://insights.glassnode.com/implied-volatility-heatmaps/",
+      "event_at": "2026-03-22T23:34:48+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "volatility"
+      ],
+      "crypto_general": [
+        "market",
+        "prices",
+        "time",
+        "new"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "title": "Wisdom Tree + Glassnode: Reframing Blockchains as Economic Systems",
+      "url": "https://insights.glassnode.com/blockchains-as-economic-systems/",
+      "event_at": "2026-03-17T05:28:36+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "blockchain",
+        "price"
+      ],
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      }
+    },
+    {
+      "source": "코인데스크 코리아",
+      "event_model": "regulatory_action",
+      "title": "공무원연금공단 대출: DSR와 규제 회피의 실체",
+      "url": "https://www.coindeskkorea.com/4029",
+      "event_at": "2026-01-31T14:13:11+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "코인"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "정상원 대표이사, 이스트소프트 주식 1000주 매수",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655209",
+      "event_at": "2026-04-09T03:52:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "상승",
+        "매수",
+        "선물"
+      ],
+      "crypto_general": [
+        "매수",
+        "보유",
+        "시장",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "김두인 대표이사, 금호에이치티 주식 20만주 추가 매수",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655206",
+      "event_at": "2026-04-09T03:22:05+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "상승",
+        "매수"
+      ],
+      "crypto_general": [
+        "매수",
+        "보유",
+        "시장",
+        "이번",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "로지스몬, 5월 22일 임시주총 소집 결정",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655207",
+      "event_at": "2026-04-09T03:22:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "시세"
+      ],
+      "crypto_general": [
+        "이번"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "아하, 대표이사 변경…이재수 신임 선임",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655198",
+      "event_at": "2026-04-09T02:52:03+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소",
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "거래",
+        "시장",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "인디에프, 보통주 5대 1 주식병합 결정",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655199",
+      "event_at": "2026-04-09T02:52:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "이번",
+        "위한"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "AWS CEO \"오픈AI·앤트로픽 경쟁사 동시 베팅…이해충돌 전혀 없어\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655193",
+      "event_at": "2026-04-09T02:47:57+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "투자",
+        "기자",
+        "대한"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "오픈AI, 1220억달러 투자 뒤 잇단 악재…IPO 앞두고 '내부 균열'",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655191",
+      "event_at": "2026-04-09T02:43:17+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "투자",
+        "올해",
+        "최근",
+        "대한"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "AWS CEO \"지금 배운 기술? 미래엔 안 통한다…AI 시대엔 계속 적응해야\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=655178",
+      "event_at": "2026-04-09T02:19:10+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "시장",
+        "기자",
+        "새로운"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[펀드플로] 비트코인·이더리움 ETF 이틀째 순유출…2300억원 빠져나가",
+      "url": "https://www.blockmedia.co.kr/archives/1075863?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T19:04:53+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[롱/숏] 비트코인 중립 속 알트는 ‘극단적 베어’…ETH·SOL·XRP 숏 집중",
+      "url": "https://www.blockmedia.co.kr/archives/1075860?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T18:51:32+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나",
+        "eth",
+        "xrp",
+        "sol"
+      ],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "거래량",
+        "고래",
+        "약세",
+        "롱",
+        "숏"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "시장",
+        "기자",
+        "특히"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[파생시황] 2.7억달러 청산 속 비트코인만 반등…숏 청산 확대 ‘의미는’",
+      "url": "https://www.blockmedia.co.kr/archives/1075850?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T18:34:59+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "하락",
+        "반등",
+        "저점",
+        "숏",
+        "청산"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자",
+        "최근"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "DAXA, ‘2026 정책 자료집’ 발간…원화 스테이블코인·RWA 집중 분석",
+      "url": "https://www.blockmedia.co.kr/archives/1075816?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T17:40:56+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "코인",
+        "토큰",
+        "거래",
+        "2026",
+        "기자",
+        "이번",
+        "최근"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "“농담이 돈이 됐다”…월가가 베팅하는 TACO 트레이드의 실체",
+      "url": "https://www.blockmedia.co.kr/archives/1075751?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T14:57:58+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "투자",
+        "수익",
+        "시장",
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[코인시황] 비트코인, 휴전 균열 조짐에 소폭 하락…7만1000달러선 후퇴",
+      "url": "https://www.blockmedia.co.kr/archives/1075750?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-08T14:34:37+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth",
+        "xrp"
+      ],
+      "exchange": [
+        "업비트",
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "상승",
+        "하락"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "기자",
+        "지난"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "The Block",
+      "event_model": "regulatory_action",
+      "title": "Canary Capital files spot PEPE ETF application with SEC",
+      "url": "https://www.theblock.co/post/396794/canary-capital-files-spot-pepe-etf-application-with-sec?utm_source=rss&utm_medium=rss",
+      "event_at": "2026-04-08T13:00:06+00:00",
+      "cryptocurrency": [
+        "pepe"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "price",
+        "year"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "US SEC taps new enforcement chief amid questions over predecessor's exit",
+      "url": "https://cointelegraph.com/news/sec-enforcement-director-questions-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-08T11:52:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "new"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "BeInCrypto",
+      "event_model": "regulatory_action",
+      "title": "SEC’s New Enforcement Chief David Woodcock Has No Crypto Background",
+      "url": "https://beincrypto.com/sec-woodcock-enforcement-director-crypto-cases/",
+      "event_at": "2026-04-08T10:08:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "new",
+        "first",
+        "post"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "US Treasury moves forward with GENIUS Act, focusing on illicit finance",
+      "url": "https://cointelegraph.com/news/treasury-genius-act-rule-illicit-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-08T10:08:05+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "aml"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "transactions"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "The Block",
+      "event_model": "regulatory_action",
+      "title": "SEC appoints David Woodcock as new enforcement director amid concerns over previous lead, agency’s crypto cases",
+      "url": "https://www.theblock.co/post/396770/sec-appoints-david-woodcock-new-enforcement-director-amid-concerns-over-previous-lead-crypto-cases?utm_source=rss&utm_medium=rss",
+      "event_at": "2026-04-08T09:45:20+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "new"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "Decrypt",
+      "event_model": "regulatory_action",
+      "title": "SEC Says Prior Crypto Enforcement Set 'Misguided Expectations' As Actions Drop 22%",
+      "url": "https://decrypt.co/363638/sec-says-prior-crypto-enforcement-set-misguided-expectations-as-actions-drop-22",
+      "event_at": "2026-04-08T06:01:06+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "MEXC targets EU MiCA compliance as new CEO takes helm",
+      "url": "https://cointelegraph.com/news/mexc-eu-mica-compliance-new-ceo-takes-helm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-08T05:26:53+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "mexc"
+      ],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading",
+        "new"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "Thailand proposes tighter scrutiny of funders behind crypto firms",
+      "url": "https://cointelegraph.com/news/thailand-sec-tighter-rules-crypto-funding?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-08T02:26:28+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "anyone"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "글로벌 CRM 브레이즈, 한국 데이터센터 오픈...카카오톡 메시징 채널 출시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654792",
+      "event_at": "2026-04-08T04:20:15+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "투자",
+        "시장",
+        "기자",
+        "이번",
+        "통해",
+        "대한",
+        "발표"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "호르무즈 해협 열린다...공급망 풀리고 반도체 랠리 재개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654763",
+      "event_at": "2026-04-08T04:13:05+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [
+        "급등"
+      ],
+      "crypto_general": [
+        "기자",
+        "통해",
+        "발표"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "exchange_listing_notice",
+      "title": "주요주주 한화시스템, 한화오션 주식 1328만1250주 감소",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654776",
+      "event_at": "2026-04-08T02:52:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "하락"
+      ],
+      "crypto_general": [
+        "보유",
+        "시장",
+        "이번",
+        "통해"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "비트코인 사기 기승...2025년 美 피해액 114억달러 돌파",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654765",
+      "event_at": "2026-04-08T02:30:09+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "코인",
+        "블록체인",
+        "보유",
+        "손실",
+        "시장",
+        "지난",
+        "많은"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "美 연방예금보험공사, 스테이블코인 규제안 제시…자본·유동성 기준 제시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654751",
+      "event_at": "2026-04-08T02:07:47+00:00",
+      "cryptocurrency": [
+        "니어",
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "유동성"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "코인",
+        "블록체인",
+        "기자",
+        "이번"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "인기협 \"디지털 산업 규제, 설계 단계부터 영향 검토해야\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654749",
+      "event_at": "2026-04-08T01:54:26+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "2025",
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "디지털투데이",
+      "event_model": "regulatory_action",
+      "title": "美 SEC '레그 크립토' 규정 추진…암호화폐 증권성 판단 기준 정리",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=654743",
+      "event_at": "2026-04-08T01:49:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "sec",
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "암호화폐",
+        "코인",
+        "블록체인",
+        "거래",
+        "기자",
+        "이번",
+        "현재"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "NewsBTC",
+      "event_model": "exchange_listing_notice",
+      "title": "South Korea Imposes 5-Minute Audit Rule On Crypto Platforms",
+      "url": "https://www.newsbtc.com/news/south-korea-imposes-5-minute-audit-rule-on-crypto-platforms/",
+      "event_at": "2026-04-07T19:00:11+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "xrp"
+      ],
+      "exchange": [
+        "bithumb",
+        "exchange",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "swap",
+        "wallet"
+      ],
+      "market": [
+        "volume",
+        "long"
+      ],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital asset",
+        "ledger",
+        "wallet",
+        "trading",
+        "market",
+        "markets",
+        "price",
+        "now",
+        "most",
+        "new",
+        "latest",
+        "just",
+        "share",
+        "need",
+        "2025"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[파생시황] 휴전 한마디에 뒤집혔다…비트코인 반등 속 숏 6억달러 ‘증발’",
+      "url": "https://www.blockmedia.co.kr/archives/1075200?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T18:45:33+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "반등",
+        "롱",
+        "숏",
+        "청산"
+      ],
+      "crypto_general": [
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자",
+        "이번",
+        "지난"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "미 ·이란 ‘2주 휴전’ 합의했지만⋯ 백악관 “대면 회담 확정 안 돼” 오락가락",
+      "url": "https://www.blockmedia.co.kr/archives/1075162?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T18:19:17+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [
+        "기자",
+        "대한"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "NewsBTC",
+      "event_model": "exchange_listing_notice",
+      "title": "XRP Leads Crypto Funds $224M Rebound With Largest Weekly Inflows Since December",
+      "url": "https://www.newsbtc.com/news/xrp-leads-crypto-funds-224m-rebound-inflows/",
+      "event_at": "2026-04-07T18:00:08+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana",
+        "near"
+      ],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "short"
+      ],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "investment",
+        "investor",
+        "investors",
+        "market",
+        "markets",
+        "worth",
+        "gain",
+        "story",
+        "year",
+        "time",
+        "latest",
+        "first",
+        "this",
+        "2026"
+      ],
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "SEC admits certain crypto enforcement cases delivered no investor benefit",
+      "url": "https://cointelegraph.com/news/sec-crypto-enforcement-cases-no-benefit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-07T17:40:40+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "investor"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "‘호르무즈 공포’ 일단 멈춤… 미·이란, 2주 휴전 전격 합의(종합)",
+      "url": "https://www.blockmedia.co.kr/archives/1075093?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T15:32:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [
+        "시장",
+        "기자"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[속보] 비트코인 7만2000달러 돌파, 미-이란 2주간 휴전 공식 확인",
+      "url": "https://www.blockmedia.co.kr/archives/1075084?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T14:47:31+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "코인",
+        "기자",
+        "또한",
+        "통해",
+        "대한"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "[코인시황] 비트코인, 종전 기대에 7.2만달러 돌파…유가 급락·숏 청산 84%",
+      "url": "https://www.blockmedia.co.kr/archives/1075031?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T14:29:59+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth",
+        "xrp"
+      ],
+      "exchange": [
+        "업비트",
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급락",
+        "상승",
+        "숏",
+        "청산"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "기자",
+        "지난"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "블록미디어",
+      "event_model": "regulatory_action",
+      "title": "美 FDIC, 스테이블코인 감독규정 승인… “예금 토큰, 일반 예금과 동일 보호”",
+      "url": "https://www.blockmedia.co.kr/archives/1074959?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-07T14:13:31+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "코인",
+        "토큰",
+        "시장",
+        "기자",
+        "이번",
+        "위한",
+        "특히",
+        "발표"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "CoinTelegraph",
+      "event_model": "regulatory_action",
+      "title": "Democrats question CFTC chair on insider trading in prediction markets",
+      "url": "https://cointelegraph.com/news/congress-cftc-oversight-prediction-markets-insider-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-04-07T12:11:42+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading",
+        "markets"
+      ],
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      }
+    }
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "upbit_notice_feed",
+        "name": "Upbit listing and delisting notices",
+        "signal_type": "exchange_listing_notice",
+        "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
+      },
+      {
+        "id": "binance_announcement_feed",
+        "name": "Binance listing and delisting announcements",
+        "signal_type": "exchange_listing_notice",
+        "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
+      },
+      {
+        "id": "sec_cftc_regulatory_actions",
+        "name": "SEC/CFTC crypto regulatory actions",
+        "signal_type": "regulatory_action",
+        "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
+      },
+      {
+        "id": "defillama_onchain_metrics",
+        "name": "DeFiLlama and on-chain metrics",
+        "signal_type": "onchain_metric",
+        "activation_gate": "metric definitions, chain/project mapping, and timestamp normalization"
+      }
+    ]
+  },
+  "errors": [
+    "블로터: Source disabled (crawl health threshold reached)",
+    "한경 블록체인: Source disabled (crawl health threshold reached)",
+    "[한국 주식테마 MCP] Unsupported source type 'mcp'",
+    "[DART 공시 MCP] Unsupported source type 'mcp'",
+    "[KOSPI 종목 리스트] Unsupported source type 'financedata'",
+    "[KOSDAQ 종목 리스트] Unsupported source type 'financedata'",
+    "[DART 공시 (FinanceData)] Unsupported source type 'financedata'"
+  ]
+}

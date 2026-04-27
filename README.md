@@ -109,3 +109,15 @@ pytest tests/
 ## 라이선스
 
 MIT License
+
+<!-- DATAHUB-OPS-AUDIT:START -->
+## DataHub Operations
+
+- CI/CD workflows: `deploy-pages.yml`, `radar-crawler.yml`.
+- GitHub Pages visualization: `reports/index.html` (valid HTML); https://ai-frendly-datahub.github.io/CryptoRadar/.
+- Latest remote Pages check: HTTP 200, HTML.
+- Local workspace audit: 21 Python files parsed, 0 syntax errors.
+- Re-run audit from the workspace root: `python scripts/audit_ci_pages_readme.py --syntax-check --write`.
+- Latest audit report: `_workspace/2026-04-14_github_ci_pages_readme_audit.md`.
+- Latest Pages URL report: `_workspace/2026-04-14_github_pages_url_check.md`.
+<!-- DATAHUB-OPS-AUDIT:END -->
