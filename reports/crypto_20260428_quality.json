@@ -1,6 +1,6 @@
 {
   "category": "crypto",
-  "generated_at": "2026-04-28T00:40:36.470194+00:00",
+  "generated_at": "2026-04-28T14:53:36.049822+00:00",
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -13,36 +13,36 @@
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 18,
     "skipped_disabled_sources": 0,
-    "collection_error_count": 0,
+    "collection_error_count": 7,
     "unconfigured_tracked_event_models": [
       "exchange_listing_notice",
       "regulatory_action",
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 14,
+    "exchange_listing_notice_events": 13,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 38,
+    "regulatory_action_events": 34,
     "onchain_metric_configured_sources": 1,
-    "onchain_metric_events": 16,
+    "onchain_metric_events": 15,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 68,
+    "crypto_signal_event_count": 62,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 52,
-    "complete_canonical_key_count": 67,
+    "news_proxy_event_count": 47,
+    "complete_canonical_key_count": 61,
     "proxy_canonical_key_count": 1,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 67,
-    "exchange_present_count": 25,
-    "regulator_present_count": 42,
-    "metric_name_present_count": 28,
+    "asset_symbol_present_count": 61,
+    "exchange_present_count": 21,
+    "regulator_present_count": 38,
+    "metric_name_present_count": 26,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 60,
+    "event_required_field_gap_count": 54,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 48
+    "daily_review_item_count": 44
   },
   "sources": [
     {
@@ -58,7 +58,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -83,7 +83,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -118,7 +118,9 @@
       "latest_exchange": [],
       "latest_regulation": [],
       "latest_required_field_proxy": {},
-      "errors": []
+      "errors": [
+        "블로터: Source disabled (crawl health threshold reached)"
+      ]
     },
     {
       "source": "디지털투데이",
@@ -133,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -168,7 +170,9 @@
       "latest_exchange": [],
       "latest_regulation": [],
       "latest_required_field_proxy": {},
-      "errors": []
+      "errors": [
+        "한경 블록체인: Source disabled (crawl health threshold reached)"
+      ]
     },
     {
       "source": "CoinTelegraph",
@@ -183,7 +187,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -208,7 +212,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +237,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -258,7 +262,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -283,7 +287,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -308,7 +312,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -333,7 +337,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -358,7 +362,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -383,10 +387,10 @@
       "event_model": "onchain_metric",
       "freshness_sla_days": 3.0,
       "status": "stale",
-      "article_count": 16,
-      "event_count": 16,
+      "article_count": 15,
+      "event_count": 15,
       "latest_event_at": "2026-04-23T07:29:42+00:00",
-      "age_days": 4.72,
+      "age_days": 5.31,
       "latest_title": "Strategy Watch #3",
       "latest_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
       "latest_cryptocurrency": [],
@@ -532,6 +536,107 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "디지털자산 규제도 AI로…CFTC “심사·감시 자동화”",
+      "url": "https://www.blockmedia.co.kr/archives/1084686?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1084686?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-28T05:30:36+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "cftc",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "시장",
+        "기자"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "규제",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "선물",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "선물",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026042805",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Strategy Watch #3",
+      "url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "source_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "event_at": "2026-04-23T07:29:42+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "markets",
+        "returns"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026042307",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -980,54 +1085,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "onchain_metric",
-      "title": "Strategy Watch #3",
-      "url": "https://insights.glassnode.com/strategy-watch-03-2026/",
-      "source_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
-      "event_at": "2026-04-23T07:29:42+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital assets",
-        "markets",
-        "returns"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:c01d8c23551f:2026042307",
-      "required_field_proxy": {
-        "chain": false,
-        "metric_name": false,
-        "metric_value": false
-      },
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
     },
     {
       "source": "Glassnode Insights",
@@ -3567,376 +3624,21 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "블랙록 순익 46% 급증⋯ETF 1320억달러 유입",
-      "url": "https://www.blockmedia.co.kr/archives/1078233?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1078233?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-14T01:55:34+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "조정"
-      ],
-      "crypto_general": [
-        "투자",
-        "시장",
-        "기자"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "조정",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "조정",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:91da77d2beae:2026041401",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "onchain_metric",
-      "title": "Strategy Watch #2",
-      "url": "https://insights.glassnode.com/strategy-watch-02-2026/",
-      "source_url": "https://insights.glassnode.com/strategy-watch-02-2026/",
-      "event_at": "2026-03-24T09:19:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital assets",
-        "markets",
-        "returns"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
+      "source": "Glassnode Insights",
+      "title": "Strategy Watch #3",
       "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:c01d8c23551f:2026032409",
-      "required_field_proxy": {
-        "chain": false,
-        "metric_name": false,
-        "metric_value": false
-      },
       "required_field_gaps": [
         "chain",
         "metric_name",
         "metric_value"
       ]
     },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "‘수익 줄고, 덩치 줄고’… 고팍스, 영업적자 확대·전년 매출 46% 감소",
-      "url": "https://www.blockmedia.co.kr/archives/1078177?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1078177?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-13T23:51:28+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "고팍스",
-        "거래소"
-      ],
-      "regulation": [
-        "디지털자산"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래",
-        "수익",
-        "손실",
-        "기자",
-        "지난"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026041323",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "컴투스홀딩스, 액션 어드벤처 '페이딩 에코' 아시아 퍼블리싱 계약 체결",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=656671",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=656671",
-      "event_at": "2026-04-14T02:09:40+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "일본",
-        "홍콩",
-        "싱가포르"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "기자",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "기자",
-      "project_id": "기자",
-      "regulator": "일본",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "기자",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:기자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:51dc4ef53743:2026041402",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitcoin Giant Strategy Adds 13,927 BTC, Targets 800K Mark",
-      "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-giant-strategy-adds-13927-btc-targets-800k-mark/",
-      "source_url": "https://www.newsbtc.com/bitcoin-news/bitcoin-giant-strategy-adds-13927-btc-targets-800k-mark/",
-      "event_at": "2026-04-13T17:00:17+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "xrp"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [
-        "rally"
-      ],
-      "crypto_general": [
-        "coin",
-        "digital",
-        "digital assets",
-        "transaction",
-        "buy",
-        "hold",
-        "market",
-        "price",
-        "prices",
-        "losses",
-        "news",
-        "now",
-        "top",
-        "latest",
-        "first",
-        "this",
-        "just",
-        "share",
-        "2026"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "rally",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "rally",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026041317",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "하이퍼리퀴드,11명이 일군 64조원 제국… ‘금융계의 오픈AI’ 꿈꾸는 은둔의 천재들",
-      "url": "https://www.blockmedia.co.kr/archives/1077990?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1077990?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-13T16:42:27+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "싱가포르"
-      ],
-      "technology": [
-        "탈중앙화"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "탈중앙",
-        "거래",
-        "수익",
-        "기자",
-        "지난",
-        "가장"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "싱가포르",
-      "jurisdiction": "",
-      "chain": "탈중앙화",
-      "metric_name": "탈중앙화",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "탈중앙화",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026041316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Former CFTC Chair Chris Giancarlo goes full-time as a tech and crypto advisor",
-      "url": "https://www.theblock.co/post/397280/former-cftc-chair-chris-giancarlo-full-time-tech-crypto-advisor?utm_source=rss&utm_medium=rss",
-      "source_url": "https://www.theblock.co/post/397280/former-cftc-chair-chris-giancarlo-full-time-tech-crypto-advisor?utm_source=rss&utm_medium=rss",
-      "event_at": "2026-04-13T10:36:41+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "time"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026041310",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -3975,18 +3677,6 @@
       "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
         "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "Strategy Watch #3",
-      "canonical_key": "crypto_project:crypto",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
       ]
     },
     {
@@ -4332,52 +4022,10 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "Strategy Watch #2",
-      "canonical_key": "crypto_project:crypto",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "‘수익 줄고, 덩치 줄고’… 고팍스, 영업적자 확대·전년 매출 46% 감소",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "컴투스홀딩스, 액션 어드벤처 '페이딩 에코' 아시아 퍼블리싱 계약 체결",
-      "canonical_key": "crypto_project:기자",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "하이퍼리퀴드,11명이 일군 64조원 제국… ‘금융계의 오픈AI’ 꿈꾸는 은둔의 천재들",
-      "canonical_key": "crypto_project:가상자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_stale",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
-      "age_days": 4.72
+      "age_days": 5.31
     },
     {
       "reason": "missing_event_model",
@@ -4436,15 +4084,13 @@
       }
     ]
   },
-  "errors": [],
-  "record_quality": {
-    "total_rows": 3208,
-    "missing_title_rows": 0,
-    "missing_link_rows": 0,
-    "missing_summary_rows": 521,
-    "missing_summary_ratio": 16.2,
-    "missing_published_rows": 0,
-    "future_published_rows": 0,
-    "summary_completeness_status": "needs_attention"
-  }
+  "errors": [
+    "블로터: Source disabled (crawl health threshold reached)",
+    "한경 블록체인: Source disabled (crawl health threshold reached)",
+    "[한국 주식테마 MCP] Unsupported source type 'mcp'",
+    "[DART 공시 MCP] Unsupported source type 'mcp'",
+    "[KOSPI 종목 리스트] Unsupported source type 'financedata'",
+    "[KOSDAQ 종목 리스트] Unsupported source type 'financedata'",
+    "[DART 공시 (FinanceData)] Unsupported source type 'financedata'"
+  ]
 }

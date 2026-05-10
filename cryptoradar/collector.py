@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import html
 import os
+import re
 import threading
 import time
 from collections.abc import Mapping
@@ -31,6 +32,7 @@ _DEFAULT_HEALTH_DB_PATH = "data/radar_data.duckdb"
 _COLLECTION_CONTROL_LOCK = threading.Lock()
 _ACTIVE_THROTTLER: AdaptiveThrottler | None = None
 _ACTIVE_HEALTH_STORE: CrawlHealthStore | None = None
+_ASCII_TOKEN_RE = re.compile(r"[0-9a-z]")
 
 
 def _set_collection_controls(throttler: AdaptiveThrottler, health_store: CrawlHealthStore) -> None:
@@ -172,6 +174,15 @@ def _parse_retry_after(value: str | None) -> int | str | None:
     return stripped
 
 
+def _source_bool(source: Source, key: str) -> bool:
+    value = source.config.get(key)
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "y", "on"}
+    return False
+
+
 def _detect_encoding(response: requests.Response) -> str:
     """Detect encoding for Korean .kr sites that may use EUC-KR."""
     content_type = response.headers.get("Content-Type", "")
@@ -183,6 +194,52 @@ def _detect_encoding(response: requests.Response) -> str:
             if part.startswith("charset="):
                 return part.split("=", 1)[1].strip()
     return "utf-8"
+
+
+def _config_string_list(config: Mapping[str, object], key: str) -> list[str]:
+    raw = config.get(key)
+    if isinstance(raw, str) and raw.strip():
+        values: list[object] = [raw]
+    elif isinstance(raw, list):
+        values = raw
+    elif isinstance(raw, tuple | set):
+        values = list(raw)
+    else:
+        return []
+    return [str(value).strip() for value in values if str(value).strip()]
+
+
+def _matches_scope_keyword(text_lower: str, keyword: str) -> bool:
+    normalized = keyword.casefold().strip()
+    if not normalized:
+        return False
+    if normalized.isascii() and _ASCII_TOKEN_RE.search(normalized):
+        pattern = rf"(?<![0-9a-z]){re.escape(normalized)}(?![0-9a-z])"
+        return re.search(pattern, text_lower) is not None
+    return normalized in text_lower
+
+
+def article_matches_source_scope(
+    source: Source,
+    title: str,
+    summary: str,
+    link: str = "",
+) -> bool:
+    include_keywords = _config_string_list(source.config, "include_keywords")
+    exclude_keywords = _config_string_list(source.config, "exclude_keywords")
+    if not include_keywords and not exclude_keywords:
+        return True
+
+    text_lower = f"{title}\n{summary}\n{link}".casefold()
+    if include_keywords and not any(
+        _matches_scope_keyword(text_lower, keyword) for keyword in include_keywords
+    ):
+        return False
+    if exclude_keywords and any(
+        _matches_scope_keyword(text_lower, keyword) for keyword in exclude_keywords
+    ):
+        return False
+    return True
 
 
 def collect_sources(
@@ -200,8 +257,13 @@ def collect_sources(
     errors: list[str] = []
     manager = get_circuit_breaker_manager()
     workers = _resolve_max_workers(max_workers)
+    enabled_sources = [source for source in sources if source.enabled]
+    rss_sources = [source for source in enabled_sources if source.type.lower() == "rss"]
+    unsupported_sources = [
+        source for source in enabled_sources if source.type.lower() != "rss"
+    ]
     source_hosts: dict[str, str] = {
-        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in sources
+        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources
     }
     rate_limiters: dict[str, RateLimiter] = {
         host: RateLimiter(min_interval=min_interval_per_host) for host in set(source_hosts.values())
@@ -214,7 +276,7 @@ def collect_sources(
     session = _create_session()
 
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
-        if health_store.is_disabled(source.name):
+        if not _source_bool(source, "bypass_crawl_health") and health_store.is_disabled(source.name):
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
 
         host = source_hosts[source.name]
@@ -242,20 +304,26 @@ def collect_sources(
 
     try:
         if workers == 1:
-            for source in sources:
+            for source in rss_sources:
                 source_articles, source_errors = _collect_for_source(source)
                 articles.extend(source_articles)
                 errors.extend(source_errors)
         else:
             with ThreadPoolExecutor(max_workers=workers) as executor:
                 future_map: list[Future[tuple[list[Article], list[str]]]] = [
-                    executor.submit(_collect_for_source, source) for source in sources
+                    executor.submit(_collect_for_source, source) for source in rss_sources
                 ]
 
                 for future in future_map:
                     source_articles, source_errors = future.result()
                     articles.extend(source_articles)
                     errors.extend(source_errors)
+
+        for source in unsupported_sources:
+            errors.append(
+                f"{source.name}: Source type '{source.type}' is cataloged but not collected by "
+                "the standard pipeline"
+            )
     finally:
         session.close()
         health_store.close()
@@ -316,12 +384,18 @@ def _collect_single(
                 extracted = extract_url_content_safe(link, timeout=timeout)
                 if extracted and extracted.content:
                     summary = extracted.content[:2000]  # Limit to 2000 chars
+            title = html.unescape(_entry_text(entry, "title").strip()) or "(no title)"
+            summary = summary.strip() or title
+            link = _entry_text(entry, "link").strip()
+            summary_text = html.unescape(summary)
+            if not article_matches_source_scope(source, title, summary_text, link):
+                continue
 
             items.append(
                 Article(
-                    title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
-                    link=_entry_text(entry, "link").strip(),
-                    summary=html.unescape(summary.strip()),
+                    title=title,
+                    link=link,
+                    summary=summary_text,
                     published=published,
                     source=source.name,
                     category=category,

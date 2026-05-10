@@ -10,12 +10,13 @@ from radar_core.ontology import annotate_articles_with_ontology
 from radar_core.raw_logger import RawLogger
 
 from cryptoradar.analyzer import apply_entity_rules
-from cryptoradar.collector import collect_sources
+from cryptoradar.collector import article_matches_source_scope, collect_sources
 from cryptoradar.config_loader import load_category_config, load_category_quality_config, load_settings
 from cryptoradar.logger import configure_logging, get_logger
 from cryptoradar.quality_report import build_quality_report, write_quality_report
 from cryptoradar.reporter import generate_index_html, generate_report
 from cryptoradar.storage import RadarStorage
+from cryptoradar.models import Article, Source
 
 
 logger = get_logger(__name__)
@@ -74,11 +75,17 @@ def run(
     storage.upsert_articles(analyzed)
     _ = storage.delete_older_than(keep_days)
 
-    recent_articles = storage.recent_articles(category_cfg.category_name, days=recent_days)
-    quality_articles = storage.recent_articles_by_collected_at(
-        category_cfg.category_name,
-        days=max(recent_days, 14),
-        limit=max(500, per_source_limit * max(len(category_cfg.sources), 1) * 2),
+    recent_articles = _filter_report_articles(
+        storage.recent_articles(category_cfg.category_name, days=recent_days),
+        category_cfg.sources,
+    )
+    quality_articles = _filter_report_articles(
+        storage.recent_articles_by_collected_at(
+            category_cfg.category_name,
+            days=max(recent_days, 14),
+            limit=max(500, per_source_limit * max(len(category_cfg.sources), 1) * 2),
+        ),
+        category_cfg.sources,
     )
     storage.close()
 
@@ -137,6 +144,27 @@ def run(
         print(f"[Radar] Snapshot saved at {snapshot_path}")
 
     return output_path
+
+
+def _filter_report_articles(
+    articles: list[Article],
+    sources: list[Source],
+) -> list[Article]:
+    sources_by_name = {source.name: source for source in sources}
+    scoped_articles: list[Article] = []
+    for article in articles:
+        source = sources_by_name.get(article.source)
+        if source is None:
+            scoped_articles.append(article)
+            continue
+        if article_matches_source_scope(
+            source,
+            article.title,
+            article.summary,
+            article.link,
+        ):
+            scoped_articles.append(article)
+    return scoped_articles
 
 
 def parse_args() -> argparse.Namespace:

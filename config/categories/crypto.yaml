@@ -110,14 +110,45 @@ sources:
     event_model: market_commentary
 - name: 블로터
   type: rss
-  url: https://www.bloter.net/feed
+  url: https://www.bloter.net/rss/allArticle.xml
   language: ko
   country: KR
   trust_tier: T3_professional
   collection_tier: C1_rss
   content_type: news
   config:
+    bypass_crawl_health: true
     event_model: market_commentary
+    include_keywords: &crypto_topic_keywords
+    - 비트코인
+    - 이더리움
+    - 리플
+    - 솔라나
+    - 암호화폐
+    - 가상자산
+    - 디지털자산
+    - 블록체인
+    - 코인
+    - 토큰
+    - 업비트
+    - 빗썸
+    - 바이낸스
+    - 코인베이스
+    - SEC
+    - CFTC
+    - 특금법
+    - 트래블룰
+    - bitcoin
+    - ethereum
+    - crypto
+    - cryptocurrency
+    - digital asset
+    - blockchain
+    - token
+    - stablecoin
+    - DeFi
+    - Web3
+    - NFT
 - name: 디지털투데이
   type: rss
   url: https://www.digitaltoday.co.kr/rss/allArticle.xml
@@ -128,14 +159,18 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: 한경 블록체인
   type: rss
   url: https://www.hankyung.com/feed/blockchain
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional
   collection_tier: C1_rss
   content_type: news
+  notes: Blockchain RSS endpoint returned 404 during 2026-04-30 verification;
+    broad IT/economy feeds are intentionally not substituted.
   config:
     event_model: market_commentary
 - name: CoinTelegraph
@@ -227,13 +262,16 @@ sources:
   collection_tier: C1_rss
   content_type: analysis
   notes: Glassnode Insights publishes article-based on-chain summaries, not sub-daily
-    raw metric snapshots, and new posts commonly land on a 2-3 day cadence.
+    raw metric snapshots; audited article cadence can stretch across multi-week
+    quiet windows, so freshness is tracked as analysis cadence rather than live
+    metric availability.
   config:
-    freshness_sla_days: 3
+    freshness_sla_days: 21
     event_model: onchain_metric
 - name: 한국 주식테마 MCP
   type: mcp
   url: https://stockmatrix.co.kr
+  enabled: false
   language: ko
   country: KR
   trust_tier: T3_professional
@@ -262,6 +300,7 @@ sources:
 - name: DART 공시 MCP
   type: mcp
   url: https://github.com/jjlabsio/korea-stock-mcp
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional
@@ -292,6 +331,7 @@ sources:
     event_model: market_commentary
 - name: KOSPI 종목 리스트
   type: financedata
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional
@@ -315,6 +355,7 @@ sources:
     event_model: market_commentary
 - name: KOSDAQ 종목 리스트
   type: financedata
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional
@@ -338,6 +379,7 @@ sources:
     event_model: market_commentary
 - name: DART 공시 (FinanceData)
   type: financedata
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional

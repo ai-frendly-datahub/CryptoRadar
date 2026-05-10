@@ -1,18 +1,18 @@
 {
   "category": "crypto",
-  "generated_at": "2026-04-28T00:40:36.470194+00:00",
+  "generated_at": "2026-05-07T03:33:52.836477+00:00",
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
-    "enabled_sources": 19,
+    "enabled_sources": 13,
     "tracked_sources": 1,
-    "fresh_sources": 0,
-    "stale_sources": 1,
+    "fresh_sources": 1,
+    "stale_sources": 0,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
-    "not_tracked_sources": 18,
-    "skipped_disabled_sources": 0,
+    "not_tracked_sources": 12,
+    "skipped_disabled_sources": 6,
     "collection_error_count": 0,
     "unconfigured_tracked_event_models": [
       "exchange_listing_notice",
@@ -20,29 +20,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 14,
+    "exchange_listing_notice_events": 4,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 38,
+    "regulatory_action_events": 32,
     "onchain_metric_configured_sources": 1,
-    "onchain_metric_events": 16,
+    "onchain_metric_events": 15,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 68,
+    "crypto_signal_event_count": 51,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 52,
-    "complete_canonical_key_count": 67,
+    "news_proxy_event_count": 36,
+    "complete_canonical_key_count": 50,
     "proxy_canonical_key_count": 1,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 67,
-    "exchange_present_count": 25,
-    "regulator_present_count": 42,
-    "metric_name_present_count": 28,
+    "asset_symbol_present_count": 50,
+    "exchange_present_count": 13,
+    "regulator_present_count": 36,
+    "metric_name_present_count": 23,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 60,
-    "tracked_source_gap_count": 1,
+    "event_required_field_gap_count": 52,
+    "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 48
+    "daily_review_item_count": 41
   },
   "sources": [
     {
@@ -58,7 +58,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -83,7 +83,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -133,7 +133,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 7,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
     {
       "source": "한경 블록체인",
       "source_type": "rss",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T2_institutional",
       "content_type": "news",
       "collection_tier": "C1_rss",
@@ -157,7 +157,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -183,7 +183,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +233,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -283,7 +283,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -333,7 +333,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -358,7 +358,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -381,12 +381,12 @@
       "info_purpose": [],
       "tracked": true,
       "event_model": "onchain_metric",
-      "freshness_sla_days": 3.0,
-      "status": "stale",
-      "article_count": 16,
-      "event_count": 16,
+      "freshness_sla_days": 21.0,
+      "status": "fresh",
+      "article_count": 15,
+      "event_count": 15,
       "latest_event_at": "2026-04-23T07:29:42+00:00",
-      "age_days": 4.72,
+      "age_days": 13.84,
       "latest_title": "Strategy Watch #3",
       "latest_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
       "latest_cryptocurrency": [],
@@ -402,7 +402,7 @@
     {
       "source": "한국 주식테마 MCP",
       "source_type": "mcp",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T3_professional",
       "content_type": "equity_market_context",
       "collection_tier": "C1_rss",
@@ -413,7 +413,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -429,7 +429,7 @@
     {
       "source": "DART 공시 MCP",
       "source_type": "mcp",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T2_institutional",
       "content_type": "news",
       "collection_tier": "C1_rss",
@@ -438,7 +438,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -454,7 +454,7 @@
     {
       "source": "KOSPI 종목 리스트",
       "source_type": "financedata",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T2_institutional",
       "content_type": "equity_market_context",
       "collection_tier": "C1_rss",
@@ -465,7 +465,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -481,7 +481,7 @@
     {
       "source": "KOSDAQ 종목 리스트",
       "source_type": "financedata",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T2_institutional",
       "content_type": "equity_market_context",
       "collection_tier": "C1_rss",
@@ -492,7 +492,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -508,7 +508,7 @@
     {
       "source": "DART 공시 (FinanceData)",
       "source_type": "financedata",
-      "enabled": true,
+      "enabled": false,
       "trust_tier": "T2_institutional",
       "content_type": "news",
       "collection_tier": "C1_rss",
@@ -517,7 +517,7 @@
       "tracked": false,
       "event_model": "market_commentary",
       "freshness_sla_days": null,
-      "status": "not_tracked",
+      "status": "skipped_disabled",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -532,6 +532,219 @@
     }
   ],
   "events": [
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Strategy Watch #3",
+      "url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "source_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "event_at": "2026-04-23T07:29:42+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "markets",
+        "returns"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026042307",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[개장시황] ‘7500 고지’ 밟은 코스피, 사상 최고치 경신…삼전·현대차 강세",
+      "url": "https://www.blockmedia.co.kr/archives/1088651?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1088651?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-06T15:21:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "상승",
+        "강세"
+      ],
+      "crypto_general": [
+        "거래",
+        "투자",
+        "기자",
+        "대한"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026050615",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
+      "url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-29T17:21:58+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "하락",
+        "반등",
+        "롱",
+        "숏",
+        "청산",
+        "레버리지"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "하락",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "하락",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026042917",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "디지털자산 규제도 AI로…CFTC “심사·감시 자동화”",
+      "url": "https://www.blockmedia.co.kr/archives/1084686?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1084686?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-28T05:30:36+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "cftc",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "시장",
+        "기자"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "규제",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "선물",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "선물",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026042805",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -990,54 +1203,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "onchain_metric",
-      "title": "Strategy Watch #3",
-      "url": "https://insights.glassnode.com/strategy-watch-03-2026/",
-      "source_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
-      "event_at": "2026-04-23T07:29:42+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital assets",
-        "markets",
-        "returns"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:c01d8c23551f:2026042307",
-      "required_field_proxy": {
-        "chain": false,
-        "metric_name": false,
-        "metric_value": false
-      },
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "onchain_metric",
       "title": "Mean Reclaimed, Rally on Trial",
       "url": "https://insights.glassnode.com/the-week-onchain-week-16-2026/",
       "source_url": "https://insights.glassnode.com/the-week-onchain-week-16-2026/",
@@ -1316,384 +1481,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "코셈, 불성실공시법인 지정 예고돼",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660301",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660301",
-      "event_at": "2026-04-24T11:25:04+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "거래",
-        "시장",
-        "최근",
-        "또한"
-      ],
-      "asset_symbol": "거래",
-      "project_id": "거래",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "거래",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:거래",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:f8e2cfb02240:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "송인광 상무, 씨엠티엑스 주식매수선택권 행사로 2500주 취득",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660298",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660298",
-      "event_at": "2026-04-24T11:22:05+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "매수"
-      ],
-      "crypto_general": [
-        "매수",
-        "보유",
-        "시장",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "매수",
-      "project_id": "매수",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "매수",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:매수",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:cc02e82dc9a9:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "장민기 상무, 씨엠티엑스 주식 소유 증가",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660294",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660294",
-      "event_at": "2026-04-24T11:22:02+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "매수"
-      ],
-      "crypto_general": [
-        "매수",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "매수",
-      "project_id": "매수",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "매수",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:매수",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:cc02e82dc9a9:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "한규완 부사장, 필옵틱스 주식 3400주 매도",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660286",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660286",
-      "event_at": "2026-04-24T11:19:01+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "매도"
-      ],
-      "crypto_general": [
-        "매도",
-        "보유",
-        "시장"
-      ],
-      "asset_symbol": "매도",
-      "project_id": "매도",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "매도",
-      "metric_value": null,
-      "asset_pair": "매도",
-      "liquidity_metric": "매도",
-      "canonical_key": "crypto_project:매도",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:c063de1359b2:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "아크솔루션스, 대표이사 정일권 선임",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660291",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660291",
-      "event_at": "2026-04-24T11:16:02+00:00",
-      "cryptocurrency": [
-        "트론"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "통해",
-        "발표"
-      ],
-      "asset_symbol": "트론",
-      "project_id": "트론",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "트론",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "트론",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:트론",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:2bfa01a63517:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "주요주주 에이티넘성장투자조합2023, 오픈엣지테크놀로지 지분 11.83% 보유",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660284",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660284",
-      "event_at": "2026-04-24T11:16:01+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "투자",
-        "보유",
-        "시장",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:91da77d2beae:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "신창호 부사장, 컨텍 주식 3400주 추가 취득",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660281",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660281",
-      "event_at": "2026-04-24T11:13:04+00:00",
-      "cryptocurrency": [
-        "니어"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "매수"
-      ],
-      "crypto_general": [
-        "매수",
-        "보유",
-        "시장",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "니어",
-      "project_id": "니어",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "니어",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "니어",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:니어",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:36f674cfa7cc:2026042411",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "네오이뮨텍, 미국 FDA에 비소세포폐암 임상 2상 자진취하 신청",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660283",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660283",
-      "event_at": "2026-04-24T11:13:01+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "위한"
-      ],
-      "asset_symbol": "위한",
-      "project_id": "위한",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "위한",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:위한",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:2711e8e5e6dd:2026042411",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     },
     {
       "source": "블록미디어",
@@ -2610,52 +2397,6 @@
       ]
     },
     {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "아이티켐, 주권매매거래정지 기간변경…개선기간 종료 후 상장폐지 여부 결정까지",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660278",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660278",
-      "event_at": "2026-04-24T10:31:01+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "거래",
-        "시장",
-        "이번",
-        "대한"
-      ],
-      "asset_symbol": "거래",
-      "project_id": "거래",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "거래",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:거래",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:f8e2cfb02240:2026042410",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "블록미디어",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -3030,191 +2771,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "아이엘, 약 120억원 규모 유상증자 결정으로 236만9675주 발행",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660067",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660067",
-      "event_at": "2026-04-24T05:43:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "이번"
-      ],
-      "asset_symbol": "이번",
-      "project_id": "이번",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "이번",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:이번",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:574617cc246b:2026042405",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "테슬라, 로보택시 일정 또 삭제…출시 시점 빠지고 '준비 중'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660066",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660066",
-      "event_at": "2026-04-24T05:40:08+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "이번"
-      ],
-      "asset_symbol": "이번",
-      "project_id": "이번",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "이번",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:이번",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:574617cc246b:2026042405",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "美 특수부대 병사, 미리 알고 베팅했다…마두로 체포로 '6억 잭팟'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660053",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660053",
-      "event_at": "2026-04-24T05:39:58+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "거래",
-        "수익",
-        "시장",
-        "지난"
-      ],
-      "asset_symbol": "거래",
-      "project_id": "거래",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "거래",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:거래",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:f8e2cfb02240:2026042405",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "'챗GPT 세대' 졸업생들 쏟아진다…취업시장 '진짜 실력' 검증 시험대",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660062",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=660062",
-      "event_at": "2026-04-24T05:39:36+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "검증"
-      ],
-      "market": [],
-      "crypto_general": [
-        "검증",
-        "시장",
-        "기자"
-      ],
-      "asset_symbol": "검증",
-      "project_id": "검증",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "검증",
-      "metric_name": "검증",
-      "metric_value": null,
-      "asset_pair": "검증",
-      "liquidity_metric": "검증",
-      "canonical_key": "crypto_project:검증",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:94b260b5db1c:2026042405",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "source": "블록미디어",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -3567,98 +3123,15 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "블랙록 순익 46% 급증⋯ETF 1320억달러 유입",
-      "url": "https://www.blockmedia.co.kr/archives/1078233?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1078233?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-14T01:55:34+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "조정"
-      ],
-      "crypto_general": [
-        "투자",
-        "시장",
-        "기자"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "조정",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "조정",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:91da77d2beae:2026041401",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "onchain_metric",
-      "title": "Strategy Watch #2",
-      "url": "https://insights.glassnode.com/strategy-watch-02-2026/",
-      "source_url": "https://insights.glassnode.com/strategy-watch-02-2026/",
-      "event_at": "2026-03-24T09:19:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital assets",
-        "markets",
-        "returns"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
+      "source": "Glassnode Insights",
+      "title": "Strategy Watch #3",
       "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:c01d8c23551f:2026032409",
-      "required_field_proxy": {
-        "chain": false,
-        "metric_name": false,
-        "metric_value": false
-      },
       "required_field_gaps": [
         "chain",
         "metric_name",
@@ -3666,277 +3139,25 @@
       ]
     },
     {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
       "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "‘수익 줄고, 덩치 줄고’… 고팍스, 영업적자 확대·전년 매출 46% 감소",
-      "url": "https://www.blockmedia.co.kr/archives/1078177?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1078177?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-13T23:51:28+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "고팍스",
-        "거래소"
-      ],
-      "regulation": [
-        "디지털자산"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래",
-        "수익",
-        "손실",
-        "기자",
-        "지난"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026041323",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
+      "title": "[개장시황] ‘7500 고지’ 밟은 코스피, 사상 최고치 경신…삼전·현대차 강세",
+      "canonical_key": "crypto_project:거래",
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
     {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "컴투스홀딩스, 액션 어드벤처 '페이딩 에코' 아시아 퍼블리싱 계약 체결",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=656671",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=656671",
-      "event_at": "2026-04-14T02:09:40+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "일본",
-        "홍콩",
-        "싱가포르"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "기자",
-        "이번",
-        "통해"
-      ],
-      "asset_symbol": "기자",
-      "project_id": "기자",
-      "regulator": "일본",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "기자",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:기자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:51dc4ef53743:2026041402",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitcoin Giant Strategy Adds 13,927 BTC, Targets 800K Mark",
-      "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-giant-strategy-adds-13927-btc-targets-800k-mark/",
-      "source_url": "https://www.newsbtc.com/bitcoin-news/bitcoin-giant-strategy-adds-13927-btc-targets-800k-mark/",
-      "event_at": "2026-04-13T17:00:17+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "xrp"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [
-        "rally"
-      ],
-      "crypto_general": [
-        "coin",
-        "digital",
-        "digital assets",
-        "transaction",
-        "buy",
-        "hold",
-        "market",
-        "price",
-        "prices",
-        "losses",
-        "news",
-        "now",
-        "top",
-        "latest",
-        "first",
-        "this",
-        "just",
-        "share",
-        "2026"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "rally",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "rally",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026041317",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "하이퍼리퀴드,11명이 일군 64조원 제국… ‘금융계의 오픈AI’ 꿈꾸는 은둔의 천재들",
-      "url": "https://www.blockmedia.co.kr/archives/1077990?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1077990?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-13T16:42:27+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "싱가포르"
-      ],
-      "technology": [
-        "탈중앙화"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "탈중앙",
-        "거래",
-        "수익",
-        "기자",
-        "지난",
-        "가장"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "싱가포르",
-      "jurisdiction": "",
-      "chain": "탈중앙화",
-      "metric_name": "탈중앙화",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "탈중앙화",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026041316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
+      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
+      "canonical_key": "crypto_project:비트코인",
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Former CFTC Chair Chris Giancarlo goes full-time as a tech and crypto advisor",
-      "url": "https://www.theblock.co/post/397280/former-cftc-chair-chris-giancarlo-full-time-tech-crypto-advisor?utm_source=rss&utm_medium=rss",
-      "source_url": "https://www.theblock.co/post/397280/former-cftc-chair-chris-giancarlo-full-time-tech-crypto-advisor?utm_source=rss&utm_medium=rss",
-      "event_at": "2026-04-13T10:36:41+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "time"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026041310",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -3975,18 +3196,6 @@
       "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
         "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "Strategy Watch #3",
-      "canonical_key": "crypto_project:crypto",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
       ]
     },
     {
@@ -4032,16 +3241,6 @@
       "required_field_gaps": [
         "chain",
         "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "네오이뮨텍, 미국 FDA에 비소세포폐암 임상 2상 자진취하 신청",
-      "canonical_key": "crypto_project:위한",
-      "required_field_gaps": [
-        "jurisdiction"
       ]
     },
     {
@@ -4254,36 +3453,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "테슬라, 로보택시 일정 또 삭제…출시 시점 빠지고 '준비 중'",
-      "canonical_key": "crypto_project:이번",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "美 특수부대 병사, 미리 알고 베팅했다…마두로 체포로 '6억 잭팟'",
-      "canonical_key": "crypto_project:거래",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "'챗GPT 세대' 졸업생들 쏟아진다…취업시장 '진짜 실력' 검증 시험대",
-      "canonical_key": "crypto_project:검증",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
       "source": "블록미디어",
       "title": "주식·디지털자산·베팅이 한 곳으로: 폴리마켓 무기한 선물 거래 출시로 엿볼 수 있는 미래 – 타이거리서치",
       "canonical_key": "crypto_project:암호화폐",
@@ -4330,54 +3499,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "Strategy Watch #2",
-      "canonical_key": "crypto_project:crypto",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "‘수익 줄고, 덩치 줄고’… 고팍스, 영업적자 확대·전년 매출 46% 감소",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "컴투스홀딩스, 액션 어드벤처 '페이딩 에코' 아시아 퍼블리싱 계약 체결",
-      "canonical_key": "crypto_project:기자",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "하이퍼리퀴드,11명이 일군 64조원 제국… ‘금융계의 오픈AI’ 꿈꾸는 은둔의 천재들",
-      "canonical_key": "crypto_project:가상자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "source_stale",
-      "source": "Glassnode Insights",
-      "event_model": "onchain_metric",
-      "age_days": 4.72
     },
     {
       "reason": "missing_event_model",
@@ -4436,15 +3557,5 @@
       }
     ]
   },
-  "errors": [],
-  "record_quality": {
-    "total_rows": 3208,
-    "missing_title_rows": 0,
-    "missing_link_rows": 0,
-    "missing_summary_rows": 521,
-    "missing_summary_ratio": 16.2,
-    "missing_published_rows": 0,
-    "future_published_rows": 0,
-    "summary_completeness_status": "needs_attention"
-  }
+  "errors": []
 }

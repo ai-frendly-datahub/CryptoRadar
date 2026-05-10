@@ -9,6 +9,8 @@ import requests
 
 from cryptoradar.collector import (
     RateLimiter,
+    article_matches_source_scope,
+    collect_sources,
     _detect_encoding,
     _entry_text,
     _extract_datetime,
@@ -195,6 +197,54 @@ class TestSourceModel:
         assert source.name == "TestSource"
         assert source.type == "rss"
         assert source.url == "https://example.com/feed"
+
+
+class TestCollectSources:
+    """Tests for source routing before network collection."""
+
+    def test_disabled_non_rss_source_is_skipped(self):
+        source = Source(
+            name="DART MCP",
+            type="mcp",
+            url="https://example.com/mcp",
+            enabled=False,
+        )
+
+        articles, errors = collect_sources([source], category="crypto")
+
+        assert articles == []
+        assert errors == []
+
+    def test_enabled_non_rss_source_is_reported_as_cataloged_not_collected(self):
+        source = Source(name="DART MCP", type="mcp", url="https://example.com/mcp")
+
+        articles, errors = collect_sources([source], category="crypto")
+
+        assert articles == []
+        assert len(errors) == 1
+        assert "cataloged but not collected" in errors[0]
+
+
+def test_article_matches_source_scope_filters_broad_business_feed_items():
+    source = Source(
+        name="블로터",
+        type="rss",
+        url="https://www.bloter.net/rss/allArticle.xml",
+        config={"include_keywords": ["가상자산", "블록체인", "bitcoin", "crypto"]},
+    )
+
+    assert not article_matches_source_scope(
+        source,
+        "[유암코, 성장의 그늘] STX엔진 주총 격돌",
+        "방산 전문성과 감사 선임을 둘러싼 주주총회 기사입니다.",
+        "https://www.bloter.net/news/articleView.html?idxno=660983",
+    )
+    assert article_matches_source_scope(
+        source,
+        "금융위, 가상자산 거래소 공시 기준 점검",
+        "블록체인 업계와 crypto market participants are watching the rules.",
+        "https://www.bloter.net/news/articleView.html?idxno=1",
+    )
 
 
 class TestCollectorExceptions:

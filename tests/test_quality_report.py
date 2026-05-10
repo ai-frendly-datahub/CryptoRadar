@@ -84,7 +84,7 @@ def test_quality_report_tracks_operational_analysis_source() -> None:
     source_row = next(row for row in report["sources"] if row["source"] == source.name)
     assert source_row["event_model"] == "onchain_metric"
     assert source_row["status"] == "fresh"
-    assert source_row["freshness_sla_days"] == 3.0
+    assert source_row["freshness_sla_days"] == 10.0
     assert report["summary"]["onchain_metric_events"] == 1
     assert report["summary"]["crypto_signal_event_count"] == 1
     assert report["events"][0]["canonical_key"]
@@ -107,7 +107,7 @@ def test_equity_context_sources_do_not_mask_crypto_liquidity_gap() -> None:
     rows = {row["source"]: row for row in report["sources"] if row["source"] in equity_sources}
 
     assert set(rows) == equity_sources
-    assert {row["status"] for row in rows.values()} == {"not_tracked"}
+    assert {row["status"] for row in rows.values()} == {"skipped_disabled"}
     assert report["summary"]["liquidity_snapshot_configured_sources"] == 0
     assert "liquidity_snapshot" in report["summary"]["unconfigured_tracked_event_models"]
 
