@@ -1,0 +1,2646 @@
+{
+  "category": "crypto",
+  "generated_at": "2026-05-12T20:38:35.709982+00:00",
+  "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
+  "summary": {
+    "total_sources": 19,
+    "enabled_sources": 13,
+    "tracked_sources": 1,
+    "fresh_sources": 1,
+    "stale_sources": 0,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 12,
+    "skipped_disabled_sources": 6,
+    "collection_error_count": 0,
+    "unconfigured_tracked_event_models": [
+      "exchange_listing_notice",
+      "regulatory_action",
+      "liquidity_snapshot"
+    ],
+    "exchange_listing_notice_configured_sources": 0,
+    "exchange_listing_notice_events": 5,
+    "regulatory_action_configured_sources": 0,
+    "regulatory_action_events": 15,
+    "onchain_metric_configured_sources": 1,
+    "onchain_metric_events": 15,
+    "liquidity_snapshot_configured_sources": 0,
+    "liquidity_snapshot_events": 0,
+    "crypto_signal_event_count": 35,
+    "official_or_operational_event_count": 0,
+    "news_proxy_event_count": 20,
+    "complete_canonical_key_count": 35,
+    "proxy_canonical_key_count": 0,
+    "missing_canonical_key_count": 0,
+    "asset_symbol_present_count": 35,
+    "exchange_present_count": 10,
+    "regulator_present_count": 17,
+    "metric_name_present_count": 20,
+    "metric_value_present_count": 0,
+    "event_required_field_gap_count": 37,
+    "tracked_source_gap_count": 0,
+    "missing_event_model_count": 1,
+    "source_backlog_candidate_count": 4,
+    "daily_review_item_count": 30
+  },
+  "sources": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 16,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "코인데스크 코리아",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 35,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "블로터",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 4,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 15,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "한경 블록체인",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 33,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 27,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 23,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 32,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 13,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 12,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 17,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 16,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "onchain_metric",
+      "freshness_sla_days": 21.0,
+      "status": "fresh",
+      "article_count": 15,
+      "event_count": 15,
+      "latest_event_at": "2026-05-11T06:04:41+00:00",
+      "age_days": 1.61,
+      "latest_title": "BTC Market Pulse: Week 20",
+      "latest_url": "https://insights.glassnode.com/btc-market-pulse-week-20-2026/",
+      "latest_cryptocurrency": [
+        "btc",
+        "near"
+      ],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "errors": []
+    },
+    {
+      "source": "한국 주식테마 MCP",
+      "source_type": "mcp",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "DART 공시 MCP",
+      "source_type": "mcp",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "KOSPI 종목 리스트",
+      "source_type": "financedata",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "KOSDAQ 종목 리스트",
+      "source_type": "financedata",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "equity_market_context",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [
+        "cross_market_context"
+      ],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "DART 공시 (FinanceData)",
+      "source_type": "financedata",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "market_commentary",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_cryptocurrency": [],
+      "latest_exchange": [],
+      "latest_regulation": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "아크인베스트, 서클 550만달러어치 매수…주가 16% 급등",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665183",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665183",
+      "event_at": "2026-05-12T13:34:44+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "급등",
+        "매수"
+      ],
+      "crypto_general": [
+        "코인",
+        "블록체인",
+        "매수",
+        "가장",
+        "발표"
+      ],
+      "asset_symbol": "코인",
+      "project_id": "코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "코인",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:a650e3da54ae:2026051213",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "XRP 현물 ETF, 2580만달러 몰렸다…1월 이후 일일 최대 순유입",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665181",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665181",
+      "event_at": "2026-05-12T13:27:10+00:00",
+      "cryptocurrency": [
+        "리플",
+        "xrp"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인",
+        "지난",
+        "최근",
+        "가장"
+      ],
+      "asset_symbol": "리플",
+      "project_id": "리플",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "리플",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:리플",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:e18576baad82:2026051213",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "XRP 현물 ETF, 2580만달러 몰렸다…1월 이후 일일 최대 순유입",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665181",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665181",
+      "event_at": "2026-05-12T13:27:10+00:00",
+      "cryptocurrency": [
+        "리플",
+        "xrp"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인",
+        "지난",
+        "최근",
+        "가장"
+      ],
+      "asset_symbol": "리플",
+      "project_id": "리플",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "리플",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:리플",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:e18576baad82:2026051213",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "브렌트유 32% 상승 신호…휴전에도 공급 부족 여전",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665179",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665179",
+      "event_at": "2026-05-12T13:19:40+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "상승",
+        "강세"
+      ],
+      "crypto_general": [
+        "블록체인",
+        "이번",
+        "최근"
+      ],
+      "asset_symbol": "블록체인",
+      "project_id": "블록체인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "블록체인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:블록체인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:0b646ef5ff1c:2026051213",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "웰스파고, 2026년 1분기 이더리움 ETF 보유 확대…스트래티지 지분 125% 확대",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665178",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665178",
+      "event_at": "2026-05-12T13:16:49+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [
+        "조정"
+      ],
+      "crypto_general": [
+        "코인",
+        "블록체인",
+        "거래",
+        "포트폴리오",
+        "보유",
+        "올해"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "조정",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "조정",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026051213",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "봉쇄 대신 ‘통행권’ 발급하는 이란… 이라크·파키스탄과 ‘에너지 밀약’",
+      "url": "https://www.blockmedia.co.kr/archives/1091194?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091194?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T11:34:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [
+        "기자",
+        "통해",
+        "대한"
+      ],
+      "asset_symbol": "기자",
+      "project_id": "기자",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "합의",
+      "metric_name": "합의",
+      "metric_value": null,
+      "asset_pair": "기자",
+      "liquidity_metric": "합의",
+      "canonical_key": "crypto_project:기자",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:51dc4ef53743:2026051211",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미 민주당 슈머 원내대표, ‘클래러티 법안’ 통과 독려… “윤리 규정이 마지막 관문”",
+      "url": "https://www.blockmedia.co.kr/archives/1091175?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091175?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T11:14:52+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "가상자산",
+        "디지털자산",
+        "기자",
+        "이번",
+        "최근",
+        "특히"
+      ],
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:757e19da46d7:2026051211",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[뉴욕증시 마감] 물가·유가·지정학 ‘3중고’…증시, 금리인하 기대 실종에 혼조세",
+      "url": "https://www.blockmedia.co.kr/archives/1091173?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091173?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T11:07:58+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "하락"
+      ],
+      "crypto_general": [
+        "거래",
+        "투자"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026051211",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[야간마감] 미 CPI 쇼크에 ‘강달러’ 재점화…환율 1500원 턱밑 대치",
+      "url": "https://www.blockmedia.co.kr/archives/1091169?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091169?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T10:34:50+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "급락",
+        "상승"
+      ],
+      "crypto_general": [
+        "거래",
+        "트레이딩",
+        "시장"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026051210",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "“사우디 공군, 이미 3월에 이란 공습”…중동전 물밑 충돌-로이터",
+      "url": "https://www.blockmedia.co.kr/archives/1091163?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091163?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T10:04:37+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "이번",
+        "대한"
+      ],
+      "asset_symbol": "이번",
+      "project_id": "이번",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "이번",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:이번",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:574617cc246b:2026051210",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Key XRP Metric Skyrockets 65% In Record Time, Why It Could Change Everything For Buyers",
+      "url": "https://www.newsbtc.com/analysis/xrp/key-xrp-metric-skyrockets-65-in-record-time-why-it-could-change-everything-for-buyers/",
+      "source_url": "https://www.newsbtc.com/analysis/xrp/key-xrp-metric-skyrockets-65-in-record-time-why-it-could-change-everything-for-buyers/",
+      "event_at": "2026-05-12T10:00:09+00:00",
+      "cryptocurrency": [
+        "ethereum",
+        "eth",
+        "xrp"
+      ],
+      "exchange": [],
+      "regulation": [
+        "eu",
+        "kyc"
+      ],
+      "technology": [
+        "blockchain",
+        "on-chain",
+        "defi",
+        "lending",
+        "wallet",
+        "etf"
+      ],
+      "market": [
+        "volume",
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "token",
+        "tokens",
+        "digital",
+        "digital asset",
+        "blockchain",
+        "ledger",
+        "network",
+        "protocol",
+        "testnet",
+        "wallet",
+        "transaction",
+        "transactions",
+        "investors",
+        "market",
+        "markets",
+        "price",
+        "losses",
+        "story",
+        "time",
+        "most",
+        "top",
+        "new",
+        "this",
+        "just",
+        "post",
+        "2026",
+        "2025"
+      ],
+      "asset_symbol": "ethereum",
+      "project_id": "ethereum",
+      "regulator": "eu",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "volume",
+      "metric_value": null,
+      "asset_pair": "ethereum",
+      "liquidity_metric": "volume",
+      "canonical_key": "crypto_project:ethereum",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9f56ecebd71e:2026051210",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미 상원, ‘클래리티법’ 심사…BTC·ETH 증권 제외 추진",
+      "url": "https://www.blockmedia.co.kr/archives/1091161?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091161?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T09:50:57+00:00",
+      "cryptocurrency": [
+        "btc",
+        "eth",
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "디지털자산",
+        "sec",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "수익",
+        "이번"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "규제",
+      "jurisdiction": "SEC",
+      "chain": "btc",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "btc",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:31234e5334ab:2026051209",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블로터",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[베트남 간 K-블록체인]① 개인투자자가 키운 시장, 정부가 판 깔다",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=662037",
+      "source_url": "https://www.bloter.net/news/articleView.html?idxno=662037",
+      "event_at": "2026-05-12T09:13:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "빗썸",
+        "거래소"
+      ],
+      "regulation": [
+        "허가"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "블록체인",
+        "거래",
+        "투자",
+        "투자자",
+        "시장",
+        "새로운"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "허가",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026051209",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "미 하원, 올트먼 ‘이해충돌’ 조사…오픈AI 상장 제동 걸리나-WSJ",
+      "url": "https://www.blockmedia.co.kr/archives/1091139?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091139?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T08:24:52+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "sec",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "거래",
+        "투자",
+        "지난"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:f8e2cfb02240:2026051208",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미 하원, 올트먼 ‘이해충돌’ 조사…오픈AI 상장 제동 걸리나-WSJ",
+      "url": "https://www.blockmedia.co.kr/archives/1091139?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091139?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-12T08:24:52+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "sec",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "거래",
+        "투자",
+        "지난"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026051208",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "U.S. CFTC in talks with every major pro sports league on policing prediction markets",
+      "url": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
+      "source_url": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
+      "event_at": "2026-05-12T06:38:56+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading",
+        "markets",
+        "price",
+        "prices",
+        "news",
+        "this",
+        "just",
+        "share",
+        "2026"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026051206",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "코인데스크 코리아",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "증여세 과세 표준 구간 2025·2026 최신 세율 총정리",
+      "url": "https://www.coindeskkorea.com/4368",
+      "source_url": "https://www.coindeskkorea.com/4368",
+      "event_at": "2026-05-12T05:09:59+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "코인",
+        "2026",
+        "2025"
+      ],
+      "asset_symbol": "코인",
+      "project_id": "코인",
+      "regulator": "과세",
+      "jurisdiction": "KOREA",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a650e3da54ae:2026051205",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Binance says AI-powered security has thwarted $10B in fraud since 2025",
+      "url": "https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source_url": "https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "event_at": "2026-05-11T22:22:38+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "losses",
+        "now",
+        "2025"
+      ],
+      "asset_symbol": "losses",
+      "project_id": "losses",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "losses",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:losses",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9f41d2d300f1:2026051122",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "BTC Market Pulse: Week 20",
+      "url": "https://insights.glassnode.com/btc-market-pulse-week-20-2026/",
+      "source_url": "https://insights.glassnode.com/btc-market-pulse-week-20-2026/",
+      "event_at": "2026-05-11T06:04:41+00:00",
+      "cryptocurrency": [
+        "btc",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "futures",
+        "options"
+      ],
+      "crypto_general": [
+        "market",
+        "markets"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "btc",
+      "metric_name": "futures",
+      "metric_value": null,
+      "asset_pair": "btc",
+      "liquidity_metric": "futures",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:31234e5334ab:2026051106",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "The Altcoin Vector #53",
+      "url": "https://insights.glassnode.com/the-altcoin-vector-53/",
+      "source_url": "https://insights.glassnode.com/the-altcoin-vector-53/",
+      "event_at": "2026-05-06T07:05:40+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets",
+        "most",
+        "this"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026050607",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "The Bitcoin Vector #54",
+      "url": "https://insights.glassnode.com/the-bitcoin-vector-54/",
+      "source_url": "https://insights.glassnode.com/the-bitcoin-vector-54/",
+      "event_at": "2026-05-06T07:02:03+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:9bdaaa88fb28:2026050607",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Bulls Approach the Ceiling",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-18-2026/",
+      "source_url": "https://insights.glassnode.com/the-week-onchain-week-18-2026/",
+      "event_at": "2026-05-06T06:02:18+00:00",
+      "cryptocurrency": [
+        "btc",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "btc",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:31234e5334ab:2026050606",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "BTC Market Pulse: Week 19",
+      "url": "https://insights.glassnode.com/btc-market-pulse-week-19-2026/",
+      "source_url": "https://insights.glassnode.com/btc-market-pulse-week-19-2026/",
+      "event_at": "2026-05-04T05:12:31+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "rally"
+      ],
+      "crypto_general": [
+        "market",
+        "price"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "rally",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "rally",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:9bdaaa88fb28:2026050405",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Trapped Below Market Mean",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-17-2026/",
+      "source_url": "https://insights.glassnode.com/the-week-onchain-week-17-2026/",
+      "event_at": "2026-04-29T06:31:41+00:00",
+      "cryptocurrency": [
+        "btc"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "short"
+      ],
+      "crypto_general": [
+        "market"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "btc",
+      "metric_name": "short",
+      "metric_value": null,
+      "asset_pair": "btc",
+      "liquidity_metric": "short",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:31234e5334ab:2026042906",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Coinbase + Glassnode: Charting Crypto Q2 2026",
+      "url": "https://insights.glassnode.com/coinbase-glassnode-charting-crypto-q2-2026/",
+      "source_url": "https://insights.glassnode.com/coinbase-glassnode-charting-crypto-q2-2026/",
+      "event_at": "2026-04-29T06:15:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [],
+      "technology": [
+        "on-chain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market",
+        "this",
+        "2026"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "on-chain",
+      "metric_name": "on-chain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "on-chain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026042906",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "The Bitcoin Vector #53",
+      "url": "https://insights.glassnode.com/the-bitcoin-vector-53/",
+      "source_url": "https://insights.glassnode.com/the-bitcoin-vector-53/",
+      "event_at": "2026-04-29T03:11:03+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:9bdaaa88fb28:2026042903",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "The Altcoin Vector #52",
+      "url": "https://insights.glassnode.com/the-altcoin-vector-52/",
+      "source_url": "https://insights.glassnode.com/the-altcoin-vector-52/",
+      "event_at": "2026-04-29T03:05:55+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets",
+        "most",
+        "this"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026042903",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Anatomy of a Liquidity Freeze",
+      "url": "https://insights.glassnode.com/anatomy-of-a-liquidity-freeze/",
+      "source_url": "https://insights.glassnode.com/anatomy-of-a-liquidity-freeze/",
+      "event_at": "2026-04-27T09:41:30+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "liquidity",
+        "dao"
+      ],
+      "market": [],
+      "crypto_general": [
+        "protocol"
+      ],
+      "asset_symbol": "protocol",
+      "project_id": "protocol",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": null,
+      "asset_pair": "protocol",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:protocol",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:5b5bc4e5773f:2026042709",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "BTC Market Pulse: Week 18",
+      "url": "https://insights.glassnode.com/btc-market-pulse-week-18/",
+      "source_url": "https://insights.glassnode.com/btc-market-pulse-week-18/",
+      "event_at": "2026-04-27T06:00:00+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "market",
+        "price"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:9bdaaa88fb28:2026042706",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Strategy Watch #3",
+      "url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "source_url": "https://insights.glassnode.com/strategy-watch-03-2026/",
+      "event_at": "2026-04-23T07:29:42+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "markets",
+        "returns"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:c01d8c23551f:2026042307",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Mean Reclaimed, Rally on Trial",
+      "url": "https://insights.glassnode.com/the-week-onchain-week-16-2026/",
+      "source_url": "https://insights.glassnode.com/the-week-onchain-week-16-2026/",
+      "event_at": "2026-04-22T07:27:26+00:00",
+      "cryptocurrency": [
+        "btc",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "rally",
+        "volatility"
+      ],
+      "crypto_general": [
+        "return"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "rally",
+      "metric_value": null,
+      "asset_pair": "btc",
+      "liquidity_metric": "rally",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:31234e5334ab:2026042207",
+      "required_field_proxy": {
+        "chain": true,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Expanding Glassnode: Macro and Traditional Finance Data",
+      "url": "https://insights.glassnode.com/macro-and-tradfi-data/",
+      "source_url": "https://insights.glassnode.com/macro-and-tradfi-data/",
+      "event_at": "2026-04-16T03:50:55+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "digital",
+        "digital asset",
+        "markets"
+      ],
+      "asset_symbol": "digital",
+      "project_id": "digital",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "digital",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:digital",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:81480cdc4688:2026041603",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": false,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "Glassnode Insights",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "analysis",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "onchain_metric",
+      "title": "Mapping Volatility Through Time: Implied Volatility Heatmaps",
+      "url": "https://insights.glassnode.com/implied-volatility-heatmaps/",
+      "source_url": "https://insights.glassnode.com/implied-volatility-heatmaps/",
+      "event_at": "2026-03-22T23:34:48+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "volatility"
+      ],
+      "crypto_general": [
+        "market",
+        "prices",
+        "time",
+        "new"
+      ],
+      "asset_symbol": "market",
+      "project_id": "market",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "volatility",
+      "metric_value": null,
+      "asset_pair": "market",
+      "liquidity_metric": "volatility",
+      "canonical_key": "crypto_project:market",
+      "canonical_key_status": "complete",
+      "event_key": "onchain_metric:2e9ac426b4ee:2026032223",
+      "required_field_proxy": {
+        "chain": false,
+        "metric_name": true,
+        "metric_value": false
+      },
+      "required_field_gaps": [
+        "chain",
+        "metric_value"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[개장시황] ‘7500 고지’ 밟은 코스피, 사상 최고치 경신…삼전·현대차 강세",
+      "url": "https://www.blockmedia.co.kr/archives/1088651?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1088651?utm_source=general&utm_medium=rss",
+      "event_at": "2026-05-06T15:21:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "상승",
+        "강세"
+      ],
+      "crypto_general": [
+        "거래",
+        "투자",
+        "기자",
+        "대한"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026050615",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
+      "url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
+      "source_url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
+      "event_at": "2026-04-29T17:21:58+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "하락",
+        "반등",
+        "롱",
+        "숏",
+        "청산",
+        "레버리지"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "하락",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "하락",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026042917",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    }
+  ],
+  "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "XRP 현물 ETF, 2580만달러 몰렸다…1월 이후 일일 최대 순유입",
+      "canonical_key": "crypto_project:리플",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "브렌트유 32% 상승 신호…휴전에도 공급 부족 여전",
+      "canonical_key": "crypto_project:블록체인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "봉쇄 대신 ‘통행권’ 발급하는 이란… 이라크·파키스탄과 ‘에너지 밀약’",
+      "canonical_key": "crypto_project:기자",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "미 민주당 슈머 원내대표, ‘클래러티 법안’ 통과 독려… “윤리 규정이 마지막 관문”",
+      "canonical_key": "crypto_project:암호화폐",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[뉴욕증시 마감] 물가·유가·지정학 ‘3중고’…증시, 금리인하 기대 실종에 혼조세",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[야간마감] 미 CPI 쇼크에 ‘강달러’ 재점화…환율 1500원 턱밑 대치",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "“사우디 공군, 이미 3월에 이란 공습”…중동전 물밑 충돌-로이터",
+      "canonical_key": "crypto_project:이번",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블로터",
+      "title": "[베트남 간 K-블록체인]① 개인투자자가 키운 시장, 정부가 판 깔다",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "BTC Market Pulse: Week 20",
+      "canonical_key": "crypto_project:btc",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "The Altcoin Vector #53",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "The Bitcoin Vector #54",
+      "canonical_key": "crypto_project:bitcoin",
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Bulls Approach the Ceiling",
+      "canonical_key": "crypto_project:btc",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "BTC Market Pulse: Week 19",
+      "canonical_key": "crypto_project:bitcoin",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Trapped Below Market Mean",
+      "canonical_key": "crypto_project:btc",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Coinbase + Glassnode: Charting Crypto Q2 2026",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "The Bitcoin Vector #53",
+      "canonical_key": "crypto_project:bitcoin",
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "The Altcoin Vector #52",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Anatomy of a Liquidity Freeze",
+      "canonical_key": "crypto_project:protocol",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "BTC Market Pulse: Week 18",
+      "canonical_key": "crypto_project:bitcoin",
+      "required_field_gaps": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Strategy Watch #3",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Mean Reclaimed, Rally on Trial",
+      "canonical_key": "crypto_project:btc",
+      "required_field_gaps": [
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Expanding Glassnode: Macro and Traditional Finance Data",
+      "canonical_key": "crypto_project:digital",
+      "required_field_gaps": [
+        "chain",
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "onchain_metric",
+      "source": "Glassnode Insights",
+      "title": "Mapping Volatility Through Time: Implied Volatility Heatmaps",
+      "canonical_key": "crypto_project:market",
+      "required_field_gaps": [
+        "chain",
+        "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[개장시황] ‘7500 고지’ 밟은 코스피, 사상 최고치 경신…삼전·현대차 강세",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "liquidity_snapshot"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Upbit listing and delisting notices",
+      "signal_type": "exchange_listing_notice",
+      "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Binance listing and delisting announcements",
+      "signal_type": "exchange_listing_notice",
+      "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "SEC/CFTC crypto regulatory actions",
+      "signal_type": "regulatory_action",
+      "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "DeFiLlama and on-chain metrics",
+      "signal_type": "onchain_metric",
+      "activation_gate": "metric definitions, chain/project mapping, and timestamp normalization"
+    }
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "upbit_notice_feed",
+        "name": "Upbit listing and delisting notices",
+        "signal_type": "exchange_listing_notice",
+        "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
+      },
+      {
+        "id": "binance_announcement_feed",
+        "name": "Binance listing and delisting announcements",
+        "signal_type": "exchange_listing_notice",
+        "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
+      },
+      {
+        "id": "sec_cftc_regulatory_actions",
+        "name": "SEC/CFTC crypto regulatory actions",
+        "signal_type": "regulatory_action",
+        "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
+      },
+      {
+        "id": "defillama_onchain_metrics",
+        "name": "DeFiLlama and on-chain metrics",
+        "signal_type": "onchain_metric",
+        "activation_gate": "metric definitions, chain/project mapping, and timestamp normalization"
+      }
+    ]
+  },
+  "errors": [],
+  "record_quality": {
+    "total_rows": 3443,
+    "missing_title_rows": 0,
+    "missing_link_rows": 0,
+    "missing_summary_rows": 0,
+    "missing_summary_ratio": 0.0,
+    "missing_published_rows": 0,
+    "future_published_rows": 0,
+    "summary_completeness_status": "ok"
+  }
+}
