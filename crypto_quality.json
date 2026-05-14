@@ -1,6 +1,6 @@
 {
   "category": "crypto",
-  "generated_at": "2026-05-14T05:43:26.447485+00:00",
+  "generated_at": "2026-05-14T07:46:05.973892+00:00",
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -20,25 +20,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 14,
+    "exchange_listing_notice_events": 13,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 32,
+    "regulatory_action_events": 36,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 30,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 76,
+    "crypto_signal_event_count": 79,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 46,
-    "complete_canonical_key_count": 76,
+    "news_proxy_event_count": 49,
+    "complete_canonical_key_count": 79,
     "proxy_canonical_key_count": 0,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 76,
+    "asset_symbol_present_count": 79,
     "exchange_present_count": 25,
-    "regulator_present_count": 34,
-    "metric_name_present_count": 45,
+    "regulator_present_count": 38,
+    "metric_name_present_count": 47,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 72,
+    "event_required_field_gap_count": 75,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -58,7 +58,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -83,7 +83,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -133,7 +133,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -183,7 +183,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -208,7 +208,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +233,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -333,7 +333,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -358,7 +358,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -386,7 +386,7 @@
       "article_count": 30,
       "event_count": 30,
       "latest_event_at": "2026-05-13T05:38:31+00:00",
-      "age_days": 1.0,
+      "age_days": 1.09,
       "latest_title": "Rally Without Conviction",
       "latest_url": "https://insights.glassnode.com/the-week-onchain-week-19-2026",
       "latest_cryptocurrency": [
@@ -536,6 +536,58 @@
   ],
   "events": [
     {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "NH농협은행, 금융보안원과 디지털자산 보안 협력 강화",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665800",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665800",
+      "event_at": "2026-05-14T07:23:38+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "검증"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "검증",
+        "기자",
+        "이번",
+        "통해",
+        "위한"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "검증",
+      "metric_name": "검증",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "검증",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026051407",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
       "source": "블로터",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -590,7 +642,7 @@
       ]
     },
     {
-      "source": "블로터",
+      "source": "블록미디어",
       "source_type": "rss",
       "trust_tier": "T3_professional",
       "content_type": "news",
@@ -598,37 +650,41 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "[저평가 리포트] 투게더아트, STO 시장 선점 분주 | 케이옥션③",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=662196",
-      "source_url": "https://www.bloter.net/news/articleView.html?idxno=662196",
-      "event_at": "2026-05-14T00:09:17+00:00",
+      "title": "“미, 금융 혁신 주도권 지켜야”… 암스트롱, 수정 클래리티 법안 공개 지지",
+      "url": "https://www.blockmedia.co.kr/archives/1092008",
+      "source_url": "https://www.blockmedia.co.kr/archives/1092008",
+      "event_at": "2026-05-13T22:37:09+00:00",
       "cryptocurrency": [],
-      "exchange": [],
+      "exchange": [
+        "코인베이스"
+      ],
       "regulation": [
-        "금융감독원"
+        "법안",
+        "디지털자산",
+        "미국"
       ],
       "technology": [],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "투자",
-        "보유",
-        "수익",
-        "시장",
-        "통해"
+      "market": [
+        "롱"
       ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "금융감독원",
+      "crypto_general": [
+        "디지털자산",
+        "코인",
+        "시장",
+        "기자"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "법안",
       "jurisdiction": "",
       "chain": "",
-      "metric_name": "",
+      "metric_name": "롱",
       "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:토큰",
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "롱",
+      "canonical_key": "crypto_project:디지털자산",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026051400",
+      "event_key": "regulatory_action:a03462024f6a:2026051322",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -638,6 +694,100 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "또 다시 터진 ‘코인 과세’ 반발…국민청원 하루 만에 1만명 돌파",
+      "url": "https://www.blockmedia.co.kr/archives/1091992",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091992",
+      "event_at": "2026-05-13T22:20:38+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "기자"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "과세",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026051322",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC issues blanket no-action letter on prediction markets, relieving swap data reporting duties",
+      "url": "https://www.theblock.co/post/401215/cftc-no-action-prediction-market",
+      "source_url": "https://www.theblock.co/post/401215/cftc-no-action-prediction-market",
+      "event_at": "2026-05-13T22:11:12+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [
+        "swap"
+      ],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "asset_symbol": "markets",
+      "project_id": "markets",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "swap",
+      "metric_name": "swap",
+      "metric_value": null,
+      "asset_pair": "markets",
+      "liquidity_metric": "swap",
+      "canonical_key": "crypto_project:markets",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:ef4541e11fdd:2026051322",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "블록미디어",
@@ -814,196 +964,6 @@
       ]
     },
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "제인스트리트, 1분기 비트코인 덜어내고 ‘이더리움 ETF·코인주’ 담았다",
-      "url": "https://www.blockmedia.co.kr/archives/1091831",
-      "source_url": "https://www.blockmedia.co.kr/archives/1091831",
-      "event_at": "2026-05-13T16:10:40+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "sec",
-        "미국"
-      ],
-      "technology": [
-        "채굴",
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "코인",
-        "채굴",
-        "거래",
-        "트레이딩",
-        "투자",
-        "포트폴리오",
-        "보유",
-        "기자",
-        "올해",
-        "대한"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "채굴",
-      "metric_name": "채굴",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "채굴",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026051316",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "제인스트리트, 1분기 비트코인 덜어내고 ‘이더리움 ETF·코인주’ 담았다",
-      "url": "https://www.blockmedia.co.kr/archives/1091831",
-      "source_url": "https://www.blockmedia.co.kr/archives/1091831",
-      "event_at": "2026-05-13T16:10:40+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "sec",
-        "미국"
-      ],
-      "technology": [
-        "채굴",
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "코인",
-        "채굴",
-        "거래",
-        "트레이딩",
-        "투자",
-        "포트폴리오",
-        "보유",
-        "기자",
-        "올해",
-        "대한"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "채굴",
-      "metric_name": "채굴",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "채굴",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026051316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "DEF Warns ‘Anti‑DeFi’ Amendments To CLARITY Act Could Threaten Users, Developer Protections",
-      "url": "https://www.newsbtc.com/news/anti-defi-amendments-clarity-act-users-developers",
-      "source_url": "https://www.newsbtc.com/news/anti-defi-amendments-clarity-act-users-developers",
-      "event_at": "2026-05-13T15:46:10+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec",
-        "aml"
-      ],
-      "technology": [
-        "blockchain",
-        "defi"
-      ],
-      "market": [
-        "rally",
-        "long"
-      ],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital asset",
-        "digital assets",
-        "blockchain",
-        "transfer",
-        "bullish",
-        "market",
-        "worth",
-        "most",
-        "this",
-        "post"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "blockchain",
-      "metric_name": "rally",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "rally",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026051315",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "CoinDesk",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1016,16 +976,7 @@
       "url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
       "source_url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
       "event_at": "2026-05-13T07:43:49+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
+      "cryptocurrency": [],
       "exchange": [
         "listing"
       ],
@@ -1034,26 +985,20 @@
       "market": [],
       "crypto_general": [
         "market",
-        "markets",
-        "price",
-        "prices",
-        "news",
-        "this",
-        "share",
-        "2026"
+        "share"
       ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
+      "asset_symbol": "market",
+      "project_id": "market",
       "regulator": "",
-      "jurisdiction": "EU",
-      "chain": "bitcoin",
+      "jurisdiction": "JAPAN",
+      "chain": "",
       "metric_name": "",
       "metric_value": null,
-      "asset_pair": "bitcoin",
+      "asset_pair": "market",
       "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key": "crypto_project:market",
       "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051307",
+      "event_key": "exchange_listing_notice:2e9ac426b4ee:2026051307",
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
@@ -1147,72 +1092,6 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Crypto wallet provider Ledger puts U.S. IPO plans on hold due to market conditions",
-      "url": "https://www.coindesk.com/business/2026/05/13/crypto-wallet-provider-ledger-puts-u-s-ipo-plans-on-hold-due-to-market-conditions",
-      "source_url": "https://www.coindesk.com/business/2026/05/13/crypto-wallet-provider-ledger-puts-u-s-ipo-plans-on-hold-due-to-market-conditions",
-      "event_at": "2026-05-13T05:42:20+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [
-        "wallet"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "ledger",
-        "wallet",
-        "investor",
-        "hold",
-        "market",
-        "markets",
-        "price",
-        "prices",
-        "news",
-        "this",
-        "share",
-        "2026"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "wallet",
-      "metric_name": "wallet",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "wallet",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051305",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -2154,6 +2033,246 @@
         "chain",
         "metric_value"
       ]
+    },
+    {
+      "source": "블로터",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[저평가 리포트] 투게더아트, STO 시장 선점 분주 | 케이옥션③",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=662196",
+      "source_url": "https://www.bloter.net/news/articleView.html?idxno=662196",
+      "event_at": "2026-05-14T00:09:17+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "금융감독원"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "투자",
+        "보유",
+        "수익",
+        "시장",
+        "통해"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "금융감독원",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026051400",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "제인스트리트, 1분기 비트코인 덜어내고 ‘이더리움 ETF·코인주’ 담았다",
+      "url": "https://www.blockmedia.co.kr/archives/1091831",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091831",
+      "event_at": "2026-05-13T16:10:40+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "sec",
+        "미국"
+      ],
+      "technology": [
+        "채굴",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "코인",
+        "채굴",
+        "거래",
+        "트레이딩",
+        "투자",
+        "포트폴리오",
+        "보유",
+        "기자",
+        "올해",
+        "대한"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "채굴",
+      "metric_name": "채굴",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "채굴",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026051316",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "제인스트리트, 1분기 비트코인 덜어내고 ‘이더리움 ETF·코인주’ 담았다",
+      "url": "https://www.blockmedia.co.kr/archives/1091831",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091831",
+      "event_at": "2026-05-13T16:10:40+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "sec",
+        "미국"
+      ],
+      "technology": [
+        "채굴",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "코인",
+        "채굴",
+        "거래",
+        "트레이딩",
+        "투자",
+        "포트폴리오",
+        "보유",
+        "기자",
+        "올해",
+        "대한"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "채굴",
+      "metric_name": "채굴",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "채굴",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026051316",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "DEF Warns ‘Anti‑DeFi’ Amendments To CLARITY Act Could Threaten Users, Developer Protections",
+      "url": "https://www.newsbtc.com/news/anti-defi-amendments-clarity-act-users-developers",
+      "source_url": "https://www.newsbtc.com/news/anti-defi-amendments-clarity-act-users-developers",
+      "event_at": "2026-05-13T15:46:10+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [
+        "sec",
+        "aml"
+      ],
+      "technology": [
+        "blockchain",
+        "defi"
+      ],
+      "market": [
+        "rally",
+        "long"
+      ],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital asset",
+        "digital assets",
+        "blockchain",
+        "transfer",
+        "bullish",
+        "market",
+        "worth",
+        "most",
+        "this",
+        "post"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "rally",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "rally",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026051315",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -4480,6 +4599,16 @@
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "NH농협은행, 금융보안원과 디지털자산 보안 협력 강화",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
       "source": "블로터",
       "title": "인터넷은행, 수익 포트폴리오 '진격'...3행3색 들여다보니",
       "canonical_key": "crypto_project:스테이블코인",
@@ -4490,9 +4619,19 @@
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "source": "블로터",
-      "title": "[저평가 리포트] 투게더아트, STO 시장 선점 분주 | 케이옥션③",
-      "canonical_key": "crypto_project:토큰",
+      "source": "블록미디어",
+      "title": "“미, 금융 혁신 주도권 지켜야”… 암스트롱, 수정 클래리티 법안 공개 지지",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "또 다시 터진 ‘코인 과세’ 반발…국민청원 하루 만에 1만명 돌파",
+      "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4697,6 +4836,16 @@
       "required_field_gaps": [
         "chain",
         "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블로터",
+      "title": "[저평가 리포트] 투게더아트, STO 시장 선점 분주 | 케이옥션③",
+      "canonical_key": "crypto_project:토큰",
+      "required_field_gaps": [
+        "jurisdiction"
       ]
     },
     {
@@ -4970,26 +5119,6 @@
         "chain",
         "metric_value"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "[개장시황] ‘7500 고지’ 밟은 코스피, 사상 최고치 경신…삼전·현대차 강세",
-      "canonical_key": "crypto_project:거래",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "liquidity_snapshot"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Upbit listing and delisting notices",
-      "signal_type": "exchange_listing_notice",
-      "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
     }
   ],
   "source_backlog": {
@@ -5022,7 +5151,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 3639,
+    "total_rows": 3655,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
