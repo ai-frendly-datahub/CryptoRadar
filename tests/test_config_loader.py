@@ -10,7 +10,7 @@ def test_crypto_category_preserves_source_metadata() -> None:
     assert glassnode.trust_tier == "T2_institutional"
     assert glassnode.content_type == "analysis"
     assert glassnode.collection_tier == "C1_rss"
-    assert glassnode.config["freshness_sla_days"] == 10
+    assert glassnode.config["freshness_sla_days"] == 21
 
     kospi = next(source for source in category.sources if source.name == "KOSPI 종목 리스트")
     assert kospi.type == "financedata"

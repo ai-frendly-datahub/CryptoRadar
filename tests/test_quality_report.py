@@ -84,7 +84,7 @@ def test_quality_report_tracks_operational_analysis_source() -> None:
     source_row = next(row for row in report["sources"] if row["source"] == source.name)
     assert source_row["event_model"] == "onchain_metric"
     assert source_row["status"] == "fresh"
-    assert source_row["freshness_sla_days"] == 10.0
+    assert source_row["freshness_sla_days"] == 21.0
     assert report["summary"]["onchain_metric_events"] == 1
     assert report["summary"]["crypto_signal_event_count"] == 1
     assert report["events"][0]["canonical_key"]
