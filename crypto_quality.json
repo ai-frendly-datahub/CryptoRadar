@@ -1,6 +1,6 @@
 {
   "category": "crypto",
-  "generated_at": "2026-05-14T02:28:26.704335+00:00",
+  "generated_at": "2026-05-14T05:43:26.447485+00:00",
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -20,25 +20,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 13,
+    "exchange_listing_notice_events": 14,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 29,
+    "regulatory_action_events": 32,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 30,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 72,
+    "crypto_signal_event_count": 76,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 42,
-    "complete_canonical_key_count": 72,
+    "news_proxy_event_count": 46,
+    "complete_canonical_key_count": 76,
     "proxy_canonical_key_count": 0,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 72,
-    "exchange_present_count": 23,
-    "regulator_present_count": 31,
-    "metric_name_present_count": 43,
+    "asset_symbol_present_count": 76,
+    "exchange_present_count": 25,
+    "regulator_present_count": 34,
+    "metric_name_present_count": 45,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 69,
+    "event_required_field_gap_count": 72,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -58,7 +58,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -83,7 +83,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -108,7 +108,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -183,7 +183,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -208,7 +208,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +233,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -258,7 +258,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -283,7 +283,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -308,7 +308,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -333,7 +333,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -358,7 +358,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -386,7 +386,7 @@
       "article_count": 30,
       "event_count": 30,
       "latest_event_at": "2026-05-13T05:38:31+00:00",
-      "age_days": 0.87,
+      "age_days": 1.0,
       "latest_title": "Rally Without Conviction",
       "latest_url": "https://insights.glassnode.com/the-week-onchain-week-19-2026",
       "latest_cryptocurrency": [
@@ -536,7 +536,7 @@
   ],
   "events": [
     {
-      "source": "디지털투데이",
+      "source": "블로터",
       "source_type": "rss",
       "trust_tier": "T3_professional",
       "content_type": "news",
@@ -544,104 +544,41 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "이더리움, 강한 상승 준비됐나…JP모건·블랙록 업고 클래리티법 기대까지",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665731",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665731",
-      "event_at": "2026-05-14T01:45:12+00:00",
+      "title": "인터넷은행, 수익 포트폴리오 '진격'...3행3색 들여다보니",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=662299",
+      "source_url": "https://www.bloter.net/news/articleView.html?idxno=662299",
+      "event_at": "2026-05-14T04:44:36+00:00",
       "cryptocurrency": [
-        "이더리움",
-        "eth"
+        "스테이블코인"
       ],
       "exchange": [],
       "regulation": [
-        "법안",
-        "미국"
+        "금융위",
+        "금융위원회",
+        "디지털자산"
       ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [
-        "상승",
-        "반등"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "코인",
-        "토큰",
-        "블록체인",
-        "거래",
-        "시장",
-        "기자",
-        "이번"
-      ],
-      "asset_symbol": "이더리움",
-      "project_id": "이더리움",
-      "regulator": "법안",
-      "jurisdiction": "US",
-      "chain": "블록체인",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "이더리움",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:이더리움",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:27170f9a4ab1:2026051401",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "금융권 엔지니어가 말하는 XRP 300달러 시나리오…관건은 美 클래리티법",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665722",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665722",
-      "event_at": "2026-05-14T01:45:04+00:00",
-      "cryptocurrency": [
-        "니어",
-        "xrp"
-      ],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
+      "technology": [],
       "market": [],
       "crypto_general": [
-        "암호화폐",
-        "블록체인",
+        "디지털자산",
+        "코인",
         "투자",
-        "투자자",
-        "시장",
-        "기자",
-        "많은"
+        "포트폴리오",
+        "수익",
+        "위한"
       ],
-      "asset_symbol": "니어",
-      "project_id": "니어",
-      "regulator": "규제",
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "금융위",
       "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
+      "chain": "스테이블코인",
+      "metric_name": "",
       "metric_value": null,
-      "asset_pair": "니어",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:니어",
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:스테이블코인",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:36f674cfa7cc:2026051401",
+      "event_key": "regulatory_action:246c2458e341:2026051404",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -692,6 +629,180 @@
       "canonical_key": "crypto_project:토큰",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:dc6eb6052ff0:2026051400",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "“규제명확성으로 슈퍼앱 도약”⋯ 바이낸스의 성장 전략",
+      "url": "https://www.blockmedia.co.kr/archives/1091931",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091931",
+      "event_at": "2026-05-13T20:20:19+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "투자",
+        "투자자",
+        "시장",
+        "기자",
+        "위한"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026051320",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[펀드플로] 비트코인 ETF서 9400억원 이탈…기관 자금 ‘차익 실현’ 본격화",
+      "url": "https://www.blockmedia.co.kr/archives/1091962",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091962",
+      "event_at": "2026-05-13T20:03:31+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "급등",
+        "조정"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "코인",
+        "투자",
+        "투자자",
+        "시장",
+        "가격",
+        "기자",
+        "최근"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026051320",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "“채굴기 대신 GPU”… 비트코인 2조원 던지고 AI 인프라 탄 북미 채굴株",
+      "url": "https://www.blockmedia.co.kr/archives/1091842",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091842",
+      "event_at": "2026-05-13T17:51:53+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "채굴"
+      ],
+      "market": [
+        "시세"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "코인",
+        "채굴",
+        "투자",
+        "보유",
+        "기자",
+        "대한"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "채굴",
+      "metric_name": "시세",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "시세",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026051317",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -893,433 +1004,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "[코인시황] 비트코인, 美 PPI 충격에 8만달러 하회…써클은 3% 상승",
-      "url": "https://www.blockmedia.co.kr/archives/1091803",
-      "source_url": "https://www.blockmedia.co.kr/archives/1091803",
-      "event_at": "2026-05-13T14:47:04+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "스테이블코인",
-        "usdc"
-      ],
-      "exchange": [
-        "업비트",
-        "거래소"
-      ],
-      "regulation": [
-        "법안",
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "상승",
-        "매도"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "코인",
-        "거래",
-        "매도",
-        "시장",
-        "가격",
-        "기자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "법안",
-      "jurisdiction": "US",
-      "chain": "비트코인",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026051314",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "XRP’s 1,220% Spike, What’s Going On And Who’s Driving The Growth?",
-      "url": "https://www.newsbtc.com/xrp-news/whats-driving-xrps-1220-spike",
-      "source_url": "https://www.newsbtc.com/xrp-news/whats-driving-xrps-1220-spike",
-      "event_at": "2026-05-13T13:00:45+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "rally"
-      ],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital asset",
-        "ledger",
-        "yield",
-        "investment",
-        "investors",
-        "bullish",
-        "market",
-        "markets",
-        "price",
-        "value",
-        "year",
-        "most",
-        "new",
-        "latest",
-        "this",
-        "2026"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "rally",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "rally",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051313",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "[주요 경제·디지털자산 일정] 미국 상원 은행위원회 클래리티 법안 심사·수정 外",
-      "url": "https://www.blockmedia.co.kr/archives/1091242",
-      "source_url": "https://www.blockmedia.co.kr/archives/1091242",
-      "event_at": "2026-05-13T13:00:31+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "법안",
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "디지털자산"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "법안",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026051313",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "日 투자자, 美 국채 300억달러 ‘투매’… 4년 만에 최대 규모",
-      "url": "https://www.blockmedia.co.kr/archives/1091784",
-      "source_url": "https://www.blockmedia.co.kr/archives/1091784",
-      "event_at": "2026-05-13T12:57:12+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국",
-        "일본"
-      ],
-      "technology": [],
-      "market": [
-        "급등",
-        "조정"
-      ],
-      "crypto_general": [
-        "투자",
-        "투자자",
-        "기자",
-        "지난",
-        "발표"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "급등",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "급등",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:91da77d2beae:2026051312",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Ripple CEO Reveals What It Would Mean For XRP Holders If The Company Went Public",
-      "url": "https://www.newsbtc.com/analysis/xrp/ripple-ceo-xrp-holders-public",
-      "source_url": "https://www.newsbtc.com/analysis/xrp/ripple-ceo-xrp-holders-public",
-      "event_at": "2026-05-13T12:00:47+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp"
-      ],
-      "exchange": [
-        "exchange",
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [
-        "liquidity"
-      ],
-      "market": [
-        "rally",
-        "long"
-      ],
-      "crypto_general": [
-        "crypto",
-        "token",
-        "investor",
-        "investors",
-        "holding",
-        "market",
-        "time",
-        "now",
-        "here",
-        "this",
-        "share"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051312",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "A Quiet Rotation Into Altcoins May Already Be Underway: Altseason Hopes Return",
-      "url": "https://www.newsbtc.com/altcoin/a-quiet-rotation-into-altcoins-may-already-be-underway-altseason-hopes-return",
-      "source_url": "https://www.newsbtc.com/altcoin/a-quiet-rotation-into-altcoins-may-already-be-underway-altseason-hopes-return",
-      "event_at": "2026-05-13T11:00:32+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "xrp",
-        "solana",
-        "bnb",
-        "near"
-      ],
-      "exchange": [
-        "binance"
-      ],
-      "regulation": [],
-      "technology": [
-        "liquidity",
-        "etf"
-      ],
-      "market": [
-        "rally",
-        "correction",
-        "market cap",
-        "volume",
-        "bull",
-        "bear",
-        "long",
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto",
-        "trading",
-        "investor",
-        "investors",
-        "hold",
-        "holding",
-        "bearish",
-        "market",
-        "markets",
-        "price",
-        "worth",
-        "return",
-        "today",
-        "time",
-        "now",
-        "most",
-        "top",
-        "first",
-        "here",
-        "this",
-        "looking",
-        "need",
-        "2026",
-        "2025"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051311",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Ledger Joins Kraken in Pausing US IPO, Stalling Crypto’s 2026 Public Listing Wave",
-      "url": "https://beincrypto.com/ledger-pauses-us-ipo-market-conditions",
-      "source_url": "https://beincrypto.com/ledger-pauses-us-ipo-market-conditions",
-      "event_at": "2026-05-13T08:03:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "kraken",
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "ledger",
-        "market",
-        "first",
-        "post",
-        "2026"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:c01d8c23551f:2026051308",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "CoinDesk",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1332,7 +1016,16 @@
       "url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
       "source_url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
       "event_at": "2026-05-13T07:43:49+00:00",
-      "cryptocurrency": [],
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
       "exchange": [
         "listing"
       ],
@@ -1341,20 +1034,26 @@
       "market": [],
       "crypto_general": [
         "market",
-        "share"
+        "markets",
+        "price",
+        "prices",
+        "news",
+        "this",
+        "share",
+        "2026"
       ],
-      "asset_symbol": "market",
-      "project_id": "market",
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
       "regulator": "",
-      "jurisdiction": "JAPAN",
-      "chain": "",
+      "jurisdiction": "EU",
+      "chain": "bitcoin",
       "metric_name": "",
       "metric_value": null,
-      "asset_pair": "market",
+      "asset_pair": "bitcoin",
       "liquidity_metric": "",
-      "canonical_key": "crypto_project:market",
+      "canonical_key": "crypto_project:bitcoin",
       "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:2e9ac426b4ee:2026051307",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051307",
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
@@ -1448,6 +1147,72 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Crypto wallet provider Ledger puts U.S. IPO plans on hold due to market conditions",
+      "url": "https://www.coindesk.com/business/2026/05/13/crypto-wallet-provider-ledger-puts-u-s-ipo-plans-on-hold-due-to-market-conditions",
+      "source_url": "https://www.coindesk.com/business/2026/05/13/crypto-wallet-provider-ledger-puts-u-s-ipo-plans-on-hold-due-to-market-conditions",
+      "event_at": "2026-05-13T05:42:20+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "wallet"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "ledger",
+        "wallet",
+        "investor",
+        "hold",
+        "market",
+        "markets",
+        "price",
+        "prices",
+        "news",
+        "this",
+        "share",
+        "2026"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "wallet",
+      "metric_name": "wallet",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "wallet",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051305",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -1643,53 +1408,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC backs prediction market Kalshi in appeals court fight against Ohio",
-      "url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight",
-      "source_url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight",
-      "event_at": "2026-05-12T20:07:10+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "trading",
-        "market",
-        "markets"
-      ],
-      "asset_symbol": "trading",
-      "project_id": "trading",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "futures",
-      "metric_value": null,
-      "asset_pair": "trading",
-      "liquidity_metric": "futures",
-      "canonical_key": "crypto_project:trading",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:6894219b8c51:2026051220",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -2436,6 +2154,597 @@
         "chain",
         "metric_value"
       ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "이더리움, 강한 상승 준비됐나…JP모건·블랙록 업고 클래리티법 기대까지",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665731",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665731",
+      "event_at": "2026-05-14T01:45:12+00:00",
+      "cryptocurrency": [
+        "이더리움",
+        "eth"
+      ],
+      "exchange": [],
+      "regulation": [
+        "법안",
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "상승",
+        "반등"
+      ],
+      "crypto_general": [
+        "암호화폐",
+        "코인",
+        "토큰",
+        "블록체인",
+        "거래",
+        "시장",
+        "기자",
+        "이번"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "법안",
+      "jurisdiction": "US",
+      "chain": "블록체인",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:27170f9a4ab1:2026051401",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "금융권 엔지니어가 말하는 XRP 300달러 시나리오…관건은 美 클래리티법",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665722",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=665722",
+      "event_at": "2026-05-14T01:45:04+00:00",
+      "cryptocurrency": [
+        "니어",
+        "xrp"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "투자",
+        "투자자",
+        "시장",
+        "기자",
+        "많은"
+      ],
+      "asset_symbol": "니어",
+      "project_id": "니어",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "니어",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:니어",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:36f674cfa7cc:2026051401",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[코인시황] 비트코인, 美 PPI 충격에 8만달러 하회…써클은 3% 상승",
+      "url": "https://www.blockmedia.co.kr/archives/1091803",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091803",
+      "event_at": "2026-05-13T14:47:04+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "스테이블코인",
+        "usdc"
+      ],
+      "exchange": [
+        "업비트",
+        "거래소"
+      ],
+      "regulation": [
+        "법안",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "상승",
+        "매도"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "코인",
+        "거래",
+        "매도",
+        "시장",
+        "가격",
+        "기자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "법안",
+      "jurisdiction": "US",
+      "chain": "비트코인",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026051314",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "XRP’s 1,220% Spike, What’s Going On And Who’s Driving The Growth?",
+      "url": "https://www.newsbtc.com/xrp-news/whats-driving-xrps-1220-spike",
+      "source_url": "https://www.newsbtc.com/xrp-news/whats-driving-xrps-1220-spike",
+      "event_at": "2026-05-13T13:00:45+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "rally"
+      ],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital asset",
+        "ledger",
+        "yield",
+        "investment",
+        "investors",
+        "bullish",
+        "market",
+        "markets",
+        "price",
+        "value",
+        "year",
+        "most",
+        "new",
+        "latest",
+        "this",
+        "2026"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "etf",
+      "metric_name": "rally",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "rally",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051313",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[주요 경제·디지털자산 일정] 미국 상원 은행위원회 클래리티 법안 심사·수정 外",
+      "url": "https://www.blockmedia.co.kr/archives/1091242",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091242",
+      "event_at": "2026-05-13T13:00:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "법안",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "법안",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026051313",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "日 투자자, 美 국채 300억달러 ‘투매’… 4년 만에 최대 규모",
+      "url": "https://www.blockmedia.co.kr/archives/1091784",
+      "source_url": "https://www.blockmedia.co.kr/archives/1091784",
+      "event_at": "2026-05-13T12:57:12+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국",
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "조정"
+      ],
+      "crypto_general": [
+        "투자",
+        "투자자",
+        "기자",
+        "지난",
+        "발표"
+      ],
+      "asset_symbol": "투자",
+      "project_id": "투자",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "투자",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:투자",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:91da77d2beae:2026051312",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Ripple CEO Reveals What It Would Mean For XRP Holders If The Company Went Public",
+      "url": "https://www.newsbtc.com/analysis/xrp/ripple-ceo-xrp-holders-public",
+      "source_url": "https://www.newsbtc.com/analysis/xrp/ripple-ceo-xrp-holders-public",
+      "event_at": "2026-05-13T12:00:47+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp"
+      ],
+      "exchange": [
+        "exchange",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "liquidity"
+      ],
+      "market": [
+        "rally",
+        "long"
+      ],
+      "crypto_general": [
+        "crypto",
+        "token",
+        "investor",
+        "investors",
+        "holding",
+        "market",
+        "time",
+        "now",
+        "here",
+        "this",
+        "share"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051312",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "A Quiet Rotation Into Altcoins May Already Be Underway: Altseason Hopes Return",
+      "url": "https://www.newsbtc.com/altcoin/a-quiet-rotation-into-altcoins-may-already-be-underway-altseason-hopes-return",
+      "source_url": "https://www.newsbtc.com/altcoin/a-quiet-rotation-into-altcoins-may-already-be-underway-altseason-hopes-return",
+      "event_at": "2026-05-13T11:00:32+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "xrp",
+        "solana",
+        "bnb",
+        "near"
+      ],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [],
+      "technology": [
+        "liquidity",
+        "etf"
+      ],
+      "market": [
+        "rally",
+        "correction",
+        "market cap",
+        "volume",
+        "bull",
+        "bear",
+        "long",
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto",
+        "trading",
+        "investor",
+        "investors",
+        "hold",
+        "holding",
+        "bearish",
+        "market",
+        "markets",
+        "price",
+        "worth",
+        "return",
+        "today",
+        "time",
+        "now",
+        "most",
+        "top",
+        "first",
+        "here",
+        "this",
+        "looking",
+        "need",
+        "2026",
+        "2025"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026051311",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Ledger Joins Kraken in Pausing US IPO, Stalling Crypto’s 2026 Public Listing Wave",
+      "url": "https://beincrypto.com/ledger-pauses-us-ipo-market-conditions",
+      "source_url": "https://beincrypto.com/ledger-pauses-us-ipo-market-conditions",
+      "event_at": "2026-05-13T08:03:03+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "kraken",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "ledger",
+        "market",
+        "first",
+        "post",
+        "2026"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026051308",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC backs prediction market Kalshi in appeals court fight against Ohio",
+      "url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight",
+      "source_url": "https://cointelegraph.com/news/cftc-backs-kalshi-appeals-court-ohio-prediction-markets-fight",
+      "event_at": "2026-05-12T20:07:10+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [
+        "futures"
+      ],
+      "crypto_general": [
+        "trading",
+        "market",
+        "markets"
+      ],
+      "asset_symbol": "trading",
+      "project_id": "trading",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "futures",
+      "metric_value": null,
+      "asset_pair": "trading",
+      "liquidity_metric": "futures",
+      "canonical_key": "crypto_project:trading",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:6894219b8c51:2026051220",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -4165,73 +4474,15 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
-      "url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
-      "source_url": "https://www.blockmedia.co.kr/archives/1085745?utm_source=general&utm_medium=rss",
-      "event_at": "2026-04-29T17:21:58+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "디지털자산"
-      ],
-      "technology": [],
-      "market": [
-        "하락",
-        "반등",
-        "롱",
-        "숏",
-        "청산",
-        "레버리지"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "코인",
-        "시장",
-        "기자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "비트코인",
-      "metric_name": "하락",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "하락",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026042917",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "금융권 엔지니어가 말하는 XRP 300달러 시나리오…관건은 美 클래리티법",
-      "canonical_key": "crypto_project:니어",
+      "source": "블로터",
+      "title": "인터넷은행, 수익 포트폴리오 '진격'...3행3색 들여다보니",
+      "canonical_key": "crypto_project:스테이블코인",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4250,8 +4501,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
-      "title": "[주요 경제·디지털자산 일정] 미국 상원 은행위원회 클래리티 법안 심사·수정 外",
-      "canonical_key": "crypto_project:디지털자산",
+      "title": "“규제명확성으로 슈퍼앱 도약”⋯ 바이낸스의 성장 전략",
+      "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4260,8 +4511,18 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
-      "title": "日 투자자, 美 국채 300억달러 ‘투매’… 4년 만에 최대 규모",
-      "canonical_key": "crypto_project:투자",
+      "title": "[펀드플로] 비트코인 ETF서 9400억원 이탈…기관 자금 ‘차익 실현’ 본격화",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "“채굴기 대신 GPU”… 비트코인 2조원 던지고 AI 인프라 탄 북미 채굴株",
+      "canonical_key": "crypto_project:비트코인",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4436,6 +4697,36 @@
       "required_field_gaps": [
         "chain",
         "metric_value"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "금융권 엔지니어가 말하는 XRP 300달러 시나리오…관건은 美 클래리티법",
+      "canonical_key": "crypto_project:니어",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[주요 경제·디지털자산 일정] 미국 상원 은행위원회 클래리티 법안 심사·수정 外",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "日 투자자, 美 국채 300억달러 ‘투매’… 4년 만에 최대 규모",
+      "canonical_key": "crypto_project:투자",
+      "required_field_gaps": [
+        "jurisdiction"
       ]
     },
     {
@@ -4691,16 +4982,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "[파생시황] 5.5억달러 청산 후 방향 전환…비트코인, ‘청산 주도 반등’ 시작됐나",
-      "canonical_key": "crypto_project:비트코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "missing_event_model",
       "event_model": "liquidity_snapshot"
     },
@@ -4709,24 +4990,6 @@
       "source": "Upbit listing and delisting notices",
       "signal_type": "exchange_listing_notice",
       "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Binance listing and delisting announcements",
-      "signal_type": "exchange_listing_notice",
-      "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "SEC/CFTC crypto regulatory actions",
-      "signal_type": "regulatory_action",
-      "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "DeFiLlama and on-chain metrics",
-      "signal_type": "onchain_metric",
-      "activation_gate": "metric definitions, chain/project mapping, and timestamp normalization"
     }
   ],
   "source_backlog": {
@@ -4759,7 +5022,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 3611,
+    "total_rows": 3639,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
