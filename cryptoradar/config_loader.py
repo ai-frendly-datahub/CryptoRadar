@@ -6,10 +6,12 @@ from typing import cast
 import yaml
 from radar_core.models import (
     CategoryConfig,
+    EmailConfig,
     EntityDefinition,
-    NotificationConfig,
     RadarSettings,
     Source,
+    StandardNotificationConfig,
+    WebhookConfig,
 )
 
 
@@ -76,6 +78,17 @@ def _dict(d: dict[str, object], k: str) -> dict[str, object]:
     return {}
 
 
+def _list_of_dicts(d: dict[str, object], k: str) -> list[dict[str, object]]:
+    v = d.get(k)
+    if not isinstance(v, list):
+        return []
+    return [
+        {str(key): value for key, value in cast(dict[object, object], item).items()}
+        for item in v
+        if isinstance(item, dict)
+    ]
+
+
 def _path(val: str) -> Path:
     p = Path(val).expanduser()
     return p if p.is_absolute() else (_PROJECT_ROOT / p).resolve()
@@ -101,46 +114,42 @@ def load_category_config(category_name: str, categories_dir: Path | None = None)
         raise FileNotFoundError(f"Category config not found: {f}")
     raw = _read_yaml(f)
     sources = []
-    for s in raw.get("sources") or []:
-        if isinstance(s, dict):
-            sd = {str(k): v for k, v in cast(dict[object, object], s).items()}
-            sources.append(
-                Source(
-                    name=_str(sd, "name", "Unnamed"),
-                    type=_str(sd, "type", "rss"),
-                    url=_str(sd, "url"),
-                    id=_str(sd, "id"),
-                    enabled=_bool(sd, "enabled", True),
-                    language=_str(sd, "language"),
-                    country=_str(sd, "country"),
-                    region=_str(sd, "region"),
-                    trust_tier=_str(sd, "trust_tier", "T3_professional"),
-                    weight=_float(sd, "weight", 1.0),
-                    content_type=_str(sd, "content_type", "news"),
-                    collection_tier=_str(sd, "collection_tier", "C1_rss"),
-                    producer_role=_str(sd, "producer_role"),
-                    info_purpose=_str_list(sd, "info_purpose"),
-                    notes=_str(sd, "notes"),
-                    config=_dict(sd, "config"),
-                )
+    for sd in _list_of_dicts(raw, "sources"):
+        sources.append(
+            Source(
+                name=_str(sd, "name", "Unnamed"),
+                type=_str(sd, "type", "rss"),
+                url=_str(sd, "url"),
+                id=_str(sd, "id"),
+                enabled=_bool(sd, "enabled", True),
+                language=_str(sd, "language"),
+                country=_str(sd, "country"),
+                region=_str(sd, "region"),
+                trust_tier=_str(sd, "trust_tier", "T3_professional"),
+                weight=_float(sd, "weight", 1.0),
+                content_type=_str(sd, "content_type", "news"),
+                collection_tier=_str(sd, "collection_tier", "C1_rss"),
+                producer_role=_str(sd, "producer_role"),
+                info_purpose=_str_list(sd, "info_purpose"),
+                notes=_str(sd, "notes"),
+                config=_dict(sd, "config"),
             )
+        )
     entities = []
-    for e in raw.get("entities") or []:
-        if isinstance(e, dict):
-            ed = {str(k): v for k, v in cast(dict[object, object], e).items()}
-            kw_raw = ed.get("keywords", [])
-            kws = [
-                str(k).strip()
-                for k in (kw_raw if isinstance(kw_raw, list) else [])
-                if str(k).strip()
-            ]
-            entities.append(
-                EntityDefinition(
-                    name=_str(ed, "name", "entity"),
-                    display_name=_str(ed, "display_name", _str(ed, "name", "entity")),
-                    keywords=kws,
-                )
+    for ed in _list_of_dicts(raw, "entities"):
+        kw_raw = ed.get("keywords", [])
+        kws = [
+            str(k).strip()
+            for k in (kw_raw if isinstance(kw_raw, list) else [])
+            if str(k).strip()
+        ]
+        entities.append(
+            EntityDefinition(
+                name=_str(ed, "name", "entity"),
+                display_name=_str(ed, "display_name", _str(ed, "name", "entity")),
+                keywords=kws,
             )
+        )
     dn = _str(raw, "display_name") or _str(raw, "category_name") or category_name
     return CategoryConfig(
         category_name=_str(raw, "category_name", category_name),
@@ -164,11 +173,50 @@ def load_category_quality_config(
     }
 
 
-def load_notification_config(config_path: Path | None = None) -> NotificationConfig:
+def load_notification_config(config_path: Path | None = None) -> StandardNotificationConfig:
     f = config_path or _PROJECT_ROOT / "config" / "notifications.yaml"
     if not f.exists():
-        return NotificationConfig(enabled=False, channels=[])
-    return NotificationConfig(enabled=False, channels=[])
+        settings_path = _PROJECT_ROOT / "config" / "config.yaml"
+        if not settings_path.exists():
+            return StandardNotificationConfig(enabled=False, channels=[])
+        f = settings_path
+    raw = _read_yaml(f)
+    notifications = _dict(raw, "notifications")
+    if not notifications:
+        notifications = raw
+
+    channels = _str_list(notifications, "channels")
+    email_raw = _dict(notifications, "email")
+    webhook_raw = _dict(notifications, "webhook")
+    if _bool(email_raw, "enabled", False) and "email" not in channels:
+        channels.append("email")
+    if _bool(webhook_raw, "enabled", False) and "webhook" not in channels:
+        channels.append("webhook")
+
+    headers = {
+        str(key): str(value)
+        for key, value in _dict(webhook_raw, "headers").items()
+        if str(key).strip()
+    }
+    return StandardNotificationConfig(
+        enabled=_bool(notifications, "enabled", False),
+        channels=channels,
+        email=EmailConfig(
+            enabled=_bool(email_raw, "enabled", False),
+            smtp_host=_str(email_raw, "smtp_host"),
+            smtp_port=int(_float(email_raw, "smtp_port", 587)),
+            smtp_user=_str(email_raw, "smtp_user"),
+            smtp_password=_str(email_raw, "smtp_password"),
+            from_addr=_str(email_raw, "from_addr"),
+            to_addrs=_str_list(email_raw, "to_addrs"),
+        ),
+        webhook=WebhookConfig(
+            enabled=_bool(webhook_raw, "enabled", False),
+            url=_str(webhook_raw, "url"),
+            method=_str(webhook_raw, "method", "POST"),
+            headers=headers,
+        ),
+    )
 
 
 __all__ = [

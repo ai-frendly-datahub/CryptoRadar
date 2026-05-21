@@ -5,7 +5,12 @@ from datetime import UTC, datetime
 import pytest
 
 from cryptoradar.models import Article, CategoryConfig
-from cryptoradar.reporter import generate_index_html, generate_report
+from cryptoradar.reporter import (
+    _inject_crypto_quality_panel,
+    _render_crypto_quality_panel,
+    generate_index_html,
+    generate_report,
+)
 
 
 @pytest.fixture()
@@ -145,6 +150,38 @@ class TestGenerateReport:
         assert '"repo": "CryptoRadar"' in summary
         assert '"ontology_version": "0.1.0"' in summary
         assert '"crypto.exchange_listing_notice"' in summary
+
+    def test_render_quality_panel_distinguishes_official_and_proxy_counts(self):
+        html = _render_crypto_quality_panel(
+            {
+                "summary": {
+                    "official_or_operational_event_count": 2,
+                    "news_proxy_event_count": 5,
+                },
+                "events": [],
+                "daily_review_items": [
+                    {
+                        "reason": "source_stale",
+                        "source": "Glassnode Insights",
+                    }
+                ],
+            }
+        )
+
+        assert "Official events" in html
+        assert "News proxies" in html
+        assert "source_stale: Glassnode Insights" in html
+        assert "No crypto quality events were observed" in html
+
+    def test_inject_quality_panel_appends_when_body_marker_missing(self, tmp_path):
+        output = tmp_path / "report.html"
+        output.write_text("<html><main>Report</main></html>", encoding="utf-8")
+
+        _inject_crypto_quality_panel(output, {"summary": {}, "events": [], "daily_review_items": []})
+
+        html = output.read_text(encoding="utf-8")
+        assert "<main>Report</main></html>" in html
+        assert 'id="crypto-quality"' in html
 
 
 class TestGenerateIndexHtml:

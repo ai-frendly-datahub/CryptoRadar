@@ -88,3 +88,18 @@ class TestApplyEntityRules:
         result = apply_entity_rules(articles, entities)
 
         assert "비트코인" in result[0].matched_entities
+
+    def test_stablecoin_keyword(self):
+        """Stablecoin articles should be treated as crypto context."""
+        articles = [_make_article("Euro stablecoin consortium expands")]
+        entities = [
+            EntityDefinition(
+                name="Cryptocurrency",
+                display_name="암호화폐",
+                keywords=["stablecoin", "stablecoins"],
+            )
+        ]
+
+        result = apply_entity_rules(articles, entities)
+
+        assert result[0].matched_entities == {"Cryptocurrency": ["stablecoin"]}

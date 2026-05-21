@@ -4,8 +4,16 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from cryptoradar.config_loader import load_category_config, load_category_quality_config
-from cryptoradar.models import Article
-from cryptoradar.quality_report import build_quality_report, write_quality_report
+from cryptoradar.models import Article, Source
+from cryptoradar.quality_report import (
+    _canonical_key,
+    _metric_value,
+    _required_field_gaps,
+    _source_event_model,
+    _source_status,
+    build_quality_report,
+    write_quality_report,
+)
 
 
 def test_quality_report_tracks_listing_and_regulatory_proxy_events() -> None:
@@ -55,6 +63,61 @@ def test_quality_report_tracks_listing_and_regulatory_proxy_events() -> None:
     assert all("required_field_gaps" in event for event in report["events"])
 
 
+def test_public_listing_language_does_not_create_exchange_listing_notice() -> None:
+    category = load_category_config("crypto")
+    source = next(source for source in category.sources if source.name == "CoinDesk")
+    article = Article(
+        title="Securitize gears up for public listing",
+        link="https://example.com/public-listing",
+        summary="A crypto firm prepares for an IPO and public listing.",
+        published=datetime(2026, 5, 21, tzinfo=UTC),
+        source=source.name,
+        category=category.category_name,
+        matched_entities={
+            "Cryptocurrency": ["crypto"],
+            "Exchange": ["listing"],
+            "CryptoGeneral": ["crypto"],
+        },
+    )
+
+    report = build_quality_report(
+        category=category,
+        articles=[article],
+        quality_config=load_category_quality_config("crypto"),
+        generated_at=datetime(2026, 5, 21, tzinfo=UTC),
+    )
+
+    assert report["summary"]["exchange_listing_notice_events"] == 0
+    assert report["events"] == []
+
+
+def test_regulator_mention_without_action_does_not_create_regulatory_action() -> None:
+    category = load_category_config("crypto")
+    source = next(source for source in category.sources if source.name == "CoinDesk")
+    article = Article(
+        title="Bitcoin traders watch the SEC calendar",
+        link="https://example.com/sec-calendar",
+        summary="Analysts mention SEC timing as one market factor without a new decision.",
+        published=datetime(2026, 5, 21, tzinfo=UTC),
+        source=source.name,
+        category=category.category_name,
+        matched_entities={
+            "Cryptocurrency": ["bitcoin"],
+            "Regulation": ["SEC"],
+        },
+    )
+
+    report = build_quality_report(
+        category=category,
+        articles=[article],
+        quality_config=load_category_quality_config("crypto"),
+        generated_at=datetime(2026, 5, 21, tzinfo=UTC),
+    )
+
+    assert report["summary"]["regulatory_action_events"] == 0
+    assert report["events"] == []
+
+
 def test_quality_report_tracks_operational_analysis_source() -> None:
     category = load_category_config("crypto")
     source = next(source for source in category.sources if source.name == "Glassnode Insights")
@@ -90,6 +153,24 @@ def test_quality_report_tracks_operational_analysis_source() -> None:
     assert report["events"][0]["canonical_key"]
 
 
+def test_onchain_metric_value_parses_common_units() -> None:
+    article = Article(
+        title="Ethereum TVL reaches $1.25B after staking inflows",
+        link="https://example.com/onchain-metric",
+        summary="Glassnode notes liquidity and volume gains in the latest on-chain update.",
+        published=datetime(2026, 5, 21, tzinfo=UTC),
+        source="Glassnode Insights",
+        category="crypto",
+        matched_entities={
+            "Cryptocurrency": ["ethereum"],
+            "Technology": ["on-chain", "staking"],
+            "Market": ["volume"],
+        },
+    )
+
+    assert _metric_value(article) == 1_250_000_000
+
+
 def test_equity_context_sources_do_not_mask_crypto_liquidity_gap() -> None:
     category = load_category_config("crypto")
     report = build_quality_report(
@@ -112,6 +193,32 @@ def test_equity_context_sources_do_not_mask_crypto_liquidity_gap() -> None:
     assert "liquidity_snapshot" in report["summary"]["unconfigured_tracked_event_models"]
 
 
+def test_disabled_sources_do_not_count_historical_articles_in_quality_rows() -> None:
+    category = load_category_config("crypto")
+    disabled_source = next(source for source in category.sources if source.name == "코인데스크 코리아")
+    article = Article(
+        title="Bitcoin historical item from disabled feed",
+        link="https://example.com/disabled-feed",
+        summary="Bitcoin item that should not count while source is disabled.",
+        published=datetime(2026, 5, 21, tzinfo=UTC),
+        source=disabled_source.name,
+        category=category.category_name,
+        matched_entities={"Cryptocurrency": ["bitcoin"]},
+    )
+
+    report = build_quality_report(
+        category=category,
+        articles=[article],
+        quality_config=load_category_quality_config("crypto"),
+        generated_at=datetime(2026, 5, 21, tzinfo=UTC),
+    )
+
+    row = next(row for row in report["sources"] if row["source"] == disabled_source.name)
+    assert row["status"] == "skipped_disabled"
+    assert row["article_count"] == 0
+    assert row["event_count"] == 0
+
+
 def test_write_quality_report_writes_latest_and_dated_files(tmp_path: Path) -> None:
     report = {
         "category": "crypto",
@@ -125,3 +232,77 @@ def test_write_quality_report_writes_latest_and_dated_files(tmp_path: Path) -> N
     assert paths["dated"] == tmp_path / "crypto_20260413_quality.json"
     assert paths["latest"].exists()
     assert paths["dated"].exists()
+
+
+def test_quality_report_helper_branches_cover_operational_models() -> None:
+    assert _source_event_model(Source(name="Price Feed", type="rss", url="", content_type="price")) == ""
+    assert (
+        _source_event_model(Source(name="Liquidity", type="rss", url="", content_type="crypto_market"))
+        == "liquidity_snapshot"
+    )
+    assert _source_event_model(Source(name="SEC", type="rss", url="", content_type="regulation")) == "regulatory_action"
+    assert (
+        _source_event_model(Source(name="Listings", type="rss", url="", content_type="listing"))
+        == "exchange_listing_notice"
+    )
+
+    assert (
+        _source_status(
+            source=Source(name="S", type="rss", url=""),
+            event_model="exchange_listing_notice",
+            tracked_event_models={"exchange_listing_notice"},
+            article_count=1,
+            event_count=0,
+            latest_event_at=None,
+            sla_days=None,
+            age_days=None,
+        )
+        == "missing_event"
+    )
+    assert (
+        _source_status(
+            source=Source(name="S", type="rss", url=""),
+            event_model="exchange_listing_notice",
+            tracked_event_models={"exchange_listing_notice"},
+            article_count=1,
+            event_count=1,
+            latest_event_at=None,
+            sla_days=None,
+            age_days=None,
+        )
+        == "unknown_event_date"
+    )
+    assert (
+        _source_status(
+            source=Source(name="S", type="rss", url=""),
+            event_model="exchange_listing_notice",
+            tracked_event_models={"exchange_listing_notice"},
+            article_count=1,
+            event_count=1,
+            latest_event_at=datetime(2026, 1, 1, tzinfo=UTC),
+            sla_days=1,
+            age_days=2,
+        )
+        == "stale"
+    )
+
+
+def test_canonical_key_and_required_field_edge_cases() -> None:
+    assert _canonical_key({"event_model": "exchange_listing_notice", "cryptocurrency": ["BTC"]}) == (
+        "crypto_asset:btc",
+        "asset_proxy",
+    )
+    assert _canonical_key(
+        {
+            "event_model": "regulatory_action",
+            "regulator": "SEC",
+            "jurisdiction": "US",
+        }
+    ) == ("reg_action:sec:us", "regulator_proxy")
+    assert _canonical_key({"event_model": "unknown", "source": "Feed", "title": "Some Title"})[1] == "source_proxy"
+    assert _canonical_key({"event_model": "unknown"}) == ("", "missing")
+
+    row = {"event_model": "liquidity_snapshot", "asset_pair": "BTC-USD", "liquidity_metric": "volume"}
+    source = Source(name="Price", type="rss", url="", content_type="price")
+
+    assert _required_field_gaps(row, source, "liquidity_snapshot", {}) == []

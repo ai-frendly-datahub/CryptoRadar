@@ -6,7 +6,7 @@
 
 ## 프로젝트 목표
 
-- **데이터 수집**: 블록미디어, 코인텔레그래프, 코인리더스, 디센터 등 주요 암호화폐 뉴스 RSS
+- **데이터 수집**: 블록미디어, 코인데스크 코리아, 블로터, 디지털투데이, CoinTelegraph, CoinDesk 등 주요 암호화폐 RSS
 - **엔티티 분석**: 암호화폐, 거래소, 규제/정책, 기술, 시장 키워드 매칭
 - **트렌드 리포트**: DuckDB 저장 + HTML 리포트로 암호화폐 동향 시각화
 - **자동화**: GitHub Actions 일일 수집 + GitHub Pages 리포트 자동 배포
@@ -16,9 +16,20 @@
 | 소스 | URL | 설명 |
 |------|-----|------|
 | 블록미디어 | https://www.blockmedia.co.kr/feed | 국내 대표 블록체인/암호화폐 뉴스 |
-| 코인텔레그래프 | https://cointelegraph.com/rss | 글로벌 암호화폐 뉴스 |
-| 코인리더스 | https://www.coinreaders.com/feed | 한국 암호화폐 뉴스 |
-| 디센터 | https://www.decenter.kr/rss/S1N29.xml | 한겨레 블록체인 전문 매체 |
+| 코인데스크 코리아 | https://www.coindeskkorea.com/rss/ | 국내 암호화폐 뉴스 |
+| 블로터 | https://www.bloter.net/rss/allArticle.xml | 광범위 IT RSS에서 암호화폐 키워드로 필터링 |
+| 디지털투데이 | https://www.digitaltoday.co.kr/rss/allArticle.xml | 광범위 IT RSS에서 암호화폐 키워드로 필터링 |
+| CoinTelegraph | https://cointelegraph.com/rss | 글로벌 암호화폐 뉴스 |
+| CoinDesk | https://www.coindesk.com/arc/outboundfeeds/rss/ | 글로벌 암호화폐 뉴스 |
+| The Block | https://www.theblock.co/rss.xml | 글로벌 암호화폐 뉴스 |
+| Decrypt | https://decrypt.co/feed | 글로벌 암호화폐 뉴스 |
+| Bitcoin Magazine | https://bitcoinmagazine.com/.rss/full/ | 비트코인 전문 뉴스 |
+| CryptoSlate | https://cryptoslate.com/feed/ | 글로벌 암호화폐 뉴스 |
+| BeInCrypto | https://beincrypto.com/feed/ | 글로벌 암호화폐 뉴스 |
+| NewsBTC | https://www.newsbtc.com/feed/ | 시장/트레이딩 중심 뉴스 |
+| Glassnode Insights | https://insights.glassnode.com/rss/ | 온체인 분석 기사 |
+
+코인리더스, 디센터, 토큰포스트 등 일부 후보 소스는 최근 검증에서 404 또는 timeout 이슈가 있어 현재 활성 수집 대상에서 제외되어 있습니다.
 
 ## 분석 엔티티
 
@@ -69,7 +80,7 @@
 
 - **수집**: 카테고리 YAML에 정의된 소스를 수집합니다. 실행 시 DuckDB에 적재하고 보존 기간(`keep_days`)을 적용합니다.
 - **분석**: 엔티티별 키워드 매칭. 매칭된 키워드를 리포트에 칩으로 표시합니다.
-- **리포트**: `reports/<category>_report.html`을 생성하며, 최근 N일(기본 7일) 기사와 엔티티 히트 카운트, 수집 오류를 표시합니다.
+- **리포트**: `reports/<category>_report.html`을 생성하며, 최근 N일(기본 7일) 기사와 엔티티 히트 카운트, 수집 오류를 표시합니다. 품질 패널은 공식 운영 데이터와 뉴스 기반 프록시 이벤트를 분리해 해석해야 합니다.
 
 ## 기본 경로
 

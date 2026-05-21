@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 import sys
-from typing import Any
+from typing import Any, cast
 
 import structlog
 
@@ -61,4 +61,4 @@ def get_logger(name: str) -> structlog.BoundLogger:
     Returns:
         A BoundLogger configured for structured logging.
     """
-    return structlog.get_logger(name)
+    return cast(structlog.BoundLogger, structlog.get_logger(name))

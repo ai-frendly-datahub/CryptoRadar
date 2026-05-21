@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Iterable, Mapping
 from html import escape
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from radar_core.ontology import build_summary_ontology_metadata
 from radar_core.report_utils import (
@@ -23,12 +23,12 @@ def generate_report(
     output_path: Path,
     stats: dict[str, int],
     errors: list[str] | None = None,
-    store=None,
+    store: object | None = None,
     quality_report: Mapping[str, Any] | None = None,
 ) -> Path:
     """Generate HTML report (delegates to radar-core)."""
     articles_list = list(articles)
-    plugin_charts = []
+    plugin_charts: list[dict[str, Any]] = []
 
     # --- Universal plugins (entity heatmap + source reliability) ---
     try:
@@ -54,7 +54,7 @@ def generate_report(
         output_path=output_path,
         stats=stats,
         errors=errors,
-        plugin_charts=plugin_charts if plugin_charts else None,
+        plugin_charts=cast(Any, plugin_charts if plugin_charts else None),
         ontology_metadata=build_summary_ontology_metadata(
             "CryptoRadar",
             category_name=category.category_name,
@@ -98,6 +98,8 @@ def _render_crypto_quality_panel(quality_report: Mapping[str, Any]) -> str:
         ("Regulatory", summary.get("regulatory_action_events", 0)),
         ("On-chain", summary.get("onchain_metric_events", 0)),
         ("Liquidity", summary.get("liquidity_snapshot_events", 0)),
+        ("Official events", summary.get("official_or_operational_event_count", 0)),
+        ("News proxies", summary.get("news_proxy_event_count", 0)),
         ("Asset symbols", summary.get("asset_symbol_present_count", 0)),
         ("Required gaps", summary.get("event_required_field_gap_count", 0)),
         ("Review items", summary.get("daily_review_item_count", 0)),
@@ -122,7 +124,7 @@ def _render_crypto_quality_panel(quality_report: Mapping[str, Any]) -> str:
     .crypto-quality-review {{ margin: 12px 0 0; padding-left: 18px; }}
   </style>
   <h2>Crypto Quality</h2>
-  <p>Exchange, regulator, on-chain, and liquidity evidence is tracked separately from crypto news context.</p>
+  <p>Official operational evidence and news-derived proxy events are tracked separately for exchange, regulator, on-chain, and liquidity signals.</p>
   <div class="crypto-quality-grid">
     {cards_html}
   </div>

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import json
 import hashlib
+import json
 import re
 from collections import Counter
 from collections.abc import Iterable, Mapping
@@ -19,6 +19,70 @@ TRACKED_EVENT_MODEL_ORDER = [
     "liquidity_snapshot",
 ]
 TRACKED_EVENT_MODELS = set(TRACKED_EVENT_MODEL_ORDER)
+GENERIC_EXCHANGE_TERMS = {
+    "exchange",
+    "거래소",
+    "listing",
+    "listed",
+    "delisting",
+    "상장",
+    "상폐",
+    "거래지원",
+}
+REGULATORY_ACTION_TERMS = (
+    "approval",
+    "approved",
+    "approve",
+    "reject",
+    "rejected",
+    "lawsuit",
+    "suit",
+    "charge",
+    "charged",
+    "settlement",
+    "settled",
+    "fine",
+    "fined",
+    "penalty",
+    "sanction",
+    "enforcement",
+    "investigation",
+    "probe",
+    "license",
+    "licence",
+    "rule",
+    "bill",
+    "law",
+    "act",
+    "policy",
+    "guidance",
+    "ban",
+    "승인",
+    "거부",
+    "제소",
+    "소송",
+    "기소",
+    "합의",
+    "벌금",
+    "과징금",
+    "제재",
+    "집행",
+    "조사",
+    "허가",
+    "라이선스",
+    "법안",
+    "법률",
+    "규정",
+    "정책",
+    "가이드라인",
+    "금지",
+)
+METRIC_VALUE_RE = re.compile(
+    r"[$₩€£]?\s*(\d[\d,]*(?:\.\d+)?)\s*"
+    r"(t|tn|trillion|b|bn|billion|m|mn|million|k|thousand|%|percent)?",
+    re.I,
+)
+METRIC_SIGNAL_RE = re.compile(r"\b(tvl|liquidity|volume|hashrate|dominance)\b", re.I)
 
 
 def build_quality_report(
@@ -104,6 +168,8 @@ def build_quality_report(
     return {
         "category": category.category_name,
         "generated_at": generated.isoformat(),
+        "scoped_article_count": len(articles_list),
+        "event_count": len(events),
         "scope_note": (
             "CryptoRadar keeps news and market sentiment separate from official exchange "
             "listing notices, regulator actions, on-chain metrics, and liquidity snapshots. "
@@ -151,7 +217,7 @@ def _build_event_rows(
             continue
         for event_model in _article_event_models(article, source, tracked_event_models):
             event_at = _event_datetime(article)
-            row = {
+            row: dict[str, Any] = {
                 "source": source.name,
                 "source_type": source.type,
                 "trust_tier": source.trust_tier,
@@ -207,10 +273,12 @@ def _build_source_row(
     source_articles = [article for article in articles if article.source == source.name]
     source_errors = [error for error in errors if error.startswith(f"{source.name}:")]
     event_model = _source_event_model(source)
+    if not source.enabled:
+        source_articles = []
     source_event_rows = [
         row
         for row in event_rows
-        if row["source"] == source.name and row["event_model"] == event_model
+        if source.enabled and row["source"] == source.name and row["event_model"] == event_model
     ]
     latest_event = _latest_event(source_event_rows)
     latest_event_at = (
@@ -267,9 +335,9 @@ def _article_event_models(
     source_event_model = _source_event_model(source)
     if source_event_model in tracked_event_models:
         values.add(source_event_model)
-    if _matches(article, "Regulation"):
+    if _has_regulatory_action_signal(article):
         values.add("regulatory_action")
-    if _matches(article, "Exchange") and _has_listing_signal(article):
+    if _has_exchange_listing_notice_signal(article):
         values.add("exchange_listing_notice")
     return [event_model for event_model in TRACKED_EVENT_MODEL_ORDER if event_model in values]
 
@@ -557,8 +625,13 @@ def _canonical_key(row: Mapping[str, Any]) -> tuple[str, str]:
     event_model = str(row.get("event_model") or "")
     project_id = _slug(row.get("project_id") or "")
     chain = _slug(row.get("chain") or "")
-    asset = _slug(row.get("asset_symbol") or _first(row.get("cryptocurrency") if isinstance(row.get("cryptocurrency"), list) else []))
-    exchange = _slug(_first(row.get("exchange") if isinstance(row.get("exchange"), list) else []))
+    cryptocurrency = row.get("cryptocurrency")
+    exchanges = row.get("exchange")
+    asset = _slug(
+        row.get("asset_symbol")
+        or _first(cryptocurrency if isinstance(cryptocurrency, list) else [])
+    )
+    exchange = _slug(_first(exchanges if isinstance(exchanges, list) else []))
     asset_pair = _slug(row.get("asset_pair") or "")
     regulator = _slug(row.get("regulator") or "")
     jurisdiction = _slug(row.get("jurisdiction") or "")
@@ -632,8 +705,24 @@ def _metric_name(article: Article) -> str:
 
 
 def _metric_value(article: Article) -> float | None:
-    match = re.search(r"(?:tvl|liquidity|volume|hashrate|dominance)\s*[:=]?\s*(\d[\d,]*(?:\.\d+)?)", _article_text(article), re.I)
-    return float(match.group(1).replace(",", "")) if match else None
+    text = _article_text(article)
+    direct_match = re.search(
+        r"(?:tvl|liquidity|volume|hashrate|dominance)\s*[:=]?\s*"
+        r"[$₩€£]?\s*(\d[\d,]*(?:\.\d+)?)\s*"
+        r"(t|tn|trillion|b|bn|billion|m|mn|million|k|thousand|%|percent)?",
+        text,
+        re.I,
+    )
+    if direct_match:
+        return _scaled_metric_number(direct_match.group(1), direct_match.group(2))
+    if not _has_metric_signal(article):
+        return None
+    for match in METRIC_VALUE_RE.finditer(text):
+        window_start = max(0, match.start() - 48)
+        window_end = min(len(text), match.end() + 48)
+        if METRIC_SIGNAL_RE.search(text[window_start:window_end]):
+            return _scaled_metric_number(match.group(1), match.group(2))
+    return None
 
 
 def _asset_pair(article: Article) -> str:
@@ -657,6 +746,32 @@ def _has_listing_signal(article: Article) -> bool:
     )
 
 
+def _has_exchange_listing_notice_signal(article: Article) -> bool:
+    if not _has_listing_signal(article):
+        return False
+    exchange_matches = {value.casefold() for value in _matches(article, "Exchange")}
+    if any(value not in GENERIC_EXCHANGE_TERMS for value in exchange_matches):
+        return True
+    haystack = f"{article.title}\n{article.summary}".casefold()
+    if "public listing" in haystack or "ipo" in haystack or "stock listing" in haystack:
+        return False
+    return bool(exchange_matches and _matches(article, "Cryptocurrency"))
+
+
+def _has_regulatory_action_signal(article: Article) -> bool:
+    if not _matches(article, "Regulation"):
+        return False
+    haystack = f"{article.title}\n{article.summary}".casefold()
+    for token in REGULATORY_ACTION_TERMS:
+        normalized = token.casefold()
+        if normalized.isascii() and normalized.replace(" ", "").isalpha():
+            if re.search(rf"\b{re.escape(normalized)}\b", haystack):
+                return True
+        elif normalized in haystack:
+            return True
+    return False
+
+
 def _has_metric_signal(article: Article) -> bool:
     haystack = f"{article.title}\n{article.summary}".lower()
     return any(
@@ -673,6 +788,25 @@ def _has_metric_signal(article: Article) -> bool:
             "도미넌스",
         )
     )
+
+
+def _scaled_metric_number(raw_number: str, raw_unit: str | None) -> float:
+    value = float(raw_number.replace(",", ""))
+    unit = (raw_unit or "").casefold()
+    multipliers = {
+        "k": 1_000,
+        "thousand": 1_000,
+        "m": 1_000_000,
+        "mn": 1_000_000,
+        "million": 1_000_000,
+        "b": 1_000_000_000,
+        "bn": 1_000_000_000,
+        "billion": 1_000_000_000,
+        "t": 1_000_000_000_000,
+        "tn": 1_000_000_000_000,
+        "trillion": 1_000_000_000_000,
+    }
+    return value * multipliers.get(unit, 1)
 
 
 def _has_jurisdiction_signal(article: Article) -> bool:

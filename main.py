@@ -5,19 +5,23 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
 
+from radar_core.config_loader import filter_sources
 from radar_core.date_storage import apply_date_storage_policy
 from radar_core.ontology import annotate_articles_with_ontology
 from radar_core.raw_logger import RawLogger
-from radar_core.config_loader import filter_sources
 
 from cryptoradar.analyzer import apply_entity_rules
 from cryptoradar.collector import article_matches_source_scope, collect_sources
-from cryptoradar.config_loader import load_category_config, load_category_quality_config, load_settings
+from cryptoradar.config_loader import (
+    load_category_config,
+    load_category_quality_config,
+    load_settings,
+)
 from cryptoradar.logger import configure_logging, get_logger
+from cryptoradar.models import Article, Source
 from cryptoradar.quality_report import build_quality_report, write_quality_report
 from cryptoradar.reporter import generate_index_html, generate_report
 from cryptoradar.storage import RadarStorage
-from cryptoradar.models import Article, Source
 
 
 logger = get_logger(__name__)
@@ -51,11 +55,13 @@ def run(
         max_sources=max_sources,
         exclude_sources=tuple(exclude_sources or ()),
     )
+    enabled_effective_sources = [source for source in effective_sources if source.enabled]
 
     logger.info(
         "pipeline_start",
         category=category_cfg.category_name,
-        sources_count=len(effective_sources),
+        sources_count=len(enabled_effective_sources),
+        configured_sources_count=len(effective_sources),
     )
     collected, errors = collect_sources(
         effective_sources,
@@ -108,7 +114,7 @@ def run(
     logger.info("analysis_complete", matched_count=matched_count)
 
     stats = {
-        "sources": len(effective_sources),
+        "sources": len(enabled_effective_sources),
         "collected": len(collected),
         "matched": matched_count,
         "window_days": recent_days,
@@ -166,6 +172,8 @@ def _filter_report_articles(
         source = sources_by_name.get(article.source)
         if source is None:
             scoped_articles.append(article)
+            continue
+        if not source.enabled:
             continue
         if article_matches_source_scope(
             source,

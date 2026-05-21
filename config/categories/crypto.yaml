@@ -101,11 +101,14 @@ sources:
 - name: 코인데스크 코리아
   type: rss
   url: https://www.coindeskkorea.com/rss/
+  enabled: false
   language: ko
   country: KR
   trust_tier: T2_institutional
   collection_tier: C1_rss
   content_type: news
+  notes: Disabled after 2026-05-21 pipeline audit found the feed dominated by
+    non-crypto SEO/general-interest posts that matched only source boilerplate.
   config:
     event_model: market_commentary
 - name: 블로터
@@ -124,12 +127,20 @@ sources:
     - 이더리움
     - 리플
     - 솔라나
+    - btc
+    - eth
+    - xrp
+    - sol
     - 암호화폐
     - 가상자산
     - 디지털자산
     - 블록체인
-    - 코인
     - 토큰
+    - 스테이블코인
+    - stablecoin
+    - stablecoins
+    - usdt
+    - usdc
     - 업비트
     - 빗썸
     - 바이낸스
@@ -149,6 +160,12 @@ sources:
     - DeFi
     - Web3
     - NFT
+    - ETF
+    - on-chain
+    - wallet
+    - mining
+    - staking
+    - tokenization
 - name: 디지털투데이
   type: rss
   url: https://www.digitaltoday.co.kr/rss/allArticle.xml
@@ -160,6 +177,7 @@ sources:
   config:
     event_model: market_commentary
     include_keywords: *crypto_topic_keywords
+    timezone: Asia/Seoul
 - name: 한경 블록체인
   type: rss
   url: https://www.hankyung.com/feed/blockchain
@@ -183,6 +201,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: CoinDesk
   type: rss
   url: https://www.coindesk.com/arc/outboundfeeds/rss/
@@ -193,6 +212,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: The Block
   type: rss
   url: https://www.theblock.co/rss.xml
@@ -203,6 +223,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: Decrypt
   type: rss
   url: https://decrypt.co/feed
@@ -213,6 +234,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: Bitcoin Magazine
   type: rss
   url: https://bitcoinmagazine.com/.rss/full/
@@ -223,6 +245,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: CryptoSlate
   type: rss
   url: https://cryptoslate.com/feed/
@@ -233,6 +256,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: BeInCrypto
   type: rss
   url: https://beincrypto.com/feed/
@@ -243,6 +267,7 @@ sources:
   content_type: news
   config:
     event_model: market_commentary
+    include_keywords: *crypto_topic_keywords
 - name: NewsBTC
   type: rss
   url: https://www.newsbtc.com/feed/
@@ -447,6 +472,8 @@ entities:
   - trx
   - ltc
   - 스테이블코인
+  - stablecoin
+  - stablecoins
   - usdt
   - usdc
   - dai
@@ -587,6 +614,7 @@ entities:
   - wallet
   - 메타마스크
   - metamask
+  - tokenization
   - 콜드월렛
   - 핫월렛
   - 채굴
@@ -636,8 +664,6 @@ entities:
   - bear
   - 롱
   - 숏
-  - long
-  - short
   - 청산
   - liquidation
   - 레버리지
@@ -733,7 +759,6 @@ entities:
   - 가상화폐
   - 가상자산
   - 디지털자산
-  - 코인
   - 토큰
   - 블록체인
   - 탈중앙
@@ -757,48 +782,6 @@ entities:
   - 보유
   - 수익
   - 손실
-  - 시장
   - 가격
-  - story
-  - news
-  - today
-  - year
-  - time
-  - now
-  - best
-  - most
-  - top
-  - new
-  - latest
-  - first
-  - here
-  - this
-  - my
-  - just
-  - share
-  - post
-  - help
-  - anyone
-  - looking
-  - need
-  - want
-  - '2026'
-  - '2025'
-  - 기자
-  - 뉴스
-  - 오늘
-  - 올해
-  - 이번
-  - 지난
-  - 최근
-  - 현재
-  - 또한
-  - 통해
-  - 대한
-  - 위한
-  - 새로운
-  - 다양한
-  - 많은
-  - 가장
   - 특히
   - 발표

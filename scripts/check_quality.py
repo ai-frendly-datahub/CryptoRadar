@@ -3,10 +3,10 @@
 
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
 import sys
+from datetime import UTC, date, datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import duckdb
 import yaml
@@ -18,18 +18,19 @@ if RADAR_CORE_ROOT.exists():
     sys.path.insert(0, str(RADAR_CORE_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from cryptoradar.config_loader import (  # noqa: E402
-    load_category_config,
-    load_category_quality_config,
-)
-from cryptoradar.quality_report import build_quality_report, write_quality_report  # noqa: E402
-from cryptoradar.storage import RadarStorage  # noqa: E402
 from radar_core.common.quality_checks import (  # noqa: E402
     check_dates,
     check_duplicate_urls,
     check_missing_fields,
     check_text_lengths,
 )
+
+from cryptoradar.config_loader import (  # noqa: E402
+    load_category_config,
+    load_category_quality_config,
+)
+from cryptoradar.quality_report import build_quality_report, write_quality_report  # noqa: E402
+from cryptoradar.storage import RadarStorage  # noqa: E402
 
 
 CATEGORY_NAME = "crypto"
@@ -112,7 +113,7 @@ def generate_quality_artifacts(
     with duckdb.connect(str(db_path), read_only=True) as con:
         record_quality = _record_quality_summary(con)
     with RadarStorage(db_path) as storage:
-        articles = storage.recent_articles_by_collected_at(
+        articles = cast(Any, storage).recent_articles_by_collected_at(
             category.category_name,
             days=lookback_days,
             limit=1500,
@@ -164,7 +165,8 @@ def main() -> None:
     paths, report = generate_quality_artifacts(PROJECT_ROOT)
     summary = report["summary"]
     if isinstance(summary, dict):
-        print(f"scoped_articles={len(report.get('events', []))}")
+        print(f"scoped_articles={report.get('scoped_article_count', 0)}")
+        print(f"event_count={report.get('event_count', len(report.get('events', [])))}")
         print(f"quality_report={paths['latest']}")
         print(f"tracked_sources={summary.get('tracked_sources', 0)}")
         print(f"fresh_sources={summary.get('fresh_sources', 0)}")

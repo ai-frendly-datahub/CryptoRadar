@@ -6,6 +6,7 @@ from pathlib import Path
 
 import yaml
 
+import scripts.check_quality as check_quality
 from cryptoradar.models import Article
 from cryptoradar.storage import RadarStorage
 
@@ -96,12 +97,26 @@ def test_generate_quality_artifacts_uses_latest_stored_checkpoint(
 
     assert Path(paths["latest"]).exists()
     assert Path(paths["dated"]).exists()
+    assert report["scoped_article_count"] == 1
+    assert report["event_count"] == 1
     assert report["summary"]["tracked_sources"] == 1
     assert report["summary"]["exchange_listing_notice_events"] == 1
 
     module.PROJECT_ROOT = project_root
     module.main()
     captured = capsys.readouterr()
+    assert "scoped_articles=1" in captured.out
+    assert "event_count=1" in captured.out
     assert "quality_report=" in captured.out
     assert "tracked_sources=1" in captured.out
     assert "crypto_signal_event_count=1" in captured.out
+
+
+def test_check_quality_date_helpers_handle_common_inputs() -> None:
+    target = datetime(2026, 5, 20, 3, 0, tzinfo=UTC)
+
+    assert check_quality._coerce_date(target).isoformat() == "2026-05-20"
+    assert check_quality._coerce_date("2026-05-20T03:00:00Z").isoformat() == "2026-05-20"
+    assert check_quality._coerce_date("not-a-date") is None
+    assert check_quality._lookback_days(None) == 14
+    assert check_quality._lookback_days(datetime.now(UTC).date()) == 14

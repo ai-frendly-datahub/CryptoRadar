@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import calendar
 import html
 import os
 import re
@@ -11,9 +12,11 @@ from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from typing import Any
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 from pybreaker import CircuitBreakerError
 from radar_core import AdaptiveThrottler, CrawlHealthStore
 from radar_core.url_extractor import extract_url_content_safe
@@ -33,6 +36,10 @@ _COLLECTION_CONTROL_LOCK = threading.Lock()
 _ACTIVE_THROTTLER: AdaptiveThrottler | None = None
 _ACTIVE_HEALTH_STORE: CrawlHealthStore | None = None
 _ASCII_TOKEN_RE = re.compile(r"[0-9a-z]")
+_DATE_TZ_RE = re.compile(
+    r"(?:Z|[+-]\d{2}:?\d{2}|UTC|GMT|KST|EST|EDT|CST|CDT|MST|MDT|PST|PDT)\s*$",
+    re.IGNORECASE,
+)
 
 
 def _set_collection_controls(throttler: AdaptiveThrottler, health_store: CrawlHealthStore) -> None:
@@ -196,6 +203,30 @@ def _detect_encoding(response: requests.Response) -> str:
     return "utf-8"
 
 
+def _clean_html_text(value: str) -> str:
+    if not value:
+        return ""
+    unescaped = html.unescape(value)
+    if "<" in unescaped and ">" in unescaped:
+        text = BeautifulSoup(unescaped, "html.parser").get_text(" ", strip=True)
+    else:
+        text = unescaped
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _source_timezone(source: Source) -> ZoneInfo | None:
+    raw_timezone = source.config.get("timezone")
+    timezone_name = raw_timezone if isinstance(raw_timezone, str) and raw_timezone.strip() else ""
+    if not timezone_name and source.country.upper() == "KR":
+        timezone_name = "Asia/Seoul"
+    if not timezone_name:
+        return None
+    try:
+        return ZoneInfo(timezone_name)
+    except ZoneInfoNotFoundError:
+        return None
+
+
 def _config_string_list(config: Mapping[str, object], key: str) -> list[str]:
     raw = config.get(key)
     if isinstance(raw, str) and raw.strip():
@@ -273,14 +304,13 @@ def collect_sources(
         health_db_path or os.environ.get("RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH)
     )
     _set_collection_controls(throttler, health_store)
-    session = _create_session()
-
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
         if not _source_bool(source, "bypass_crawl_health") and health_store.is_disabled(source.name):
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
 
         host = source_hosts[source.name]
         rate_limiters[host].acquire()
+        session = _create_session()
 
         try:
             breaker = manager.get_breaker(source.name)
@@ -301,6 +331,8 @@ def collect_sources(
             return [], [f"{source.name}: {exc}"]
         except Exception as exc:
             return [], [f"{source.name}: Unexpected error - {type(exc).__name__}: {exc}"]
+        finally:
+            session.close()
 
     try:
         if workers == 1:
@@ -325,7 +357,6 @@ def collect_sources(
                 "the standard pipeline"
             )
     finally:
-        session.close()
         health_store.close()
         _clear_collection_controls()
 
@@ -366,8 +397,9 @@ def _collect_single(
         feed = feedparser.parse(content)
         items: list[Article] = []
 
+        default_timezone = _source_timezone(source)
         for entry in feed.entries[:limit]:
-            published = _extract_datetime(entry)
+            published = _extract_datetime(entry, default_timezone=default_timezone)
             summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
             if not summary:
                 _content = entry.get("content", [])
@@ -384,10 +416,10 @@ def _collect_single(
                 extracted = extract_url_content_safe(link, timeout=timeout)
                 if extracted and extracted.content:
                     summary = extracted.content[:2000]  # Limit to 2000 chars
-            title = html.unescape(_entry_text(entry, "title").strip()) or "(no title)"
+            title = _clean_html_text(_entry_text(entry, "title").strip()) or "(no title)"
             summary = summary.strip() or title
             link = _entry_text(entry, "link").strip()
-            summary_text = html.unescape(summary)
+            summary_text = _clean_html_text(summary)
             if not article_matches_source_scope(source, title, summary_text, link):
                 continue
 
@@ -407,15 +439,23 @@ def _collect_single(
         raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
 
 
-def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
+def _extract_datetime(
+    entry: Mapping[str, Any],
+    *,
+    default_timezone: ZoneInfo | None = None,
+) -> datetime | None:
     """Parse a feed entry date into a timezone-aware datetime."""
     published_parsed = entry.get("published_parsed")
     if isinstance(published_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(published_parsed), tz=UTC)
+        if default_timezone is not None and not _entry_date_has_timezone(entry, "published"):
+            return _struct_time_as_timezone(published_parsed, default_timezone)
+        return datetime.fromtimestamp(calendar.timegm(published_parsed), tz=UTC)
 
     updated_parsed = entry.get("updated_parsed")
     if isinstance(updated_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(updated_parsed), tz=UTC)
+        if default_timezone is not None and not _entry_date_has_timezone(entry, "updated"):
+            return _struct_time_as_timezone(updated_parsed, default_timezone)
+        return datetime.fromtimestamp(calendar.timegm(updated_parsed), tz=UTC)
 
     for key in ("published", "updated", "date"):
         raw = entry.get(key)
@@ -423,11 +463,29 @@ def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
             try:
                 dt = parsedate_to_datetime(str(raw))
                 if dt and dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=UTC)
+                    dt = dt.replace(tzinfo=default_timezone or UTC)
                 return dt
             except Exception:
                 continue
     return None
+
+
+def _entry_date_has_timezone(entry: Mapping[str, Any], key: str) -> bool:
+    raw = entry.get(key)
+    return isinstance(raw, str) and _DATE_TZ_RE.search(raw.strip()) is not None
+
+
+def _struct_time_as_timezone(value: time.struct_time, timezone: ZoneInfo) -> datetime:
+    localized = datetime(
+        value.tm_year,
+        value.tm_mon,
+        value.tm_mday,
+        value.tm_hour,
+        value.tm_min,
+        value.tm_sec,
+        tzinfo=timezone,
+    )
+    return localized.astimezone(UTC)
 
 
 def _entry_text(entry: Mapping[str, Any], key: str) -> str:
