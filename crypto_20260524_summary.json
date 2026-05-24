@@ -1,0 +1,86 @@
+{
+  "date": "2026-05-24",
+  "category": "crypto",
+  "article_count": 199,
+  "source_count": 12,
+  "matched_count": 199,
+  "top_entities": [
+    {
+      "name": "CryptoGeneral",
+      "count": 621
+    },
+    {
+      "name": "Cryptocurrency",
+      "count": 265
+    },
+    {
+      "name": "Market",
+      "count": 133
+    },
+    {
+      "name": "Technology",
+      "count": 117
+    },
+    {
+      "name": "Regulation",
+      "count": 86
+    },
+    {
+      "name": "Exchange",
+      "count": 59
+    }
+  ],
+  "sources": {
+    "블록미디어": 22,
+    "BeInCrypto": 23,
+    "디지털투데이": 49,
+    "CoinTelegraph": 24,
+    "NewsBTC": 23,
+    "CoinDesk": 19,
+    "The Block": 9,
+    "Bitcoin Magazine": 5,
+    "CryptoSlate": 13,
+    "Decrypt": 9,
+    "블로터": 2,
+    "Glassnode Insights": 1
+  },
+  "generated_at": "2026-05-24T14:53:49.284050+09:00",
+  "ontology": {
+    "repo": "CryptoRadar",
+    "category": "crypto",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "crypto.exchange_listing_notice",
+      "crypto.liquidity_snapshot",
+      "crypto.market_commentary",
+      "crypto.onchain_metric",
+      "crypto.regulatory_action"
+    ],
+    "event_model_mappings": {
+      "exchange_listing_notice": "crypto.exchange_listing_notice",
+      "regulatory_action": "crypto.regulatory_action",
+      "onchain_metric": "crypto.onchain_metric",
+      "liquidity_snapshot": "crypto.liquidity_snapshot",
+      "market_commentary": "crypto.market_commentary"
+    },
+    "entity_type_hints": [
+      "crypto.asset",
+      "crypto.exchange"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence"
+    ],
+    "source_role_mappings": {
+      "Glassnode Insights": "operational_evidence",
+      "CoinDesk": "context_only",
+      "CoinTelegraph": "context_only",
+      "블록미디어": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "official_confirmation_required",
+      "cross_reference_required"
+    ]
+  }
+}
