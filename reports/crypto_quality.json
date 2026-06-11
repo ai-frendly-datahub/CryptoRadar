@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-06-10T06:13:38.312366+00:00",
-  "scoped_article_count": 1333,
-  "event_count": 106,
+  "generated_at": "2026-06-11T06:40:37.466906+00:00",
+  "scoped_article_count": 1335,
+  "event_count": 108,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 25,
+    "exchange_listing_notice_events": 28,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 63,
+    "regulatory_action_events": 64,
     "onchain_metric_configured_sources": 1,
-    "onchain_metric_events": 18,
+    "onchain_metric_events": 16,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 106,
+    "crypto_signal_event_count": 108,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 88,
-    "complete_canonical_key_count": 94,
-    "proxy_canonical_key_count": 12,
+    "news_proxy_event_count": 92,
+    "complete_canonical_key_count": 98,
+    "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 94,
-    "exchange_present_count": 43,
-    "regulator_present_count": 77,
-    "metric_name_present_count": 63,
+    "asset_symbol_present_count": 98,
+    "exchange_present_count": 45,
+    "regulator_present_count": 80,
+    "metric_name_present_count": 64,
     "metric_value_present_count": 2,
-    "event_required_field_gap_count": 69,
+    "event_required_field_gap_count": 61,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 218,
+      "article_count": 214,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 217,
+      "article_count": 215,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 117,
+      "article_count": 125,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 71,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -385,10 +385,10 @@
       "event_model": "onchain_metric",
       "freshness_sla_days": 21.0,
       "status": "fresh",
-      "article_count": 18,
-      "event_count": 18,
+      "article_count": 16,
+      "event_count": 16,
       "latest_event_at": "2026-06-01T14:00:00+00:00",
-      "age_days": 8.68,
+      "age_days": 9.69,
       "latest_title": "BTC Market Pulse: Week 23",
       "latest_url": "https://insights.glassnode.com/btc-market-pulse-week-23-2026",
       "latest_cryptocurrency": [
@@ -537,6 +537,433 @@
     }
   ],
   "events": [
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "'클래리티법' 통과 막판 진통…갤럭시디지털 CEO가 美 워싱턴주 찾은 이유",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674190",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674190",
+      "event_at": "2026-06-11T06:23:11+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "웹3"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인"
+      ],
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:757e19da46d7:2026061106",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "샤프링크 CEO “블록체인 종착지는 디지털자산 제도화 아닌 금융시장 디지털화”",
+      "url": "https://www.blockmedia.co.kr/archives/1104032",
+      "source_url": "https://www.blockmedia.co.kr/archives/1104032",
+      "event_at": "2026-06-11T04:24:48+00:00",
+      "cryptocurrency": [
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "규제",
+        "디지털자산"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "블록체인",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:27170f9a4ab1:2026061104",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "블랙록·피델리티에 쏠리는 비트코인 ETF 자금…’양강 체제’ 굳어진다",
+      "url": "https://www.blockmedia.co.kr/archives/1103871",
+      "source_url": "https://www.blockmedia.co.kr/archives/1103871",
+      "event_at": "2026-06-10T23:53:03+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "유동성",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "유동성",
+      "metric_name": "유동성",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "유동성",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061023",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "New CFTC Rules on Prediction Markets Would Ban Wagers on Ouster of US Enemies",
+      "url": "https://decrypt.co/370656/cftc-rules-prediction-markets-ban-wagers-ouster-us-enemies",
+      "source_url": "https://decrypt.co/370656/cftc-rules-prediction-markets-ban-wagers-ouster-us-enemies",
+      "event_at": "2026-06-10T16:06:54+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "asset_symbol": "markets",
+      "project_id": "markets",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "markets",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:markets",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:ef4541e11fdd:2026061016",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Paradigm, Hyperliquid Policy Center Push Back on GENIUS Act Stablecoin AML Rule",
+      "url": "https://decrypt.co/370645/paradigm-hyperliquid-policy-center-push-back-on-genius-act-stablecoin-aml-rule",
+      "source_url": "https://decrypt.co/370645/paradigm-hyperliquid-policy-center-push-back-on-genius-act-stablecoin-aml-rule",
+      "event_at": "2026-06-10T14:33:50+00:00",
+      "cryptocurrency": [
+        "stablecoin",
+        "stablecoins"
+      ],
+      "exchange": [],
+      "regulation": [
+        "aml"
+      ],
+      "technology": [
+        "defi"
+      ],
+      "market": [],
+      "crypto_general": [
+        "validators"
+      ],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "aml",
+      "jurisdiction": "US",
+      "chain": "defi",
+      "metric_name": "defi",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "defi",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026061014",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
+      "url": "https://www.coindesk.com/policy/2026/06/10/prediction-markets-get-first-u-s-rule-proposal-as-cftc-proposes-contract-reviews",
+      "source_url": "https://www.coindesk.com/policy/2026/06/10/prediction-markets-get-first-u-s-rule-proposal-as-cftc-proposes-contract-reviews",
+      "event_at": "2026-06-10T13:58:41+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "asset_symbol": "markets",
+      "project_id": "markets",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "markets",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:markets",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:ef4541e11fdd:2026061013",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC unveils sweeping rule proposal for fast-growing prediction markets",
+      "url": "https://www.theblock.co/post/404258/cftc-unveils-sweeping-rule-proposal-fast-growing-prediction-markets",
+      "source_url": "https://www.theblock.co/post/404258/cftc-unveils-sweeping-rule-proposal-fast-growing-prediction-markets",
+      "event_at": "2026-06-10T13:46:24+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "asset_symbol": "markets",
+      "project_id": "markets",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "markets",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:markets",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:ef4541e11fdd:2026061013",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Crypto’s killer app may be selling stocks after its own tokens failed retail",
+      "url": "https://cryptoslate.com/cryptos-killer-app-may-be-selling-stocks-after-its-own-tokens-failed-retail",
+      "source_url": "https://cryptoslate.com/cryptos-killer-app-may-be-selling-stocks-after-its-own-tokens-failed-retail",
+      "event_at": "2026-06-10T10:30:30+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance",
+        "coinbase",
+        "kraken",
+        "bybit",
+        "gate"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "token",
+        "tokens",
+        "return"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026061010",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "EU proposes ban on 11 crypto platforms in Russia sanctions push",
+      "url": "https://cointelegraph.com/news/eu-russia-sanctions-11-crypto-platforms",
+      "source_url": "https://cointelegraph.com/news/eu-russia-sanctions-11-crypto-platforms",
+      "event_at": "2026-06-10T09:46:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "transactions"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061009",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "NewsBTC",
       "source_type": "rss",
@@ -1503,6 +1930,61 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "러시아, 개인 투자자 암호화폐 거래 3종만 허용…BTC·ETH·USDT 확정",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672528",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672528",
+      "event_at": "2026-06-05T23:29:00+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth",
+        "usdt"
+      ],
+      "exchange": [],
+      "regulation": [
+        "법안"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "거래",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "법안",
+      "jurisdiction": "US",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026060523",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "exchange_listing_notice",
       "title": "모건스탠리, 갤럭시디지털과 암호화폐 담보 ETP 연계 서비스 출시",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
@@ -1601,61 +2083,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "러시아, 개인 투자자 암호화폐 거래 3종만 허용…BTC·ETH·USDT 확정",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672528",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672528",
-      "event_at": "2026-06-05T23:29:00+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "btc",
-        "eth",
-        "usdt"
-      ],
-      "exchange": [],
-      "regulation": [
-        "법안"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "거래",
-        "투자",
-        "투자자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "법안",
-      "jurisdiction": "US",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026060523",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -4087,49 +4514,44 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "EU, 암호화폐 세수 최대 230억달러 추산…서클 '거래세 땐 디파이로 이동'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
+      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
       "event_at": "2026-05-30T23:09:00+00:00",
       "cryptocurrency": [],
       "exchange": [],
       "regulation": [
-        "과세",
-        "eu"
+        "싱가포르"
       ],
       "technology": [
-        "블록체인",
-        "디파이",
-        "지갑"
+        "블록체인"
       ],
-      "market": [
-        "거래량"
-      ],
+      "market": [],
       "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "지갑",
-        "거래"
+        "토큰",
+        "블록체인"
       ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "과세",
-      "jurisdiction": "EU",
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "싱가포르",
+      "jurisdiction": "",
       "chain": "블록체인",
-      "metric_name": "거래량",
+      "metric_name": "블록체인",
       "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "거래량",
-      "canonical_key": "crypto_project:암호화폐",
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026053023",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026053023",
       "required_field_proxy": {
         "regulator": true,
-        "jurisdiction": true,
+        "jurisdiction": false,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "source": "디지털투데이",
@@ -4190,44 +4612,49 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
+      "title": "EU, 암호화폐 세수 최대 230억달러 추산…서클 '거래세 땐 디파이로 이동'",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
       "event_at": "2026-05-30T23:09:00+00:00",
       "cryptocurrency": [],
       "exchange": [],
       "regulation": [
-        "싱가포르"
+        "과세",
+        "eu"
       ],
       "technology": [
-        "블록체인"
+        "블록체인",
+        "디파이",
+        "지갑"
       ],
-      "market": [],
+      "market": [
+        "거래량"
+      ],
       "crypto_general": [
-        "토큰",
-        "블록체인"
+        "암호화폐",
+        "블록체인",
+        "지갑",
+        "거래"
       ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "싱가포르",
-      "jurisdiction": "",
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "과세",
+      "jurisdiction": "EU",
       "chain": "블록체인",
-      "metric_name": "블록체인",
+      "metric_name": "거래량",
       "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "거래량",
+      "canonical_key": "crypto_project:암호화폐",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026053023",
+      "event_key": "regulatory_action:757e19da46d7:2026053023",
       "required_field_proxy": {
         "regulator": true,
-        "jurisdiction": false,
+        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -5591,333 +6018,19 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "“호르무즈 합의설” 트럼프가 걷어차자마자… 美·이란, 보복 공습 ‘정면충돌’",
-      "url": "https://www.blockmedia.co.kr/archives/1098012",
-      "source_url": "https://www.blockmedia.co.kr/archives/1098012",
-      "event_at": "2026-05-28T04:56:27+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "합의",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "합의",
-      "canonical_key": "crypto_source:블록미디어:e11267e1438d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:3e6ba927fd95:2026052804",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
       "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "\"정권 바뀌어도 되돌릴 수 없게 공고화\"…트럼프, 美 암호화폐 규제 법제화 압박",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=669853",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=669853",
-      "event_at": "2026-05-28T04:45:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "블록체인",
+      "title": "'클래리티법' 통과 막판 진통…갤럭시디지털 CEO가 美 워싱턴주 찾은 이유",
       "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026052804",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "US charges Google engineer with using internal search data to pocket $1.2 million on Polymarket",
-      "url": "https://www.theblock.co/post/402806/google-engineer-insider-trading-polymarket",
-      "source_url": "https://www.theblock.co/post/402806/google-engineer-insider-trading-polymarket",
-      "event_at": "2026-05-28T03:38:30+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "trading"
-      ],
-      "asset_symbol": "trading",
-      "project_id": "trading",
-      "regulator": "cftc",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "trading",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:trading",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:6894219b8c51:2026052803",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "주식 토큰화, 기존 전통 금융 거래소에서는 무엇을 잃는가? – 타이거리서치",
-      "url": "https://www.blockmedia.co.kr/archives/1097868",
-      "source_url": "https://www.blockmedia.co.kr/archives/1097868",
-      "event_at": "2026-05-28T03:02:07+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소",
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인",
-        "탈중앙화",
-        "유동성"
-      ],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "블록체인",
-        "탈중앙",
-        "거래",
-        "수익",
-        "발표"
-      ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "미국",
-      "jurisdiction": "SEC",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026052803",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "U.S. CFTC files request to erase Gemini settlement that it no longer considers fair",
-      "url": "https://www.coindesk.com/policy/2026/05/27/u-s-cftc-files-request-to-erase-gemini-settlement-that-it-no-longer-considers-fair",
-      "source_url": "https://www.coindesk.com/policy/2026/05/27/u-s-cftc-files-request-to-erase-gemini-settlement-that-it-no-longer-considers-fair",
-      "event_at": "2026-05-28T01:12:09+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026052801",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "onchain_metric",
-      "title": "The Altcoin Vector #54",
-      "url": "https://insights.glassnode.com/the-altcoin-vector-54",
-      "source_url": "https://insights.glassnode.com/the-altcoin-vector-54",
-      "event_at": "2026-05-13T10:30:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "markets"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:c01d8c23551f:2026051310",
-      "required_field_proxy": {
-        "chain": false,
-        "metric_name": false,
-        "metric_value": false
-      },
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "onchain_metric",
-      "title": "The Bitcoin Vector #55",
-      "url": "https://insights.glassnode.com/the-bitcoin-vector-55",
-      "source_url": "https://insights.glassnode.com/the-bitcoin-vector-55",
-      "event_at": "2026-05-13T10:00:00+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:9bdaaa88fb28:2026051310",
-      "required_field_proxy": {
-        "chain": true,
-        "metric_name": false,
-        "metric_value": false
-      },
-      "required_field_gaps": [
-        "metric_name",
-        "metric_value"
-      ]
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6315,8 +6428,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "루미스 의원 '클래리티 법안 무산 땐 미국 암호화폐 주도권 상실'",
-      "canonical_key": "crypto_project:암호화폐",
+      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
+      "canonical_key": "crypto_project:토큰",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -6325,8 +6438,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
-      "canonical_key": "crypto_project:토큰",
+      "title": "루미스 의원 '클래리티 법안 무산 땐 미국 암호화폐 주도권 상실'",
+      "canonical_key": "crypto_project:암호화폐",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -6396,16 +6509,6 @@
       "source": "블록미디어",
       "title": "트럼프 국세청 소송 합의 논란⋯ 미 법원 “사기 의혹 답하라”",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블로터",
-      "title": "법원, 코인원 '영업정지' 집행정지 인용…본안 소송까지 효력 중단",
-      "canonical_key": "crypto_project:가상자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     }
   ],
   "source_backlog": {
@@ -6438,7 +6541,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6023,
+    "total_rows": 6130,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
