@@ -1,7 +1,7 @@
 {
   "category": "crypto",
-  "generated_at": "2026-06-13T06:07:51.950188+00:00",
-  "scoped_article_count": 1393,
+  "generated_at": "2026-06-14T06:25:05.236384+00:00",
+  "scoped_article_count": 1394,
   "event_count": 107,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
@@ -22,9 +22,9 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 29,
+    "exchange_listing_notice_events": 36,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 62,
+    "regulatory_action_events": 55,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 16,
     "liquidity_snapshot_configured_sources": 0,
@@ -32,15 +32,15 @@
     "crypto_signal_event_count": 107,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 91,
-    "complete_canonical_key_count": 97,
-    "proxy_canonical_key_count": 10,
+    "complete_canonical_key_count": 98,
+    "proxy_canonical_key_count": 9,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 97,
-    "exchange_present_count": 45,
-    "regulator_present_count": 79,
-    "metric_name_present_count": 65,
+    "asset_symbol_present_count": 98,
+    "exchange_present_count": 53,
+    "regulator_present_count": 77,
+    "metric_name_present_count": 69,
     "metric_value_present_count": 2,
-    "event_required_field_gap_count": 60,
+    "event_required_field_gap_count": 58,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 115,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 225,
+      "article_count": 219,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 222,
+      "article_count": 219,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 152,
+      "article_count": 150,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 136,
+      "article_count": 138,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 137,
+      "article_count": 136,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -388,7 +388,7 @@
       "article_count": 16,
       "event_count": 16,
       "latest_event_at": "2026-06-01T14:00:00+00:00",
-      "age_days": 11.67,
+      "age_days": 12.68,
       "latest_title": "BTC Market Pulse: Week 23",
       "latest_url": "https://insights.glassnode.com/btc-market-pulse-week-23-2026",
       "latest_cryptocurrency": [
@@ -537,6 +537,957 @@
     }
   ],
   "events": [
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "TVL캐피털, 500만달러 투자 유치...ETP 온체인화 속도 낸다",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674888",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674888",
+      "event_at": "2026-06-14T06:06:29+00:00",
+      "cryptocurrency": [
+        "니어"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "블록체인",
+        "온체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "블록체인",
+        "투자"
+      ],
+      "asset_symbol": "니어",
+      "project_id": "니어",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "tvl",
+      "metric_value": null,
+      "asset_pair": "니어",
+      "liquidity_metric": "tvl",
+      "canonical_key": "crypto_project:니어",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:36f674cfa7cc:2026061406",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[한주간 ETF 현황] 비트코인 ETF 5주째 순유출…금요일 반등 신호",
+      "url": "https://www.blockmedia.co.kr/archives/1105370",
+      "source_url": "https://www.blockmedia.co.kr/archives/1105370",
+      "event_at": "2026-06-14T06:00:49+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "반등",
+        "매도"
+      ],
+      "crypto_general": [
+        "매도"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "반등",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "반등",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061406",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "기관들, 스테이블코인·토큰화 자산 통합 인프라 요구",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674881",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674881",
+      "event_at": "2026-06-14T05:31:09+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "허가"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "허가",
+      "jurisdiction": "",
+      "chain": "스테이블코인",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:스테이블코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:246c2458e341:2026061405",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "\"XRP, 24달러까지 오를 수 있었다”…비트코인 사이클 대입해보니",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674871",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674871",
+      "event_at": "2026-06-14T04:15:00+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "xrp"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec",
+        "미국",
+        "소송"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "상승",
+        "고점",
+        "강세"
+      ],
+      "crypto_general": [
+        "블록체인",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "블록체인",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026061404",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "크라켄 \"미국 무기한 선물 시장, 비트코인 현물 ETF 흥행 코스 밟을 것\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674879",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674879",
+      "event_at": "2026-06-14T01:42:04+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "크라켄",
+        "상장"
+      ],
+      "regulation": [
+        "규제",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "선물",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "선물",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061401",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "크라켄 \"미국 무기한 선물 시장, 비트코인 현물 ETF 흥행 코스 밟을 것\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674879",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674879",
+      "event_at": "2026-06-14T01:42:04+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "크라켄",
+        "상장"
+      ],
+      "regulation": [
+        "규제",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "선물",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "선물",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026061401",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "하이퍼리퀴드, 월간 무기한 선물 점유율 역대 최고...바이낸스 대비 비중 14.4%",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674874",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674874",
+      "event_at": "2026-06-14T01:14:57+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "거래소",
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "탈중앙화"
+      ],
+      "market": [
+        "거래량",
+        "선물"
+      ],
+      "crypto_general": [
+        "탈중앙",
+        "거래"
+      ],
+      "asset_symbol": "탈중앙",
+      "project_id": "탈중앙",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "탈중앙화",
+      "metric_name": "거래량",
+      "metric_value": null,
+      "asset_pair": "탈중앙",
+      "liquidity_metric": "거래량",
+      "canonical_key": "crypto_project:탈중앙",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:74ccc2a82d45:2026061401",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[주간 온체인] 비트코인 6만달러 지켰지만⋯ 고래 매집은 아직",
+      "url": "https://www.blockmedia.co.kr/archives/1105162",
+      "source_url": "https://www.blockmedia.co.kr/archives/1105162",
+      "event_at": "2026-06-14T01:00:58+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "온체인",
+        "지갑"
+      ],
+      "market": [
+        "고래"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "지갑"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "온체인",
+      "metric_name": "고래",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "고래",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061401",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[주말시황] 비트코인 6만4000달러대 회복⋯ 중동 긴장 완화 기대",
+      "url": "https://www.blockmedia.co.kr/archives/1105356",
+      "source_url": "https://www.blockmedia.co.kr/archives/1105356",
+      "event_at": "2026-06-14T01:00:16+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [
+        "업비트",
+        "바이낸스"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [
+        "상승",
+        "반등",
+        "시가총액"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "투자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "합의",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026061401",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "XRP ETF 5주 연속 순유입…비트코인·이더리움은 자금 유출",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674865",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674865",
+      "event_at": "2026-06-13T23:15:55+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "xrp"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [
+        "변동성",
+        "약세"
+      ],
+      "crypto_general": [
+        "블록체인",
+        "거래",
+        "가격"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "변동성",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "변동성",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061323",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "티로프라이스 암호화폐 ETF, 규제 문턱 넘었다…시바이누·도지코인 포함",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674861",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674861",
+      "event_at": "2026-06-13T23:10:03+00:00",
+      "cryptocurrency": [
+        "도지코인",
+        "시바이누"
+      ],
+      "exchange": [
+        "거래소",
+        "상장"
+      ],
+      "regulation": [
+        "규제",
+        "sec",
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "거래",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "도지코인",
+      "project_id": "도지코인",
+      "regulator": "규제",
+      "jurisdiction": "SEC",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "도지코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:도지코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:acafd091d4c7:2026061323",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "티로프라이스 암호화폐 ETF, 규제 문턱 넘었다…시바이누·도지코인 포함",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674861",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674861",
+      "event_at": "2026-06-13T23:10:03+00:00",
+      "cryptocurrency": [
+        "도지코인",
+        "시바이누"
+      ],
+      "exchange": [
+        "거래소",
+        "상장"
+      ],
+      "regulation": [
+        "규제",
+        "sec",
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "거래",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "도지코인",
+      "project_id": "도지코인",
+      "regulator": "규제",
+      "jurisdiction": "SEC",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "도지코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:도지코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:acafd091d4c7:2026061323",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "마이클 세일러, M7에 스페이스X 추가 제안…비트코인 보유 기업",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674859",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674859",
+      "event_at": "2026-06-13T23:07:13+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인",
+        "보유"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061323",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "日 상장사 리믹스포인트, 재무제표상 XRP 119만개 보유 공개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674858",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=674858",
+      "event_at": "2026-06-13T23:02:51+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "도지코인",
+        "솔라나",
+        "xrp"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "일본"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "시세"
+      ],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "투자",
+        "보유"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "일본",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "시세",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "시세",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026061323",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC targets 20-year-old rule standing between Wall Street and blockchain trading",
+      "url": "https://cryptoslate.com/sec-targets-20-year-old-rule-standing-between-wall-street-and-blockchain-trading",
+      "source_url": "https://cryptoslate.com/sec-targets-20-year-old-rule-standing-between-wall-street-and-blockchain-trading",
+      "event_at": "2026-06-12T20:05:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "blockchain",
+        "trade",
+        "trading",
+        "prices"
+      ],
+      "asset_symbol": "blockchain",
+      "project_id": "blockchain",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "blockchain",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:blockchain",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:d3649a756023:2026061220",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Polish president vetoes crypto bill for third time ahead of MiCA deadline",
+      "url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
+      "source_url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
+      "event_at": "2026-06-12T13:25:53+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061213",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Exclusive: KuCoin has not paid $2M award tied to delisted token dispute, investor says",
+      "url": "https://cointelegraph.com/news/kucoin-yet-pay-seychelles-court-order-2m-token-case",
+      "source_url": "https://cointelegraph.com/news/kucoin-yet-pay-seychelles-court-order-2m-token-case",
+      "event_at": "2026-06-12T13:03:23+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "kucoin",
+        "exchange"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "token",
+        "tokens",
+        "investor"
+      ],
+      "asset_symbol": "token",
+      "project_id": "token",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "token",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:token",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:d5c3ead6c8f1:2026061213",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC plan to scrap ‘Rule 611’ positive for tokenized US stocks: Galaxy",
+      "url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy",
+      "source_url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy",
+      "event_at": "2026-06-12T06:44:20+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "decentralized"
+      ],
+      "market": [],
+      "crypto_general": [
+        "decentralized",
+        "trading"
+      ],
+      "asset_symbol": "decentralized",
+      "project_id": "decentralized",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "decentralized",
+      "metric_name": "decentralized",
+      "metric_value": null,
+      "asset_pair": "decentralized",
+      "liquidity_metric": "decentralized",
+      "canonical_key": "crypto_project:decentralized",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:da48d13407b6:2026061206",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -885,56 +1836,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC targets 20-year-old rule standing between Wall Street and blockchain trading",
-      "url": "https://cryptoslate.com/sec-targets-20-year-old-rule-standing-between-wall-street-and-blockchain-trading",
-      "source_url": "https://cryptoslate.com/sec-targets-20-year-old-rule-standing-between-wall-street-and-blockchain-trading",
-      "event_at": "2026-06-12T20:05:02+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "blockchain"
-      ],
-      "market": [],
-      "crypto_general": [
-        "blockchain",
-        "trade",
-        "trading",
-        "prices"
-      ],
-      "asset_symbol": "blockchain",
-      "project_id": "blockchain",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "blockchain",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:blockchain",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:d3649a756023:2026061220",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "디지털투데이",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -985,142 +1886,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Polish president vetoes crypto bill for third time ahead of MiCA deadline",
-      "url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
-      "source_url": "https://cointelegraph.com/news/polish-president-vetoes-crypto-bill-third-time-mica-deadline",
-      "event_at": "2026-06-12T13:25:53+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026061213",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "KuCoin has not paid $2M award tied to delisted token dispute, investor says",
-      "url": "https://cointelegraph.com/news/kucoin-yet-pay-seychelles-court-order-2m-token-case",
-      "source_url": "https://cointelegraph.com/news/kucoin-yet-pay-seychelles-court-order-2m-token-case",
-      "event_at": "2026-06-12T13:03:23+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "kucoin",
-        "exchange"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "token",
-        "tokens",
-        "investor"
-      ],
-      "asset_symbol": "token",
-      "project_id": "token",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "token",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:token",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:d5c3ead6c8f1:2026061213",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC plan to scrap ‘Rule 611’ positive for tokenized US stocks: Galaxy",
-      "url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy",
-      "source_url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy",
-      "event_at": "2026-06-12T06:44:20+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "decentralized"
-      ],
-      "market": [],
-      "crypto_general": [
-        "decentralized",
-        "trading"
-      ],
-      "asset_symbol": "decentralized",
-      "project_id": "decentralized",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "decentralized",
-      "metric_name": "decentralized",
-      "metric_value": null,
-      "asset_pair": "decentralized",
-      "liquidity_metric": "decentralized",
-      "canonical_key": "crypto_project:decentralized",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:da48d13407b6:2026061206",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -2824,60 +3589,6 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "모건스탠리, 갤럭시디지털과 암호화폐 담보 ETP 연계 서비스 출시",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
-      "event_at": "2026-06-05T23:29:00+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "솔라나"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "거래",
-        "투자",
-        "투자자",
-        "포트폴리오"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026060523",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
       "event_model": "regulatory_action",
       "title": "그리스, 암호화폐 차익 15% 과세 검토…500유로까지 비과세",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672534",
@@ -2973,6 +3684,60 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "모건스탠리, 갤럭시디지털과 암호화폐 담보 ETP 연계 서비스 출시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
+      "event_at": "2026-06-05T23:29:00+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "거래",
+        "투자",
+        "투자자",
+        "포트폴리오"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026060523",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -5244,737 +6009,39 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[한주간 ETF 현황] 비트코인 14억달러 유출⋯ XRP는 4주 연속 순유입",
-      "url": "https://www.blockmedia.co.kr/archives/1099147",
-      "source_url": "https://www.blockmedia.co.kr/archives/1099147",
-      "event_at": "2026-05-31T06:00:49+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "솔라나",
-        "btc",
-        "eth",
-        "xrp",
-        "sol"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "상승"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래",
-        "투자",
-        "특히"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026053106",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "루미스, 클래리티 법안 통과 촉구⋯“중국에 주도권 넘길 수 없어”",
-      "url": "https://www.blockmedia.co.kr/archives/1099131",
-      "source_url": "https://www.blockmedia.co.kr/archives/1099131",
-      "event_at": "2026-05-31T05:25:22+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "법안",
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "법안",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026053105",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "테슬라 FSD 또 논란⋯ 중국서 허위광고 소송",
-      "url": "https://www.blockmedia.co.kr/archives/1099118",
-      "source_url": "https://www.blockmedia.co.kr/archives/1099118",
-      "event_at": "2026-05-31T03:55:21+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "소송"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "소송",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_source:블록미디어:9d8cc2562de7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:4d2286ccdcd4:2026053103",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670692",
-      "event_at": "2026-05-30T23:09:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "싱가포르"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "블록체인"
-      ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "싱가포르",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026053023",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "비트와이즈 CIO '하이퍼리퀴드, 암호화폐 아닌 600조달러 자산시장과 비교해야'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670693",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670693",
-      "event_at": "2026-05-30T23:09:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "거래소",
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "블록체인",
-        "etf"
-      ],
-      "market": [
-        "선물"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "토큰",
-        "블록체인",
-        "거래",
-        "투자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "선물",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "선물",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026053023",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "EU, 암호화폐 세수 최대 230억달러 추산…서클 '거래세 땐 디파이로 이동'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670694",
-      "event_at": "2026-05-30T23:09:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "과세",
-        "eu"
-      ],
-      "technology": [
-        "블록체인",
-        "디파이",
-        "지갑"
-      ],
-      "market": [
-        "거래량"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "지갑",
-        "거래"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "과세",
-      "jurisdiction": "EU",
-      "chain": "블록체인",
-      "metric_name": "거래량",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "거래량",
-      "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026053023",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "루미스 의원 '클래리티 법안 무산 땐 미국 암호화폐 주도권 상실'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670695",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670695",
-      "event_at": "2026-05-30T23:09:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026053023",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "$23 Billion EU Crypto Tax Forecast Draws Pushback From Circle Policy Lead",
-      "url": "https://beincrypto.com/circle-eu-crypto-tax-forecast-pushback",
-      "source_url": "https://beincrypto.com/circle-eu-crypto-tax-forecast-pushback",
-      "event_at": "2026-05-30T17:39:18+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026053017",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitcoin perps just got a US green light, but one catch could decide everything",
-      "url": "https://cryptoslate.com/bitcoin-perps-just-got-a-us-green-light-but-one-catch-could-decide-everything",
-      "source_url": "https://cryptoslate.com/bitcoin-perps-just-got-a-us-green-light-but-one-catch-could-decide-everything",
-      "event_at": "2026-05-29T18:10:52+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [
-        "coinbase"
-      ],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [
-        "liquidity"
-      ],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "market",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026052918",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Clarity Act Risks Regulation Without Oversight, Brookings Fellow Says",
-      "url": "https://www.coindesk.com/policy/2026/05/29/clarity-act-risks-regulation-without-oversight-brookings-fellow-says",
-      "source_url": "https://www.coindesk.com/policy/2026/05/29/clarity-act-risks-regulation-without-oversight-brookings-fellow-says",
-      "event_at": "2026-05-29T15:14:55+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "markets",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026052915",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "U.S. CFTC opens crypto 'perp' door with first approvals at Kalshi, Coinbase",
-      "url": "https://www.coindesk.com/policy/2026/05/28/u-s-cftc-opens-crypto-perp-door-with-approval-of-first-regulated-firm",
-      "source_url": "https://www.coindesk.com/policy/2026/05/28/u-s-cftc-opens-crypto-perp-door-with-approval-of-first-regulated-firm",
-      "event_at": "2026-05-29T14:00:00+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [
-        "coinbase"
-      ],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto",
-        "trading",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "futures",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "futures",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026052914",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Paxos wins SEC approval to clear U.S. stocks on blockchain",
-      "url": "https://www.coindesk.com/policy/2026/05/29/paxos-is-first-blockchain-firm-to-provide-settlement-and-clearing-services-following-sec-approval",
-      "source_url": "https://www.coindesk.com/policy/2026/05/29/paxos-is-first-blockchain-firm-to-provide-settlement-and-clearing-services-following-sec-approval",
-      "event_at": "2026-05-29T12:28:24+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "blockchain"
-      ],
-      "market": [],
-      "crypto_general": [
-        "blockchain",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026052912",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Kalshi follows CFTC in suing Minnesota over law criminalizing prediction markets",
-      "url": "https://www.coindesk.com/policy/2026/05/29/kalshi-follows-cftc-in-suing-minnesota-over-law-criminalizing-prediction-markets",
-      "source_url": "https://www.coindesk.com/policy/2026/05/29/kalshi-follows-cftc-in-suing-minnesota-over-law-criminalizing-prediction-markets",
-      "event_at": "2026-05-29T09:59:39+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "market",
-        "markets",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026052909",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC approves Paxos as ‘blockchain-native’ clearing agency",
-      "url": "https://cointelegraph.com/news/paxos-becomes-first-crypto-firm-to-win-sec-clearing-agency-registration",
-      "source_url": "https://cointelegraph.com/news/paxos-becomes-first-crypto-firm-to-win-sec-clearing-agency-registration",
-      "event_at": "2026-05-29T05:37:25+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "blockchain"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "blockchain",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026052905",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "기관들, 스테이블코인·토큰화 자산 통합 인프라 요구",
+      "canonical_key": "crypto_project:스테이블코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "크라켄 \"미국 무기한 선물 시장, 비트코인 현물 ETF 흥행 코스 밟을 것\"",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[주말시황] 비트코인 6만4000달러대 회복⋯ 중동 긴장 완화 기대",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6427,42 +6494,8 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "루미스, 클래리티 법안 통과 촉구⋯“중국에 주도권 넘길 수 없어”",
-      "canonical_key": "crypto_project:가상자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "테슬라 FSD 또 논란⋯ 중국서 허위광고 소송",
-      "canonical_key": "crypto_source:블록미디어:9d8cc2562de7",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "테슬라 FSD 또 논란⋯ 중국서 허위광고 소송",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "카르다노, 2026 서밋·토큰2049 참가안 통과... 반대하던 호스킨슨도 지지",
-      "canonical_key": "crypto_project:토큰",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "liquidity_snapshot"
     }
   ],
   "source_backlog": {
@@ -6495,7 +6528,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6327,
+    "total_rows": 6302,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
