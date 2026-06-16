@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-06-15T07:07:47.926949+00:00",
-  "scoped_article_count": 1346,
-  "event_count": 107,
+  "generated_at": "2026-06-16T07:13:58.819129+00:00",
+  "scoped_article_count": 1310,
+  "event_count": 111,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 36,
+    "exchange_listing_notice_events": 33,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 55,
+    "regulatory_action_events": 63,
     "onchain_metric_configured_sources": 1,
-    "onchain_metric_events": 16,
+    "onchain_metric_events": 15,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 107,
+    "crypto_signal_event_count": 111,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 91,
-    "complete_canonical_key_count": 98,
-    "proxy_canonical_key_count": 9,
+    "news_proxy_event_count": 96,
+    "complete_canonical_key_count": 103,
+    "proxy_canonical_key_count": 8,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 98,
-    "exchange_present_count": 54,
-    "regulator_present_count": 77,
-    "metric_name_present_count": 70,
-    "metric_value_present_count": 1,
-    "event_required_field_gap_count": 61,
+    "asset_symbol_present_count": 103,
+    "exchange_present_count": 52,
+    "regulator_present_count": 83,
+    "metric_name_present_count": 74,
+    "metric_value_present_count": 0,
+    "event_required_field_gap_count": 65,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 116,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 204,
+      "article_count": 199,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 210,
+      "article_count": 200,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 144,
+      "article_count": 141,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 121,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -385,10 +385,10 @@
       "event_model": "onchain_metric",
       "freshness_sla_days": 21.0,
       "status": "fresh",
-      "article_count": 16,
-      "event_count": 16,
+      "article_count": 15,
+      "event_count": 15,
       "latest_event_at": "2026-06-01T14:00:00+00:00",
-      "age_days": 13.71,
+      "age_days": 14.72,
       "latest_title": "BTC Market Pulse: Week 23",
       "latest_url": "https://insights.glassnode.com/btc-market-pulse-week-23-2026",
       "latest_cryptocurrency": [
@@ -537,6 +537,495 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[마감시황] 코스피, 반도체 강세 속 8700선 안착…외인 3거래일 연속 순매수",
+      "url": "https://www.blockmedia.co.kr/archives/1106164",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106164",
+      "event_at": "2026-06-16T06:50:58+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "미국",
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "상승",
+        "매수",
+        "강세"
+      ],
+      "crypto_general": [
+        "거래",
+        "매수"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026061606",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "‘엔 캐리 트레이드’ 흔들리나…BOJ 금리 인상에도 비트코인은 무덤덤",
+      "url": "https://www.blockmedia.co.kr/archives/1106141",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106141",
+      "event_at": "2026-06-16T06:41:55+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "청산"
+      ],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "청산",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "청산",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026061606",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "엔화, BOJ 금리 인상에도 강세 반납…시장 “추가 긴축 신호 부족”",
+      "url": "https://www.blockmedia.co.kr/archives/1106128",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106128",
+      "event_at": "2026-06-16T06:21:50+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "상승",
+        "하락",
+        "강세"
+      ],
+      "crypto_general": [
+        "거래"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "일본",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026061606",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "일본은행, 31년 만에 기준금리 1%…추가 인상 가능성 열어둬(종합)",
+      "url": "https://www.blockmedia.co.kr/archives/1106129",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106129",
+      "event_at": "2026-06-16T06:09:27+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "가격"
+      ],
+      "asset_symbol": "가격",
+      "project_id": "가격",
+      "regulator": "일본",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "가격",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:가격",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9ed4770688d6:2026061606",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "일본은행, 기준금리 1%로 인상… 31년만 최고",
+      "url": "https://www.blockmedia.co.kr/archives/1106104",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106104",
+      "event_at": "2026-06-16T04:01:05+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "일본"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "상승"
+      ],
+      "crypto_general": [
+        "가격"
+      ],
+      "asset_symbol": "가격",
+      "project_id": "가격",
+      "regulator": "일본",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "가격",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:가격",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9ed4770688d6:2026061604",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미 정부 ‘앤트로픽 AI 차단’에 반사 효과?… TAO 일주일 새 30% 급등",
+      "url": "https://www.blockmedia.co.kr/archives/1106056",
+      "source_url": "https://www.blockmedia.co.kr/archives/1106056",
+      "event_at": "2026-06-16T03:30:17+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "미국",
+        "제재"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "강세"
+      ],
+      "crypto_general": [
+        "분산",
+        "거래",
+        "가격"
+      ],
+      "asset_symbol": "분산",
+      "project_id": "분산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "분산",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:분산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:7c9be77454a4:2026061603",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC hires SEC crypto task force adviser with blockchain forensics chops",
+      "url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics",
+      "source_url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics",
+      "event_at": "2026-06-15T19:41:24+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec",
+        "cftc"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "blockchain"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061519",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Benchmark says SEC’s NMS proposal is the ‘most consequential’ US crypto rule this year",
+      "url": "https://www.theblock.co/post/404768/benchmark-sec-nms-proposal-most-consequential-us-crypto-rule-this-year",
+      "source_url": "https://www.theblock.co/post/404768/benchmark-sec-nms-proposal-most-consequential-us-crypto-rule-this-year",
+      "event_at": "2026-06-15T15:33:59+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061515",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "How the SEC’s five-year plan could accelerate tokenized capital markets",
+      "url": "https://cryptoslate.com/how-the-secs-five-year-plan-could-accelerate-tokenized-capital-markets",
+      "source_url": "https://cryptoslate.com/how-the-secs-five-year-plan-could-accelerate-tokenized-capital-markets",
+      "event_at": "2026-06-15T08:00:19+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "digital",
+        "digital assets",
+        "blockchain",
+        "markets"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061508",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Millions of EU crypto users face exchange cutoff as MiCA deadline hits in days",
+      "url": "https://cryptoslate.com/millions-of-eu-crypto-users-face-exchange-cutoff-as-mica-deadline-hits-in-days",
+      "source_url": "https://cryptoslate.com/millions-of-eu-crypto-users-face-exchange-cutoff-as-mica-deadline-hits-in-days",
+      "event_at": "2026-06-14T15:05:19+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [
+        "wallet"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "wallet"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "wallet",
+      "metric_name": "wallet",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "wallet",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026061415",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -790,55 +1279,6 @@
       "canonical_key": "crypto_project:trading",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:6894219b8c51:2026061415",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Millions of EU crypto users face exchange cutoff as MiCA deadline hits in days",
-      "url": "https://cryptoslate.com/millions-of-eu-crypto-users-face-exchange-cutoff-as-mica-deadline-hits-in-days",
-      "source_url": "https://cryptoslate.com/millions-of-eu-crypto-users-face-exchange-cutoff-as-mica-deadline-hits-in-days",
-      "event_at": "2026-06-14T15:05:19+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [
-        "wallet"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "wallet"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "wallet",
-      "metric_name": "wallet",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "wallet",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026061415",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -3989,50 +4429,51 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "그리스, 암호화폐 차익 15% 과세 검토…500유로까지 비과세",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672534",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672534",
+      "event_model": "exchange_listing_notice",
+      "title": "모건스탠리, 갤럭시디지털과 암호화폐 담보 ETP 연계 서비스 출시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
       "event_at": "2026-06-05T23:29:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "과세",
-        "법안"
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
       ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
       "technology": [
-        "블록체인",
-        "채굴"
+        "블록체인"
       ],
       "market": [],
       "crypto_general": [
         "암호화폐",
         "블록체인",
-        "채굴",
+        "거래",
         "투자",
-        "수익"
+        "투자자",
+        "포트폴리오"
       ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "과세",
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
       "jurisdiction": "",
       "chain": "블록체인",
       "metric_name": "블록체인",
       "metric_value": null,
-      "asset_pair": "암호화폐",
+      "asset_pair": "비트코인",
       "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key": "crypto_project:비트코인",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026060523",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026060523",
       "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
+        "exchange": true,
+        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -4097,51 +4538,50 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "모건스탠리, 갤럭시디지털과 암호화폐 담보 ETP 연계 서비스 출시",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672535",
+      "event_model": "regulatory_action",
+      "title": "그리스, 암호화폐 차익 15% 과세 검토…500유로까지 비과세",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672534",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=672534",
       "event_at": "2026-06-05T23:29:00+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "솔라나"
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세",
+        "법안"
       ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
       "technology": [
-        "블록체인"
+        "블록체인",
+        "채굴"
       ],
       "market": [],
       "crypto_general": [
         "암호화폐",
         "블록체인",
-        "거래",
+        "채굴",
         "투자",
-        "투자자",
-        "포트폴리오"
+        "수익"
       ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "과세",
       "jurisdiction": "",
       "chain": "블록체인",
       "metric_name": "블록체인",
       "metric_value": null,
-      "asset_pair": "비트코인",
+      "asset_pair": "암호화폐",
       "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:비트코인",
+      "canonical_key": "crypto_project:암호화폐",
       "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026060523",
+      "event_key": "regulatory_action:757e19da46d7:2026060523",
       "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
+        "regulator": true,
+        "jurisdiction": false,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "source": "디지털투데이",
@@ -5767,271 +6207,69 @@
         "metric_name",
         "metric_value"
       ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "바이낸스, 美 주식 거래판 키운다…토큰화 주식 'bStocks' 예고",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=671358",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=671358",
-      "event_at": "2026-06-02T05:42:28+00:00",
-      "cryptocurrency": [
-        "bnb",
-        "스테이블코인",
-        "usdt"
-      ],
-      "exchange": [
-        "바이낸스",
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인",
-        "etf"
-      ],
-      "market": [
-        "매수"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "토큰",
-        "블록체인",
-        "거래",
-        "매수"
-      ],
-      "asset_symbol": "bnb",
-      "project_id": "bnb",
-      "regulator": "미국",
-      "jurisdiction": "US",
-      "chain": "블록체인",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "bnb",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:bnb",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:84d5a5fad6f4:2026060205",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Strategy Sells Bitcoin For First Time Since 2022 Tax-Loss Trade",
-      "url": "https://www.newsbtc.com/bitcoin-news/strategy-sells-bitcoin-for-first-time-since-2022",
-      "source_url": "https://www.newsbtc.com/bitcoin-news/strategy-sells-bitcoin-for-first-time-since-2022",
-      "event_at": "2026-06-02T05:00:25+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [],
-      "technology": [
-        "liquidity"
-      ],
-      "market": [],
-      "crypto_general": [
-        "transaction",
-        "buy",
-        "sell",
-        "trade",
-        "investors",
-        "portfolio",
-        "market",
-        "markets",
-        "price",
-        "loss"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": 2025.0,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026060205",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 비트코인 ETF 11일·이더리움 ETF 15일째 순유출…자금은 XRP·HYPE로",
-      "url": "https://www.blockmedia.co.kr/archives/1099891",
-      "source_url": "https://www.blockmedia.co.kr/archives/1099891",
-      "event_at": "2026-06-02T04:52:32+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래",
-        "투자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026060204",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Morning Minute: HYPE Soars as CFTC Gives Perps Green Light",
-      "url": "https://decrypt.co/369586/morning-minute-hype-soars-cftc-gives-perps-green-light",
-      "source_url": "https://decrypt.co/369586/morning-minute-hype-soars-cftc-gives-perps-green-light",
-      "event_at": "2026-06-01T14:02:20+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026060114",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "Glassnode Insights",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "analysis",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "onchain_metric",
-      "title": "Rally Without Conviction",
-      "url": "https://insights.glassnode.com/the-week-onchain-week-19-2026",
-      "source_url": "https://insights.glassnode.com/the-week-onchain-week-19-2026",
-      "event_at": "2026-05-13T14:38:31+00:00",
-      "cryptocurrency": [
-        "btc",
-        "near"
-      ],
-      "exchange": [],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "rally",
-        "bull"
-      ],
-      "crypto_general": [],
-      "asset_symbol": "btc",
-      "project_id": "btc",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "rally",
-      "metric_value": null,
-      "asset_pair": "btc",
-      "liquidity_metric": "rally",
-      "canonical_key": "crypto_project:btc",
-      "canonical_key_status": "complete",
-      "event_key": "onchain_metric:31234e5334ab:2026051314",
-      "required_field_proxy": {
-        "chain": true,
-        "metric_name": true,
-        "metric_value": false
-      },
-      "required_field_gaps": [
-        "metric_value"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[마감시황] 코스피, 반도체 강세 속 8700선 안착…외인 3거래일 연속 순매수",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "‘엔 캐리 트레이드’ 흔들리나…BOJ 금리 인상에도 비트코인은 무덤덤",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "엔화, BOJ 금리 인상에도 강세 반납…시장 “추가 긴축 신호 부족”",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "일본은행, 31년 만에 기준금리 1%…추가 인상 가능성 열어둬(종합)",
+      "canonical_key": "crypto_project:가격",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "일본은행, 기준금리 1%로 인상… 31년만 최고",
+      "canonical_key": "crypto_project:가격",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "미 정부 ‘앤트로픽 AI 차단’에 반사 효과?… TAO 일주일 새 30% 급등",
+      "canonical_key": "crypto_project:분산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6459,72 +6697,6 @@
         "metric_name",
         "metric_value"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "The Altcoin Vector #55",
-      "canonical_key": "crypto_project:crypto",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "The Bitcoin Vector #56",
-      "canonical_key": "crypto_project:bitcoin",
-      "required_field_gaps": [
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "BTC Market Pulse: Week 21",
-      "canonical_key": "crypto_project:bitcoin",
-      "required_field_gaps": [
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "IBIT Options Metrics Live on Glassnode",
-      "canonical_key": "crypto_project:bitcoin",
-      "required_field_gaps": [
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "onchain_metric",
-      "source": "Glassnode Insights",
-      "title": "Expanding Glassnode: Macro and Traditional Finance Data",
-      "canonical_key": "crypto_project:digital",
-      "required_field_gaps": [
-        "chain",
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "Decrypt",
-      "title": "Morning Minute: HYPE Soars as CFTC Gives Perps Green Light",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
     }
   ],
   "source_backlog": {
@@ -6557,7 +6729,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6223,
+    "total_rows": 6197,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
