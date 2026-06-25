@@ -1,7 +1,7 @@
 {
   "category": "crypto",
-  "generated_at": "2026-06-24T05:59:12.515258+00:00",
-  "scoped_article_count": 1402,
+  "generated_at": "2026-06-25T05:57:26.563600+00:00",
+  "scoped_article_count": 1409,
   "event_count": 128,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
@@ -22,9 +22,9 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 29,
+    "exchange_listing_notice_events": 28,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 99,
+    "regulatory_action_events": 100,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
@@ -32,15 +32,15 @@
     "crypto_signal_event_count": 128,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 128,
-    "complete_canonical_key_count": 117,
-    "proxy_canonical_key_count": 11,
+    "complete_canonical_key_count": 118,
+    "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 117,
-    "exchange_present_count": 53,
+    "asset_symbol_present_count": 118,
+    "exchange_present_count": 56,
     "regulator_present_count": 117,
-    "metric_name_present_count": 89,
+    "metric_name_present_count": 87,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 48,
+    "event_required_field_gap_count": 46,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 212,
+      "article_count": 210,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 220,
+      "article_count": 226,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 154,
+      "article_count": 155,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 124,
+      "article_count": 120,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 114,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,351 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "그리스 포기한 바이낸스… ‘MiCA 마감 압박’에 유럽 우회로 모색",
+      "url": "https://www.blockmedia.co.kr/archives/1109800",
+      "source_url": "https://www.blockmedia.co.kr/archives/1109800",
+      "event_at": "2026-06-25T02:36:15+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "mica",
+        "eu",
+        "라이선스"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "규제",
+      "jurisdiction": "EU",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026062502",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "민병덕, “美 스테이블코인 비은행 등 200곳에 개방…우리도 고려해야” …여야 의원들, 워싱턴 방문해 의견 교환",
+      "url": "https://www.blockmedia.co.kr/archives/1109760",
+      "source_url": "https://www.blockmedia.co.kr/archives/1109760",
+      "event_at": "2026-06-25T01:31:41+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [
+        "코인베이스"
+      ],
+      "regulation": [
+        "디지털자산",
+        "sec",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "SEC",
+      "chain": "스테이블코인",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:스테이블코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:246c2458e341:2026062501",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Binance Withdraws MiCA License Application in Greece, Leaving EU Users in Limbo",
+      "url": "https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo",
+      "source_url": "https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo",
+      "event_at": "2026-06-24T17:37:52+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance",
+        "exchange"
+      ],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026062417",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Binance withdraws Greek MiCA bid but vows to remain in Europe",
+      "url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-but-vows-to-remain-in-europe",
+      "source_url": "https://www.coindesk.com/policy/2026/06/24/binance-withdraws-greek-mica-bid-but-vows-to-remain-in-europe",
+      "event_at": "2026-06-24T17:18:08+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026062417",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Binance co-CEO remains ‘committed’ to securing EU license after exchange withdraws Greece bid",
+      "url": "https://www.theblock.co/post/406009/binance-ceo-remains-committed-securing-eu-license-exchange-withdraws-greece-bid",
+      "source_url": "https://www.theblock.co/post/406009/binance-ceo-remains-committed-securing-eu-license-exchange-withdraws-greece-bid",
+      "event_at": "2026-06-24T16:12:29+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance",
+        "exchange"
+      ],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "eu",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026062416",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Law Enforcement, Catholic Groups Send Letters to U.S. Government Warning CLARITY Act Would Create Crypto Crime Loopholes",
+      "url": "https://bitcoinmagazine.com/news/law-enforcement-catholic-group-clarity-act",
+      "source_url": "https://bitcoinmagazine.com/news/law-enforcement-catholic-group-clarity-act",
+      "event_at": "2026-06-24T15:59:07+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "aml"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "send"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "aml",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026062415",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "OpenPayd secures MiCA license as stablecoin adoption grows in Europe",
+      "url": "https://cointelegraph.com/news/openpayd-mica-license-stablecoin-adoption-europe",
+      "source_url": "https://cointelegraph.com/news/openpayd-mica-license-stablecoin-adoption-europe",
+      "event_at": "2026-06-24T07:17:46+00:00",
+      "cryptocurrency": [
+        "stablecoin"
+      ],
+      "exchange": [
+        "kraken",
+        "exchange"
+      ],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "mica",
+      "jurisdiction": "SEC",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026062407",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -6597,360 +6942,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "SpaceX Exposure Comes To Bybit Through New Tokenized Product – Details",
-      "url": "https://www.newsbtc.com/altcoin/spacex-exposure-comes-to-bybit-through-new-tokenized-product-details",
-      "source_url": "https://www.newsbtc.com/altcoin/spacex-exposure-comes-to-bybit-through-new-tokenized-product-details",
-      "event_at": "2026-06-10T03:30:29+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "xrp"
-      ],
-      "exchange": [
-        "binance",
-        "kraken",
-        "bybit",
-        "exchange",
-        "listing"
-      ],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [
-        "lending"
-      ],
-      "market": [
-        "crash",
-        "volume"
-      ],
-      "crypto_general": [
-        "token",
-        "tokens",
-        "protocol",
-        "receive",
-        "trading",
-        "investors",
-        "price"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "SEC",
-      "chain": "lending",
-      "metric_name": "volume",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "volume",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026061003",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SpaceX Exposure Comes To Bybit Through New Tokenized Product – Details",
-      "url": "https://www.newsbtc.com/altcoin/spacex-exposure-comes-to-bybit-through-new-tokenized-product-details",
-      "source_url": "https://www.newsbtc.com/altcoin/spacex-exposure-comes-to-bybit-through-new-tokenized-product-details",
-      "event_at": "2026-06-10T03:30:29+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "xrp"
-      ],
-      "exchange": [
-        "binance",
-        "kraken",
-        "bybit",
-        "exchange",
-        "listing"
-      ],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [
-        "lending"
-      ],
-      "market": [
-        "crash",
-        "volume"
-      ],
-      "crypto_general": [
-        "token",
-        "tokens",
-        "protocol",
-        "receive",
-        "trading",
-        "investors",
-        "price"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "SEC",
-      "chain": "lending",
-      "metric_name": "volume",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "volume",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026061003",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "DAXA, 미신고 가상자산사업자 12곳 적발…경찰 수사 의뢰",
-      "url": "https://www.blockmedia.co.kr/archives/1103413",
-      "source_url": "https://www.blockmedia.co.kr/archives/1103413",
-      "event_at": "2026-06-10T00:33:40+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "특금법",
-        "디지털자산",
-        "가상자산사업자",
-        "vasp"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "특금법",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026061000",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Warren calls weakened CFTC a ‘recipe for disaster’ as Congress advances crypto legislation",
-      "url": "https://www.theblock.co/post/404147/warren-weakened-cftc-recipe-disaster-congress-advances-crypto-legislation",
-      "source_url": "https://www.theblock.co/post/404147/warren-weakened-cftc-recipe-disaster-congress-advances-crypto-legislation",
-      "event_at": "2026-06-09T17:48:06+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026060917",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Elizabeth Warren Demands Answers on CFTC's Crypto and Prediction Market Oversight",
-      "url": "https://decrypt.co/370518/elizabeth-warren-demands-answers-on-cftcs-crypto-and-prediction-market-oversight",
-      "source_url": "https://decrypt.co/370518/elizabeth-warren-demands-answers-on-cftcs-crypto-and-prediction-market-oversight",
-      "event_at": "2026-06-09T14:51:09+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026060914",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "GSR receives FINRA approval to complete broker-dealer acquisition",
-      "url": "https://www.theblock.co/post/404097/gsr-receives-finra-approval-to-complete-broker-dealer-acquisition",
-      "source_url": "https://www.theblock.co/post/404097/gsr-receives-finra-approval-to-complete-broker-dealer-acquisition",
-      "event_at": "2026-06-09T13:00:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:sec:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:e286b99cb28c:2026060913",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Zodia Custody secures Luxembourg payment institution license to expand EU stablecoin services",
-      "url": "https://www.theblock.co/post/404086/zodia-custody-secures-luxembourg-payment-institution-license-to-expand-eu-stablecoin-services",
-      "source_url": "https://www.theblock.co/post/404086/zodia-custody-secures-luxembourg-payment-institution-license-to-expand-eu-stablecoin-services",
-      "event_at": "2026-06-09T10:36:52+00:00",
-      "cryptocurrency": [
-        "stablecoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "stablecoin",
-      "project_id": "stablecoin",
-      "regulator": "eu",
-      "jurisdiction": "SEC",
-      "chain": "stablecoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "stablecoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:stablecoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:66246683f7fe:2026060910",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -7460,7 +7451,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6185,
+    "total_rows": 6180,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
