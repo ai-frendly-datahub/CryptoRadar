@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-01T06:17:13.699353+00:00",
-  "scoped_article_count": 1439,
-  "event_count": 119,
+  "generated_at": "2026-07-02T05:50:17.368014+00:00",
+  "scoped_article_count": 1450,
+  "event_count": 117,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,21 +24,21 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 21,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 98,
+    "regulatory_action_events": 96,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 119,
+    "crypto_signal_event_count": 117,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 119,
-    "complete_canonical_key_count": 108,
-    "proxy_canonical_key_count": 11,
+    "news_proxy_event_count": 117,
+    "complete_canonical_key_count": 105,
+    "proxy_canonical_key_count": 12,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 108,
-    "exchange_present_count": 53,
-    "regulator_present_count": 110,
-    "metric_name_present_count": 68,
+    "asset_symbol_present_count": 105,
+    "exchange_present_count": 50,
+    "regulator_present_count": 107,
+    "metric_name_present_count": 64,
     "metric_value_present_count": 0,
     "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 219,
+      "article_count": 215,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 256,
+      "article_count": 257,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 159,
+      "article_count": 163,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 114,
+      "article_count": 113,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 124,
+      "article_count": 127,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,253 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
+      "url": "https://www.blockmedia.co.kr/archives/1112430",
+      "source_url": "https://www.blockmedia.co.kr/archives/1112430",
+      "event_at": "2026-07-01T23:59:20+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국",
+        "제재"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_source:블록미디어:2604a38933ec",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:93d24ac4b4b0:2026070123",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Trump-backed American Bitcoin sets 1-for-15 reverse stock split in bid to maintain Nasdaq listing",
+      "url": "https://www.theblock.co/post/406941/trump-backed-american-bitcoin-1-for-15-reverse-stock-split-maintain-nasdaq-listing",
+      "source_url": "https://www.theblock.co/post/406941/trump-backed-american-bitcoin-1-for-15-reverse-stock-split-maintain-nasdaq-listing",
+      "event_at": "2026-07-01T19:16:58+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026070119",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC’s Peirce Sees Clarity Act Passing This Summer as Crypto Rules Take Shape",
+      "url": "https://bitcoinmagazine.com/news/secs-peirce-sees-clarity-act-passing",
+      "source_url": "https://bitcoinmagazine.com/news/secs-peirce-sees-clarity-act-passing",
+      "event_at": "2026-07-01T14:56:51+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026070114",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Europe's MiCA rollout sparks debate over who wins under new crypto rules",
+      "url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
+      "source_url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
+      "event_at": "2026-07-01T14:00:24+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026070114",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Europe is rewriting its landmark crypto rulebook MiCA as hard July 1 deadline passes",
+      "url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
+      "source_url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
+      "event_at": "2026-07-01T12:29:17+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link",
+        "stablecoins"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "EU",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026070112",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "BeInCrypto",
       "source_type": "rss",
@@ -6114,376 +6361,27 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "BitGo offers Europe’s crypto firms a MiCA-compliance lifeline as license deadline looms",
-      "url": "https://www.coindesk.com/business/2026/06/17/bitgo-offers-europe-s-crypto-firms-a-mica-compliance-lifeline-as-license-deadline-looms",
-      "source_url": "https://www.coindesk.com/business/2026/06/17/bitgo-offers-europe-s-crypto-firms-a-mica-compliance-lifeline-as-license-deadline-looms",
-      "event_at": "2026-06-17T06:34:55+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026061706",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 비트코인·이더리움·하이퍼리퀴드 ETF 동반 순유입…기관 자금 다시 코인으로",
-      "url": "https://www.blockmedia.co.kr/archives/1106551",
-      "source_url": "https://www.blockmedia.co.kr/archives/1106551",
-      "event_at": "2026-06-17T04:55:01+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "조정",
-        "매수",
-        "롱",
-        "청산"
-      ],
-      "crypto_general": [
-        "디지털자산",
-        "거래",
-        "매수",
-        "가격"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "조정",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "조정",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026061704",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블로터",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "[스페이스X 韓 패싱] 현지 규제에도 무리한 ETF 마케팅 '엇박자'",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=665729",
-      "source_url": "https://www.bloter.net/news/articleView.html?idxno=665729",
-      "event_at": "2026-06-17T04:11:47+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "규제",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "투자",
-        "투자자",
-        "보유"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:91da77d2beae:2026061704",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "전쟁은 미국이, 재건은 동맹이?…3000억달러 이란 재건기금 논란 확산",
-      "url": "https://www.blockmedia.co.kr/archives/1106482",
-      "source_url": "https://www.blockmedia.co.kr/archives/1106482",
-      "event_at": "2026-06-17T01:39:11+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [],
-      "crypto_general": [
-        "투자"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "합의",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "합의",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:91da77d2beae:2026061701",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Binance says it considers EU license compliant amid reports of potential rejection",
-      "url": "https://cointelegraph.com/news/binance-response-mica-european-union-license",
-      "source_url": "https://cointelegraph.com/news/binance-response-mica-european-union-license",
-      "event_at": "2026-06-16T16:26:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "binance",
-        "exchange"
-      ],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [
-        "liquidity"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "eu",
-      "jurisdiction": "EU",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026061616",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
-      "url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
-      "source_url": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
-      "event_at": "2026-06-16T14:55:35+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [
-        "binance",
-        "exchange"
-      ],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "eu",
-      "jurisdiction": "EU",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026061614",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC hires SEC crypto task force adviser with blockchain forensics chops",
-      "url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics",
-      "source_url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics",
-      "event_at": "2026-06-15T18:41:24+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec",
-        "cftc"
-      ],
-      "technology": [
-        "blockchain"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "digital",
-        "digital assets",
-        "blockchain"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026061518",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
+      "canonical_key": "crypto_source:블록미디어:2604a38933ec",
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6857,26 +6755,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블로터",
-      "title": "[스페이스X 韓 패싱] 현지 규제에도 무리한 ETF 마케팅 '엇박자'",
-      "canonical_key": "crypto_project:투자",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "전쟁은 미국이, 재건은 동맹이?…3000억달러 이란 재건기금 논란 확산",
-      "canonical_key": "crypto_project:투자",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6945,7 +6823,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6183,
+    "total_rows": 6188,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
