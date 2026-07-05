@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-04T05:38:41.157951+00:00",
+  "generated_at": "2026-07-05T05:57:24.998072+00:00",
   "scoped_article_count": 1500,
-  "event_count": 124,
+  "event_count": 116,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,27 +24,27 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 25,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 99,
+    "regulatory_action_events": 91,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 124,
+    "crypto_signal_event_count": 116,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 124,
-    "complete_canonical_key_count": 112,
-    "proxy_canonical_key_count": 12,
+    "news_proxy_event_count": 116,
+    "complete_canonical_key_count": 108,
+    "proxy_canonical_key_count": 8,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 112,
-    "exchange_present_count": 55,
-    "regulator_present_count": 114,
-    "metric_name_present_count": 64,
+    "asset_symbol_present_count": 108,
+    "exchange_present_count": 53,
+    "regulator_present_count": 106,
+    "metric_name_present_count": 57,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 40,
+    "event_required_field_gap_count": 30,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 50
+    "daily_review_item_count": 42
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 103,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 236,
+      "article_count": 234,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 269,
+      "article_count": 280,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 165,
+      "article_count": 167,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 132,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 149,
+      "article_count": 139,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,546 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "비트코인 10만달러 가를 클래리티 법안…윤리조항·디파이 규제 ‘3대 쟁점’",
+      "url": "https://www.blockmedia.co.kr/archives/1112958",
+      "source_url": "https://www.blockmedia.co.kr/archives/1112958",
+      "event_at": "2026-07-05T05:00:00+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "미국"
+      ],
+      "technology": [
+        "디파이"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "디파이",
+      "metric_name": "디파이",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "디파이",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026070505",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "WSJ “이란·러시아·북한, 디지털자산으로 美 제재 피했다”",
+      "url": "https://www.blockmedia.co.kr/archives/1113355",
+      "source_url": "https://www.blockmedia.co.kr/archives/1113355",
+      "event_at": "2026-07-05T02:22:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국",
+        "제재"
+      ],
+      "technology": [
+        "지갑"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "토큰",
+        "지갑",
+        "주소",
+        "거래"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "지갑",
+      "metric_name": "지갑",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "지갑",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026070502",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "유럽 최대 핀테크 레볼루트 “USDT 거래 종료”…규제 리스크 반영",
+      "url": "https://www.blockmedia.co.kr/archives/1113357",
+      "source_url": "https://www.blockmedia.co.kr/archives/1113357",
+      "event_at": "2026-07-05T01:45:53+00:00",
+      "cryptocurrency": [
+        "스테이블코인",
+        "usdt",
+        "테더"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "규제"
+      ],
+      "technology": [
+        "지갑"
+      ],
+      "market": [
+        "매수",
+        "매도"
+      ],
+      "crypto_general": [
+        "지갑",
+        "거래",
+        "입금",
+        "출금",
+        "매수",
+        "매도"
+      ],
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "규제",
+      "jurisdiction": "US",
+      "chain": "지갑",
+      "metric_name": "매수",
+      "metric_value": null,
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "매수",
+      "canonical_key": "crypto_project:스테이블코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:246c2458e341:2026070501",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
+      "url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
+      "source_url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
+      "event_at": "2026-07-04T13:56:27+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol"
+      ],
+      "exchange": [],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "investors",
+        "markets",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026070413",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Revolut to Delist USDT in Europe as Tether Skipped MiCA License",
+      "url": "https://beincrypto.com/revolut-usdt-delisting-mica-tether",
+      "source_url": "https://beincrypto.com/revolut-usdt-delisting-mica-tether",
+      "event_at": "2026-07-04T10:01:05+00:00",
+      "cryptocurrency": [
+        "usdt",
+        "usdc",
+        "tether"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "usdt",
+      "project_id": "usdt",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "usdt",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "usdt",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:usdt",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:798a6beb71e7:2026070410",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "EU crypto rulebook faces enforcement challenge as MiCA transition ends",
+      "url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
+      "source_url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
+      "event_at": "2026-07-03T13:59:16+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026070313",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "MEXC Lists Ondo Yield Asset As Tokenized Treasury Demand Grows",
+      "url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
+      "source_url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
+      "event_at": "2026-07-03T13:51:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "mexc"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "yield",
+        "markets"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026070313",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
+      "url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
+      "source_url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
+      "event_at": "2026-07-03T12:45:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:sec:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:e286b99cb28c:2026070312",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Binance says MiCA should be judged by who it licenses, not who it excludes",
+      "url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
+      "source_url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
+      "event_at": "2026-07-03T06:30:00+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol"
+      ],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [
+        "mica",
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026070306",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC’s Selig says Illinois lawmakers ‘decided they know better’ on crypto tax",
+      "url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
+      "source_url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
+      "event_at": "2026-07-02T19:12:45+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "transactions"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026070219",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Ondo tokenizes BlackRock’s IVV ETF and Micron stock under US custodial model",
+      "url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
+      "source_url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
+      "event_at": "2026-07-02T13:56:02+00:00",
+      "cryptocurrency": [
+        "ethereum"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "ethereum",
+      "project_id": "ethereum",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "ethereum",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:ethereum",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9f56ecebd71e:2026070213",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -886,282 +1426,6 @@
       "canonical_key": "crypto_project:crypto",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:c01d8c23551f:2026070316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "EU crypto rulebook faces enforcement challenge as MiCA transition ends",
-      "url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
-      "source_url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
-      "event_at": "2026-07-03T13:59:16+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026070313",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "MEXC Lists Ondo Yield Asset As Tokenized Treasury Demand Grows",
-      "url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
-      "source_url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
-      "event_at": "2026-07-03T13:51:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "mexc"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "yield",
-        "markets"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:c01d8c23551f:2026070313",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
-      "url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
-      "source_url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
-      "event_at": "2026-07-03T12:45:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:sec:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:e286b99cb28c:2026070312",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Binance says MiCA should be judged by who it licenses, not who it excludes",
-      "url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
-      "source_url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
-      "event_at": "2026-07-03T06:30:00+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol"
-      ],
-      "exchange": [
-        "binance"
-      ],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070306",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC’s Selig says Illinois lawmakers ‘decided they know better’ on crypto tax",
-      "url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
-      "source_url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
-      "event_at": "2026-07-02T19:12:45+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "transactions"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026070219",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Ondo tokenizes BlackRock’s IVV ETF and Micron stock under US custodial model",
-      "url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
-      "source_url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
-      "event_at": "2026-07-02T13:56:02+00:00",
-      "cryptocurrency": [
-        "ethereum"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "ethereum",
-      "project_id": "ethereum",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "ethereum",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:ethereum",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9f56ecebd71e:2026070213",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -6093,649 +6357,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "연준 매파 기조에 유가 반등까지⋯ 9월 금리인상론 급부상",
-      "url": "https://www.blockmedia.co.kr/archives/1107835",
-      "source_url": "https://www.blockmedia.co.kr/archives/1107835",
-      "event_at": "2026-06-20T03:30:06+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "스와프"
-      ],
-      "market": [
-        "상승",
-        "반등"
-      ],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "스와프",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_source:블록미디어:bec35d57ea42",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:4828a0a289db:2026062003",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "이란 “호르무즈 통과 허가 받아야”⋯ 통행료 우려 확산",
-      "url": "https://www.blockmedia.co.kr/archives/1107829",
-      "source_url": "https://www.blockmedia.co.kr/archives/1107829",
-      "event_at": "2026-06-20T02:10:45+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "허가"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "허가",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_source:블록미디어:7fad3fba9add",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:a0d137a38944:2026062002",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "“호르무즈 다시 열린다”⋯ 美 기술주 사상 최대 규모 자금 유입",
-      "url": "https://www.blockmedia.co.kr/archives/1107791",
-      "source_url": "https://www.blockmedia.co.kr/archives/1107791",
-      "event_at": "2026-06-20T01:30:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [],
-      "crypto_general": [
-        "투자"
-      ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "합의",
-      "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "합의",
-      "canonical_key": "crypto_project:투자",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:91da77d2beae:2026062001",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "[주말시황] 비트코인 6만3000달러선⋯ 호르무즈 변수에 관망",
-      "url": "https://www.blockmedia.co.kr/archives/1107801",
-      "source_url": "https://www.blockmedia.co.kr/archives/1107801",
-      "event_at": "2026-06-20T01:00:05+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "btc"
-      ],
-      "exchange": [
-        "업비트",
-        "바이낸스"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [
-        "상승",
-        "하락"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026062001",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "트럼프, 앤트로픽 위협론 후퇴…접근 제한·연방 사용 금지는 유지",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676872",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676872",
-      "event_at": "2026-06-20T00:59:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026062000",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "크립토퀀트 CEO \"비트코인 최대 리스크는 급락 아닌 장기 침체\"",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676860",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676860",
-      "event_at": "2026-06-20T00:49:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [
-        "급락",
-        "하락",
-        "반등"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "투자",
-        "투자자",
-        "가격"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "급락",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "급락",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026062000",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "크립토퀀트 CEO \"비트코인 최대 리스크는 급락 아닌 장기 침체\"",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676860",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676860",
-      "event_at": "2026-06-20T00:49:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [
-        "급락",
-        "하락",
-        "반등"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "투자",
-        "투자자",
-        "가격"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "급락",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "급락",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026062000",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "피델리티, 스테이블코인 발행사 겨냥 머니마켓펀드 출시",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676854",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676854",
-      "event_at": "2026-06-20T00:30:22+00:00",
-      "cryptocurrency": [
-        "니어",
-        "스테이블코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "투자",
-        "투자자",
-        "특히"
-      ],
-      "asset_symbol": "니어",
-      "project_id": "니어",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "니어",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "니어",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:니어",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:36f674cfa7cc:2026062000",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "레바논 전선 멈췄다⋯ 이스라엘·헤즈볼라 휴전",
-      "url": "https://www.blockmedia.co.kr/archives/1107780",
-      "source_url": "https://www.blockmedia.co.kr/archives/1107780",
-      "event_at": "2026-06-19T23:20:12+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "합의",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "합의",
-      "canonical_key": "crypto_source:블록미디어:f395ff051528",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:f5c5120c291a:2026061923",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Malta Regulator Opens DeFi Consultation As DAO Governance Enters Policy Spotlight",
-      "url": "https://www.newsbtc.com/news/malta-regulator-opens-defi-consultation-as-dao-governance-enters-policy",
-      "source_url": "https://www.newsbtc.com/news/malta-regulator-opens-defi-consultation-as-dao-governance-enters-policy",
-      "event_at": "2026-06-19T18:30:18+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "mica"
-      ],
-      "technology": [
-        "defi",
-        "dao"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "defi",
-      "metric_name": "defi",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "defi",
-      "canonical_key": "reg_action:mica:us",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:3e7a3ee97d0c:2026061918",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "24X Files SEC Proposal To Bring Tokenized Russell 1000 Stocks To Regulated Markets",
-      "url": "https://www.newsbtc.com/news/24x-files-sec-proposal-to-bring-tokenized-russell-1000-stocks-to-regulated",
-      "source_url": "https://www.newsbtc.com/news/24x-files-sec-proposal-to-bring-tokenized-russell-1000-stocks-to-regulated",
-      "event_at": "2026-06-19T16:39:17+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "trade",
-        "markets"
-      ],
-      "asset_symbol": "trade",
-      "project_id": "trade",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "trade",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:trade",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:5eaa2723a727:2026061916",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CME lawsuit challenges whether Kalshi’s Bitcoin leverage push can become an everything-exchange",
-      "url": "https://cryptoslate.com/cme-lawsuit-challenges-whether-kalshis-bitcoin-leverage-push-can-become-an-everything-exchange",
-      "source_url": "https://cryptoslate.com/cme-lawsuit-challenges-whether-kalshis-bitcoin-leverage-push-can-become-an-everything-exchange",
-      "event_at": "2026-06-19T11:09:26+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "liquidation"
-      ],
-      "crypto_general": [],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "liquidation",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "liquidation",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026061911",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Celsius’ Mashinsky gets permanent trading ban in CFTC settlement",
-      "url": "https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading",
-      "source_url": "https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading",
-      "event_at": "2026-06-19T02:33:11+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [
-        "lending"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "trading"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "lending",
-      "metric_name": "lending",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "lending",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026061902",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -6743,8 +6364,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
-      "title": "트럼프 밈코인 논란에⋯ 美 상원의원 “공직자 토큰 발행 제한해야”",
-      "canonical_key": "crypto_project:밈코인",
+      "title": "비트코인 10만달러 가를 클래리티 법안…윤리조항·디파이 규제 ‘3대 쟁점’",
+      "canonical_key": "crypto_project:비트코인",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -6752,9 +6373,9 @@
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "유니트리, 상하이 상장 승인…7월 말 IPO 추진",
-      "canonical_key": "crypto_project:블록체인",
+      "source": "블록미디어",
+      "title": "WSJ “이란·러시아·북한, 디지털자산으로 美 제재 피했다”",
+      "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -6775,6 +6396,26 @@
       "source": "NewsBTC",
       "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
       "canonical_key_status": "regulator_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "트럼프 밈코인 논란에⋯ 美 상원의원 “공직자 토큰 발행 제한해야”",
+      "canonical_key": "crypto_project:밈코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "유니트리, 상하이 상장 승인…7월 말 IPO 추진",
+      "canonical_key": "crypto_project:블록체인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7049,127 +6690,6 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "연준 매파 기조에 유가 반등까지⋯ 9월 금리인상론 급부상",
-      "canonical_key": "crypto_source:블록미디어:bec35d57ea42",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "연준 매파 기조에 유가 반등까지⋯ 9월 금리인상론 급부상",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "이란 “호르무즈 통과 허가 받아야”⋯ 통행료 우려 확산",
-      "canonical_key": "crypto_source:블록미디어:7fad3fba9add",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "이란 “호르무즈 통과 허가 받아야”⋯ 통행료 우려 확산",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "“호르무즈 다시 열린다”⋯ 美 기술주 사상 최대 규모 자금 유입",
-      "canonical_key": "crypto_project:투자",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "[주말시황] 비트코인 6만3000달러선⋯ 호르무즈 변수에 관망",
-      "canonical_key": "crypto_project:비트코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "트럼프, 앤트로픽 위협론 후퇴…접근 제한·연방 사용 금지는 유지",
-      "canonical_key": "crypto_project:블록체인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "크립토퀀트 CEO \"비트코인 최대 리스크는 급락 아닌 장기 침체\"",
-      "canonical_key": "crypto_project:비트코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "피델리티, 스테이블코인 발행사 겨냥 머니마켓펀드 출시",
-      "canonical_key": "crypto_project:니어",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "레바논 전선 멈췄다⋯ 이스라엘·헤즈볼라 휴전",
-      "canonical_key": "crypto_source:블록미디어:f395ff051528",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "레바논 전선 멈췄다⋯ 이스라엘·헤즈볼라 휴전",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "NewsBTC",
-      "title": "Malta Regulator Opens DeFi Consultation As DAO Governance Enters Policy Spotlight",
-      "canonical_key": "reg_action:mica:us",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "NewsBTC",
-      "title": "Malta Regulator Opens DeFi Consultation As DAO Governance Enters Policy Spotlight",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -7188,6 +6708,24 @@
       "source": "Upbit listing and delisting notices",
       "signal_type": "exchange_listing_notice",
       "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Binance listing and delisting announcements",
+      "signal_type": "exchange_listing_notice",
+      "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "SEC/CFTC crypto regulatory actions",
+      "signal_type": "regulatory_action",
+      "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "DeFiLlama and on-chain metrics",
+      "signal_type": "onchain_metric",
+      "activation_gate": "metric definitions, chain/project mapping, and timestamp normalization"
     }
   ],
   "source_backlog": {
@@ -7220,7 +6758,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6258,
+    "total_rows": 6213,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
