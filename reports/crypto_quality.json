@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-16T04:52:48.399736+00:00",
-  "scoped_article_count": 1404,
-  "event_count": 104,
+  "generated_at": "2026-07-17T04:54:59.837658+00:00",
+  "scoped_article_count": 1400,
+  "event_count": 109,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 27,
+    "exchange_listing_notice_events": 28,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 77,
+    "regulatory_action_events": 81,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 104,
+    "crypto_signal_event_count": 109,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 104,
-    "complete_canonical_key_count": 97,
-    "proxy_canonical_key_count": 7,
+    "news_proxy_event_count": 109,
+    "complete_canonical_key_count": 103,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 97,
-    "exchange_present_count": 40,
-    "regulator_present_count": 94,
-    "metric_name_present_count": 47,
+    "asset_symbol_present_count": 103,
+    "exchange_present_count": 41,
+    "regulator_present_count": 98,
+    "metric_name_present_count": 51,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 34,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 45
+    "daily_review_item_count": 47
   },
   "sources": [
     {
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 117,
+      "article_count": 129,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 232,
+      "article_count": 231,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 249,
+      "article_count": 247,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 155,
+      "article_count": 151,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -531,6 +531,478 @@
   ],
   "events": [
     {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "트럼프 연설 원고 담당자, 예측시장 내부자 거래…10만달러 넘는 수익",
+      "url": "https://www.blockmedia.co.kr/archives/1117934",
+      "source_url": "https://www.blockmedia.co.kr/archives/1117934",
+      "event_at": "2026-07-17T01:48:16+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "선물"
+      ],
+      "crypto_general": [
+        "거래",
+        "수익"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "선물",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "선물",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026071701",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
+      "event_at": "2026-07-16T23:59:00+00:00",
+      "cryptocurrency": [
+        "이더리움"
+      ],
+      "exchange": [],
+      "regulation": [
+        "허가"
+      ],
+      "technology": [
+        "블록체인",
+        "탈중앙화",
+        "디파이"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인",
+        "탈중앙"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "허가",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:27170f9a4ab1:2026071623",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "event_at": "2026-07-16T23:59:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "라이선스"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "라이선스",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "FATF, 스테이블코인 범죄 증가에 암호화폐 자금세탁방지 집행 가속 촉구",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684943",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684943",
+      "event_at": "2026-07-16T22:45:30+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "자금세탁"
+      ],
+      "technology": [
+        "온체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐"
+      ],
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "자금세탁",
+      "jurisdiction": "",
+      "chain": "온체인",
+      "metric_name": "온체인",
+      "metric_value": null,
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "온체인",
+      "canonical_key": "crypto_project:스테이블코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:246c2458e341:2026071622",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[주요 경제·디지털자산 일정] 미국 미시간대 소비자심리지수 外",
+      "url": "https://www.blockmedia.co.kr/archives/1117510",
+      "source_url": "https://www.blockmedia.co.kr/archives/1117510",
+      "event_at": "2026-07-16T22:00:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026071622",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "BitPay secures Dutch licensing under MiCA, plans to expand stablecoin payments",
+      "url": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments",
+      "source_url": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments",
+      "event_at": "2026-07-16T18:45:25+00:00",
+      "cryptocurrency": [
+        "stablecoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets"
+      ],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "mica",
+      "jurisdiction": "SEC",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026071618",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Bitcoin treasury troubles reach London as company votes to sell its entire BTC stack and delist",
+      "url": "https://cryptoslate.com/bitcoin-treasury-troubles-reach-london-as-company-weighs-selling-its-entire-btc-stack-and-delisting",
+      "source_url": "https://cryptoslate.com/bitcoin-treasury-troubles-reach-london-as-company-weighs-selling-its-entire-btc-stack-and-delisting",
+      "event_at": "2026-07-16T17:20:31+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [
+        "delisting"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "sell"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026071617",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Ethics in crypto market structure ‘really not our concern,’ says Blockchain Association CEO",
+      "url": "https://cointelegraph.com/news/ethics-crypto-market-structure-concerns-blockchain-ceo",
+      "source_url": "https://cointelegraph.com/news/ethics-crypto-market-structure-concerns-blockchain-ceo",
+      "event_at": "2026-07-16T16:47:09+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [
+        "blockchain"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "blockchain",
+        "market"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026071616",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "FATF urges faster crypto AML enforcement as stablecoin crime increases",
+      "url": "https://cointelegraph.com/news/fatf-urges-crypto-aml-enforcement-stablecoin-crime",
+      "source_url": "https://cointelegraph.com/news/fatf-urges-crypto-aml-enforcement-stablecoin-crime",
+      "event_at": "2026-07-16T12:05:45+00:00",
+      "cryptocurrency": [
+        "stablecoin",
+        "stablecoins"
+      ],
+      "exchange": [],
+      "regulation": [
+        "aml"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "tokens"
+      ],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "aml",
+      "jurisdiction": "US",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026071612",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "House Committee Schedules CLARITY Act Hearing in New York on July 17",
+      "url": "https://www.newsbtc.com/news/house-committee-schedules-clarity-act-hearing-in-new-york-on-july-17",
+      "source_url": "https://www.newsbtc.com/news/house-committee-schedules-clarity-act-hearing-in-new-york-on-july-17",
+      "event_at": "2026-07-15T14:50:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "market"
+      ],
+      "asset_symbol": "market",
+      "project_id": "market",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "market",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:market",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:2e9ac426b4ee:2026071514",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "디지털투데이",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -581,49 +1053,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "House Committee Schedules CLARITY Act Hearing in New York on July 17",
-      "url": "https://www.newsbtc.com/news/house-committee-schedules-clarity-act-hearing-in-new-york-on-july-17",
-      "source_url": "https://www.newsbtc.com/news/house-committee-schedules-clarity-act-hearing-in-new-york-on-july-17",
-      "event_at": "2026-07-15T14:50:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "market"
-      ],
-      "asset_symbol": "market",
-      "project_id": "market",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "market",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:market",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:2e9ac426b4ee:2026071514",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "CoinDesk",
@@ -5472,213 +5901,49 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
-      "url": "https://www.blockmedia.co.kr/archives/1112430",
-      "source_url": "https://www.blockmedia.co.kr/archives/1112430",
-      "event_at": "2026-07-01T23:59:20+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국",
-        "제재"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_source:블록미디어:2604a38933ec",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:93d24ac4b4b0:2026070123",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC’s Peirce Sees Clarity Act Passing This Summer as Crypto Rules Take Shape",
-      "url": "https://bitcoinmagazine.com/news/secs-peirce-sees-clarity-act-passing",
-      "source_url": "https://bitcoinmagazine.com/news/secs-peirce-sees-clarity-act-passing",
-      "event_at": "2026-07-01T14:56:51+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070114",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Europe's MiCA rollout sparks debate over who wins under new crypto rules",
-      "url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
-      "source_url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
-      "event_at": "2026-07-01T14:00:24+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "mica"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070114",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Europe is rewriting its landmark crypto rulebook MiCA as hard July 1 deadline passes",
-      "url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
-      "source_url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
-      "event_at": "2026-07-01T12:29:17+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link",
-        "stablecoins"
-      ],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "market",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "EU",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070112",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
+      "canonical_key": "crypto_project:이더리움",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "canonical_key": "crypto_project:토큰",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "FATF, 스테이블코인 범죄 증가에 암호화폐 자금세탁방지 집행 가속 촉구",
+      "canonical_key": "crypto_project:스테이블코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[주요 경제·디지털자산 일정] 미국 미시간대 소비자심리지수 外",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6024,24 +6289,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
-      "canonical_key": "crypto_source:블록미디어:2604a38933ec",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "‘메모리 쇼크’ 애플, 美 블랙리스트 中 기업 손잡나…트럼프 행정부 설득 나섰다",
-      "canonical_key_status": "source_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6110,7 +6357,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6541,
+    "total_rows": 6647,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
