@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-19T05:12:40.346624+00:00",
-  "scoped_article_count": 1412,
-  "event_count": 105,
+  "generated_at": "2026-07-20T05:32:45.998059+00:00",
+  "scoped_article_count": 1383,
+  "event_count": 98,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 22,
+    "exchange_listing_notice_events": 21,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 83,
+    "regulatory_action_events": 77,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 105,
+    "crypto_signal_event_count": 98,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 105,
-    "complete_canonical_key_count": 99,
-    "proxy_canonical_key_count": 6,
+    "news_proxy_event_count": 98,
+    "complete_canonical_key_count": 93,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 99,
-    "exchange_present_count": 32,
-    "regulator_present_count": 95,
-    "metric_name_present_count": 48,
+    "asset_symbol_present_count": 93,
+    "exchange_present_count": 29,
+    "regulator_present_count": 88,
+    "metric_name_present_count": 44,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 38,
+    "event_required_field_gap_count": 35,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 49
+    "daily_review_item_count": 45
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 143,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 224,
+      "article_count": 223,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 246,
+      "article_count": 244,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 152,
+      "article_count": 155,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 120,
+      "article_count": 121,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,101 @@
     }
   ],
   "events": [
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Bitcoin is trading through a dangerous weekend as 20% of the world’s oil hangs in the balance",
+      "url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
+      "source_url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
+      "event_at": "2026-07-18T17:00:49+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026071817",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Approves Higher IBIT Options Limits As Bitcoin ETF Market Matures",
+      "url": "https://www.newsbtc.com/news/sec-approves-higher-ibit-options-limits-as-bitcoin-etf-market-matures",
+      "source_url": "https://www.newsbtc.com/news/sec-approves-higher-ibit-options-limits-as-bitcoin-etf-market-matures",
+      "event_at": "2026-07-18T12:20:00+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "options"
+      ],
+      "crypto_general": [
+        "market"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "etf",
+      "metric_name": "options",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "options",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026071812",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -721,101 +816,6 @@
       "canonical_key": "crypto_project:usdc",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:b0d7195ff25a:2026071822",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitcoin is trading through a dangerous weekend as 20% of the world’s oil hangs in the balance",
-      "url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "source_url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "event_at": "2026-07-18T17:00:49+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "near"
-      ],
-      "exchange": [],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "trading"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026071817",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Approves Higher IBIT Options Limits As Bitcoin ETF Market Matures",
-      "url": "https://www.newsbtc.com/news/sec-approves-higher-ibit-options-limits-as-bitcoin-etf-market-matures",
-      "source_url": "https://www.newsbtc.com/news/sec-approves-higher-ibit-options-limits-as-bitcoin-etf-market-matures",
-      "event_at": "2026-07-18T12:20:00+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "options"
-      ],
-      "crypto_general": [
-        "market"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "options",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "options",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026071812",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -5292,359 +5292,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "비트코인 10만달러 가를 클래리티 법안…윤리조항·디파이 규제 ‘3대 쟁점’",
-      "url": "https://www.blockmedia.co.kr/archives/1112958",
-      "source_url": "https://www.blockmedia.co.kr/archives/1112958",
-      "event_at": "2026-07-05T05:00:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "미국"
-      ],
-      "technology": [
-        "디파이"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "디파이",
-      "metric_name": "디파이",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "디파이",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026070505",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "WSJ “이란·러시아·북한, 디지털자산으로 美 제재 피했다”",
-      "url": "https://www.blockmedia.co.kr/archives/1113355",
-      "source_url": "https://www.blockmedia.co.kr/archives/1113355",
-      "event_at": "2026-07-05T02:22:13+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국",
-        "제재"
-      ],
-      "technology": [
-        "지갑"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "토큰",
-        "지갑",
-        "주소",
-        "거래"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "지갑",
-      "metric_name": "지갑",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "지갑",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026070502",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "유럽 최대 핀테크 레볼루트 “USDT 거래 종료”…규제 리스크 반영",
-      "url": "https://www.blockmedia.co.kr/archives/1113357",
-      "source_url": "https://www.blockmedia.co.kr/archives/1113357",
-      "event_at": "2026-07-05T01:45:53+00:00",
-      "cryptocurrency": [
-        "스테이블코인",
-        "usdt",
-        "테더"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "규제"
-      ],
-      "technology": [
-        "지갑"
-      ],
-      "market": [
-        "매수",
-        "매도"
-      ],
-      "crypto_general": [
-        "지갑",
-        "거래",
-        "입금",
-        "출금",
-        "매수",
-        "매도"
-      ],
-      "asset_symbol": "스테이블코인",
-      "project_id": "스테이블코인",
-      "regulator": "규제",
-      "jurisdiction": "US",
-      "chain": "지갑",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "스테이블코인",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:스테이블코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:246c2458e341:2026070501",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Revolut to Delist USDT in Europe as Tether Skipped MiCA License",
-      "url": "https://beincrypto.com/revolut-usdt-delisting-mica-tether",
-      "source_url": "https://beincrypto.com/revolut-usdt-delisting-mica-tether",
-      "event_at": "2026-07-04T10:01:05+00:00",
-      "cryptocurrency": [
-        "usdt",
-        "usdc",
-        "tether"
-      ],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "usdt",
-      "project_id": "usdt",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "usdt",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "usdt",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:usdt",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:798a6beb71e7:2026070410",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
-      "url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
-      "source_url": "https://www.newsbtc.com/news/sec-names-kathleen-hutchinson-to-lead-international-affairs-office",
-      "event_at": "2026-07-03T12:45:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:sec:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:e286b99cb28c:2026070312",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Binance says MiCA should be judged by who it licenses, not who it excludes",
-      "url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
-      "source_url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
-      "event_at": "2026-07-03T06:30:00+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol"
-      ],
-      "exchange": [
-        "binance"
-      ],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070306",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Ondo tokenizes BlackRock’s IVV ETF and Micron stock under US custodial model",
-      "url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
-      "source_url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model",
-      "event_at": "2026-07-02T13:56:02+00:00",
-      "cryptocurrency": [
-        "ethereum"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "ethereum",
-      "project_id": "ethereum",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "ethereum",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:ethereum",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9f56ecebd71e:2026070213",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -6016,43 +5663,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "비트코인 10만달러 가를 클래리티 법안…윤리조항·디파이 규제 ‘3대 쟁점’",
-      "canonical_key": "crypto_project:비트코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "WSJ “이란·러시아·북한, 디지털자산으로 美 제재 피했다”",
-      "canonical_key": "crypto_project:가상자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "NewsBTC",
-      "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
-      "canonical_key": "reg_action:sec:sec",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "NewsBTC",
-      "title": "SEC Names Kathleen Hutchinson To Lead International Affairs Office",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6121,7 +5731,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6792,
+    "total_rows": 6823,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
