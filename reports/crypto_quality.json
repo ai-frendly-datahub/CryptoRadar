@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-20T05:32:45.998059+00:00",
-  "scoped_article_count": 1383,
-  "event_count": 98,
+  "generated_at": "2026-07-21T05:01:01.904911+00:00",
+  "scoped_article_count": 1378,
+  "event_count": 96,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 21,
+    "exchange_listing_notice_events": 20,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 77,
+    "regulatory_action_events": 76,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 98,
+    "crypto_signal_event_count": 96,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 98,
-    "complete_canonical_key_count": 93,
-    "proxy_canonical_key_count": 5,
+    "news_proxy_event_count": 96,
+    "complete_canonical_key_count": 90,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 93,
+    "asset_symbol_present_count": 90,
     "exchange_present_count": 29,
     "regulator_present_count": 88,
-    "metric_name_present_count": 44,
+    "metric_name_present_count": 46,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 35,
+    "event_required_field_gap_count": 37,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 45
+    "daily_review_item_count": 47
   },
   "sources": [
     {
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 223,
+      "article_count": 232,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 244,
+      "article_count": 238,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 155,
+      "article_count": 153,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 120,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 98,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -531,7 +531,7 @@
   ],
   "events": [
     {
-      "source": "CryptoSlate",
+      "source": "디지털투데이",
       "source_type": "rss",
       "trust_tier": "T3_professional",
       "content_type": "news",
@@ -539,38 +539,209 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "Bitcoin is trading through a dangerous weekend as 20% of the world’s oil hangs in the balance",
-      "url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "source_url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "event_at": "2026-07-18T17:00:49+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "near"
+      "title": "그레이스케일, 월드코인 현물 ETF 추진…美 SEC·나스닥 승인 남아",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=685583",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=685583",
+      "event_at": "2026-07-21T02:32:06+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "상장"
       ],
-      "exchange": [],
       "regulation": [
-        "eu"
+        "sec",
+        "미국"
       ],
-      "technology": [],
-      "market": [],
+      "technology": [
+        "블록체인",
+        "etf"
+      ],
+      "market": [
+        "레버리지"
+      ],
       "crypto_general": [
-        "trading"
+        "토큰",
+        "블록체인",
+        "거래",
+        "보유",
+        "가격"
       ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "블록체인",
+      "metric_name": "레버리지",
       "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
+      "asset_pair": "토큰",
+      "liquidity_metric": "레버리지",
+      "canonical_key": "crypto_project:토큰",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026071817",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026072102",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "엘리너 테렛, “백악관 클래리티 윤리조항 합의… 공화당에 전달”",
+      "url": "https://www.blockmedia.co.kr/archives/1118863",
+      "source_url": "https://www.blockmedia.co.kr/archives/1118863",
+      "event_at": "2026-07-20T23:44:50+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "법안"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "법안",
+      "jurisdiction": "",
+      "chain": "합의",
+      "metric_name": "합의",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "합의",
+      "canonical_key": "crypto_source:블록미디어:9e02eecbf8ff",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:f74c12a5142f:2026072023",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[코인시황] 비트코인, 6만5000달러선 회복…현물 ETF 2주 연속 순유입",
+      "url": "https://www.blockmedia.co.kr/archives/1118848",
+      "source_url": "https://www.blockmedia.co.kr/archives/1118848",
+      "event_at": "2026-07-20T23:38:33+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth",
+        "xrp"
+      ],
+      "exchange": [
+        "업비트",
+        "바이낸스",
+        "거래소",
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "투자",
+        "가격"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026072023",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "이더리움 현물 ETF, 1억500만달러 순유입…기관 매수 재점화?",
+      "url": "https://www.blockmedia.co.kr/archives/1118831",
+      "source_url": "https://www.blockmedia.co.kr/archives/1118831",
+      "event_at": "2026-07-20T22:04:07+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "매수"
+      ],
+      "crypto_general": [
+        "디지털자산",
+        "매수"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "매수",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "매수",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026072022",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -617,6 +788,52 @@
       "canonical_key": "crypto_project:bitcoin",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:9bdaaa88fb28:2026071812",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Bitcoin is trading through a dangerous weekend as 20% of the world’s oil hangs in the balance",
+      "url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
+      "source_url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
+      "event_at": "2026-07-18T17:00:49+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "near"
+      ],
+      "exchange": [],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026071817",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -1216,6 +1433,54 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "event_at": "2026-07-16T23:59:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "라이선스"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "라이선스",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
       "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
       "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
@@ -1250,54 +1515,6 @@
       "canonical_key": "crypto_project:이더리움",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:27170f9a4ab1:2026071623",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "event_at": "2026-07-16T23:59:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "라이선스"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "블록체인"
-      ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "라이선스",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -4998,303 +5215,27 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "비트코인·이더리움 ETF, 상반기 사상 첫 순유출… DWF “자금, AI로 쏠려”",
-      "url": "https://www.blockmedia.co.kr/archives/1112905",
-      "source_url": "https://www.blockmedia.co.kr/archives/1112905",
-      "event_at": "2026-07-06T05:45:04+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "btc",
-        "eth"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "웹3",
-        "etf"
-      ],
-      "market": [
-        "매수"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "매수",
-        "투자"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "웹3",
-      "metric_name": "매수",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "매수",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026070605",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[데일리픽] XRP 결제량 1000% 폭증 후 추락…SK하닉 美 ADR 상장 '흥행 예감'",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681599",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681599",
-      "event_at": "2026-07-06T05:37:29+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "급등",
-        "상승"
-      ],
-      "crypto_general": [
-        "거래"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "xrp",
-      "metric_name": "급등",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "급등",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026070605",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
-      "url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
-      "source_url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
-      "event_at": "2026-07-04T13:56:27+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol"
-      ],
-      "exchange": [],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "investors",
-        "markets",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026070413",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "EU crypto rulebook faces enforcement challenge as MiCA transition ends",
-      "url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
-      "source_url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end",
-      "event_at": "2026-07-03T13:59:16+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026070313",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "MEXC Lists Ondo Yield Asset As Tokenized Treasury Demand Grows",
-      "url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
-      "source_url": "https://www.newsbtc.com/news/mexc-lists-ondo-yield-asset-as-tokenized-treasury-demand-grows",
-      "event_at": "2026-07-03T13:51:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "mexc"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "yield",
-        "markets"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:c01d8c23551f:2026070313",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC’s Selig says Illinois lawmakers ‘decided they know better’ on crypto tax",
-      "url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
-      "source_url": "https://www.theblock.co/post/407094/cftcs-selig-says-illinois-lawmakers-decided-they-know-better-on-crypto-tax",
-      "event_at": "2026-07-02T19:12:45+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "transactions"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026070219",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "엘리너 테렛, “백악관 클래리티 윤리조항 합의… 공화당에 전달”",
+      "canonical_key": "crypto_source:블록미디어:9e02eecbf8ff",
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "엘리너 테렛, “백악관 클래리티 윤리조항 합의… 공화당에 전달”",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5379,8 +5320,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
-      "canonical_key": "crypto_project:이더리움",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "canonical_key": "crypto_project:토큰",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5389,8 +5330,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "canonical_key": "crypto_project:토큰",
+      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
+      "canonical_key": "crypto_project:이더리움",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5731,7 +5672,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6823,
+    "total_rows": 6915,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
