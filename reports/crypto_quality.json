@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-22T05:00:53.260143+00:00",
-  "scoped_article_count": 1278,
-  "event_count": 92,
+  "generated_at": "2026-07-23T05:17:40.131797+00:00",
+  "scoped_article_count": 1384,
+  "event_count": 100,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 18,
+    "exchange_listing_notice_events": 19,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 74,
+    "regulatory_action_events": 81,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 92,
+    "crypto_signal_event_count": 100,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 92,
-    "complete_canonical_key_count": 83,
-    "proxy_canonical_key_count": 9,
+    "news_proxy_event_count": 100,
+    "complete_canonical_key_count": 90,
+    "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 83,
-    "exchange_present_count": 27,
-    "regulator_present_count": 84,
-    "metric_name_present_count": 43,
+    "asset_symbol_present_count": 90,
+    "exchange_present_count": 31,
+    "regulator_present_count": 91,
+    "metric_name_present_count": 47,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 44,
+    "event_required_field_gap_count": 47,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -60,7 +60,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 140,
+      "article_count": 150,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 205,
+      "article_count": 222,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 224,
+      "article_count": 247,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 141,
+      "article_count": 153,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 120,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,481 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "금융위 “디지털자산 법인 개방 연내 긍정적…디지털자산기본법과 연계 발표”",
+      "url": "https://www.blockmedia.co.kr/archives/1119871",
+      "source_url": "https://www.blockmedia.co.kr/archives/1119871",
+      "event_at": "2026-07-23T05:08:04+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "금융위",
+        "금융위원회",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "발표"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "금융위",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026072305",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC settles Coinbase suit over ‘text messages that disappeared’",
+      "url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared",
+      "source_url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared",
+      "event_at": "2026-07-23T02:57:10+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "worth",
+        "loss"
+      ],
+      "asset_symbol": "worth",
+      "project_id": "worth",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "worth",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:worth",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:32b62bf2dae7:2026072302",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "2분기 디지털자산 해킹 피해액 1조1200억원…개인키·서명 탈취 88% 차지",
+      "url": "https://www.blockmedia.co.kr/archives/1119827",
+      "source_url": "https://www.blockmedia.co.kr/archives/1119827",
+      "event_at": "2026-07-23T02:20:29+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "스마트컨트랙트",
+        "웹3"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "스마트컨트랙트",
+      "metric_name": "스마트컨트랙트",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "스마트컨트랙트",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026072302",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC reaches settlement with Coinbase over records requests from Gensler era",
+      "url": "https://www.theblock.co/post/409437/sec-reaches-settlement-coinbase-over-records-requests-gensler-era",
+      "source_url": "https://www.theblock.co/post/409437/sec-reaches-settlement-coinbase-over-records-requests-gensler-era",
+      "event_at": "2026-07-22T16:55:08+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:sec:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:e286b99cb28c:2026072216",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
+      "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
+      "source_url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
+      "event_at": "2026-07-22T15:37:36+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "defi",
+        "lending"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "investment",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "defi",
+      "metric_name": "defi",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "defi",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026072215",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Coinbase Settles FOIA Fight With the SEC Over Gensler’s Vanished Texts",
+      "url": "https://bitcoinmagazine.com/news/coinbase-settles-foia-fight-with-the-sec",
+      "source_url": "https://bitcoinmagazine.com/news/coinbase-settles-foia-fight-with-the-sec",
+      "event_at": "2026-07-22T15:16:06+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026072215",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "‘You will have a painful fall’: SEC’s Peirce warns crypto vault builders against twisting securities law",
+      "url": "https://www.theblock.co/post/409409/you-will-have-a-painful-fall-secs-peirce-warns-crypto-vault-builders-against-twisting-securities-law",
+      "source_url": "https://www.theblock.co/post/409409/you-will-have-a-painful-fall-secs-peirce-warns-crypto-vault-builders-against-twisting-securities-law",
+      "event_at": "2026-07-22T15:11:57+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "lending"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "lending",
+      "metric_name": "lending",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "lending",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026072215",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Satsuma Shareholders Approve Bitcoin Liquidation, London Delisting",
+      "url": "https://bitcoinmagazine.com/news/satsuma-shareholders-bitcoin-liquidation",
+      "source_url": "https://bitcoinmagazine.com/news/satsuma-shareholders-bitcoin-liquidation",
+      "event_at": "2026-07-22T12:40:55+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [
+        "exchange",
+        "delisting"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [
+        "liquidation"
+      ],
+      "crypto_general": [
+        "sell",
+        "investors",
+        "losses",
+        "return"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "liquidation",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "liquidation",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026072212",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CLARITY Act could help CFTC deal with prediction markets: Lawyer",
+      "url": "https://cointelegraph.com/news/clarity-act-cftc-prediction-markets-resources",
+      "source_url": "https://cointelegraph.com/news/clarity-act-cftc-prediction-markets-resources",
+      "event_at": "2026-07-21T21:36:43+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "address",
+        "markets"
+      ],
+      "asset_symbol": "address",
+      "project_id": "address",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "address",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:address",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:7a473eb869cf:2026072121",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC Self-Reporting Guidelines Could Change Crypto Enforcement Incentives",
+      "url": "https://www.newsbtc.com/news/cftc-self-reporting-guidelines-crypto-enforcement-incentives",
+      "source_url": "https://www.newsbtc.com/news/cftc-self-reporting-guidelines-crypto-enforcement-incentives",
+      "event_at": "2026-07-21T15:45:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026072115",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -813,50 +1288,6 @@
       ]
     },
     {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CLARITY Act could help CFTC deal with prediction markets: Lawyer",
-      "url": "https://cointelegraph.com/news/clarity-act-cftc-prediction-markets-resources",
-      "source_url": "https://cointelegraph.com/news/clarity-act-cftc-prediction-markets-resources",
-      "event_at": "2026-07-21T21:36:43+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "address",
-        "markets"
-      ],
-      "asset_symbol": "address",
-      "project_id": "address",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "address",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:address",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:7a473eb869cf:2026072121",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Block",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -896,49 +1327,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC Self-Reporting Guidelines Could Change Crypto Enforcement Incentives",
-      "url": "https://www.newsbtc.com/news/cftc-self-reporting-guidelines-crypto-enforcement-incentives",
-      "source_url": "https://www.newsbtc.com/news/cftc-self-reporting-guidelines-crypto-enforcement-incentives",
-      "event_at": "2026-07-21T15:45:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026072115",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -1847,54 +2235,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "event_at": "2026-07-16T23:59:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "라이선스"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "블록체인"
-      ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "라이선스",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
       "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
       "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
@@ -1929,6 +2269,54 @@
       "canonical_key": "crypto_project:이더리움",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:27170f9a4ab1:2026071623",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "event_at": "2026-07-16T23:59:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "라이선스"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "라이선스",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -4996,6 +5384,43 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
+      "title": "금융위 “디지털자산 법인 개방 연내 긍정적…디지털자산기본법과 연계 발표”",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "2분기 디지털자산 해킹 피해액 1조1200억원…개인키·서명 탈취 88% 차지",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "SEC reaches settlement with Coinbase over records requests from Gensler era",
+      "canonical_key": "reg_action:sec:sec",
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "SEC reaches settlement with Coinbase over records requests from Gensler era",
+      "canonical_key_status": "regulator_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
       "title": "금융위 유영준 정책관 “AI 결제, 스테이블코인 · 카드 등 기술중립적으로 논의”(종합)",
       "canonical_key": "crypto_project:스테이블코인",
       "required_field_gaps": [
@@ -5178,8 +5603,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "canonical_key": "crypto_project:토큰",
+      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
+      "canonical_key": "crypto_project:이더리움",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5188,8 +5613,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
-      "canonical_key": "crypto_project:이더리움",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "canonical_key": "crypto_project:토큰",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5433,27 +5858,6 @@
       "required_field_gaps": [
         "project_id"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "BeInCrypto",
-      "title": "Judge Approves $1.5 Million Penalty for Elon Musk in Twitter SEC Case",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
-      "reason": "source_missing",
-      "source": "Glassnode Insights",
-      "event_model": "onchain_metric",
-      "age_days": null
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "onchain_metric"
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "liquidity_snapshot"
     }
   ],
   "source_backlog": {
@@ -5486,7 +5890,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 6989,
+    "total_rows": 6916,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
