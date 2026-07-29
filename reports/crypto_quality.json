@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-07-28T04:55:00.369188+00:00",
-  "scoped_article_count": 1276,
-  "event_count": 82,
+  "generated_at": "2026-07-29T05:00:19.465767+00:00",
+  "scoped_article_count": 1264,
+  "event_count": 87,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 11,
+    "exchange_listing_notice_events": 14,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 71,
+    "regulatory_action_events": 73,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 82,
+    "crypto_signal_event_count": 87,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 82,
-    "complete_canonical_key_count": 75,
+    "news_proxy_event_count": 87,
+    "complete_canonical_key_count": 80,
     "proxy_canonical_key_count": 7,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 75,
-    "exchange_present_count": 24,
-    "regulator_present_count": 75,
-    "metric_name_present_count": 39,
+    "asset_symbol_present_count": 80,
+    "exchange_present_count": 28,
+    "regulator_present_count": 78,
+    "metric_name_present_count": 40,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 42,
+    "event_required_field_gap_count": 44,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 208,
+      "article_count": 215,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 224,
+      "article_count": 223,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 132,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 116,
+      "article_count": 113,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -531,6 +531,579 @@
   ],
   "events": [
     {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "모간스탠리, 솔라나 현물형 ETP 출시…0.14% 수수료·스테이킹으로 승부",
+      "url": "https://www.blockmedia.co.kr/archives/1121786",
+      "source_url": "https://www.blockmedia.co.kr/archives/1121786",
+      "event_at": "2026-07-29T04:27:39+00:00",
+      "cryptocurrency": [
+        "솔라나",
+        "sol"
+      ],
+      "exchange": [
+        "거래소",
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "스테이킹"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래",
+        "투자",
+        "투자자",
+        "가격"
+      ],
+      "asset_symbol": "솔라나",
+      "project_id": "솔라나",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "스테이킹",
+      "metric_name": "스테이킹",
+      "metric_value": null,
+      "asset_pair": "솔라나",
+      "liquidity_metric": "스테이킹",
+      "canonical_key": "crypto_project:솔라나",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:2bbf6255f3d3:2026072904",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "자산운용사 블랙록 \"클래리티법, 美 자본시장 주도권 유지에 기여할 것\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=687913",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=687913",
+      "event_at": "2026-07-29T04:19:09+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "법안",
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "암호화폐",
+        "블록체인",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:757e19da46d7:2026072904",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "구윤철 부총리 “디지털자산 과세 내년 예정대로 시행”…유예론 일축",
+      "url": "https://www.blockmedia.co.kr/archives/1121796",
+      "source_url": "https://www.blockmedia.co.kr/archives/1121796",
+      "event_at": "2026-07-29T03:42:28+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "과세",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026072903",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
+      "url": "https://cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut",
+      "source_url": "https://cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut",
+      "event_at": "2026-07-29T03:26:44+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "digital",
+        "miner",
+        "market",
+        "gains"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026072903",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미얀마 의회, 디지털자산 사기 ‘최대 종신형’ 법안 통과…사기조직엔 사형",
+      "url": "https://www.blockmedia.co.kr/archives/1121769",
+      "source_url": "https://www.blockmedia.co.kr/archives/1121769",
+      "event_at": "2026-07-29T03:25:34+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "법안",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "법안",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026072903",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블로터",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "라이프자산운용, 공모펀드 인가…액티브 ETF로 영토 확장",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=669106",
+      "source_url": "https://www.bloter.net/news/articleView.html?idxno=669106",
+      "event_at": "2026-07-28T23:00:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "금융위",
+        "금융위원회"
+      ],
+      "technology": [
+        "검증",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "검증",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "검증",
+      "project_id": "검증",
+      "regulator": "금융위",
+      "jurisdiction": "",
+      "chain": "검증",
+      "metric_name": "검증",
+      "metric_value": null,
+      "asset_pair": "검증",
+      "liquidity_metric": "검증",
+      "canonical_key": "crypto_project:검증",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:94b260b5db1c:2026072823",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Chairman Says He’s ‘Committed’ to Helping Advance Crypto Clarity Act",
+      "url": "https://bitcoinmagazine.com/news/sec-chair-paul-atkins-supports-clarity-act",
+      "source_url": "https://bitcoinmagazine.com/news/sec-chair-paul-atkins-supports-clarity-act",
+      "event_at": "2026-07-28T21:53:59+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026072821",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins",
+      "url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
+      "source_url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
+      "event_at": "2026-07-28T14:23:08+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [
+        "exchange"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "coins"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026072814",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Inside the CME and CFTC’s battle over onchain perpetual futures",
+      "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
+      "source_url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
+      "event_at": "2026-07-28T08:00:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto",
+        "traders",
+        "bullish",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "futures",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "futures",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026072808",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Securitize expands regulated platform with SEC adviser license",
+      "url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
+      "source_url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
+      "event_at": "2026-07-27T18:08:44+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "investment",
+        "investors"
+      ],
+      "asset_symbol": "investment",
+      "project_id": "investment",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "investment",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:investment",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:e58dd2f4d681:2026072718",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "FATF Says Crypto Travel Rule Adoption Is Rising, But Enforcement Still Lags",
+      "url": "https://www.newsbtc.com/news/fatf-says-crypto-travel-rule-adoption-is-rising-but-enforcement-still-lags",
+      "source_url": "https://www.newsbtc.com/news/fatf-says-crypto-travel-rule-adoption-is-rising-but-enforcement-still-lags",
+      "event_at": "2026-07-24T19:00:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "travel rule"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "travel rule",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026072419",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Enforcement Deputy Sam Waldon To Step Down As Agency Reshuffles Leadership",
+      "url": "https://www.newsbtc.com/news/sec-enforcement-deputy-sam-waldon-to-step-down-as-agency-reshuffles-leadership",
+      "source_url": "https://www.newsbtc.com/news/sec-enforcement-deputy-sam-waldon-to-step-down-as-agency-reshuffles-leadership",
+      "event_at": "2026-07-24T17:20:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:sec:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:e286b99cb28c:2026072417",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
       "source": "디지털투데이",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -628,50 +1201,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Securitize expands regulated platform with SEC adviser license",
-      "url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
-      "source_url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
-      "event_at": "2026-07-27T18:08:44+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "investment",
-        "investors"
-      ],
-      "asset_symbol": "investment",
-      "project_id": "investment",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "investment",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:investment",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:e58dd2f4d681:2026072718",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "CoinDesk",
@@ -784,94 +1313,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "FATF Says Crypto Travel Rule Adoption Is Rising, But Enforcement Still Lags",
-      "url": "https://www.newsbtc.com/news/fatf-says-crypto-travel-rule-adoption-is-rising-but-enforcement-still-lags",
-      "source_url": "https://www.newsbtc.com/news/fatf-says-crypto-travel-rule-adoption-is-rising-but-enforcement-still-lags",
-      "event_at": "2026-07-24T19:00:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "travel rule"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "travel rule",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026072419",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Enforcement Deputy Sam Waldon To Step Down As Agency Reshuffles Leadership",
-      "url": "https://www.newsbtc.com/news/sec-enforcement-deputy-sam-waldon-to-step-down-as-agency-reshuffles-leadership",
-      "source_url": "https://www.newsbtc.com/news/sec-enforcement-deputy-sam-waldon-to-step-down-as-agency-reshuffles-leadership",
-      "event_at": "2026-07-24T17:20:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:sec:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:e286b99cb28c:2026072417",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
     },
     {
       "source": "블록미디어",
@@ -3813,6 +4254,54 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
+      "event_at": "2026-07-16T23:59:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "라이선스"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "라이선스",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
       "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
       "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684947",
@@ -3847,54 +4336,6 @@
       "canonical_key": "crypto_project:이더리움",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:27170f9a4ab1:2026071623",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684953",
-      "event_at": "2026-07-16T23:59:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "라이선스"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "토큰",
-        "블록체인"
-      ],
-      "asset_symbol": "토큰",
-      "project_id": "토큰",
-      "regulator": "라이선스",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "토큰",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:토큰",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:dc6eb6052ff0:2026071623",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -4335,195 +4776,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "엔비디아, 中 우회 수출 칼 빼들었다…아시아 AI 칩 고객사 절반 이상 정리",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684272",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684272",
-      "event_at": "2026-07-15T04:12:17+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "일본",
-        "싱가포르"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "일본",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026071504",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "中, AI 다음 승부수는 '로보틱스'…정책·자금 휴머노이드에 올인",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684267",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684267",
-      "event_at": "2026-07-15T04:12:11+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026071504",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Hyperliquid Meets SEC Crypto Task Force in Landmark Talks",
-      "url": "https://beincrypto.com/hyperliquid-sec-crypto-task-force-rules",
-      "source_url": "https://beincrypto.com/hyperliquid-sec-crypto-task-force-rules",
-      "event_at": "2026-07-14T18:23:24+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "decentralized"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "decentralized",
-        "protocol",
-        "trade",
-        "market",
-        "markets"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "decentralized",
-      "metric_name": "decentralized",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "decentralized",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026071418",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Global law firm launches MiCA compliance tool as crypto companies navigate new EU rules",
-      "url": "https://cointelegraph.com/news/global-law-firm-mica-compliance-tool-crypto-companies-navigate-new-eu-rules",
-      "source_url": "https://cointelegraph.com/news/global-law-firm-mica-compliance-tool-crypto-companies-navigate-new-eu-rules",
-      "event_at": "2026-07-13T21:40:32+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "mica",
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "mica",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026071321",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4531,7 +4783,7 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "스카이브리지 창업자 \"클래리티법, 불완전해도 규제 무법지대보단 낫다\"",
+      "title": "자산운용사 블랙록 \"클래리티법, 美 자본시장 주도권 유지에 기여할 것\"",
       "canonical_key": "crypto_project:암호화폐",
       "required_field_gaps": [
         "jurisdiction"
@@ -4541,8 +4793,28 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
-      "title": "美 상원, 디지털자산 ‘클래리티 법안’ 처리 연기…러시아 제재안 우선 심사",
+      "title": "구윤철 부총리 “디지털자산 과세 내년 예정대로 시행”…유예론 일축",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "미얀마 의회, 디지털자산 사기 ‘최대 종신형’ 법안 통과…사기조직엔 사형",
       "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블로터",
+      "title": "라이프자산운용, 공모펀드 인가…액티브 ETF로 영토 확장",
+      "canonical_key": "crypto_project:검증",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4573,6 +4845,26 @@
       "source": "NewsBTC",
       "title": "SEC Enforcement Deputy Sam Waldon To Step Down As Agency Reshuffles Leadership",
       "canonical_key_status": "regulator_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "스카이브리지 창업자 \"클래리티법, 불완전해도 규제 무법지대보단 낫다\"",
+      "canonical_key": "crypto_project:암호화폐",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "美 상원, 디지털자산 ‘클래리티 법안’ 처리 연기…러시아 제재안 우선 심사",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -4885,8 +5177,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
-      "canonical_key": "crypto_project:이더리움",
+      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
+      "canonical_key": "crypto_project:토큰",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4895,8 +5187,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "미라 무라티의 씽킹머신스랩, 첫 AI 모델 '잉클링' 공개",
-      "canonical_key": "crypto_project:토큰",
+      "title": "아크인베스트 '기관은 허가형보다 디파이 인프라에 더 기대게 될 것'",
+      "canonical_key": "crypto_project:이더리움",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4932,26 +5224,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "엔비디아, 中 우회 수출 칼 빼들었다…아시아 AI 칩 고객사 절반 이상 정리",
-      "canonical_key": "crypto_project:블록체인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "中, AI 다음 승부수는 '로보틱스'…정책·자금 휴머노이드에 올인",
-      "canonical_key": "crypto_project:블록체인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4970,18 +5242,6 @@
       "source": "Upbit listing and delisting notices",
       "signal_type": "exchange_listing_notice",
       "activation_gate": "parser stability, market code mapping, and notice/listing date separation"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Binance listing and delisting announcements",
-      "signal_type": "exchange_listing_notice",
-      "activation_gate": "ToS review, asset pair mapping, and duplicate announcement handling"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "SEC/CFTC crypto regulatory actions",
-      "signal_type": "regulatory_action",
-      "activation_gate": "regulator taxonomy, case id mapping, and jurisdiction tagging"
     }
   ],
   "source_backlog": {
@@ -5014,7 +5274,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7221,
+    "total_rows": 7279,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
