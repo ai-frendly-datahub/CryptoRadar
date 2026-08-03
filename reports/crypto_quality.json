@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-08-02T05:18:38.092268+00:00",
-  "scoped_article_count": 1299,
-  "event_count": 87,
+  "generated_at": "2026-08-03T05:33:26.560524+00:00",
+  "scoped_article_count": 1252,
+  "event_count": 88,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,23 +24,23 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 16,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 71,
+    "regulatory_action_events": 72,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 87,
+    "crypto_signal_event_count": 88,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 87,
-    "complete_canonical_key_count": 77,
+    "news_proxy_event_count": 88,
+    "complete_canonical_key_count": 78,
     "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 77,
+    "asset_symbol_present_count": 78,
     "exchange_present_count": 32,
-    "regulator_present_count": 77,
-    "metric_name_present_count": 42,
+    "regulator_present_count": 78,
+    "metric_name_present_count": 44,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 44,
+    "event_required_field_gap_count": 45,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 232,
+      "article_count": 218,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 253,
+      "article_count": 242,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 140,
+      "article_count": 132,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 106,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -531,59 +531,6 @@
   ],
   "events": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "비트코인 6만3000달러대 회복, 트럼프 “이란 폭격 취소” 발표에 안도(상보)",
-      "url": "https://www.blockmedia.co.kr/archives/1123266",
-      "source_url": "https://www.blockmedia.co.kr/archives/1123266",
-      "event_at": "2026-08-02T03:21:01+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [
-        "상승"
-      ],
-      "crypto_general": [
-        "디지털자산",
-        "발표"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026080203",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "source": "디지털투데이",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -592,33 +539,89 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "美 미네소타, 암호화폐 ATM 금지법 발효…기존 기기도 연말까지 철거",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689074",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689074",
-      "event_at": "2026-08-01T22:35:29+00:00",
+      "title": "전 CFTC 위원장 \"클래리티법 과대평가 말아야…업계 혁신 지속될 것\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689290",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689290",
+      "event_at": "2026-08-03T05:14:06+00:00",
       "cryptocurrency": [],
       "exchange": [],
       "regulation": [
         "법안",
+        "cftc",
         "미국"
       ],
-      "technology": [],
-      "market": [],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [
+        "선물"
+      ],
       "crypto_general": [
-        "암호화폐"
+        "암호화폐",
+        "블록체인",
+        "거래"
       ],
       "asset_symbol": "암호화폐",
       "project_id": "암호화폐",
       "regulator": "법안",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
+      "jurisdiction": "CFTC",
+      "chain": "블록체인",
+      "metric_name": "선물",
       "metric_value": null,
       "asset_pair": "암호화폐",
-      "liquidity_metric": "",
+      "liquidity_metric": "선물",
       "canonical_key": "crypto_project:암호화폐",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026080122",
+      "event_key": "regulatory_action:757e19da46d7:2026080305",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "“연준이 안 보인다”…채권시장 흔드는 워시 의장, 미 국채금리 급등 우려",
+      "url": "https://www.blockmedia.co.kr/archives/1123339",
+      "source_url": "https://www.blockmedia.co.kr/archives/1123339",
+      "event_at": "2026-08-02T22:56:37+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "상승",
+        "매도"
+      ],
+      "crypto_general": [
+        "매도",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "매도",
+      "project_id": "매도",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "매도",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:매도",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c063de1359b2:2026080222",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -686,99 +689,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "George Santos Kalshi Bet Cost Him $35,000: Who Caught Him First?",
-      "url": "https://beincrypto.com/george-santos-kalshi-cftc-fine",
-      "source_url": "https://beincrypto.com/george-santos-kalshi-cftc-fine",
-      "event_at": "2026-08-01T06:34:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:85bff5650846:2026080106",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "미 재무부, 이란 해상보험 관련 2개사 제재…비트코인 결제 걸림돌",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689058",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689058",
-      "event_at": "2026-08-01T00:39:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "미국",
-        "제재"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026080100",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     },
     {
       "source": "The Block",
@@ -913,6 +823,198 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "비트코인 6만3000달러대 회복, 트럼프 “이란 폭격 취소” 발표에 안도(상보)",
+      "url": "https://www.blockmedia.co.kr/archives/1123266",
+      "source_url": "https://www.blockmedia.co.kr/archives/1123266",
+      "event_at": "2026-08-02T03:21:01+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "디지털자산",
+        "발표"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "합의",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026080203",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "美 미네소타, 암호화폐 ATM 금지법 발효…기존 기기도 연말까지 철거",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689074",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689074",
+      "event_at": "2026-08-01T22:35:29+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "법안",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "암호화폐"
+      ],
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "법안",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:757e19da46d7:2026080122",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "George Santos Kalshi Bet Cost Him $35,000: Who Caught Him First?",
+      "url": "https://beincrypto.com/george-santos-kalshi-cftc-fine",
+      "source_url": "https://beincrypto.com/george-santos-kalshi-cftc-fine",
+      "event_at": "2026-08-01T06:34:03+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "cftc",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:cftc:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:85bff5650846:2026080106",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미 재무부, 이란 해상보험 관련 2개사 제재…비트코인 결제 걸림돌",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689058",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689058",
+      "event_at": "2026-08-01T00:39:00+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국",
+        "제재"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026080100",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "source": "블록미디어",
@@ -4734,55 +4836,36 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitcoin is trading through a dangerous weekend as 20% of the world’s oil hangs in the balance",
-      "url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "source_url": "https://cryptoslate.com/bitcoin-is-trading-through-a-dangerous-weekend-as-20-of-the-worlds-oil-hangs-in-the-balance",
-      "event_at": "2026-07-18T17:00:49+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "near"
-      ],
-      "exchange": [],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "trading"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026071817",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "“연준이 안 보인다”…채권시장 흔드는 워시 의장, 미 국채금리 급등 우려",
+      "canonical_key": "crypto_project:매도",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
+      "canonical_key": "reg_action:cftc:cftc",
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
+      "canonical_key_status": "regulator_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4829,23 +4912,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "canonical_key_status": "regulator_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5244,10 +5310,6 @@
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
       "age_days": null
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "onchain_metric"
     }
   ],
   "source_backlog": {
@@ -5280,7 +5342,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7622,
+    "total_rows": 7670,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
