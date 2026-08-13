@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-08-12T03:57:42.329745+00:00",
-  "scoped_article_count": 1340,
-  "event_count": 110,
+  "generated_at": "2026-08-13T04:00:56.143389+00:00",
+  "scoped_article_count": 1345,
+  "event_count": 107,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,23 +24,23 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 21,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 89,
+    "regulatory_action_events": 86,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 110,
+    "crypto_signal_event_count": 107,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 110,
-    "complete_canonical_key_count": 104,
+    "news_proxy_event_count": 107,
+    "complete_canonical_key_count": 101,
     "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 104,
-    "exchange_present_count": 43,
-    "regulator_present_count": 96,
-    "metric_name_present_count": 56,
+    "asset_symbol_present_count": 101,
+    "exchange_present_count": 42,
+    "regulator_present_count": 92,
+    "metric_name_present_count": 55,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 55,
+    "event_required_field_gap_count": 51,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 227,
+      "article_count": 223,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 273,
+      "article_count": 275,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 157,
+      "article_count": 159,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 117,
+      "article_count": 121,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 122,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,253 @@
     }
   ],
   "events": [
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Prediction markets should dial back faulty filings for incentives to boost trading: CFTC",
+      "url": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
+      "source_url": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
+      "event_at": "2026-08-12T23:16:53+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "apr",
+        "trading",
+        "market",
+        "markets",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026081223",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "트론, 자산 95% TRX에 집중…저스트렌드 의존도 90% 육박",
+      "url": "https://www.blockmedia.co.kr/archives/1127161",
+      "source_url": "https://www.blockmedia.co.kr/archives/1127161",
+      "event_at": "2026-08-12T21:52:41+00:00",
+      "cryptocurrency": [
+        "트론",
+        "trx"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "탈중앙화",
+        "defi",
+        "스테이킹"
+      ],
+      "market": [],
+      "crypto_general": [
+        "탈중앙",
+        "보유",
+        "가격"
+      ],
+      "asset_symbol": "트론",
+      "project_id": "트론",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "탈중앙화",
+      "metric_name": "탈중앙화",
+      "metric_value": null,
+      "asset_pair": "트론",
+      "liquidity_metric": "탈중앙화",
+      "canonical_key": "crypto_project:트론",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:2bfa01a63517:2026081221",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "골드만삭스 22억5000만달러 승부수… 비트코인 인컴 ETF 시장 뛰어든다(종합)",
+      "url": "https://www.blockmedia.co.kr/archives/1127143",
+      "source_url": "https://www.blockmedia.co.kr/archives/1127143",
+      "event_at": "2026-08-12T21:28:17+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026081221",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Fidelity Files to Let Its Ethereum ETF Stake and Pay Investors",
+      "url": "https://decrypt.co/375457/fidelity-files-ethereum-etf-stake-pay-investors",
+      "source_url": "https://decrypt.co/375457/fidelity-files-ethereum-etf-stake-pay-investors",
+      "event_at": "2026-08-12T17:13:43+00:00",
+      "cryptocurrency": [
+        "ethereum",
+        "eth"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "stake",
+        "investors"
+      ],
+      "asset_symbol": "ethereum",
+      "project_id": "ethereum",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "ethereum",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:ethereum",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9f56ecebd71e:2026081217",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC Invokes Emergency Powers to Keep Kalshi Trading Despite New York Suit",
+      "url": "https://decrypt.co/375387/cftc-invokes-emergency-powers-to-keep-kalshi-trading-despite-new-york-suit",
+      "source_url": "https://decrypt.co/375387/cftc-invokes-emergency-powers-to-keep-kalshi-trading-despite-new-york-suit",
+      "event_at": "2026-08-12T09:22:12+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "trading",
+        "market"
+      ],
+      "asset_symbol": "trading",
+      "project_id": "trading",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "trading",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:trading",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:6894219b8c51:2026081209",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -5624,398 +5871,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "모간스탠리, 솔라나 현물형 ETP 출시…0.14% 수수료·스테이킹으로 승부",
-      "url": "https://www.blockmedia.co.kr/archives/1121786",
-      "source_url": "https://www.blockmedia.co.kr/archives/1121786",
-      "event_at": "2026-07-29T04:27:39+00:00",
-      "cryptocurrency": [
-        "솔라나",
-        "sol"
-      ],
-      "exchange": [
-        "거래소",
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "스테이킹"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래",
-        "투자",
-        "투자자",
-        "가격"
-      ],
-      "asset_symbol": "솔라나",
-      "project_id": "솔라나",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "스테이킹",
-      "metric_name": "스테이킹",
-      "metric_value": null,
-      "asset_pair": "솔라나",
-      "liquidity_metric": "스테이킹",
-      "canonical_key": "crypto_project:솔라나",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:2bbf6255f3d3:2026072904",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "자산운용사 블랙록 \"클래리티법, 美 자본시장 주도권 유지에 기여할 것\"",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=687913",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=687913",
-      "event_at": "2026-07-29T04:19:09+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "투자",
-        "투자자"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026072904",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "구윤철 부총리 “디지털자산 과세 내년 예정대로 시행”…유예론 일축",
-      "url": "https://www.blockmedia.co.kr/archives/1121796",
-      "source_url": "https://www.blockmedia.co.kr/archives/1121796",
-      "event_at": "2026-07-29T03:42:28+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "과세",
-        "디지털자산"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "과세",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026072903",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "미얀마 의회, 디지털자산 사기 ‘최대 종신형’ 법안 통과…사기조직엔 사형",
-      "url": "https://www.blockmedia.co.kr/archives/1121769",
-      "source_url": "https://www.blockmedia.co.kr/archives/1121769",
-      "event_at": "2026-07-29T03:25:34+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "법안",
-        "디지털자산"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "디지털자산"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "법안",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026072903",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블로터",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "라이프자산운용, 공모펀드 인가…액티브 ETF로 영토 확장",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=669106",
-      "source_url": "https://www.bloter.net/news/articleView.html?idxno=669106",
-      "event_at": "2026-07-28T23:00:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "금융위",
-        "금융위원회"
-      ],
-      "technology": [
-        "검증",
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "검증",
-        "투자",
-        "투자자"
-      ],
-      "asset_symbol": "검증",
-      "project_id": "검증",
-      "regulator": "금융위",
-      "jurisdiction": "",
-      "chain": "검증",
-      "metric_name": "검증",
-      "metric_value": null,
-      "asset_pair": "검증",
-      "liquidity_metric": "검증",
-      "canonical_key": "crypto_project:검증",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:94b260b5db1c:2026072823",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Hyperscale Ups Bitcoin Stash, Bridging Holdings to Over 1,106 Coins",
-      "url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
-      "source_url": "https://bitcoinmagazine.com/news/hyperscale-ups-bitcoin-stash",
-      "event_at": "2026-07-28T14:23:08+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "coins"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026072814",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Inside the CME and CFTC’s battle over onchain perpetual futures",
-      "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "source_url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "event_at": "2026-07-28T08:00:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "listing"
-      ],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto",
-        "traders",
-        "bullish",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "futures",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "futures",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026072808",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Securitize expands regulated platform with SEC adviser license",
-      "url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
-      "source_url": "https://www.theblock.co/post/409821/securitize-expands-regulated-platform-with-sec-adviser-license",
-      "event_at": "2026-07-27T18:08:44+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "investment",
-        "investors"
-      ],
-      "asset_symbol": "investment",
-      "project_id": "investment",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "investment",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:investment",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:e58dd2f4d681:2026072718",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -6539,7 +6394,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 8075,
+    "total_rows": 8170,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
