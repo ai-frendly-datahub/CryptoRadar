@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-08-17T02:54:33.564750+00:00",
-  "scoped_article_count": 1338,
-  "event_count": 113,
+  "generated_at": "2026-08-18T02:48:41.874958+00:00",
+  "scoped_article_count": 1334,
+  "event_count": 114,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 22,
+    "exchange_listing_notice_events": 23,
     "regulatory_action_configured_sources": 0,
     "regulatory_action_events": 91,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 113,
+    "crypto_signal_event_count": 114,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 113,
-    "complete_canonical_key_count": 109,
-    "proxy_canonical_key_count": 4,
+    "news_proxy_event_count": 114,
+    "complete_canonical_key_count": 111,
+    "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 109,
+    "asset_symbol_present_count": 111,
     "exchange_present_count": 46,
-    "regulator_present_count": 101,
-    "metric_name_present_count": 59,
+    "regulator_present_count": 102,
+    "metric_name_present_count": 56,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 47,
+    "event_required_field_gap_count": 45,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 217,
+      "article_count": 210,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 263,
+      "article_count": 265,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 150,
+      "article_count": 146,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 133,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -538,6 +538,345 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "비트파이넥스, ATOM·LDO 등 13종 상폐… “31일까지 출금 안 하면 추가 수수료”",
+      "url": "https://www.blockmedia.co.kr/archives/1128684",
+      "source_url": "https://www.blockmedia.co.kr/archives/1128684",
+      "event_at": "2026-08-17T23:11:01+00:00",
+      "cryptocurrency": [
+        "코스모스",
+        "atom"
+      ],
+      "exchange": [
+        "bitfinex",
+        "상장",
+        "상폐"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "출금",
+        "투자",
+        "투자자",
+        "보유"
+      ],
+      "asset_symbol": "코스모스",
+      "project_id": "코스모스",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "코스모스",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "코스모스",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:코스모스",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:44733294d86e:2026081723",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say",
+      "url": "https://decrypt.co/375779/wall-street-pushback-halts-sec-crypto-fundraising-framework",
+      "source_url": "https://decrypt.co/375779/wall-street-pushback-halts-sec-crypto-fundraising-framework",
+      "event_at": "2026-08-17T16:27:26+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "trade"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026081716",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Morning Minute: Trump To Meet Crypto, Prediction Market CEOs This Week",
+      "url": "https://decrypt.co/375760/morning-minute-trump-to-meet-crypto-prediction-market-ceos-this-week",
+      "source_url": "https://decrypt.co/375760/morning-minute-trump-to-meet-crypto-prediction-market-ceos-this-week",
+      "event_at": "2026-08-17T13:03:17+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026081713",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Austria’s FMA fines crypto broker Bitpanda $81,000 in first published MiCA penalty",
+      "url": "https://www.theblock.co/news/regulation/2026-08-17-austria-mica-penalty-bitpanda-411960",
+      "source_url": "https://www.theblock.co/news/regulation/2026-08-17-austria-mica-penalty-bitpanda-411960",
+      "event_at": "2026-08-17T13:03:16+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026081713",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Bitpanda fined 70,000 euros in Austria’s first published MiCA enforcement case",
+      "url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
+      "source_url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
+      "event_at": "2026-08-17T10:52:31+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026081710",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Bitpanda fined in Austria’s first published MiCA penalty",
+      "url": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty",
+      "source_url": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty",
+      "event_at": "2026-08-17T09:31:47+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026081709",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "The SEC meeting that wasn't: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+      "source_url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+      "event_at": "2026-08-16T18:30:00+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "btc",
+        "ethereum",
+        "eth",
+        "xrp",
+        "solana",
+        "sol",
+        "link"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "apr",
+        "price",
+        "prices"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026081618",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "regulatory_action",
       "title": "트럼프 “한미 연합훈련 비용 많이 들어”…미 국방부에 축소 지시",
       "url": "https://www.blockmedia.co.kr/archives/1128349",
@@ -673,61 +1012,6 @@
       "canonical_key": "crypto_project:가상자산",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:64622065b9b4:2026081620",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "The SEC meeting that wasn't: State of Crypto",
-      "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-      "source_url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-      "event_at": "2026-08-16T18:30:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "cryptocurrency",
-        "token",
-        "tokens",
-        "digital",
-        "digital asset",
-        "digital assets",
-        "address",
-        "receive",
-        "hold",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026081618",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -5990,252 +6274,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "전 CFTC 위원장 \"클래리티법 과대평가 말아야…업계 혁신 지속될 것\"",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689290",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=689290",
-      "event_at": "2026-08-03T05:14:06+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "법안",
-        "cftc",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [
-        "선물"
-      ],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "거래"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "법안",
-      "jurisdiction": "CFTC",
-      "chain": "블록체인",
-      "metric_name": "선물",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "선물",
-      "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026080305",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "“연준이 안 보인다”…채권시장 흔드는 워시 의장, 미 국채금리 급등 우려",
-      "url": "https://www.blockmedia.co.kr/archives/1123339",
-      "source_url": "https://www.blockmedia.co.kr/archives/1123339",
-      "event_at": "2026-08-02T22:56:37+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "급등",
-        "상승",
-        "매도"
-      ],
-      "crypto_general": [
-        "매도",
-        "투자",
-        "투자자"
-      ],
-      "asset_symbol": "매도",
-      "project_id": "매도",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "급등",
-      "metric_value": null,
-      "asset_pair": "매도",
-      "liquidity_metric": "급등",
-      "canonical_key": "crypto_project:매도",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c063de1359b2:2026080222",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
-      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
-      "source_url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
-      "event_at": "2026-08-01T15:48:27+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec",
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "options"
-      ],
-      "crypto_general": [
-        "crypto",
-        "price",
-        "prices",
-        "value"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "options",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "options",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026080115",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "url": "https://www.theblock.co/post/410338/george-santos-to-pay-35000-cftc-settlement-kalshi-sotu-bet",
-      "source_url": "https://www.theblock.co/post/410338/george-santos-to-pay-35000-cftc-settlement-kalshi-sotu-bet",
-      "event_at": "2026-07-31T20:25:30+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026073120",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "New York sues Kalshi over alleged illegal gambling operation",
-      "url": "https://cointelegraph.com/news/new-york-sues-kalshi-gambling-operation",
-      "source_url": "https://cointelegraph.com/news/new-york-sues-kalshi-gambling-operation",
-      "event_at": "2026-07-31T10:05:01+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "markets"
-      ],
-      "asset_symbol": "markets",
-      "project_id": "markets",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "markets",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:markets",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:ef4541e11fdd:2026073110",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -6702,31 +6740,18 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "“연준이 안 보인다”…채권시장 흔드는 워시 의장, 미 국채금리 급등 우려",
-      "canonical_key": "crypto_project:매도",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
+      "reason": "source_missing",
+      "source": "Glassnode Insights",
+      "event_model": "onchain_metric",
+      "age_days": null
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "onchain_metric"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "canonical_key_status": "regulator_proxy"
+      "reason": "missing_event_model",
+      "event_model": "liquidity_snapshot"
     }
   ],
   "source_backlog": {
@@ -6759,7 +6784,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 8290,
+    "total_rows": 8238,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
