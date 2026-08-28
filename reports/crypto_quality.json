@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-08-27T12:09:14.915415+00:00",
-  "scoped_article_count": 1204,
-  "event_count": 96,
+  "generated_at": "2026-08-28T13:32:12.767811+00:00",
+  "scoped_article_count": 1217,
+  "event_count": 98,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 26,
+    "exchange_listing_notice_events": 30,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 70,
+    "regulatory_action_events": 68,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 96,
+    "crypto_signal_event_count": 98,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 96,
-    "complete_canonical_key_count": 91,
+    "news_proxy_event_count": 98,
+    "complete_canonical_key_count": 93,
     "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 91,
-    "exchange_present_count": 40,
+    "asset_symbol_present_count": 93,
+    "exchange_present_count": 44,
     "regulator_present_count": 87,
     "metric_name_present_count": 49,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 27,
+    "event_required_field_gap_count": 30,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 36
+    "daily_review_item_count": 39
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 172,
+      "article_count": 173,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 217,
+      "article_count": 225,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 118,
+      "article_count": 119,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 120,
+      "article_count": 123,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 114,
+      "article_count": 115,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 108,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,405 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "잭슨홀에 들어온 디지털자산…스테이블코인·결제 혁신 전면에",
+      "url": "https://www.blockmedia.co.kr/archives/1133500",
+      "source_url": "https://www.blockmedia.co.kr/archives/1133500",
+      "event_at": "2026-08-28T12:43:24+00:00",
+      "cryptocurrency": [
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "토큰"
+      ],
+      "asset_symbol": "스테이블코인",
+      "project_id": "스테이블코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "스테이블코인",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "스테이블코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:스테이블코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:246c2458e341:2026082812",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "$672 Million XRP Treasury Firm Is One Final Vote Away From Nasdaq",
+      "url": "https://beincrypto.com/evernorth-xrp-nasdaq-listing-sec-approval",
+      "source_url": "https://beincrypto.com/evernorth-xrp-nasdaq-listing-sec-approval",
+      "event_at": "2026-08-28T12:27:59+00:00",
+      "cryptocurrency": [
+        "xrp"
+      ],
+      "exchange": [
+        "kraken",
+        "listing"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "xrp",
+      "project_id": "xrp",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "xrp",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "xrp",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:xrp",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082812",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "워시 잭슨홀 연설 앞두고 관망…비트코인 8만달러 아래로",
+      "url": "https://www.blockmedia.co.kr/archives/1133498",
+      "source_url": "https://www.blockmedia.co.kr/archives/1133498",
+      "event_at": "2026-08-28T12:23:41+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "상승",
+        "선물"
+      ],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026082812",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "박현주 회장의 ‘알트코인 상장은 사기’ …내로남불이다",
+      "url": "https://www.blockmedia.co.kr/archives/1133328",
+      "source_url": "https://www.blockmedia.co.kr/archives/1133328",
+      "event_at": "2026-08-28T09:47:50+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "코빗",
+        "거래소",
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "거래량"
+      ],
+      "crypto_general": [
+        "digital",
+        "디지털자산",
+        "거래",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "digital",
+      "project_id": "digital",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "거래량",
+      "metric_value": null,
+      "asset_pair": "digital",
+      "liquidity_metric": "거래량",
+      "canonical_key": "crypto_project:digital",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:81480cdc4688:2026082809",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[강련호의 크립토 줌인] 가상자산사업자 규율체계의 고도화와 실무적 대응",
+      "url": "https://www.blockmedia.co.kr/archives/1132809",
+      "source_url": "https://www.blockmedia.co.kr/archives/1132809",
+      "event_at": "2026-08-28T09:00:59+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "가상자산사업자",
+        "자금세탁",
+        "aml",
+        "트래블룰"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "거래"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026082809",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
+      "url": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
+      "source_url": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
+      "event_at": "2026-08-28T04:21:22+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "xrp"
+      ],
+      "exchange": [
+        "kraken",
+        "exchange",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "token",
+        "buy",
+        "trade",
+        "invest",
+        "investor",
+        "investors",
+        "hold",
+        "markets",
+        "value"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026082804",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
+      "url": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981",
+      "source_url": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981",
+      "event_at": "2026-08-28T02:30:34+00:00",
+      "cryptocurrency": [
+        "xrp"
+      ],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "xrp",
+      "project_id": "xrp",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "xrp",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "xrp",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:xrp",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082802",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "KuCoin can block your crypto transactions even if you never sent it to these 17 sanctioned platforms",
+      "url": "https://cryptoslate.com/kucoin-can-block-your-crypto-transactions-even-if-you-never-sent-it-to-these-17-sanctioned-platforms",
+      "source_url": "https://cryptoslate.com/kucoin-can-block-your-crypto-transactions-even-if-you-never-sent-it-to-these-17-sanctioned-platforms",
+      "event_at": "2026-08-27T23:40:05+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "kucoin"
+      ],
+      "regulation": [],
+      "technology": [
+        "wallet"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "wallet",
+        "transactions"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "wallet",
+      "metric_name": "wallet",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "wallet",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026082723",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -5047,301 +5446,39 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "XRP 현물 ETF, 하루 225만달러 순유입…비트와이즈 주도",
-      "url": "https://www.blockmedia.co.kr/archives/1127688",
-      "source_url": "https://www.blockmedia.co.kr/archives/1127688",
-      "event_at": "2026-08-14T02:02:09+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026081402",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "美 CFTC, 디지털자산·AI 규제 논의 본격화…20일 혁신위 첫 회의",
-      "url": "https://www.blockmedia.co.kr/archives/1127682",
-      "source_url": "https://www.blockmedia.co.kr/archives/1127682",
-      "event_at": "2026-08-14T01:33:53+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "디지털자산",
-        "cftc",
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "선물"
-      ],
-      "crypto_general": [
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "규제",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "선물",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "선물",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026081401",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "XRP Defends $1 by a Cent Since CLARITY Act Slipped. Now CFTC Steps In",
-      "url": "https://beincrypto.com/xrp-price-clarity-act-september-cftc",
-      "source_url": "https://beincrypto.com/xrp-price-clarity-act-september-cftc",
-      "event_at": "2026-08-13T20:30:14+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "token"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "xrp",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:bbcf21bb2a38:2026081320",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC allows Franklin Templeton funds to invest in onchain money fund",
-      "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund",
-      "source_url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund",
-      "event_at": "2026-08-13T11:48:37+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "invest",
-        "market"
-      ],
-      "asset_symbol": "invest",
-      "project_id": "invest",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "invest",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:invest",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:6343c02635c7:2026081311",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Prediction markets should dial back faulty filings for incentives to boost trading: CFTC",
-      "url": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
-      "source_url": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
-      "event_at": "2026-08-12T23:16:53+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth",
-        "xrp",
-        "solana",
-        "sol",
-        "link"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "trading",
-        "market",
-        "markets",
-        "price",
-        "prices"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026081223",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Fidelity Files to Let Its Ethereum ETF Stake and Pay Investors",
-      "url": "https://decrypt.co/375457/fidelity-files-ethereum-etf-stake-pay-investors",
-      "source_url": "https://decrypt.co/375457/fidelity-files-ethereum-etf-stake-pay-investors",
-      "event_at": "2026-08-12T17:13:43+00:00",
-      "cryptocurrency": [
-        "ethereum",
-        "eth"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "stake",
-        "investors"
-      ],
-      "asset_symbol": "ethereum",
-      "project_id": "ethereum",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "ethereum",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:ethereum",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9f56ecebd71e:2026081217",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "잭슨홀에 들어온 디지털자산…스테이블코인·결제 혁신 전면에",
+      "canonical_key": "crypto_project:스테이블코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "워시 잭슨홀 연설 앞두고 관망…비트코인 8만달러 아래로",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "[강련호의 크립토 줌인] 가상자산사업자 규율체계의 고도화와 실무적 대응",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5689,7 +5826,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 8006,
+    "total_rows": 8008,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
