@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-08-30T07:39:33.971336+00:00",
-  "scoped_article_count": 1208,
-  "event_count": 91,
+  "generated_at": "2026-08-31T07:53:45.825826+00:00",
+  "scoped_article_count": 1156,
+  "event_count": 88,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 32,
+    "exchange_listing_notice_events": 34,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 59,
+    "regulatory_action_events": 54,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 91,
+    "crypto_signal_event_count": 88,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 91,
-    "complete_canonical_key_count": 84,
-    "proxy_canonical_key_count": 7,
+    "news_proxy_event_count": 88,
+    "complete_canonical_key_count": 82,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 84,
-    "exchange_present_count": 41,
-    "regulator_present_count": 80,
+    "asset_symbol_present_count": 82,
+    "exchange_present_count": 42,
+    "regulator_present_count": 76,
     "metric_name_present_count": 46,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 28,
+    "event_required_field_gap_count": 24,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 38
+    "daily_review_item_count": 34
   },
   "sources": [
     {
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 176,
+      "article_count": 170,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 218,
+      "article_count": 201,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 122,
+      "article_count": 118,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 113,
+      "article_count": 115,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -538,58 +538,120 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "신현송 “원화에 면역력 생겼다”…미국 금리와 별개로 ‘독립적 판단’ 강조",
-      "url": "https://www.blockmedia.co.kr/archives/1133845",
-      "source_url": "https://www.blockmedia.co.kr/archives/1133845",
-      "event_at": "2026-08-30T01:53:54+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 비트코인 ETF 2억달러 이상 유출…이더리움·솔라나 ETF 소폭 유입",
+      "url": "https://www.blockmedia.co.kr/archives/1134070",
+      "source_url": "https://www.blockmedia.co.kr/archives/1134070",
+      "event_at": "2026-08-31T06:00:30+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나",
+        "btc",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
       "regulation": [
+        "디지털자산",
         "미국"
       ],
-      "technology": [],
-      "market": [
-        "하락",
-        "강세"
+      "technology": [
+        "etf"
       ],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
       "jurisdiction": "",
-      "chain": "",
-      "metric_name": "하락",
+      "chain": "etf",
+      "metric_name": "etf",
       "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "하락",
-      "canonical_key": "crypto_source:블록미디어:6e72cef04369",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:79e1c6b036d9:2026083001",
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026083106",
       "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
+      "required_field_gaps": []
     },
     {
-      "source": "BeInCrypto",
+      "source": "블록미디어",
       "source_type": "rss",
       "trust_tier": "T3_professional",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "디지털자산 펀드, 32억달러 유입…2025년 10월 이후 최대",
+      "url": "https://www.blockmedia.co.kr/archives/1134050",
+      "source_url": "https://www.blockmedia.co.kr/archives/1134050",
+      "event_at": "2026-08-31T04:13:25+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나",
+        "sol"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "투자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026083104",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "Kalshi Warns Users After CFTC Punishes a White House Staff",
-      "url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
-      "source_url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
-      "event_at": "2026-08-29T21:53:31+00:00",
+      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
+      "url": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
+      "source_url": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
+      "event_at": "2026-08-30T23:31:03+00:00",
       "cryptocurrency": [],
       "exchange": [],
       "regulation": [
@@ -597,28 +659,115 @@
       ],
       "technology": [],
       "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
+      "crypto_general": [
+        "trading",
+        "market"
+      ],
+      "asset_symbol": "trading",
+      "project_id": "trading",
       "regulator": "cftc",
       "jurisdiction": "CFTC",
       "chain": "",
       "metric_name": "",
       "metric_value": null,
-      "asset_pair": "",
+      "asset_pair": "trading",
       "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026082921",
+      "canonical_key": "crypto_project:trading",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:6894219b8c51:2026083023",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
-        "project_id": false,
+        "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "project_id"
-      ]
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Treasury proposed GENIUS change forces US exchanges to audit foreign stablecoin or face delisting",
+      "url": "https://cryptoslate.com/treasury-proposed-genius-change-forces-us-exchanges-to-audit-foreign-stablecoin-or-face-delisting",
+      "source_url": "https://cryptoslate.com/treasury-proposed-genius-change-forces-us-exchanges-to-audit-foreign-stablecoin-or-face-delisting",
+      "event_at": "2026-08-30T13:35:14+00:00",
+      "cryptocurrency": [
+        "stablecoin"
+      ],
+      "exchange": [
+        "delisting"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:66246683f7fe:2026083013",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "White House aide turned secret speech text into $107k on prediction markets before CFTC stepped in",
+      "url": "https://cryptoslate.com/white-house-aide-turned-secret-speech-text-into-107k-on-prediction-markets-before-cftc-stepped-in",
+      "source_url": "https://cryptoslate.com/white-house-aide-turned-secret-speech-text-into-107k-on-prediction-markets-before-cftc-stepped-in",
+      "event_at": "2026-08-30T12:30:29+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "markets"
+      ],
+      "asset_symbol": "markets",
+      "project_id": "markets",
+      "regulator": "cftc",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "markets",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:markets",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:ef4541e11fdd:2026083012",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "The Block",
@@ -753,6 +902,96 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "신현송 “원화에 면역력 생겼다”…미국 금리와 별개로 ‘독립적 판단’ 강조",
+      "url": "https://www.blockmedia.co.kr/archives/1133845",
+      "source_url": "https://www.blockmedia.co.kr/archives/1133845",
+      "event_at": "2026-08-30T01:53:54+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "하락",
+        "강세"
+      ],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "하락",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "하락",
+      "canonical_key": "crypto_source:블록미디어:6e72cef04369",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:79e1c6b036d9:2026083001",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Kalshi Warns Users After CFTC Punishes a White House Staff",
+      "url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
+      "source_url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
+      "event_at": "2026-08-29T21:53:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:cftc:cftc",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:d0a9e9393468:2026082921",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
     },
     {
       "source": "블록미디어",
@@ -931,6 +1170,60 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "바이낸스, 마라·아이온큐 등 5개 종목 무기한 선물 출시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696615",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696615",
+      "event_at": "2026-08-28T22:19:00+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "바이낸스",
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인",
+        "채굴"
+      ],
+      "market": [
+        "레버리지",
+        "선물"
+      ],
+      "crypto_general": [
+        "블록체인",
+        "채굴",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "레버리지",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "레버리지",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026082822",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "regulatory_action",
       "title": "AI 에이전트가 해킹하면 누가 책임지나… 미국선 기존 법으로 판단",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
@@ -1014,60 +1307,6 @@
       "canonical_key": "crypto_project:xrp",
       "canonical_key_status": "complete",
       "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082822",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "바이낸스, 마라·아이온큐 등 5개 종목 무기한 선물 출시",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696615",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696615",
-      "event_at": "2026-08-28T22:19:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "바이낸스",
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "블록체인",
-        "채굴"
-      ],
-      "market": [
-        "레버리지",
-        "선물"
-      ],
-      "crypto_general": [
-        "블록체인",
-        "채굴",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "레버리지",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "레버리지",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026082822",
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
@@ -4658,388 +4897,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "트럼프 “한미 연합훈련 비용 많이 들어”…미 국방부에 축소 지시",
-      "url": "https://www.blockmedia.co.kr/archives/1128349",
-      "source_url": "https://www.blockmedia.co.kr/archives/1128349",
-      "event_at": "2026-08-16T23:17:17+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_source:블록미디어:ac9f0c32b569",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:711037202348:2026081623",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "트럼프, 백악관서 코인베이스·리플과 회동…흔들리는 클래리티 법안",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=693523",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=693523",
-      "event_at": "2026-08-16T21:49:00+00:00",
-      "cryptocurrency": [
-        "리플",
-        "체인링크"
-      ],
-      "exchange": [
-        "코인베이스",
-        "크라켄",
-        "거래소"
-      ],
-      "regulation": [
-        "규제",
-        "법안",
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "블록체인",
-        "거래"
-      ],
-      "asset_symbol": "리플",
-      "project_id": "리플",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "리플",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:리플",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:e18576baad82:2026081621",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "미 SEC 회의 무산, 클래리티 법안 부진에 규제 진전도 주춤",
-      "url": "https://www.blockmedia.co.kr/archives/1128303",
-      "source_url": "https://www.blockmedia.co.kr/archives/1128303",
-      "event_at": "2026-08-16T20:03:32+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "법안",
-        "디지털자산",
-        "sec",
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "규제",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026081620",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "비트코인, 중동 변수에 6만3000달러 횡보…당분간 상승장 없다?",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=693506",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=693506",
-      "event_at": "2026-08-16T05:09:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인",
-        "합의"
-      ],
-      "market": [
-        "급등",
-        "상승",
-        "약세"
-      ],
-      "crypto_general": [
-        "블록체인",
-        "특히"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "급등",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "급등",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026081605",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs",
-      "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879",
-      "source_url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879",
-      "event_at": "2026-08-14T19:01:18+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026081419",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Binance to restrict transactions involving HTX, 10 other crypto platforms",
-      "url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms",
-      "source_url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms",
-      "event_at": "2026-08-14T13:36:34+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "binance",
-        "htx"
-      ],
-      "regulation": [
-        "eu"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "transactions"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "eu",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:c01d8c23551f:2026081413",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Shelves Crypto Rule Meeting Days After Senate Punted Clarity Act",
-      "url": "https://decrypt.co/375622/sec-shelves-crypto-rule-meeting-days-after-senate-punted-clarity-act",
-      "source_url": "https://decrypt.co/375622/sec-shelves-crypto-rule-meeting-days-after-senate-punted-clarity-act",
-      "event_at": "2026-08-14T10:39:39+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026081410",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC cancels key crypto regulatory meeting",
-      "url": "https://cointelegraph.com/news/sec-cancels-crypto-regulatory-meeting",
-      "source_url": "https://cointelegraph.com/news/sec-cancels-crypto-regulatory-meeting",
-      "event_at": "2026-08-14T08:02:18+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026081408",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5299,44 +5156,6 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "트럼프 “한미 연합훈련 비용 많이 들어”…미 국방부에 축소 지시",
-      "canonical_key": "crypto_source:블록미디어:ac9f0c32b569",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "트럼프 “한미 연합훈련 비용 많이 들어”…미 국방부에 축소 지시",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "트럼프, 백악관서 코인베이스·리플과 회동…흔들리는 클래리티 법안",
-      "canonical_key": "crypto_project:리플",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "비트코인, 중동 변수에 6만3000달러 횡보…당분간 상승장 없다?",
-      "canonical_key": "crypto_project:비트코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -5405,7 +5224,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 8004,
+    "total_rows": 7929,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
