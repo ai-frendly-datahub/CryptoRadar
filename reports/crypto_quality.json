@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-09-05T06:30:26.270331+00:00",
-  "scoped_article_count": 1156,
-  "event_count": 94,
+  "generated_at": "2026-09-06T06:38:57.506144+00:00",
+  "scoped_article_count": 1147,
+  "event_count": 90,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 36,
+    "exchange_listing_notice_events": 34,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 58,
+    "regulatory_action_events": 56,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 94,
+    "crypto_signal_event_count": 90,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 94,
-    "complete_canonical_key_count": 90,
+    "news_proxy_event_count": 90,
+    "complete_canonical_key_count": 86,
     "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 90,
-    "exchange_present_count": 45,
-    "regulator_present_count": 84,
-    "metric_name_present_count": 55,
+    "asset_symbol_present_count": 86,
+    "exchange_present_count": 43,
+    "regulator_present_count": 81,
+    "metric_name_present_count": 53,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 24,
+    "event_required_field_gap_count": 25,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 179,
+      "article_count": 180,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 126,
+      "article_count": 127,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 110,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -539,6 +539,187 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
+      "title": "‘누드화 AI’ 빗장 걸어 잠근 미 법원…머스크의 xAI 판정패",
+      "url": "https://www.blockmedia.co.kr/archives/1136548",
+      "source_url": "https://www.blockmedia.co.kr/archives/1136548",
+      "event_at": "2026-09-05T21:55:34+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국",
+        "벌금"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_source:블록미디어:e3f4cb57fe30",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:274f0cf45f9c:2026090521",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
+      "url": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
+      "source_url": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
+      "event_at": "2026-09-03T21:09:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "futures",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "futures",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026090321",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "CFTC Asks Judge to Dismiss CME Lawsuit Over Crypto Perpetual Futures",
+      "url": "https://decrypt.co/377315/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
+      "source_url": "https://decrypt.co/377315/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
+      "event_at": "2026-09-03T17:31:04+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "bitcoin",
+      "metric_name": "futures",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "futures",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026090317",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Issues New Reporting Guidance For Digital Asset Custody Firms",
+      "url": "https://www.newsbtc.com/news/sec-issues-new-reporting-guidance-for-digital-asset-custody-firms",
+      "source_url": "https://www.newsbtc.com/news/sec-issues-new-reporting-guidance-for-digital-asset-custody-firms",
+      "event_at": "2026-09-03T16:30:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "digital",
+        "digital asset"
+      ],
+      "asset_symbol": "digital",
+      "project_id": "digital",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "digital",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:digital",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:81480cdc4688:2026090316",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
       "title": "“우리 주식 토큰화하지 마”…AMC vs 로빈후드, ‘주식 토큰’ 정면충돌(종합)",
       "url": "https://www.blockmedia.co.kr/archives/1136439",
       "source_url": "https://www.blockmedia.co.kr/archives/1136439",
@@ -696,54 +877,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "트레저, 미국 고객 6만7000명 추가 정보 유출 확인",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698496",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698496",
-      "event_at": "2026-09-04T22:09:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인",
-        "주소"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026090422",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
       "title": "전미보안관협회, 암호화폐 '클래리티 법안' 반대 접고 중립 전환",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698501",
       "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698501",
@@ -775,6 +908,54 @@
       "canonical_key": "crypto_project:비트코인",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:de8f832cddd4:2026090422",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "트레저, 미국 고객 6만7000명 추가 정보 유출 확인",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698496",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698496",
+      "event_at": "2026-09-04T22:09:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인",
+        "주소"
+      ],
+      "asset_symbol": "블록체인",
+      "project_id": "블록체인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "블록체인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:블록체인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:0b646ef5ff1c:2026090422",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -830,142 +1011,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
-      "url": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
-      "source_url": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
-      "event_at": "2026-09-03T21:09:13+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "futures",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "futures",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026090321",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC Asks Judge to Dismiss CME Lawsuit Over Crypto Perpetual Futures",
-      "url": "https://decrypt.co/377315/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
-      "source_url": "https://decrypt.co/377315/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
-      "event_at": "2026-09-03T17:31:04+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "bitcoin",
-      "metric_name": "futures",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "futures",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026090317",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Issues New Reporting Guidance For Digital Asset Custody Firms",
-      "url": "https://www.newsbtc.com/news/sec-issues-new-reporting-guidance-for-digital-asset-custody-firms",
-      "source_url": "https://www.newsbtc.com/news/sec-issues-new-reporting-guidance-for-digital-asset-custody-firms",
-      "event_at": "2026-09-03T16:30:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "digital",
-        "digital asset"
-      ],
-      "asset_symbol": "digital",
-      "project_id": "digital",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "digital",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:digital",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:81480cdc4688:2026090316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -2931,44 +2976,49 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "AI 에이전트가 해킹하면 누가 책임지나… 미국선 기존 법으로 판단",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
+      "event_model": "exchange_listing_notice",
+      "title": "HYPE ETF 하루 순유입, XRP 앞질러…고위험 자금 쏠림",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696614",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696614",
       "event_at": "2026-08-28T22:19:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
+      "cryptocurrency": [
+        "xrp"
+      ],
+      "exchange": [
+        "상장"
+      ],
       "regulation": [
         "미국"
       ],
       "technology": [
-        "블록체인"
+        "블록체인",
+        "etf"
       ],
-      "market": [],
+      "market": [
+        "시가총액"
+      ],
       "crypto_general": [
         "블록체인"
       ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
+      "asset_symbol": "xrp",
+      "project_id": "xrp",
       "regulator": "미국",
       "jurisdiction": "",
       "chain": "블록체인",
-      "metric_name": "블록체인",
+      "metric_name": "시가총액",
       "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
+      "asset_pair": "xrp",
+      "liquidity_metric": "시가총액",
+      "canonical_key": "crypto_project:xrp",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026082822",
+      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082822",
       "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
+        "exchange": true,
+        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "디지털투데이",
@@ -3032,49 +3082,44 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "HYPE ETF 하루 순유입, XRP 앞질러…고위험 자금 쏠림",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696614",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696614",
+      "event_model": "regulatory_action",
+      "title": "AI 에이전트가 해킹하면 누가 책임지나… 미국선 기존 법으로 판단",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
       "event_at": "2026-08-28T22:19:00+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
+      "cryptocurrency": [],
+      "exchange": [],
       "regulation": [
         "미국"
       ],
       "technology": [
-        "블록체인",
-        "etf"
+        "블록체인"
       ],
-      "market": [
-        "시가총액"
-      ],
+      "market": [],
       "crypto_general": [
         "블록체인"
       ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
+      "asset_symbol": "블록체인",
+      "project_id": "블록체인",
       "regulator": "미국",
       "jurisdiction": "",
       "chain": "블록체인",
-      "metric_name": "시가총액",
+      "metric_name": "블록체인",
       "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "시가총액",
-      "canonical_key": "crypto_project:xrp",
+      "asset_pair": "블록체인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:블록체인",
       "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082822",
+      "event_key": "regulatory_action:0b646ef5ff1c:2026082822",
       "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
+        "regulator": true,
+        "jurisdiction": false,
         "project_id": true,
         "source_url": true
       },
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "source": "BeInCrypto",
@@ -4940,238 +4985,27 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "엑스알피 ETF 4일 연속 유입…가격 상승 가속화",
-      "url": "https://www.blockmedia.co.kr/archives/1130968",
-      "source_url": "https://www.blockmedia.co.kr/archives/1130968",
-      "event_at": "2026-08-22T22:48:41+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "상승"
-      ],
-      "crypto_general": [
-        "투자",
-        "가격"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026082222",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Bitcoin and Ethereum ETFs Score Biggest Week Since October with $2.3 Billion",
-      "url": "https://beincrypto.com/bitcoin-ethereum-etf-inflows-october-high",
-      "source_url": "https://beincrypto.com/bitcoin-ethereum-etf-inflows-october-high",
-      "event_at": "2026-08-22T18:32:04+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "eth"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026082218",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "CLARITY gets a September Senate floor date as CFTC signals a limited regulatory fallback",
-      "url": "https://cryptoslate.com/clarity-gets-a-september-senate-floor-date-as-cftc-signals-a-limited-regulatory-fallback",
-      "source_url": "https://cryptoslate.com/clarity-gets-a-september-senate-floor-date-as-cftc-signals-a-limited-regulatory-fallback",
-      "event_at": "2026-08-22T17:10:29+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026082217",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
+      "source": "블록미디어",
+      "title": "‘누드화 AI’ 빗장 걸어 잠근 미 법원…머스크의 xAI 판정패",
+      "canonical_key": "crypto_source:블록미디어:e3f4cb57fe30",
       "required_field_gaps": [
+        "jurisdiction",
         "project_id"
       ]
     },
     {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
       "event_model": "regulatory_action",
-      "title": "Zcash Price Hits 8-Year High as Grayscale ETF Gets Closer",
-      "url": "https://beincrypto.com/zcash-price-8-year-high-grayscale-etf",
-      "source_url": "https://beincrypto.com/zcash-price-8-year-high-grayscale-etf",
-      "event_at": "2026-08-22T09:17:46+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "price"
-      ],
-      "asset_symbol": "price",
-      "project_id": "price",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "price",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:price",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:2c2d35cbdc74:2026082209",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "블록미디어",
+      "title": "‘누드화 AI’ 빗장 걸어 잠근 미 법원…머스크의 xAI 판정패",
+      "canonical_key_status": "source_proxy"
     },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
-      "url": "https://www.coindesk.com/policy/2026/08/20/u-s-cftc-chief-puts-staff-on-notice-to-create-crypto-regulations-if-clarity-act-fails",
-      "source_url": "https://www.coindesk.com/policy/2026/08/20/u-s-cftc-chief-puts-staff-on-notice-to-create-crypto-regulations-if-clarity-act-fails",
-      "event_at": "2026-08-20T18:54:18+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026082018",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5196,8 +5030,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "트레저, 미국 고객 6만7000명 추가 정보 유출 확인",
-      "canonical_key": "crypto_project:블록체인",
+      "title": "전미보안관협회, 암호화폐 '클래리티 법안' 반대 접고 중립 전환",
+      "canonical_key": "crypto_project:비트코인",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5206,8 +5040,8 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "디지털투데이",
-      "title": "전미보안관협회, 암호화폐 '클래리티 법안' 반대 접고 중립 전환",
-      "canonical_key": "crypto_project:비트코인",
+      "title": "트레저, 미국 고객 6만7000명 추가 정보 유출 확인",
+      "canonical_key": "crypto_project:블록체인",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -5415,23 +5249,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "CryptoSlate",
-      "title": "CLARITY gets a September Senate floor date as CFTC signals a limited regulatory fallback",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "CryptoSlate",
-      "title": "CLARITY gets a September Senate floor date as CFTC signals a limited regulatory fallback",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -5500,7 +5317,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7870,
+    "total_rows": 7856,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,

@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-06",
+  "category": "crypto",
+  "article_count": 198,
+  "source_count": 11,
+  "matched_count": 198,
+  "top_entities": [
+    {
+      "name": "CryptoGeneral",
+      "count": 402
+    },
+    {
+      "name": "Cryptocurrency",
+      "count": 210
+    },
+    {
+      "name": "Market",
+      "count": 95
+    },
+    {
+      "name": "Technology",
+      "count": 78
+    },
+    {
+      "name": "Regulation",
+      "count": 56
+    },
+    {
+      "name": "Exchange",
+      "count": 31
+    }
+  ],
+  "sources": {
+    "블록미디어": 29,
+    "BeInCrypto": 22,
+    "디지털투데이": 19,
+    "The Block": 12,
+    "CoinDesk": 27,
+    "Decrypt": 19,
+    "CryptoSlate": 22,
+    "CoinTelegraph": 25,
+    "Bitcoin Magazine": 11,
+    "NewsBTC": 11,
+    "블로터": 1
+  },
+  "generated_at": "2026-09-06T15:38:56.734280+09:00",
+  "ontology": {
+    "repo": "CryptoRadar",
+    "category": "crypto",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "crypto.exchange_listing_notice",
+      "crypto.liquidity_snapshot",
+      "crypto.market_commentary",
+      "crypto.onchain_metric",
+      "crypto.regulatory_action"
+    ],
+    "event_model_mappings": {
+      "exchange_listing_notice": "crypto.exchange_listing_notice",
+      "regulatory_action": "crypto.regulatory_action",
+      "onchain_metric": "crypto.onchain_metric",
+      "liquidity_snapshot": "crypto.liquidity_snapshot",
+      "market_commentary": "crypto.market_commentary"
+    },
+    "entity_type_hints": [
+      "crypto.asset",
+      "crypto.exchange"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence"
+    ],
+    "source_role_mappings": {
+      "Glassnode Insights": "operational_evidence",
+      "CoinDesk": "context_only",
+      "CoinTelegraph": "context_only",
+      "블록미디어": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "official_confirmation_required",
+      "cross_reference_required"
+    ]
+  }
+}
