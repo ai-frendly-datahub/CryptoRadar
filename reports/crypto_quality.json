@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-09-07T06:47:06.683147+00:00",
-  "scoped_article_count": 1088,
-  "event_count": 84,
+  "generated_at": "2026-09-08T06:43:57.726325+00:00",
+  "scoped_article_count": 1075,
+  "event_count": 82,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 30,
+    "exchange_listing_notice_events": 29,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 54,
+    "regulatory_action_events": 53,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 84,
+    "crypto_signal_event_count": 82,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 84,
-    "complete_canonical_key_count": 80,
-    "proxy_canonical_key_count": 4,
+    "news_proxy_event_count": 82,
+    "complete_canonical_key_count": 77,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 80,
-    "exchange_present_count": 36,
-    "regulator_present_count": 77,
+    "asset_symbol_present_count": 77,
+    "exchange_present_count": 35,
+    "regulator_present_count": 75,
     "metric_name_present_count": 48,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 26,
+    "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 35
+    "daily_review_item_count": 37
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 166,
+      "article_count": 159,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 179,
+      "article_count": 175,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 119,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 114,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 98,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,163 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "이더리움, 내년부터 ETH 없어도 ‘스테이블코인’으로 가스비 정산한다",
+      "url": "https://www.blockmedia.co.kr/archives/1137086",
+      "source_url": "https://www.blockmedia.co.kr/archives/1137086",
+      "event_at": "2026-09-08T06:00:11+00:00",
+      "cryptocurrency": [
+        "이더리움",
+        "eth",
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [
+        "transactions",
+        "디지털자산",
+        "거래",
+        "보유"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "합의",
+      "metric_name": "합의",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "합의",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:27170f9a4ab1:2026090806",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "국제유가 9% 급등 속 비트코인 8만달러 회복…ETF 3주 연속 10억달러 유입",
+      "url": "https://www.blockmedia.co.kr/archives/1137032",
+      "source_url": "https://www.blockmedia.co.kr/archives/1137032",
+      "event_at": "2026-09-08T05:10:37+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "급등",
+        "상승"
+      ],
+      "crypto_general": [
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026090805",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "45만 ARB 어디로 갔나…아비트럼, 디파이 프로젝트 3곳 퇴출 검토",
+      "url": "https://www.blockmedia.co.kr/archives/1137061",
+      "source_url": "https://www.blockmedia.co.kr/archives/1137061",
+      "event_at": "2026-09-08T03:30:34+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "제재"
+      ],
+      "technology": [
+        "디파이",
+        "dao",
+        "아비트럼"
+      ],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "제재",
+      "jurisdiction": "",
+      "chain": "디파이",
+      "metric_name": "디파이",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "디파이",
+      "canonical_key": "crypto_source:블록미디어:5ae674426e53",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:56b6ebfa575c:2026090803",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -3224,6 +3381,53 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "AI 에이전트가 해킹하면 누가 책임지나… 미국선 기존 법으로 판단",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
+      "event_at": "2026-08-28T22:19:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인"
+      ],
+      "asset_symbol": "블록체인",
+      "project_id": "블록체인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "블록체인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:블록체인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:0b646ef5ff1c:2026082822",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "exchange_listing_notice",
       "title": "바이낸스, 마라·아이온큐 등 5개 종목 무기한 선물 출시",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696615",
@@ -3321,53 +3525,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "AI 에이전트가 해킹하면 누가 책임지나… 미국선 기존 법으로 판단",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696616",
-      "event_at": "2026-08-28T22:19:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026082822",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     },
     {
       "source": "BeInCrypto",
@@ -4397,253 +4554,37 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "파수AI, 동행복권에 블록체인 기반 데이터 위변조 방지 체계 구축",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=695229",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=695229",
-      "event_at": "2026-08-25T01:34:15+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "허가"
-      ],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인"
-      ],
-      "asset_symbol": "블록체인",
-      "project_id": "블록체인",
-      "regulator": "허가",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "블록체인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:블록체인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:0b646ef5ff1c:2026082501",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
+      "source": "블록미디어",
+      "title": "이더리움, 내년부터 ETH 없어도 ‘스테이블코인’으로 가스비 정산한다",
+      "canonical_key": "crypto_project:이더리움",
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "비트코인 8만달러 눈앞…6개월 수익률 美증시·금 제쳤다",
-      "url": "https://www.blockmedia.co.kr/archives/1131633",
-      "source_url": "https://www.blockmedia.co.kr/archives/1131633",
-      "event_at": "2026-08-24T21:16:25+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "상승"
-      ],
-      "crypto_general": [
-        "수익"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "상승",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026082421",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[뉴욕 코인시황/마감] 비트코인 8만달러 직전 숨고르기…ETF 자금 유입·국채 바이백 기대에 7.8만달러 회복",
-      "url": "https://www.blockmedia.co.kr/archives/1131629",
-      "source_url": "https://www.blockmedia.co.kr/archives/1131629",
-      "event_at": "2026-08-24T20:57:02+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "급등",
-        "상승",
-        "매수",
-        "매도",
-        "숏",
-        "청산"
-      ],
-      "crypto_general": [
-        "거래",
-        "매수",
-        "매도"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "급등",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "급등",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026082420",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "Onchain, in court: What happened in crypto legal news this week",
-      "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5",
-      "source_url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5",
-      "event_at": "2026-08-21T19:19:27+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "trading"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026082119",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "블록미디어",
+      "title": "45만 ARB 어디로 갔나…아비트럼, 디파이 프로젝트 3곳 퇴출 검토",
+      "canonical_key": "crypto_source:블록미디어:5ae674426e53",
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
     },
     {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
       "event_model": "regulatory_action",
-      "title": "Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings",
-      "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-      "source_url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-      "event_at": "2026-08-21T18:06:56+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec",
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026082118",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
+      "source": "블록미디어",
+      "title": "45만 ARB 어디로 갔나…아비트럼, 디파이 프로젝트 3곳 퇴출 검토",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4905,16 +4846,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "파수AI, 동행복권에 블록체인 기반 데이터 위변조 방지 체계 구축",
-      "canonical_key": "crypto_project:블록체인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4983,7 +4914,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7797,
+    "total_rows": 7788,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
