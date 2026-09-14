@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-09-13T06:58:37.199107+00:00",
-  "scoped_article_count": 1130,
-  "event_count": 80,
+  "generated_at": "2026-09-14T07:21:01.330533+00:00",
+  "scoped_article_count": 1118,
+  "event_count": 82,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 29,
+    "exchange_listing_notice_events": 30,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 51,
+    "regulatory_action_events": 52,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 80,
+    "crypto_signal_event_count": 82,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 80,
-    "complete_canonical_key_count": 74,
-    "proxy_canonical_key_count": 6,
+    "news_proxy_event_count": 82,
+    "complete_canonical_key_count": 78,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 74,
-    "exchange_present_count": 36,
-    "regulator_present_count": 74,
-    "metric_name_present_count": 50,
+    "asset_symbol_present_count": 78,
+    "exchange_present_count": 39,
+    "regulator_present_count": 76,
+    "metric_name_present_count": 52,
     "metric_value_present_count": 1,
     "event_required_field_gap_count": 29,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 38
+    "daily_review_item_count": 37
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 170,
+      "article_count": 167,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 182,
+      "article_count": 179,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 119,
+      "article_count": 117,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,281 @@
     }
   ],
   "events": [
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[데일리픽] 美 민주당, 클래리티법 표결 앞두고 회동…앤트로픽 나스닥 선택?",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700394",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700394",
+      "event_at": "2026-09-14T06:20:09+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "법안",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "암호화폐"
+      ],
+      "asset_symbol": "암호화폐",
+      "project_id": "암호화폐",
+      "regulator": "법안",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "암호화폐",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:암호화폐",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:757e19da46d7:2026091406",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 엇갈린 블랙록의 선택…비트코인 순유출·이더리움 순유입",
+      "url": "https://www.blockmedia.co.kr/archives/1139447",
+      "source_url": "https://www.blockmedia.co.kr/archives/1139447",
+      "event_at": "2026-09-14T05:00:57+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "btc",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026091405",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "빗썸, 코인 매수시 스테이킹 자동 유도… “고객 동의 체계 개편 검토”",
+      "url": "https://www.blockmedia.co.kr/archives/1137665",
+      "source_url": "https://www.blockmedia.co.kr/archives/1137665",
+      "event_at": "2026-09-14T02:14:28+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [
+        "빗썸"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "스테이킹"
+      ],
+      "market": [
+        "매수"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "매수"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "스테이킹",
+      "metric_name": "매수",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "매수",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026091402",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "비트코인, AI 속도조절론·美 클래리티법 표결 겹치며 약세…7만6000달러 하회",
+      "url": "https://www.blockmedia.co.kr/archives/1139330",
+      "source_url": "https://www.blockmedia.co.kr/archives/1139330",
+      "event_at": "2026-09-13T23:17:32+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [
+        "업비트",
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "약세"
+      ],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "투자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "약세",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "약세",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026091323",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "MEXC Stock Futures Trading Volume Rises 130% in August as Trading Activity Broadens Across U.S. and Korean emory and Semiconductor Sectors",
+      "url": "https://www.newsbtc.com/news/mexc-stock-futures-trading-volume-rises-130-in-august-as-trading-activity-broadens-across-u-s-and-korean-emory-and-semiconductor-sectors",
+      "source_url": "https://www.newsbtc.com/news/mexc-stock-futures-trading-volume-rises-130-in-august-as-trading-activity-broadens-across-u-s-and-korean-emory-and-semiconductor-sectors",
+      "event_at": "2026-09-11T10:11:20+00:00",
+      "cryptocurrency": [
+        "usdt"
+      ],
+      "exchange": [
+        "coinbase",
+        "mexc"
+      ],
+      "regulation": [],
+      "technology": [
+        "liquidity",
+        "etf"
+      ],
+      "market": [
+        "volume",
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto",
+        "coin",
+        "digital",
+        "digital asset",
+        "trade",
+        "trading",
+        "market",
+        "markets",
+        "gains"
+      ],
+      "asset_symbol": "usdt",
+      "project_id": "usdt",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": 130.0,
+      "asset_pair": "usdt",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:usdt",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:798a6beb71e7:2026091110",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -841,66 +1116,6 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "MEXC Stock Futures Trading Volume Rises 130% in August as Trading Activity Broadens Across U.S. and Korean emory and Semiconductor Sectors",
-      "url": "https://www.newsbtc.com/news/mexc-stock-futures-trading-volume-rises-130-in-august-as-trading-activity-broadens-across-u-s-and-korean-emory-and-semiconductor-sectors",
-      "source_url": "https://www.newsbtc.com/news/mexc-stock-futures-trading-volume-rises-130-in-august-as-trading-activity-broadens-across-u-s-and-korean-emory-and-semiconductor-sectors",
-      "event_at": "2026-09-11T10:11:20+00:00",
-      "cryptocurrency": [
-        "usdt"
-      ],
-      "exchange": [
-        "coinbase",
-        "mexc"
-      ],
-      "regulation": [],
-      "technology": [
-        "liquidity",
-        "etf"
-      ],
-      "market": [
-        "volume",
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto",
-        "coin",
-        "digital",
-        "digital asset",
-        "trade",
-        "trading",
-        "market",
-        "markets",
-        "gains"
-      ],
-      "asset_symbol": "usdt",
-      "project_id": "usdt",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": 130.0,
-      "asset_pair": "usdt",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:usdt",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:798a6beb71e7:2026091110",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -4408,99 +4623,39 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "신현송 “원화에 면역력 생겼다”…미국 금리와 별개로 ‘독립적 판단’ 강조",
-      "url": "https://www.blockmedia.co.kr/archives/1133845",
-      "source_url": "https://www.blockmedia.co.kr/archives/1133845",
-      "event_at": "2026-08-30T01:53:54+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "하락",
-        "강세"
-      ],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "하락",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "하락",
-      "canonical_key": "crypto_source:블록미디어:6e72cef04369",
-      "canonical_key_status": "source_proxy",
-      "event_key": "regulatory_action:79e1c6b036d9:2026083001",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Kalshi Warns Users After CFTC Punishes a White House Staff",
-      "url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
-      "source_url": "https://beincrypto.com/kalshi-cftc-white-house-staffer-penalty",
-      "event_at": "2026-08-29T21:53:31+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026082921",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "[데일리픽] 美 민주당, 클래리티법 표결 앞두고 회동…앤트로픽 나스닥 선택?",
+      "canonical_key": "crypto_project:암호화폐",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "빗썸, 코인 매수시 스테이킹 자동 유도… “고객 동의 체계 개편 검토”",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "비트코인, AI 속도조절론·美 클래리티법 표결 겹치며 약세…7만6000달러 하회",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4763,41 +4918,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "신현송 “원화에 면역력 생겼다”…미국 금리와 별개로 ‘독립적 판단’ 강조",
-      "canonical_key": "crypto_source:블록미디어:6e72cef04369",
-      "required_field_gaps": [
-        "jurisdiction",
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "신현송 “원화에 면역력 생겼다”…미국 금리와 별개로 ‘독립적 판단’ 강조",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "BeInCrypto",
-      "title": "Kalshi Warns Users After CFTC Punishes a White House Staff",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "BeInCrypto",
-      "title": "Kalshi Warns Users After CFTC Punishes a White House Staff",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4866,7 +4986,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7699,
+    "total_rows": 7641,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
