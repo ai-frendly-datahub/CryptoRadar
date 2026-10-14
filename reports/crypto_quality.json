@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-10-13T08:42:58.842766+00:00",
-  "scoped_article_count": 1151,
-  "event_count": 104,
+  "generated_at": "2026-10-14T06:54:09.898531+00:00",
+  "scoped_article_count": 1231,
+  "event_count": 109,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 31,
+    "exchange_listing_notice_events": 32,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 73,
+    "regulatory_action_events": 77,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 104,
+    "crypto_signal_event_count": 109,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 104,
-    "complete_canonical_key_count": 99,
+    "news_proxy_event_count": 109,
+    "complete_canonical_key_count": 104,
     "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 99,
-    "exchange_present_count": 51,
-    "regulator_present_count": 94,
-    "metric_name_present_count": 63,
+    "asset_symbol_present_count": 104,
+    "exchange_present_count": 54,
+    "regulator_present_count": 99,
+    "metric_name_present_count": 67,
     "metric_value_present_count": 3,
-    "event_required_field_gap_count": 23,
+    "event_required_field_gap_count": 26,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 33
+    "daily_review_item_count": 36
   },
   "sources": [
     {
@@ -60,7 +60,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 140,
+      "article_count": 150,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 171,
+      "article_count": 186,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 201,
+      "article_count": 219,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 119,
+      "article_count": 128,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 110,
+      "article_count": 120,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,268 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "[코인 과세 논란 ①] 국내외 거래자료 확보부터 ‘빨간불’…11월 시범운영 실효성 의문",
+      "url": "https://www.blockmedia.co.kr/archives/1151403",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151403",
+      "event_at": "2026-10-14T06:45:26+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "과세",
+        "디지털자산"
+      ],
+      "technology": [
+        "지갑"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "지갑",
+        "거래"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "과세",
+      "jurisdiction": "",
+      "chain": "지갑",
+      "metric_name": "지갑",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "지갑",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026101406",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "국내 가상자산 거래소의 유동성 구조와 LP 도입의 조건–비트플래닛",
+      "url": "https://www.blockmedia.co.kr/archives/1151427",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151427",
+      "event_at": "2026-10-14T06:34:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "금융위",
+        "금융위원회"
+      ],
+      "technology": [
+        "유동성"
+      ],
+      "market": [
+        "시세",
+        "매수",
+        "매도"
+      ],
+      "crypto_general": [
+        "market",
+        "가상자산",
+        "거래",
+        "매수",
+        "매도"
+      ],
+      "asset_symbol": "market",
+      "project_id": "market",
+      "regulator": "금융위",
+      "jurisdiction": "",
+      "chain": "유동성",
+      "metric_name": "시세",
+      "metric_value": null,
+      "asset_pair": "market",
+      "liquidity_metric": "시세",
+      "canonical_key": "crypto_project:market",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:2e9ac426b4ee:2026101406",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "솔라나, 21일 대규모 업그레이드…거래 확정 속도 85배 빨라진다",
+      "url": "https://www.blockmedia.co.kr/archives/1151407",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151407",
+      "event_at": "2026-10-14T06:21:43+00:00",
+      "cryptocurrency": [
+        "솔라나",
+        "sol"
+      ],
+      "exchange": [],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "블록체인",
+        "메인넷",
+        "합의"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "블록체인",
+        "거래"
+      ],
+      "asset_symbol": "솔라나",
+      "project_id": "솔라나",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "솔라나",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:솔라나",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:2bbf6255f3d3:2026101406",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 비트코인 ETF 순유입 전환…이더리움도 10거래일 만 ‘유출 탈출’",
+      "url": "https://www.blockmedia.co.kr/archives/1151423",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151423",
+      "event_at": "2026-10-14T06:12:25+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026101406",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "How the SEC’s lack of leadership could facilitate crypto rulemaking",
+      "url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
+      "source_url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
+      "event_at": "2026-10-13T16:51:25+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026101316",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "CryptoSlate",
       "source_type": "rss",
@@ -5897,6 +6159,36 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
+      "title": "[코인 과세 논란 ①] 국내외 거래자료 확보부터 ‘빨간불’…11월 시범운영 실효성 의문",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "국내 가상자산 거래소의 유동성 구조와 LP 도입의 조건–비트플래닛",
+      "canonical_key": "crypto_project:market",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "솔라나, 21일 대규모 업그레이드…거래 확정 속도 85배 빨라진다",
+      "canonical_key": "crypto_project:솔라나",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
       "title": "미 정부 보유 비트코인 평가액 급감…대규모 이체에 매각 여부 촉각",
       "canonical_key": "crypto_project:비트코인",
       "required_field_gaps": [
@@ -6209,7 +6501,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7303,
+    "total_rows": 7277,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
