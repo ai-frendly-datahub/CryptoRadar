@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-10-14T06:54:09.898531+00:00",
-  "scoped_article_count": 1231,
-  "event_count": 109,
+  "generated_at": "2026-10-15T06:42:57.946918+00:00",
+  "scoped_article_count": 1227,
+  "event_count": 112,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,25 +22,25 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 32,
+    "exchange_listing_notice_events": 33,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 77,
+    "regulatory_action_events": 79,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 109,
+    "crypto_signal_event_count": 112,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 109,
-    "complete_canonical_key_count": 104,
-    "proxy_canonical_key_count": 5,
+    "news_proxy_event_count": 112,
+    "complete_canonical_key_count": 108,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 104,
-    "exchange_present_count": 54,
-    "regulator_present_count": 99,
-    "metric_name_present_count": 67,
+    "asset_symbol_present_count": 108,
+    "exchange_present_count": 53,
+    "regulator_present_count": 103,
+    "metric_name_present_count": 70,
     "metric_value_present_count": 3,
-    "event_required_field_gap_count": 26,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 186,
+      "article_count": 190,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 219,
+      "article_count": 220,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 120,
+      "article_count": 124,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,699 @@
     }
   ],
   "events": [
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "여당도 디지털자산 과세 유예 추진...2029년 시행안 나온다",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707462",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707462",
+      "event_at": "2026-10-15T06:38:09+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세",
+        "법안",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "조정"
+      ],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "과세",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "조정",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "조정",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026101506",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "코인 과세 유예론 확산하는 與…임광현 발탁에 셈법 복잡",
+      "url": "https://www.blockmedia.co.kr/archives/1151948",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151948",
+      "event_at": "2026-10-15T06:00:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "과세",
+        "법안",
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "손실"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "과세",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026101506",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 디지털자산 시장서 3억8850만달러 유출…블랙록·피델리티 주도",
+      "url": "https://www.blockmedia.co.kr/archives/1151965",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151965",
+      "event_at": "2026-10-15T05:50:34+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나",
+        "btc",
+        "eth",
+        "sol"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026101505",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CryptoSlate",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Qivalis wins Dutch EMI license, but MiCA rules block launch",
+      "url": "https://cryptoslate.com/qivalis-wins-dutch-emi-license-but-mica-rules-block-launch",
+      "source_url": "https://cryptoslate.com/qivalis-wins-dutch-emi-license-but-mica-rules-block-launch",
+      "event_at": "2026-10-15T04:40:28+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "mica",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026101504",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "2400달러 무너진 이더리움…美 물가·금리 압박에 다음 지지선은?",
+      "url": "https://www.blockmedia.co.kr/archives/1151873",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151873",
+      "event_at": "2026-10-15T03:03:19+00:00",
+      "cryptocurrency": [
+        "이더리움",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [
+        "상승",
+        "하락",
+        "롱",
+        "청산"
+      ],
+      "crypto_general": [
+        "투자"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:27170f9a4ab1:2026101503",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "패트릭 위트까지 떠났다…백악관 디지털자산 정책 ‘컨트롤타워’ 사실상 공백",
+      "url": "https://www.blockmedia.co.kr/archives/1151850",
+      "source_url": "https://www.blockmedia.co.kr/archives/1151850",
+      "event_at": "2026-10-15T02:30:24+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026101502",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "HTX Publishes Its Q3 2026 Scorecard: Cumulative TradFi Trading Volume Approaches $6B Amid 13th Anniversary Celebration",
+      "url": "https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration",
+      "source_url": "https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration",
+      "event_at": "2026-10-14T14:40:05+00:00",
+      "cryptocurrency": [
+        "btc",
+        "eth",
+        "stablecoins",
+        "usdt"
+      ],
+      "exchange": [
+        "htx",
+        "exchange",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "blockchain",
+        "on-chain",
+        "lending",
+        "web3",
+        "dao"
+      ],
+      "market": [
+        "rally",
+        "volume",
+        "bull",
+        "bear",
+        "futures",
+        "options"
+      ],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrencies",
+        "token",
+        "tokens",
+        "digital",
+        "digital asset",
+        "virtual",
+        "blockchain",
+        "nodes",
+        "yield",
+        "apy",
+        "withdrawal",
+        "trading",
+        "invest",
+        "investment",
+        "market",
+        "markets",
+        "price",
+        "value",
+        "gain",
+        "gains",
+        "loss"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "volume",
+      "metric_value": 3.0,
+      "asset_pair": "btc",
+      "liquidity_metric": "volume",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:31234e5334ab:2026101414",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "source_url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "event_at": "2026-10-14T14:08:43+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance",
+        "okx",
+        "exchange"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain",
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "tokens",
+        "digital",
+        "digital assets",
+        "blockchain",
+        "trading"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026101414",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "source_url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
+      "event_at": "2026-10-14T14:08:43+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "binance",
+        "okx",
+        "exchange"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "blockchain",
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "tokens",
+        "digital",
+        "digital assets",
+        "blockchain",
+        "trading"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "blockchain",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "blockchain",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026101414",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+      "url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending",
+      "source_url": "https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending",
+      "event_at": "2026-10-14T13:07:45+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [
+        "kraken"
+      ],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [
+        "lending",
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "buy",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "lending",
+      "metric_name": "lending",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "lending",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026101413",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Qivalis wins Dutch e-money license for euro stablecoin",
+      "url": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin",
+      "source_url": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin",
+      "event_at": "2026-10-14T12:53:41+00:00",
+      "cryptocurrency": [
+        "stablecoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "mica",
+      "jurisdiction": "EU",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026101412",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Dutch central bank grants Qivalis e-money license for MiCA-compliant euro token",
+      "url": "https://www.coindesk.com/policy/2026/10/14/dutch-regulator-approves-qivalis-as-electronic-money-institution-under-mica-rules",
+      "source_url": "https://www.coindesk.com/policy/2026/10/14/dutch-regulator-approves-qivalis-as-electronic-money-institution-under-mica-rules",
+      "event_at": "2026-10-14T11:12:36+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana",
+        "stablecoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "mica"
+      ],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "token",
+        "protocol",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "mica",
+      "jurisdiction": "SEC",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026101411",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "How the SEC’s lack of leadership could facilitate crypto rulemaking",
+      "url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
+      "source_url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
+      "event_at": "2026-10-13T16:51:25+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026101316",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -743,50 +1436,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "How the SEC’s lack of leadership could facilitate crypto rulemaking",
-      "url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
-      "source_url": "https://cointelegraph.com/news/sec-leadership-facilitate-crypto-rulemaking",
-      "event_at": "2026-10-13T16:51:25+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026101316",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -5672,489 +6321,49 @@
       "required_field_gaps": [
         "project_id"
       ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "루미스, 클래리티 부결 뒤 ‘민주당 요구사항’ 연일 공개…민주당에게 책임 공방",
-      "url": "https://www.blockmedia.co.kr/archives/1145994",
-      "source_url": "https://www.blockmedia.co.kr/archives/1145994",
-      "event_at": "2026-09-30T07:15:18+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "법안",
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "coins",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "coins",
-      "project_id": "coins",
-      "regulator": "법안",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "coins",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:coins",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:1459742a8049:2026093007",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "美 주식시장도 ‘주말 장’ 연다…로빈후드, 24시간 거래 승부수",
-      "url": "https://www.blockmedia.co.kr/archives/1145968",
-      "source_url": "https://www.blockmedia.co.kr/archives/1145968",
-      "event_at": "2026-09-30T06:47:10+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "규제",
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026093006",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 비트코인 9거래일·솔라나 8거래일째 순유입…이더리움은 소폭 이탈",
-      "url": "https://www.blockmedia.co.kr/archives/1146017",
-      "source_url": "https://www.blockmedia.co.kr/archives/1146017",
-      "event_at": "2026-09-30T06:07:47+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "솔라나"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026093006",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "클래리티법 공백 메우는 미국 금융당국…코인베이스 청산 승인·토큰 바이백 기준 정비",
-      "url": "https://www.blockmedia.co.kr/archives/1145889",
-      "source_url": "https://www.blockmedia.co.kr/archives/1145889",
-      "event_at": "2026-09-30T04:00:09+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "코인베이스"
-      ],
-      "regulation": [
-        "규제",
-        "법안",
-        "디지털자산",
-        "sec",
-        "cftc",
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "청산",
-        "선물"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "토큰",
-        "거래"
-      ],
-      "asset_symbol": "가상자산",
-      "project_id": "가상자산",
-      "regulator": "규제",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "청산",
-      "metric_value": null,
-      "asset_pair": "가상자산",
-      "liquidity_metric": "청산",
-      "canonical_key": "crypto_project:가상자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:64622065b9b4:2026093004",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "TRON DAO Celebrates Canary Staked TRX ETF (Ticker: TRXS) Debut With Cboe Closing Bell in Chicago",
-      "url": "https://beincrypto.com/tron-staked-trx-etf-cboe-closing-bell",
-      "source_url": "https://beincrypto.com/tron-staked-trx-etf-cboe-closing-bell",
-      "event_at": "2026-09-29T23:49:32+00:00",
-      "cryptocurrency": [
-        "trx"
-      ],
-      "exchange": [
-        "exchange",
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [
-        "blockchain",
-        "decentralized",
-        "dao",
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "blockchain",
-        "decentralized",
-        "decentralization",
-        "staked",
-        "trading",
-        "markets"
-      ],
-      "asset_symbol": "trx",
-      "project_id": "trx",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "trx",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:trx",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:83c482b38134:2026092923",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "TRON DAO Celebrates Canary Staked TRX ETF (Ticker: TRXS) Debut With Cboe Closing Bell in Chicago",
-      "url": "https://www.newsbtc.com/news/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago",
-      "source_url": "https://www.newsbtc.com/news/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago",
-      "event_at": "2026-09-29T14:18:49+00:00",
-      "cryptocurrency": [
-        "trx",
-        "stablecoin",
-        "usdt",
-        "tether"
-      ],
-      "exchange": [
-        "exchange",
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [
-        "blockchain",
-        "decentralized",
-        "tvl",
-        "dao",
-        "staking",
-        "etf"
-      ],
-      "market": [
-        "volume"
-      ],
-      "crypto_general": [
-        "token",
-        "digital",
-        "blockchain",
-        "decentralized",
-        "decentralization",
-        "network",
-        "mainnet",
-        "stake",
-        "staking",
-        "staked",
-        "transaction",
-        "transactions",
-        "transfer",
-        "trading",
-        "market",
-        "markets",
-        "price",
-        "value"
-      ],
-      "asset_symbol": "trx",
-      "project_id": "trx",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "blockchain",
-      "metric_name": "tvl",
-      "metric_value": 28000000000.0,
-      "asset_pair": "trx",
-      "liquidity_metric": "tvl",
-      "canonical_key": "crypto_project:trx",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:83c482b38134:2026092914",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
-      "url": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse",
-      "source_url": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse",
-      "event_at": "2026-09-29T04:02:29+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "coinbase",
-        "kraken",
-        "exchange"
-      ],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026092904",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "US SEC follows CFTC in staff guidance for crypto",
-      "url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail",
-      "source_url": "https://cointelegraph.com/news/sec-cftc-staff-guidance-crypto-clarity-fail",
-      "event_at": "2026-09-28T18:39:09+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec",
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "token"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026092818",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Staff Says Token Buybacks Don't Make Crypto a Security—If the Network Works",
-      "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security",
-      "source_url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security",
-      "event_at": "2026-09-27T13:01:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "token",
-        "network"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026092713",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "여당도 디지털자산 과세 유예 추진...2029년 시행안 나온다",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "코인 과세 유예론 확산하는 與…임광현 발탁에 셈법 복잡",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "CryptoSlate",
+      "title": "Qivalis wins Dutch EMI license, but MiCA rules block launch",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "패트릭 위트까지 떠났다…백악관 디지털자산 정책 ‘컨트롤타워’ 사실상 공백",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -6396,43 +6605,6 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "루미스, 클래리티 부결 뒤 ‘민주당 요구사항’ 연일 공개…민주당에게 책임 공방",
-      "canonical_key": "crypto_project:coins",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "美 주식시장도 ‘주말 장’ 연다…로빈후드, 24시간 거래 승부수",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "CoinTelegraph",
-      "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "CoinTelegraph",
-      "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6501,7 +6673,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7277,
+    "total_rows": 7262,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
