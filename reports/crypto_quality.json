@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-10-22T06:49:37.641343+00:00",
-  "scoped_article_count": 1277,
-  "event_count": 99,
+  "generated_at": "2026-10-23T06:43:54.604150+00:00",
+  "scoped_article_count": 1272,
+  "event_count": 98,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 36,
+    "exchange_listing_notice_events": 37,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 63,
+    "regulatory_action_events": 61,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 99,
+    "crypto_signal_event_count": 98,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 99,
-    "complete_canonical_key_count": 92,
-    "proxy_canonical_key_count": 7,
+    "news_proxy_event_count": 98,
+    "complete_canonical_key_count": 90,
+    "proxy_canonical_key_count": 8,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 92,
-    "exchange_present_count": 49,
-    "regulator_present_count": 87,
+    "asset_symbol_present_count": 90,
+    "exchange_present_count": 50,
+    "regulator_present_count": 86,
     "metric_name_present_count": 68,
     "metric_value_present_count": 1,
     "event_required_field_gap_count": 30,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 42
+    "daily_review_item_count": 43
   },
   "sources": [
     {
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 197,
+      "article_count": 199,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 220,
+      "article_count": 211,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 124,
+      "article_count": 120,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 136,
+      "article_count": 137,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,145 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 비트코인·이더리움 ETF서 하루 1조원 넘게 빠졌다…블랙록이 이탈 주도",
+      "url": "https://www.blockmedia.co.kr/archives/1155365",
+      "source_url": "https://www.blockmedia.co.kr/archives/1155365",
+      "event_at": "2026-10-23T04:59:14+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "투자",
+        "특히"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026102304",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "BeInCrypto",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
+      "url": "https://beincrypto.com/tesla-spacex-merger-hurdles-steve-westly",
+      "source_url": "https://beincrypto.com/tesla-spacex-merger-hurdles-steve-westly",
+      "event_at": "2026-10-23T01:05:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:sec:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:e286b99cb28c:2026102301",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Bitwise Asks SEC To Protect Funds Relying On Token Status Filings",
+      "url": "https://www.newsbtc.com/regulation/bitwise-sec-form-tr-reliance-supplemental-comment",
+      "source_url": "https://www.newsbtc.com/regulation/bitwise-sec-form-tr-reliance-supplemental-comment",
+      "event_at": "2026-10-22T19:50:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "token"
+      ],
+      "asset_symbol": "token",
+      "project_id": "token",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "token",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:token",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:d5c3ead6c8f1:2026102219",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -5439,201 +5578,26 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "폴리곤 '오픈 머니 스택', 트론 지원...미국 은행 계좌와 USDT 연결",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=706012",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=706012",
-      "event_at": "2026-10-08T07:35:24+00:00",
-      "cryptocurrency": [
-        "폴리곤",
-        "트론",
-        "스테이블코인",
-        "usdt"
-      ],
-      "exchange": [],
-      "regulation": [
-        "미국",
-        "라이선스"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "전송",
-        "송금"
-      ],
-      "asset_symbol": "폴리곤",
-      "project_id": "폴리곤",
-      "regulator": "미국",
-      "jurisdiction": "US",
-      "chain": "폴리곤",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "폴리곤",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:폴리곤",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:bbe8687e105d:2026100807",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "은행 해킹 용의자, NFT 마켓플레이스도 노린 듯…AI로 취약점 조사",
-      "url": "https://www.blockmedia.co.kr/archives/1149176",
-      "source_url": "https://www.blockmedia.co.kr/archives/1149176",
-      "event_at": "2026-10-08T06:18:15+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "디지털자산"
-      ],
-      "technology": [
-        "nft"
-      ],
-      "market": [
-        "선물"
-      ],
-      "crypto_general": [
-        "디지털자산",
-        "토큰",
-        "거래"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "nft",
-      "metric_name": "선물",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "선물",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026100806",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
-      "url": "https://cointelegraph.com/news/sec-cftc-crypto-regulations-fall-short-clarity-bill",
-      "source_url": "https://cointelegraph.com/news/sec-cftc-crypto-regulations-fall-short-clarity-bill",
-      "event_at": "2026-10-07T16:06:03+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec",
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "cryptocurrency",
-        "market"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026100716",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Circle Welcomes DJ Khaled to 'Team USDC' and Crypto Twitter Is Furious",
-      "url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
-      "source_url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
-      "event_at": "2026-10-06T22:16:03+00:00",
-      "cryptocurrency": [
-        "usdc"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto"
-      ],
-      "asset_symbol": "usdc",
-      "project_id": "usdc",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "usdc",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "usdc",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:usdc",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:b0d7195ff25a:2026100622",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "BeInCrypto",
+      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
+      "canonical_key": "reg_action:sec:sec",
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "BeInCrypto",
+      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
+      "canonical_key_status": "regulator_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5956,16 +5920,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "은행 해킹 용의자, NFT 마켓플레이스도 노린 듯…AI로 취약점 조사",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6034,7 +5988,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7217,
+    "total_rows": 7219,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
