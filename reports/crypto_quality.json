@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-10-26T07:14:31.045369+00:00",
-  "scoped_article_count": 1275,
-  "event_count": 83,
+  "generated_at": "2026-10-27T07:01:49.821151+00:00",
+  "scoped_article_count": 1284,
+  "event_count": 82,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,21 +24,21 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 33,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 50,
+    "regulatory_action_events": 49,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 83,
+    "crypto_signal_event_count": 82,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 83,
-    "complete_canonical_key_count": 76,
+    "news_proxy_event_count": 82,
+    "complete_canonical_key_count": 75,
     "proxy_canonical_key_count": 7,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 76,
-    "exchange_present_count": 46,
+    "asset_symbol_present_count": 75,
+    "exchange_present_count": 45,
     "regulator_present_count": 74,
-    "metric_name_present_count": 56,
+    "metric_name_present_count": 55,
     "metric_value_present_count": 1,
     "event_required_field_gap_count": 25,
     "tracked_source_gap_count": 1,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 195,
+      "article_count": 190,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 209,
+      "article_count": 207,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 113,
+      "article_count": 114,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -310,7 +310,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 146,
+      "article_count": 147,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -538,6 +538,259 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "리플, RLUSD 준비금·수탁 맡을 국가 신탁은행 OCC 최종 승인 확보",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710288",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=710288",
+      "event_at": "2026-10-27T05:31:25+00:00",
+      "cryptocurrency": [
+        "리플",
+        "스테이블코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "미국"
+      ],
+      "technology": [
+        "블록체인",
+        "디파이"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인"
+      ],
+      "asset_symbol": "리플",
+      "project_id": "리플",
+      "regulator": "규제",
+      "jurisdiction": "US",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "리플",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:리플",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:e18576baad82:2026102705",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "스트래티지 쉬어갈 동안 스트라이브, 비트코인 6182개 매입…보유량 2위 자리 탈환 임박",
+      "url": "https://www.blockmedia.co.kr/archives/1156798",
+      "source_url": "https://www.blockmedia.co.kr/archives/1156798",
+      "event_at": "2026-10-27T05:18:03+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [],
+      "market": [
+        "매수"
+      ],
+      "crypto_general": [
+        "디지털자산",
+        "매수",
+        "보유"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "매수",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "매수",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026102705",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[펀드플로] 두 갈래로 나뉜 자금… 비트코인은 1억달러 순유입, 알트코인은 ‘썰물’",
+      "url": "https://www.blockmedia.co.kr/archives/1156813",
+      "source_url": "https://www.blockmedia.co.kr/archives/1156813",
+      "event_at": "2026-10-27T05:08:55+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움",
+        "솔라나"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026102705",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
+      "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+      "source_url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+      "event_at": "2026-10-26T15:59:55+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "protocol",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026102615",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
+      "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice",
+      "source_url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice",
+      "event_at": "2026-10-23T21:32:16+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "okx"
+      ],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_source:cointelegraph:21a18c93de5a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "exchange_listing_notice:7d07dbcdcf7e:2026102321",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "asset_symbol",
+        "project_id"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "exchange_listing_notice",
       "title": "홍콩, 나스닥 상장 '솔라나컴퍼니' 전략기업 지정…유일한 블록체인 인프라 기업",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=709937",
@@ -684,52 +937,6 @@
       },
       "required_field_gaps": [
         "jurisdiction"
-      ]
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
-      "url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice",
-      "source_url": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice",
-      "event_at": "2026-10-23T21:32:16+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "okx"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_source:cointelegraph:21a18c93de5a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "exchange_listing_notice:7d07dbcdcf7e:2026102321",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": false,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "asset_symbol",
-        "project_id"
       ]
     },
     {
@@ -4560,276 +4767,9 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 이더리움 ETF 9거래일 내내 총 7억달러 가까이 유출",
-      "url": "https://www.blockmedia.co.kr/archives/1150358",
-      "source_url": "https://www.blockmedia.co.kr/archives/1150358",
-      "event_at": "2026-10-12T05:30:32+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "btc",
-        "eth"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026101205",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "U.S. CFTC moves to fold event contracts into swaps regulations as legal fight rages",
-      "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
-      "source_url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
-      "event_at": "2026-10-09T21:21:54+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "protocol",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026100921",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Blockchain.com pursues CFTC approval for prediction markets: CNBC",
-      "url": "https://cointelegraph.com/news/blockchain-cftc-approval-derivatives-prediction-markets",
-      "source_url": "https://cointelegraph.com/news/blockchain-cftc-approval-derivatives-prediction-markets",
-      "event_at": "2026-10-09T16:22:45+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [
-        "blockchain"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "blockchain",
-        "markets"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "blockchain",
-      "metric_name": "blockchain",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "blockchain",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026100916",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Thailand opens door to locally listed bitcoin and ether ETFs",
-      "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
-      "source_url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
-      "event_at": "2026-10-09T10:16:55+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "protocol",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026100910",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Thailand opens door to locally listed bitcoin and ether ETFs",
-      "url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
-      "source_url": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
-      "event_at": "2026-10-09T10:16:55+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [
-        "exchange"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "protocol",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026100910",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블로터",
-      "title": "디지털자산 과세 네 번째 유예 수순…2029년 시행 무게",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
     {
       "reason": "missing_required_fields",
       "event_model": "exchange_listing_notice",
@@ -4847,6 +4787,16 @@
       "source": "CoinTelegraph",
       "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블로터",
+      "title": "디지털자산 과세 네 번째 유예 수순…2029년 시행 무게",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -5170,7 +5120,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7214,
+    "total_rows": 7216,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
