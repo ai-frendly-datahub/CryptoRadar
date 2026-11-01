@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-10-31T07:43:25.761627+00:00",
-  "scoped_article_count": 1290,
-  "event_count": 77,
+  "generated_at": "2026-11-01T08:23:15.996349+00:00",
+  "scoped_article_count": 1278,
+  "event_count": 79,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,27 +24,27 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 32,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 45,
+    "regulatory_action_events": 47,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 77,
+    "crypto_signal_event_count": 79,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 77,
-    "complete_canonical_key_count": 70,
+    "news_proxy_event_count": 79,
+    "complete_canonical_key_count": 72,
     "proxy_canonical_key_count": 7,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 70,
-    "exchange_present_count": 45,
-    "regulator_present_count": 69,
-    "metric_name_present_count": 48,
+    "asset_symbol_present_count": 72,
+    "exchange_present_count": 46,
+    "regulator_present_count": 72,
+    "metric_name_present_count": 50,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 18,
+    "event_required_field_gap_count": 20,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 31
+    "daily_review_item_count": 32
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 8,
+      "article_count": 7,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 188,
+      "article_count": 187,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 224,
+      "article_count": 222,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 109,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 122,
+      "article_count": 121,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -531,6 +531,513 @@
   ],
   "events": [
     {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "스크롤, 허가형 네트워크로 전환 재확인",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711639",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711639",
+      "event_at": "2026-11-01T07:09:47+00:00",
+      "cryptocurrency": [
+        "이더리움"
+      ],
+      "exchange": [],
+      "regulation": [
+        "허가"
+      ],
+      "technology": [
+        "탈중앙화",
+        "dao",
+        "레이어2",
+        "메인넷"
+      ],
+      "market": [],
+      "crypto_general": [
+        "탈중앙",
+        "출금"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "허가",
+      "jurisdiction": "US",
+      "chain": "탈중앙화",
+      "metric_name": "탈중앙화",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "탈중앙화",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:27170f9a4ab1:2026110107",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "크라켄 모회사 페이워드, 하이퍼리퀴드 인프라로 미국서 무기한 선물 거래 제공",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711638",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711638",
+      "event_at": "2026-11-01T07:00:24+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "크라켄"
+      ],
+      "regulation": [
+        "규제",
+        "cftc",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "청산",
+        "선물"
+      ],
+      "crypto_general": [
+        "거래"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "규제",
+      "jurisdiction": "CFTC",
+      "chain": "",
+      "metric_name": "청산",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "청산",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026110107",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "블록체인 분석 기업 체이널리시스 AI 해킹에 고객 정보 일부 유출",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711637",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711637",
+      "event_at": "2026-11-01T06:52:38+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인",
+        "주소"
+      ],
+      "asset_symbol": "토큰",
+      "project_id": "토큰",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "토큰",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:토큰",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:dc6eb6052ff0:2026110106",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "바이낸스 해킹 불똥…넥스트테크, 비트코인 매도 검토",
+      "url": "https://www.blockmedia.co.kr/archives/1159636",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159636",
+      "event_at": "2026-11-01T02:25:25+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "바이낸스",
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "매도"
+      ],
+      "crypto_general": [
+        "holding",
+        "가상자산",
+        "디지털자산",
+        "매도",
+        "보유"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "매도",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "매도",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026110102",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "이더리움 ETF, 23거래일 연속 순유출…출시 이후 최장",
+      "url": "https://www.blockmedia.co.kr/archives/1159627",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159627",
+      "event_at": "2026-11-01T01:38:45+00:00",
+      "cryptocurrency": [
+        "이더리움",
+        "ethereum",
+        "eth"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [
+        "온체인",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "노드",
+        "거래",
+        "투자",
+        "투자자"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "미국",
+      "jurisdiction": "EU",
+      "chain": "온체인",
+      "metric_name": "온체인",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "온체인",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:27170f9a4ab1:2026110101",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "칼시, 민주당 상원 장악 확률 72%로 평가",
+      "url": "https://www.blockmedia.co.kr/archives/1159628",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159628",
+      "event_at": "2026-11-01T01:33:15+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "거래",
+        "가격"
+      ],
+      "asset_symbol": "거래",
+      "project_id": "거래",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "거래",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:거래",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:f8e2cfb02240:2026110101",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "트럼프 “바이낸스 해킹, 北 소행이면 논의”…외교·안보 사안으로 확산하나",
+      "url": "https://www.blockmedia.co.kr/archives/1159621",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159621",
+      "event_at": "2026-11-01T01:12:31+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "binance"
+      ],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_source:블록미디어:bba24740b3b6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:f406f7914c27:2026110101",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "비트코인 공포지수 한 달 새 70→36…바닥 판단은 일러",
+      "url": "https://www.blockmedia.co.kr/archives/1159619",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159619",
+      "event_at": "2026-11-01T00:41:51+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "bitcoin",
+        "btc"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래",
+        "가격"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "etf",
+      "metric_name": "etf",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "etf",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026110100",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "source_url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "event_at": "2026-10-31T12:49:47+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "sell",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026103112",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
+      "url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
+      "source_url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
+      "event_at": "2026-10-30T14:38:43+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "trading",
+        "investors"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026103014",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "블록미디어",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -686,53 +1193,6 @@
       "canonical_key": "crypto_project:가상자산",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:64622065b9b4:2026103101",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
-      "url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
-      "source_url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
-      "event_at": "2026-10-30T14:38:43+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "trading",
-        "investors"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026103014",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -4094,373 +4554,47 @@
       "required_field_gaps": [
         "project_id"
       ]
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "코인베이스, 실적 연계 옵션부터 양자 보안까지…과제 확대",
-      "url": "https://www.blockmedia.co.kr/archives/1152964",
-      "source_url": "https://www.blockmedia.co.kr/archives/1152964",
-      "event_at": "2026-10-18T00:17:16+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "bitcoin",
-        "btc",
-        "xrp"
-      ],
-      "exchange": [
-        "코인베이스",
-        "coinbase",
-        "상장"
-      ],
-      "regulation": [
-        "sec",
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "옵션"
-      ],
-      "crypto_general": [
-        "coin",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "비트코인",
-      "metric_name": "옵션",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "옵션",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026101800",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "코인베이스, 실적 연계 옵션부터 양자 보안까지…과제 확대",
-      "url": "https://www.blockmedia.co.kr/archives/1152964",
-      "source_url": "https://www.blockmedia.co.kr/archives/1152964",
-      "event_at": "2026-10-18T00:17:16+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "bitcoin",
-        "btc",
-        "xrp"
-      ],
-      "exchange": [
-        "코인베이스",
-        "coinbase",
-        "상장"
-      ],
-      "regulation": [
-        "sec",
-        "미국"
-      ],
-      "technology": [],
-      "market": [
-        "옵션"
-      ],
-      "crypto_general": [
-        "coin",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "비트코인",
-      "metric_name": "옵션",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "옵션",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:de8f832cddd4:2026101800",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "이더리움 2100달러 유지 확률 99.4%…ETF 유출 속 전망 엇갈려",
-      "url": "https://www.blockmedia.co.kr/archives/1152955",
-      "source_url": "https://www.blockmedia.co.kr/archives/1152955",
-      "event_at": "2026-10-17T21:47:48+00:00",
-      "cryptocurrency": [
-        "이더리움",
-        "eth"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "매도",
-        "약세"
-      ],
-      "crypto_general": [
-        "거래",
-        "매도"
-      ],
-      "asset_symbol": "이더리움",
-      "project_id": "이더리움",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "매도",
-      "metric_value": null,
-      "asset_pair": "이더리움",
-      "liquidity_metric": "매도",
-      "canonical_key": "crypto_project:이더리움",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:27170f9a4ab1:2026101721",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[뉴욕 코인시황] 중동 악재·ETF 유출 ‘이중고’…비트코인 8.1만달러선 방향성 탐색",
-      "url": "https://www.blockmedia.co.kr/archives/1152947",
-      "source_url": "https://www.blockmedia.co.kr/archives/1152947",
-      "event_at": "2026-10-17T21:04:38+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "유동성",
-        "etf"
-      ],
-      "market": [
-        "하락",
-        "반등",
-        "시가총액",
-        "거래량",
-        "약세"
-      ],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "유동성",
-      "metric_name": "하락",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "하락",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026101721",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "퀴발라스, 네덜란드 중앙은행 EMI 인가 획득…유로 스테이블코인 발행 추진",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707935",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707935",
-      "event_at": "2026-10-17T12:05:46+00:00",
-      "cryptocurrency": [
-        "스테이블코인"
-      ],
-      "exchange": [],
-      "regulation": [
-        "규제",
-        "mica"
-      ],
-      "technology": [
-        "합의"
-      ],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "토큰"
-      ],
-      "asset_symbol": "스테이블코인",
-      "project_id": "스테이블코인",
-      "regulator": "규제",
-      "jurisdiction": "",
-      "chain": "합의",
-      "metric_name": "합의",
-      "metric_value": null,
-      "asset_pair": "스테이블코인",
-      "liquidity_metric": "합의",
-      "canonical_key": "crypto_project:스테이블코인",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:246c2458e341:2026101712",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
+      "title": "블록체인 분석 기업 체이널리시스 AI 해킹에 고객 정보 일부 유출",
+      "canonical_key": "crypto_project:토큰",
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
     {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Former Ripple Adviser Warns XRP’s Biggest Test Is Still Ahead",
-      "url": "https://beincrypto.com/ripple-xrp-ledger-tech-adoption-hurdle",
-      "source_url": "https://beincrypto.com/ripple-xrp-ledger-tech-adoption-hurdle",
-      "event_at": "2026-10-17T00:00:00+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "listing"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "ledger",
-        "network",
-        "investors"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "xrp",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026101700",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "칼시, 민주당 상원 장악 확률 72%로 평가",
+      "canonical_key": "crypto_project:거래",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
     },
     {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "U.S. judge rejects Gemini’s appeal to void $5 million settlement despite CFTC backing",
-      "url": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
-      "source_url": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing",
-      "event_at": "2026-10-16T09:36:21+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026101609",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
+      "source": "블록미디어",
+      "title": "트럼프 “바이낸스 해킹, 北 소행이면 논의”…외교·안보 사안으로 확산하나",
+      "canonical_key": "crypto_source:블록미디어:bba24740b3b6",
       "required_field_gaps": [
+        "jurisdiction",
         "project_id"
       ]
-    }
-  ],
-  "daily_review_items": [
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "트럼프 “바이낸스 해킹, 北 소행이면 논의”…외교·안보 사안으로 확산하나",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4655,33 +4789,6 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "퀴발라스, 네덜란드 중앙은행 EMI 인가 획득…유로 스테이블코인 발행 추진",
-      "canonical_key": "crypto_project:스테이블코인",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "CoinDesk",
-      "title": "U.S. judge rejects Gemini’s appeal to void $5 million settlement despite CFTC backing",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "CoinDesk",
-      "title": "U.S. judge rejects Gemini’s appeal to void $5 million settlement despite CFTC backing",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4750,7 +4857,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7272,
+    "total_rows": 7277,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
