@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-11-01T08:23:15.996349+00:00",
-  "scoped_article_count": 1278,
-  "event_count": 79,
+  "generated_at": "2026-11-02T08:37:24.100220+00:00",
+  "scoped_article_count": 1246,
+  "event_count": 76,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 32,
+    "exchange_listing_notice_events": 30,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 47,
+    "regulatory_action_events": 46,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 79,
+    "crypto_signal_event_count": 76,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 79,
-    "complete_canonical_key_count": 72,
-    "proxy_canonical_key_count": 7,
+    "news_proxy_event_count": 76,
+    "complete_canonical_key_count": 71,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 72,
-    "exchange_present_count": 46,
-    "regulator_present_count": 72,
-    "metric_name_present_count": 50,
+    "asset_symbol_present_count": 71,
+    "exchange_present_count": 44,
+    "regulator_present_count": 70,
+    "metric_name_present_count": 48,
     "metric_value_present_count": 0,
-    "event_required_field_gap_count": 20,
+    "event_required_field_gap_count": 19,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 32
+    "daily_review_item_count": 29
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 6,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 187,
+      "article_count": 179,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 222,
+      "article_count": 223,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 111,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 107,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,266 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "게이트아이오, 바이낸스 해킹 연루 계정 2개 동결…25만달러 유입 포착",
+      "url": "https://www.blockmedia.co.kr/archives/1160001",
+      "source_url": "https://www.blockmedia.co.kr/archives/1160001",
+      "event_at": "2026-11-02T07:52:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산"
+      ],
+      "technology": [
+        "블록체인",
+        "온체인",
+        "지갑"
+      ],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "블록체인",
+        "지갑",
+        "거래"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026110207",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Circle Asks SEC to Clarify Cash Treatment for Qualifying Payment Stablecoins",
+      "url": "https://www.newsbtc.com/news/circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins",
+      "source_url": "https://www.newsbtc.com/news/circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins",
+      "event_at": "2026-11-02T07:00:00+00:00",
+      "cryptocurrency": [
+        "stablecoin",
+        "stablecoins"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "stablecoin",
+      "project_id": "stablecoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "stablecoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "stablecoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:stablecoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:66246683f7fe:2026110207",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "바이낸스 지갑 아닌 승인 체계 공격…국내 거래소 보안 ‘시험대’",
+      "url": "https://www.blockmedia.co.kr/archives/1159916",
+      "source_url": "https://www.blockmedia.co.kr/archives/1159916",
+      "event_at": "2026-11-02T06:31:53+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "업비트",
+        "빗썸",
+        "코인원",
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "금융위",
+        "금융위원회",
+        "디지털자산"
+      ],
+      "technology": [
+        "지갑",
+        "콜드월렛"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "지갑",
+        "거래"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "지갑",
+      "metric_name": "지갑",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "지갑",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026110206",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "source_url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "event_at": "2026-10-31T12:49:47+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [
+        "binance"
+      ],
+      "regulation": [],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "sell",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026103112",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
+      "url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
+      "source_url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
+      "event_at": "2026-10-30T14:38:43+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "trading",
+        "investors"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026103014",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -933,105 +1193,6 @@
       "required_field_proxy": {
         "exchange": true,
         "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
-      "url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
-      "source_url": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
-      "event_at": "2026-10-31T12:49:47+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [
-        "binance"
-      ],
-      "regulation": [],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "sell",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026103112",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Bitcoin Magazine",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
-      "url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
-      "source_url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
-      "event_at": "2026-10-30T14:38:43+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "trading",
-        "investors"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026103014",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
         "project_id": true,
         "source_url": true
       },
@@ -4265,298 +4426,29 @@
       "required_field_gaps": [
         "project_id"
       ]
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "regulatory_action",
-      "title": "XRP 레저, ‘토큰 무단 발행·대출 오류’ 막는다…25개 보안 패치 적용 추진",
-      "url": "https://www.blockmedia.co.kr/archives/1153250",
-      "source_url": "https://www.blockmedia.co.kr/archives/1153250",
-      "event_at": "2026-10-19T07:00:44+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "거래소"
-      ],
-      "regulation": [
-        "디지털자산"
-      ],
-      "technology": [
-        "탈중앙화"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "토큰",
-        "탈중앙",
-        "거래"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "탈중앙화",
-      "metric_name": "탈중앙화",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "탈중앙화",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:bbcf21bb2a38:2026101907",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
+      "source": "블록미디어",
+      "title": "게이트아이오, 바이낸스 해킹 연루 계정 2개 동결…25만달러 유입 포착",
+      "canonical_key": "crypto_project:디지털자산",
       "required_field_gaps": [
         "jurisdiction"
       ]
     },
     {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "The Altcoin Run Is Giving Back Ground Fast as Bitcoin Dominance Climbs",
-      "url": "https://beincrypto.com/altcoin-breadth-falls-bitcoin-dominance-rises",
-      "source_url": "https://beincrypto.com/altcoin-breadth-falls-bitcoin-dominance-rises",
-      "event_at": "2026-10-19T06:00:00+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [
-        "binance"
-      ],
-      "regulation": [],
-      "technology": [],
-      "market": [
-        "dominance"
-      ],
-      "crypto_general": [],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "",
-      "jurisdiction": "EU",
-      "chain": "bitcoin",
-      "metric_name": "dominance",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "dominance",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026101906",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
       "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 디지털자산 ETF 시장, 한 주 동안 약 7900억원 유출…이더리움 ETF 주도",
-      "url": "https://www.blockmedia.co.kr/archives/1153194",
-      "source_url": "https://www.blockmedia.co.kr/archives/1153194",
-      "event_at": "2026-10-19T05:40:06+00:00",
-      "cryptocurrency": [
-        "이더리움",
-        "btc",
-        "eth",
-        "sol"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산"
-      ],
-      "asset_symbol": "이더리움",
-      "project_id": "이더리움",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "이더리움",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:이더리움",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:27170f9a4ab1:2026101905",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CryptoSlate",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "SEC approves Coinbase earnings bets that stay settled when the numbers change",
-      "url": "https://cryptoslate.com/sec-approves-coinbase-earnings-bets-that-stay-settled-when-the-numbers-change",
-      "source_url": "https://cryptoslate.com/sec-approves-coinbase-earnings-bets-that-stay-settled-when-the-numbers-change",
-      "event_at": "2026-10-18T15:00:36+00:00",
-      "cryptocurrency": [
-        "bitcoin"
-      ],
-      "exchange": [
-        "coinbase"
-      ],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [
-        "volume"
-      ],
-      "crypto_general": [
-        "crypto",
-        "trading"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "bitcoin",
-      "metric_name": "volume",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "volume",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026101815",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Judge rejects CFTC, Gemini bid to undo $5M settlement",
-      "url": "https://cointelegraph.com/news/judge-rejects-cftc-gemini-5m-settlement-reversal",
-      "source_url": "https://cointelegraph.com/news/judge-rejects-cftc-gemini-5m-settlement-reversal",
-      "event_at": "2026-10-16T07:43:29+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026101607",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
+      "title": "바이낸스 지갑 아닌 승인 체계 공격…국내 거래소 보안 ‘시험대’",
+      "canonical_key": "crypto_project:가상자산",
       "required_field_gaps": [
-        "project_id"
+        "jurisdiction"
       ]
     },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "US federal judge denies joint Gemini-CFTC bid to undo $5 million settlement",
-      "url": "https://www.theblock.co/news/regulation/2026-10-16-us-judge-denies-joint-gemini-cftc-bid-418775",
-      "source_url": "https://www.theblock.co/news/regulation/2026-10-16-us-judge-denies-joint-gemini-cftc-bid-418775",
-      "event_at": "2026-10-16T05:44:05+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:cftc:cftc",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:d0a9e9393468:2026101605",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4745,50 +4637,6 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "XRP 레저, ‘토큰 무단 발행·대출 오류’ 막는다…25개 보안 패치 적용 추진",
-      "canonical_key": "crypto_project:xrp",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "CoinTelegraph",
-      "title": "Judge rejects CFTC, Gemini bid to undo $5M settlement",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "CoinTelegraph",
-      "title": "Judge rejects CFTC, Gemini bid to undo $5M settlement",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "US federal judge denies joint Gemini-CFTC bid to undo $5 million settlement",
-      "canonical_key": "reg_action:cftc:cftc",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "The Block",
-      "title": "US federal judge denies joint Gemini-CFTC bid to undo $5 million settlement",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4857,7 +4705,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7277,
+    "total_rows": 7237,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
