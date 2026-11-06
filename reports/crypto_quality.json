@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-11-05T08:42:58.643038+00:00",
-  "scoped_article_count": 1240,
-  "event_count": 69,
+  "generated_at": "2026-11-06T08:44:53.136196+00:00",
+  "scoped_article_count": 1247,
+  "event_count": 70,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,23 +24,23 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 24,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 45,
+    "regulatory_action_events": 46,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 69,
+    "crypto_signal_event_count": 70,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 69,
-    "complete_canonical_key_count": 64,
-    "proxy_canonical_key_count": 5,
+    "news_proxy_event_count": 70,
+    "complete_canonical_key_count": 66,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 64,
-    "exchange_present_count": 39,
+    "asset_symbol_present_count": 66,
+    "exchange_present_count": 41,
     "regulator_present_count": 65,
-    "metric_name_present_count": 44,
+    "metric_name_present_count": 46,
     "metric_value_present_count": 1,
-    "event_required_field_gap_count": 25,
+    "event_required_field_gap_count": 26,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 179,
+      "article_count": 182,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 241,
+      "article_count": 252,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 111,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 126,
+      "article_count": 118,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -538,6 +538,333 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "러시아, 디지털자산 금지에서 제도권 편입으로…12월 비트코인 거래 허용(종합)",
+      "url": "https://www.blockmedia.co.kr/archives/1162319",
+      "source_url": "https://www.blockmedia.co.kr/archives/1162319",
+      "event_at": "2026-11-06T05:51:12+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "이더리움"
+      ],
+      "exchange": [
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "법안",
+        "디지털자산"
+      ],
+      "technology": [
+        "채굴"
+      ],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "채굴",
+        "거래"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "채굴",
+      "metric_name": "채굴",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "채굴",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026110605",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "미국 민주당, 트럼프의 CZ 사면 과정 조사 예고…바이낸스·WLFI 거래 정조준",
+      "url": "https://www.blockmedia.co.kr/archives/1162272",
+      "source_url": "https://www.blockmedia.co.kr/archives/1162272",
+      "event_at": "2026-11-06T05:00:20+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026110605",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Anchorage Digital seeks CFTC swap dealer registration for crypto options business",
+      "url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+      "source_url": "https://www.theblock.co/news/business/2026-11-05-anchorage-digital-seeks-cftc-swap-dealer-registration-for-crypto-options-business-434437",
+      "event_at": "2026-11-05T16:00:02+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [
+        "swap"
+      ],
+      "market": [
+        "options"
+      ],
+      "crypto_general": [
+        "crypto",
+        "digital"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "swap",
+      "metric_name": "options",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "options",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026110516",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Bitcoin holds above $80,000 after Wednesday’s jump as injective rallies on staked ETF listing",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing",
+      "source_url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-after-wednesday-s-jump-as-injective-rallies-on-staked-etf-listing",
+      "event_at": "2026-11-05T11:30:00+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana",
+        "near"
+      ],
+      "exchange": [
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "tokenization",
+        "etf"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "staked",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:9bdaaa88fb28:2026110511",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Canton Coin Gets SEC Nod as Wall Street Tokenization Heats Up",
+      "url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization",
+      "source_url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization",
+      "event_at": "2026-11-04T18:16:02+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "coin",
+        "digital",
+        "network"
+      ],
+      "asset_symbol": "coin",
+      "project_id": "coin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "coin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:coin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:6560f2b3db40:2026110418",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
+      "url": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+      "source_url": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+      "event_at": "2026-11-04T10:16:19+00:00",
+      "cryptocurrency": [
+        "btc",
+        "usdt"
+      ],
+      "exchange": [
+        "mexc"
+      ],
+      "regulation": [],
+      "technology": [
+        "on-chain",
+        "liquidity",
+        "etf"
+      ],
+      "market": [
+        "volume",
+        "volatility",
+        "futures"
+      ],
+      "crypto_general": [
+        "crypto",
+        "token",
+        "tokens",
+        "digital",
+        "digital asset",
+        "digital assets",
+        "virtual",
+        "trade",
+        "trading",
+        "traders",
+        "investment",
+        "investor",
+        "investors",
+        "holding",
+        "market",
+        "markets",
+        "gain"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "on-chain",
+      "metric_name": "liquidity",
+      "metric_value": 3.0,
+      "asset_pair": "btc",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:31234e5334ab:2026110410",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "exchange_listing_notice",
       "title": "중간선거 끝나자 비트·이더 ETF 동반 순유입…피델리티에 2.3억달러 ‘밀물’",
       "url": "https://www.blockmedia.co.kr/archives/1161762",
@@ -685,123 +1012,6 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Decrypt",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Canton Coin Gets SEC Nod as Wall Street Tokenization Heats Up",
-      "url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization",
-      "source_url": "https://decrypt.co/382554/canton-coin-sec-no-action-wall-street-tokenization",
-      "event_at": "2026-11-04T18:16:02+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "coin",
-        "digital",
-        "network"
-      ],
-      "asset_symbol": "coin",
-      "project_id": "coin",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "coin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:coin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:6560f2b3db40:2026110418",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
-      "url": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
-      "source_url": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
-      "event_at": "2026-11-04T10:16:19+00:00",
-      "cryptocurrency": [
-        "btc",
-        "usdt"
-      ],
-      "exchange": [
-        "mexc"
-      ],
-      "regulation": [],
-      "technology": [
-        "on-chain",
-        "liquidity",
-        "etf"
-      ],
-      "market": [
-        "volume",
-        "volatility",
-        "futures"
-      ],
-      "crypto_general": [
-        "crypto",
-        "token",
-        "tokens",
-        "digital",
-        "digital asset",
-        "digital assets",
-        "virtual",
-        "trade",
-        "trading",
-        "traders",
-        "investment",
-        "investor",
-        "investors",
-        "holding",
-        "market",
-        "markets",
-        "gain"
-      ],
-      "asset_symbol": "btc",
-      "project_id": "btc",
-      "regulator": "",
-      "jurisdiction": "SEC",
-      "chain": "on-chain",
-      "metric_name": "liquidity",
-      "metric_value": 3.0,
-      "asset_pair": "btc",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:btc",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:31234e5334ab:2026110410",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -3903,148 +4113,29 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 비트코인·이더리움 ETF서 하루 1조원 넘게 빠졌다…블랙록이 이탈 주도",
-      "url": "https://www.blockmedia.co.kr/archives/1155365",
-      "source_url": "https://www.blockmedia.co.kr/archives/1155365",
-      "event_at": "2026-10-23T04:59:14+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "투자",
-        "특히"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026102304",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "BeInCrypto",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
-      "url": "https://beincrypto.com/tesla-spacex-merger-hurdles-steve-westly",
-      "source_url": "https://beincrypto.com/tesla-spacex-merger-hurdles-steve-westly",
-      "event_at": "2026-10-23T01:05:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [],
-      "asset_symbol": "",
-      "project_id": "",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "",
-      "liquidity_metric": "",
-      "canonical_key": "reg_action:sec:sec",
-      "canonical_key_status": "regulator_proxy",
-      "event_key": "regulatory_action:e286b99cb28c:2026102301",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": false,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "Bitwise Asks SEC To Protect Funds Relying On Token Status Filings",
-      "url": "https://www.newsbtc.com/regulation/bitwise-sec-form-tr-reliance-supplemental-comment",
-      "source_url": "https://www.newsbtc.com/regulation/bitwise-sec-form-tr-reliance-supplemental-comment",
-      "event_at": "2026-10-22T19:50:00+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "sec"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "token"
-      ],
-      "asset_symbol": "token",
-      "project_id": "token",
-      "regulator": "sec",
-      "jurisdiction": "SEC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "token",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:token",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:d5c3ead6c8f1:2026102219",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "러시아, 디지털자산 금지에서 제도권 편입으로…12월 비트코인 거래 허용(종합)",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "미국 민주당, 트럼프의 CZ 사면 과정 조사 예고…바이낸스·WLFI 거래 정조준",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -4287,23 +4378,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "BeInCrypto",
-      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
-      "canonical_key": "reg_action:sec:sec",
-      "required_field_gaps": [
-        "project_id"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "regulatory_action",
-      "source": "BeInCrypto",
-      "title": "3 Hurdles Could Complicate a Tesla and SpaceX Merger, Says Ex-Tesla Director",
-      "canonical_key_status": "regulator_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4372,7 +4446,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7234,
+    "total_rows": 7221,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
