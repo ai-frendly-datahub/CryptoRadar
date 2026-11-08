@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-11-07T08:00:04.945678+00:00",
-  "scoped_article_count": 1291,
-  "event_count": 75,
+  "generated_at": "2026-11-08T08:17:09.794387+00:00",
+  "scoped_article_count": 1279,
+  "event_count": 77,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,27 +24,27 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 24,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 51,
+    "regulatory_action_events": 53,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 75,
+    "crypto_signal_event_count": 77,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 75,
-    "complete_canonical_key_count": 70,
+    "news_proxy_event_count": 77,
+    "complete_canonical_key_count": 72,
     "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 70,
-    "exchange_present_count": 41,
-    "regulator_present_count": 69,
+    "asset_symbol_present_count": 72,
+    "exchange_present_count": 42,
+    "regulator_present_count": 70,
     "metric_name_present_count": 49,
     "metric_value_present_count": 1,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 31,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 37
+    "daily_review_item_count": 39
   },
   "sources": [
     {
@@ -110,7 +110,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 195,
+      "article_count": 192,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 254,
+      "article_count": 251,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 119,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -539,34 +539,189 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "regulatory_action",
-      "title": "“AI는 황금” vs “데이터센터 건설 둔화” 논란 지속…월가의 말말말",
-      "url": "https://www.blockmedia.co.kr/archives/1162712",
-      "source_url": "https://www.blockmedia.co.kr/archives/1162712",
-      "event_at": "2026-11-07T02:45:24+00:00",
+      "title": "OKX 창업자 “MEXC 직접 송금하지 말라…자금 동결 가능성”",
+      "url": "https://www.blockmedia.co.kr/archives/1162833",
+      "source_url": "https://www.blockmedia.co.kr/archives/1162833",
+      "event_at": "2026-11-08T05:15:47+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "okx",
+        "mexc",
+        "거래소"
+      ],
+      "regulation": [
+        "규제",
+        "디지털자산",
+        "미국",
+        "제재"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "디지털자산",
+        "거래",
+        "송금"
+      ],
+      "asset_symbol": "디지털자산",
+      "project_id": "디지털자산",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "디지털자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:디지털자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:a03462024f6a:2026110805",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Coinbase Pitches a Full Token Lifecycle Service, From Public Sales to Custody",
+      "url": "https://www.newsbtc.com/technology/coinbase-pitches-a-full-token-lifecycle-service-from-public-sales-to-custody",
+      "source_url": "https://www.newsbtc.com/technology/coinbase-pitches-a-full-token-lifecycle-service-from-public-sales-to-custody",
+      "event_at": "2026-11-08T03:00:00+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "token"
+      ],
+      "asset_symbol": "token",
+      "project_id": "token",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "token",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:token",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:d5c3ead6c8f1:2026110803",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "美 중간선거, 친 코인 의원이 다수…상원 50명 하원 241명–스탠드 위드 크립토",
+      "url": "https://www.blockmedia.co.kr/archives/1162822",
+      "source_url": "https://www.blockmedia.co.kr/archives/1162822",
+      "event_at": "2026-11-08T02:05:55+00:00",
       "cryptocurrency": [],
       "exchange": [],
       "regulation": [
+        "규제",
+        "디지털자산",
         "미국"
       ],
       "technology": [],
-      "market": [
-        "상승"
-      ],
+      "market": [],
       "crypto_general": [
-        "투자"
+        "crypto",
+        "디지털자산"
       ],
-      "asset_symbol": "투자",
-      "project_id": "투자",
-      "regulator": "미국",
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "규제",
       "jurisdiction": "",
       "chain": "",
-      "metric_name": "상승",
+      "metric_name": "",
       "metric_value": null,
-      "asset_pair": "투자",
-      "liquidity_metric": "상승",
-      "canonical_key": "crypto_project:투자",
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
       "canonical_key_status": "complete",
-      "event_key": "regulatory_action:91da77d2beae:2026110702",
+      "event_key": "regulatory_action:c01d8c23551f:2026110802",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "질리카, 독자 레이어1 운영 중단...이더리움 레이어2로 전환",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713604",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713604",
+      "event_at": "2026-11-07T12:10:39+00:00",
+      "cryptocurrency": [
+        "이더리움"
+      ],
+      "exchange": [],
+      "regulation": [
+        "규제",
+        "허가"
+      ],
+      "technology": [
+        "블록체인",
+        "레이어1",
+        "레이어2",
+        "검증"
+      ],
+      "market": [],
+      "crypto_general": [
+        "토큰",
+        "블록체인",
+        "검증",
+        "거래",
+        "보유"
+      ],
+      "asset_symbol": "이더리움",
+      "project_id": "이더리움",
+      "regulator": "규제",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "이더리움",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:이더리움",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:27170f9a4ab1:2026110712",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -615,6 +770,98 @@
       "canonical_key": "crypto_project:암호화폐",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:757e19da46d7:2026110700",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
+      "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+      "source_url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+      "event_at": "2026-11-06T20:37:34+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "travel rule"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "cryptocurrency",
+        "transactions"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "travel rule",
+      "jurisdiction": "US",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c01d8c23551f:2026110620",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "“AI는 황금” vs “데이터센터 건설 둔화” 논란 지속…월가의 말말말",
+      "url": "https://www.blockmedia.co.kr/archives/1162712",
+      "source_url": "https://www.blockmedia.co.kr/archives/1162712",
+      "event_at": "2026-11-07T02:45:24+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "상승"
+      ],
+      "crypto_general": [
+        "투자"
+      ],
+      "asset_symbol": "투자",
+      "project_id": "투자",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "상승",
+      "metric_value": null,
+      "asset_pair": "투자",
+      "liquidity_metric": "상승",
+      "canonical_key": "crypto_project:투자",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:91da77d2beae:2026110702",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": false,
@@ -815,51 +1062,6 @@
       "canonical_key": "crypto_project:비트코인",
       "canonical_key_status": "complete",
       "event_key": "regulatory_action:de8f832cddd4:2026110623",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Block",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
-      "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
-      "source_url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
-      "event_at": "2026-11-06T20:37:34+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "travel rule"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "cryptocurrency",
-        "transactions"
-      ],
-      "asset_symbol": "crypto",
-      "project_id": "crypto",
-      "regulator": "travel rule",
-      "jurisdiction": "US",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "crypto",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:crypto",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:c01d8c23551f:2026110620",
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
@@ -4257,105 +4459,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "이스라엘 중앙은행, 네타냐후 ‘디지털자산 제재 우회’ 구상 정면 비판",
-      "url": "https://www.blockmedia.co.kr/archives/1155869",
-      "source_url": "https://www.blockmedia.co.kr/archives/1155869",
-      "event_at": "2026-10-25T02:12:49+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "디지털자산",
-        "제재"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "디지털자산",
-      "project_id": "디지털자산",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "디지털자산",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:디지털자산",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:a03462024f6a:2026102502",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "엑스알피 ETF 주간 유입 430만달러 그쳐…위즈덤트리, 신규 펀드 론칭 변수",
-      "url": "https://www.blockmedia.co.kr/archives/1155867",
-      "source_url": "https://www.blockmedia.co.kr/archives/1155867",
-      "event_at": "2026-10-25T01:33:50+00:00",
-      "cryptocurrency": [
-        "xrp"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [
-        "하락"
-      ],
-      "crypto_general": [
-        "투자",
-        "가격"
-      ],
-      "asset_symbol": "xrp",
-      "project_id": "xrp",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "하락",
-      "metric_value": null,
-      "asset_pair": "xrp",
-      "liquidity_metric": "하락",
-      "canonical_key": "crypto_project:xrp",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:bbcf21bb2a38:2026102501",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4363,8 +4466,28 @@
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
       "source": "블록미디어",
-      "title": "“AI는 황금” vs “데이터센터 건설 둔화” 논란 지속…월가의 말말말",
-      "canonical_key": "crypto_project:투자",
+      "title": "OKX 창업자 “MEXC 직접 송금하지 말라…자금 동결 가능성”",
+      "canonical_key": "crypto_project:디지털자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "美 중간선거, 친 코인 의원이 다수…상원 50명 하원 241명–스탠드 위드 크립토",
+      "canonical_key": "crypto_project:crypto",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "디지털투데이",
+      "title": "질리카, 독자 레이어1 운영 중단...이더리움 레이어2로 전환",
+      "canonical_key": "crypto_project:이더리움",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4375,6 +4498,16 @@
       "source": "디지털투데이",
       "title": "美 재무부, 암호화폐 '트래블룰' 강화안 철회...보고 기준 250달러 하향 백지화",
       "canonical_key": "crypto_project:암호화폐",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "“AI는 황금” vs “데이터센터 건설 둔화” 논란 지속…월가의 말말말",
+      "canonical_key": "crypto_project:투자",
       "required_field_gaps": [
         "jurisdiction"
       ]
@@ -4639,16 +4772,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "이스라엘 중앙은행, 네타냐후 ‘디지털자산 제재 우회’ 구상 정면 비판",
-      "canonical_key": "crypto_project:디지털자산",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -4717,7 +4840,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7264,
+    "total_rows": 7268,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
