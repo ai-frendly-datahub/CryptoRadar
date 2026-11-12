@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-11-11T08:37:36.033588+00:00",
-  "scoped_article_count": 1239,
-  "event_count": 86,
+  "generated_at": "2026-11-12T08:57:48.317830+00:00",
+  "scoped_article_count": 1229,
+  "event_count": 88,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -22,29 +22,29 @@
       "liquidity_snapshot"
     ],
     "exchange_listing_notice_configured_sources": 0,
-    "exchange_listing_notice_events": 28,
+    "exchange_listing_notice_events": 29,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 58,
+    "regulatory_action_events": 59,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 86,
+    "crypto_signal_event_count": 88,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 86,
-    "complete_canonical_key_count": 80,
-    "proxy_canonical_key_count": 6,
+    "news_proxy_event_count": 88,
+    "complete_canonical_key_count": 81,
+    "proxy_canonical_key_count": 7,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 80,
-    "exchange_present_count": 53,
+    "asset_symbol_present_count": 81,
+    "exchange_present_count": 54,
     "regulator_present_count": 76,
     "metric_name_present_count": 52,
-    "metric_value_present_count": 1,
+    "metric_value_present_count": 2,
     "event_required_field_gap_count": 34,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 44
+    "daily_review_item_count": 45
   },
   "sources": [
     {
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 190,
+      "article_count": 186,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -210,7 +210,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 229,
+      "article_count": 218,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 104,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -335,7 +335,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 110,
+      "article_count": 108,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,321 @@
     }
   ],
   "events": [
+    {
+      "source": "The Block",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC enters fight over who regulates perpetual derivatives on stocks in the US",
+      "url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+      "source_url": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
+      "event_at": "2026-11-11T22:06:47+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "reg_action:sec:sec",
+      "canonical_key_status": "regulator_proxy",
+      "event_key": "regulatory_action:e286b99cb28c:2026111122",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "source": "Bitcoin Magazine",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Outlook for Crypto Market Structure Bill By Democrats | Chris Giancarlo, Former CFTC Commissioner",
+      "url": "https://bitcoinmagazine.com/videos/outlook-for-crypto-market-structure-bill-by-democrats-chris-giancarlo-former-cftc-commissioner",
+      "source_url": "https://bitcoinmagazine.com/videos/outlook-for-crypto-market-structure-bill-by-democrats-chris-giancarlo-former-cftc-commissioner",
+      "event_at": "2026-11-11T20:30:35+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "cftc"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "market"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "cftc",
+      "jurisdiction": "CFTC",
+      "chain": "bitcoin",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026111120",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Decrypt",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "OKX-ICE Tokenized Stock Venue Sets Launch, Turning to Crypto Companies After Big Tech Opts Out",
+      "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out",
+      "source_url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out",
+      "event_at": "2026-11-11T16:14:01+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "coinbase",
+        "okx"
+      ],
+      "regulation": [],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "crypto"
+      ],
+      "asset_symbol": "crypto",
+      "project_id": "crypto",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "crypto",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:crypto",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:c01d8c23551f:2026111116",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
+      "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
+      "source_url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
+      "event_at": "2026-11-11T10:51:34+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [
+        "kraken"
+      ],
+      "regulation": [
+        "eu"
+      ],
+      "technology": [
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "eu",
+      "jurisdiction": "US",
+      "chain": "tokenization",
+      "metric_name": "tokenization",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "tokenization",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026111110",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
+      "url": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter",
+      "source_url": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter",
+      "event_at": "2026-11-11T09:30:56+00:00",
+      "cryptocurrency": [
+        "btc",
+        "eth",
+        "trx",
+        "stablecoins",
+        "usdt",
+        "usdc"
+      ],
+      "exchange": [
+        "htx",
+        "exchange",
+        "listing"
+      ],
+      "regulation": [],
+      "technology": [
+        "blockchain",
+        "liquidity",
+        "dao",
+        "etf"
+      ],
+      "market": [
+        "volume",
+        "volatility",
+        "futures",
+        "options"
+      ],
+      "crypto_general": [
+        "crypto",
+        "coins",
+        "token",
+        "tokens",
+        "digital",
+        "digital asset",
+        "virtual",
+        "blockchain",
+        "yield",
+        "apy",
+        "address",
+        "transaction",
+        "trading",
+        "investment",
+        "market",
+        "markets",
+        "price",
+        "prices",
+        "value",
+        "worth"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "SEC",
+      "chain": "blockchain",
+      "metric_name": "liquidity",
+      "metric_value": 307.0,
+      "asset_pair": "BTC/USDT",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:31234e5334ab:2026111109",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "CoinTelegraph",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
+      "url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025",
+      "source_url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025",
+      "event_at": "2026-11-11T08:43:30+00:00",
+      "cryptocurrency": [
+        "bitcoin"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "mining"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "mining"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "mining",
+      "metric_name": "mining",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "mining",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026111108",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "블록미디어",
       "source_type": "rss",
@@ -2157,6 +2472,54 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "스트라이브, 비트코인 4만3124개 보유...상장사 기준 4위",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713576",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713576",
+      "event_at": "2026-11-06T23:29:00+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [],
+      "technology": [
+        "블록체인"
+      ],
+      "market": [],
+      "crypto_general": [
+        "블록체인",
+        "보유"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "",
+      "jurisdiction": "",
+      "chain": "블록체인",
+      "metric_name": "블록체인",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "블록체인",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026110623",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "디지털투데이",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "regulatory_action",
       "title": "러시아, 11월 17일부터 개인 BTC·ETH·USDT 거래 허용",
       "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713578",
@@ -2203,54 +2566,6 @@
       "required_field_proxy": {
         "regulator": true,
         "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "스트라이브, 비트코인 4만3124개 보유...상장사 기준 4위",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713576",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=713576",
-      "event_at": "2026-11-06T23:29:00+00:00",
-      "cryptocurrency": [
-        "비트코인"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [],
-      "technology": [
-        "블록체인"
-      ],
-      "market": [],
-      "crypto_general": [
-        "블록체인",
-        "보유"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "",
-      "jurisdiction": "",
-      "chain": "블록체인",
-      "metric_name": "블록체인",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "블록체인",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026110623",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
         "project_id": true,
         "source_url": true
       },
@@ -4727,217 +5042,26 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "[펀드플로] 종목별 흐름 엇갈린 ETF 시장…BTC·ZEC 연속 순유입, ETH·SOL 연속 순유출",
-      "url": "https://www.blockmedia.co.kr/archives/1158084",
-      "source_url": "https://www.blockmedia.co.kr/archives/1158084",
-      "event_at": "2026-10-29T06:30:15+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움",
-        "솔라나",
-        "btc",
-        "eth",
-        "sol"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "가상자산",
-        "디지털자산",
-        "거래"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026102906",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "일드베이시스, 커브에 ‘무허가형 propAMM’ 도입…”WETH 풀 연수익 3.6%→8.5%”",
-      "url": "https://www.blockmedia.co.kr/archives/1158052",
-      "source_url": "https://www.blockmedia.co.kr/archives/1158052",
-      "event_at": "2026-10-29T05:15:33+00:00",
-      "cryptocurrency": [
-        "eth"
-      ],
-      "exchange": [
-        "커브",
-        "curve"
-      ],
-      "regulation": [
-        "허가"
-      ],
-      "technology": [
-        "유동성"
-      ],
-      "market": [],
-      "crypto_general": [
-        "거래",
-        "수익",
-        "손실",
-        "가격"
-      ],
-      "asset_symbol": "eth",
-      "project_id": "eth",
-      "regulator": "허가",
-      "jurisdiction": "",
-      "chain": "유동성",
-      "metric_name": "유동성",
-      "metric_value": null,
-      "asset_pair": "eth",
-      "liquidity_metric": "유동성",
-      "canonical_key": "crypto_project:eth",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:8ba54673de14:2026102905",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
-      "source": "CoinDesk",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading'",
-      "url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
-      "source_url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
-      "event_at": "2026-10-28T19:01:53+00:00",
-      "cryptocurrency": [
-        "bitcoin",
-        "ethereum",
-        "xrp",
-        "solana"
-      ],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [
-        "tokenization"
-      ],
-      "market": [],
-      "crypto_general": [
-        "crypto",
-        "protocol",
-        "trading",
-        "markets"
-      ],
-      "asset_symbol": "bitcoin",
-      "project_id": "bitcoin",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "tokenization",
-      "metric_name": "tokenization",
-      "metric_value": null,
-      "asset_pair": "bitcoin",
-      "liquidity_metric": "tokenization",
-      "canonical_key": "crypto_project:bitcoin",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:9bdaaa88fb28:2026102819",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "CoinTelegraph",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "CFTC sues Utah to block action against prediction markets",
-      "url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets",
-      "source_url": "https://cointelegraph.com/news/cftc-lawsuit-utah-action-prediction-markets",
-      "event_at": "2026-10-27T19:21:59+00:00",
-      "cryptocurrency": [],
-      "exchange": [],
-      "regulation": [
-        "cftc"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "markets"
-      ],
-      "asset_symbol": "markets",
-      "project_id": "markets",
-      "regulator": "cftc",
-      "jurisdiction": "CFTC",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "markets",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:markets",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:ef4541e11fdd:2026102719",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "SEC enters fight over who regulates perpetual derivatives on stocks in the US",
+      "canonical_key": "reg_action:sec:sec",
+      "required_field_gaps": [
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "The Block",
+      "title": "SEC enters fight over who regulates perpetual derivatives on stocks in the US",
+      "canonical_key_status": "regulator_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5284,16 +5408,6 @@
       "canonical_key_status": "regulator_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "블록미디어",
-      "title": "일드베이시스, 커브에 ‘무허가형 propAMM’ 도입…”WETH 풀 연수익 3.6%→8.5%”",
-      "canonical_key": "crypto_project:eth",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -5362,7 +5476,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7211,
+    "total_rows": 7219,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
