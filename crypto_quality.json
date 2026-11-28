@@ -1,8 +1,8 @@
 {
   "category": "crypto",
-  "generated_at": "2026-11-27T10:18:07.687171+00:00",
-  "scoped_article_count": 1235,
-  "event_count": 97,
+  "generated_at": "2026-11-28T09:36:47.214975+00:00",
+  "scoped_article_count": 1262,
+  "event_count": 101,
   "scope_note": "CryptoRadar keeps news and market sentiment separate from official exchange listing notices, regulator actions, on-chain metrics, and liquidity snapshots. Article-level signals are proxies until canonical exchange, asset-pair, chain, and metric fields are collected from operational sources.",
   "summary": {
     "total_sources": 19,
@@ -24,27 +24,27 @@
     "exchange_listing_notice_configured_sources": 0,
     "exchange_listing_notice_events": 34,
     "regulatory_action_configured_sources": 0,
-    "regulatory_action_events": 63,
+    "regulatory_action_events": 67,
     "onchain_metric_configured_sources": 1,
     "onchain_metric_events": 0,
     "liquidity_snapshot_configured_sources": 0,
     "liquidity_snapshot_events": 0,
-    "crypto_signal_event_count": 97,
+    "crypto_signal_event_count": 101,
     "official_or_operational_event_count": 0,
-    "news_proxy_event_count": 97,
-    "complete_canonical_key_count": 92,
-    "proxy_canonical_key_count": 5,
+    "news_proxy_event_count": 101,
+    "complete_canonical_key_count": 95,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "asset_symbol_present_count": 92,
+    "asset_symbol_present_count": 95,
     "exchange_present_count": 44,
-    "regulator_present_count": 89,
-    "metric_name_present_count": 61,
+    "regulator_present_count": 93,
+    "metric_name_present_count": 63,
     "metric_value_present_count": 2,
-    "event_required_field_gap_count": 32,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 44
+    "daily_review_item_count": 48
   },
   "sources": [
     {
@@ -135,7 +135,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -185,7 +185,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 165,
+      "article_count": 173,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -235,7 +235,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 146,
+      "article_count": 150,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -260,7 +260,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 113,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -285,7 +285,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -360,7 +360,7 @@
       "event_model": "market_commentary",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -530,6 +530,394 @@
     }
   ],
   "events": [
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "[코생지] 하락장세 속 낙폭 줄인 알트코인⋯매수세 회복 관건은 12월 FOMC",
+      "url": "https://www.blockmedia.co.kr/archives/1169790",
+      "source_url": "https://www.blockmedia.co.kr/archives/1169790",
+      "event_at": "2026-11-28T09:32:18+00:00",
+      "cryptocurrency": [
+        "비트코인",
+        "btc"
+      ],
+      "exchange": [
+        "상장"
+      ],
+      "regulation": [
+        "디지털자산",
+        "미국"
+      ],
+      "technology": [
+        "온체인",
+        "etf"
+      ],
+      "market": [
+        "하락",
+        "반등",
+        "매수",
+        "선물"
+      ],
+      "crypto_general": [
+        "coin",
+        "디지털자산",
+        "거래",
+        "매수",
+        "가격"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "온체인",
+      "metric_name": "하락",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "하락",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:de8f832cddd4:2026112809",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "한·중·일·아세안, 국경 간 디지털결제 실무그룹 꾸린다(종합)",
+      "url": "https://www.blockmedia.co.kr/archives/1171727",
+      "source_url": "https://www.blockmedia.co.kr/archives/1171727",
+      "event_at": "2026-11-28T04:03:30+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "일본"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [],
+      "asset_symbol": "",
+      "project_id": "",
+      "regulator": "일본",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_source:블록미디어:5825b697d410",
+      "canonical_key_status": "source_proxy",
+      "event_key": "regulatory_action:538c4fc92442:2026112804",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": false,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "S&P500, 추수감사절 주간 5.6% 급등…2008년 이후 최대",
+      "url": "https://www.blockmedia.co.kr/archives/1171710",
+      "source_url": "https://www.blockmedia.co.kr/archives/1171710",
+      "event_at": "2026-11-28T02:19:08+00:00",
+      "cryptocurrency": [],
+      "exchange": [],
+      "regulation": [
+        "미국"
+      ],
+      "technology": [],
+      "market": [
+        "급등",
+        "상승",
+        "반등",
+        "매도"
+      ],
+      "crypto_general": [
+        "매도",
+        "투자",
+        "발표"
+      ],
+      "asset_symbol": "매도",
+      "project_id": "매도",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "급등",
+      "metric_value": null,
+      "asset_pair": "매도",
+      "liquidity_metric": "급등",
+      "canonical_key": "crypto_project:매도",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:c063de1359b2:2026112802",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "러시아 2위 은행 VTB 비트코인 판매…미국 제재 속 거래 확대",
+      "url": "https://www.blockmedia.co.kr/archives/1171703",
+      "source_url": "https://www.blockmedia.co.kr/archives/1171703",
+      "event_at": "2026-11-28T01:28:11+00:00",
+      "cryptocurrency": [
+        "비트코인"
+      ],
+      "exchange": [],
+      "regulation": [
+        "미국",
+        "제재"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "거래",
+        "투자"
+      ],
+      "asset_symbol": "비트코인",
+      "project_id": "비트코인",
+      "regulator": "미국",
+      "jurisdiction": "",
+      "chain": "비트코인",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "비트코인",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:비트코인",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:de8f832cddd4:2026112801",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "블록미디어",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "바이낸스, 브라질서 외환 인가…현지 세 번째 라이선스",
+      "url": "https://www.blockmedia.co.kr/archives/1171697",
+      "source_url": "https://www.blockmedia.co.kr/archives/1171697",
+      "event_at": "2026-11-28T00:36:13+00:00",
+      "cryptocurrency": [],
+      "exchange": [
+        "바이낸스",
+        "거래소"
+      ],
+      "regulation": [
+        "디지털자산",
+        "허가",
+        "라이선스"
+      ],
+      "technology": [],
+      "market": [],
+      "crypto_general": [
+        "가상자산",
+        "디지털자산",
+        "거래"
+      ],
+      "asset_symbol": "가상자산",
+      "project_id": "가상자산",
+      "regulator": "디지털자산",
+      "jurisdiction": "",
+      "chain": "",
+      "metric_name": "",
+      "metric_value": null,
+      "asset_pair": "가상자산",
+      "liquidity_metric": "",
+      "canonical_key": "crypto_project:가상자산",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:64622065b9b4:2026112800",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": false,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "regulatory_action",
+      "title": "Injective asks SEC to allow order books for tokenized stock trading",
+      "url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+      "source_url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+      "event_at": "2026-11-27T11:07:17+00:00",
+      "cryptocurrency": [
+        "bitcoin",
+        "ethereum",
+        "xrp",
+        "solana"
+      ],
+      "exchange": [],
+      "regulation": [
+        "sec"
+      ],
+      "technology": [
+        "liquidity",
+        "tokenization"
+      ],
+      "market": [],
+      "crypto_general": [
+        "crypto",
+        "trading",
+        "markets"
+      ],
+      "asset_symbol": "bitcoin",
+      "project_id": "bitcoin",
+      "regulator": "sec",
+      "jurisdiction": "SEC",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": null,
+      "asset_pair": "bitcoin",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:bitcoin",
+      "canonical_key_status": "complete",
+      "event_key": "regulatory_action:9bdaaa88fb28:2026112711",
+      "required_field_proxy": {
+        "regulator": true,
+        "jurisdiction": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NewsBTC",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "exchange_listing_notice",
+      "title": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
+      "url": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting",
+      "source_url": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting",
+      "event_at": "2026-11-26T18:13:51+00:00",
+      "cryptocurrency": [
+        "btc",
+        "eth",
+        "stablecoins",
+        "usdt",
+        "usdc"
+      ],
+      "exchange": [
+        "binance",
+        "kraken",
+        "kucoin",
+        "mexc",
+        "exchange",
+        "delisting"
+      ],
+      "regulation": [],
+      "technology": [
+        "liquidity"
+      ],
+      "market": [
+        "volume",
+        "liquidation",
+        "options"
+      ],
+      "crypto_general": [
+        "cryptocurrency",
+        "cryptocurrencies",
+        "coin",
+        "coins",
+        "network",
+        "wallets",
+        "transactions",
+        "withdraw",
+        "withdrawal",
+        "sell",
+        "trade",
+        "trading",
+        "traders",
+        "investors",
+        "market",
+        "markets",
+        "price",
+        "value"
+      ],
+      "asset_symbol": "btc",
+      "project_id": "btc",
+      "regulator": "",
+      "jurisdiction": "US",
+      "chain": "liquidity",
+      "metric_name": "liquidity",
+      "metric_value": 62600000.0,
+      "asset_pair": "XMR/USDT",
+      "liquidity_metric": "liquidity",
+      "canonical_key": "crypto_project:btc",
+      "canonical_key_status": "complete",
+      "event_key": "exchange_listing_notice:31234e5334ab:2026112618",
+      "required_field_proxy": {
+        "exchange": true,
+        "asset_symbol": true,
+        "project_id": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "디지털투데이",
       "source_type": "rss",
@@ -733,83 +1121,6 @@
       "required_field_gaps": [
         "jurisdiction"
       ]
-    },
-    {
-      "source": "NewsBTC",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
-      "url": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting",
-      "source_url": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting",
-      "event_at": "2026-11-26T18:13:51+00:00",
-      "cryptocurrency": [
-        "btc",
-        "eth",
-        "stablecoins",
-        "usdt",
-        "usdc"
-      ],
-      "exchange": [
-        "binance",
-        "kraken",
-        "kucoin",
-        "mexc",
-        "exchange",
-        "delisting"
-      ],
-      "regulation": [],
-      "technology": [
-        "liquidity"
-      ],
-      "market": [
-        "volume",
-        "liquidation",
-        "options"
-      ],
-      "crypto_general": [
-        "cryptocurrency",
-        "cryptocurrencies",
-        "coin",
-        "coins",
-        "network",
-        "wallets",
-        "transactions",
-        "withdraw",
-        "withdrawal",
-        "sell",
-        "trade",
-        "trading",
-        "traders",
-        "investors",
-        "market",
-        "markets",
-        "price",
-        "value"
-      ],
-      "asset_symbol": "btc",
-      "project_id": "btc",
-      "regulator": "",
-      "jurisdiction": "US",
-      "chain": "liquidity",
-      "metric_name": "liquidity",
-      "metric_value": 62600000.0,
-      "asset_pair": "XMR/USDT",
-      "liquidity_metric": "liquidity",
-      "canonical_key": "crypto_project:btc",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:31234e5334ab:2026112618",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "NewsBTC",
@@ -5513,112 +5824,57 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "블록미디어",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "exchange_listing_notice",
-      "title": "비트코인 현물 ETF 1억8500만달러 순유출…이더리움은 236만달러 유입",
-      "url": "https://www.blockmedia.co.kr/archives/1165896",
-      "source_url": "https://www.blockmedia.co.kr/archives/1165896",
-      "event_at": "2026-11-14T06:43:55+00:00",
-      "cryptocurrency": [
-        "비트코인",
-        "이더리움"
-      ],
-      "exchange": [
-        "상장"
-      ],
-      "regulation": [
-        "디지털자산",
-        "미국"
-      ],
-      "technology": [
-        "etf"
-      ],
-      "market": [],
-      "crypto_general": [
-        "디지털자산",
-        "거래",
-        "특히"
-      ],
-      "asset_symbol": "비트코인",
-      "project_id": "비트코인",
-      "regulator": "디지털자산",
-      "jurisdiction": "",
-      "chain": "etf",
-      "metric_name": "etf",
-      "metric_value": null,
-      "asset_pair": "비트코인",
-      "liquidity_metric": "etf",
-      "canonical_key": "crypto_project:비트코인",
-      "canonical_key_status": "complete",
-      "event_key": "exchange_listing_notice:de8f832cddd4:2026111406",
-      "required_field_proxy": {
-        "exchange": true,
-        "asset_symbol": true,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "디지털투데이",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "regulatory_action",
-      "title": "美 법무부, 바이낸스서 도난 당한 암호화폐 12억달러 압수",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715487",
-      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715487",
-      "event_at": "2026-11-13T21:27:48+00:00",
-      "cryptocurrency": [],
-      "exchange": [
-        "바이낸스",
-        "거래소"
-      ],
-      "regulation": [
-        "미국"
-      ],
-      "technology": [],
-      "market": [],
-      "crypto_general": [
-        "암호화폐",
-        "가상자산",
-        "거래"
-      ],
-      "asset_symbol": "암호화폐",
-      "project_id": "암호화폐",
-      "regulator": "미국",
-      "jurisdiction": "",
-      "chain": "",
-      "metric_name": "",
-      "metric_value": null,
-      "asset_pair": "암호화폐",
-      "liquidity_metric": "",
-      "canonical_key": "crypto_project:암호화폐",
-      "canonical_key_status": "complete",
-      "event_key": "regulatory_action:757e19da46d7:2026111321",
-      "required_field_proxy": {
-        "regulator": true,
-        "jurisdiction": false,
-        "project_id": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "한·중·일·아세안, 국경 간 디지털결제 실무그룹 꾸린다(종합)",
+      "canonical_key": "crypto_source:블록미디어:5825b697d410",
+      "required_field_gaps": [
+        "jurisdiction",
+        "project_id"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "한·중·일·아세안, 국경 간 디지털결제 실무그룹 꾸린다(종합)",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "S&P500, 추수감사절 주간 5.6% 급등…2008년 이후 최대",
+      "canonical_key": "crypto_project:매도",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "러시아 2위 은행 VTB 비트코인 판매…미국 제재 속 거래 확대",
+      "canonical_key": "crypto_project:비트코인",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "regulatory_action",
+      "source": "블록미디어",
+      "title": "바이낸스, 브라질서 외환 인가…현지 세 번째 라이선스",
+      "canonical_key": "crypto_project:가상자산",
+      "required_field_gaps": [
+        "jurisdiction"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "regulatory_action",
@@ -5965,16 +6221,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "regulatory_action",
-      "source": "디지털투데이",
-      "title": "美 법무부, 바이낸스서 도난 당한 암호화폐 12억달러 압수",
-      "canonical_key": "crypto_project:암호화폐",
-      "required_field_gaps": [
-        "jurisdiction"
-      ]
-    },
-    {
       "reason": "source_missing",
       "source": "Glassnode Insights",
       "event_model": "onchain_metric",
@@ -6043,7 +6289,7 @@
   },
   "errors": [],
   "record_quality": {
-    "total_rows": 7307,
+    "total_rows": 7344,
     "missing_title_rows": 0,
     "missing_link_rows": 0,
     "missing_summary_rows": 0,
